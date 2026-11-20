@@ -1,0 +1,210 @@
+{
+  "activity_rules": "2026-11-06: activity classes relabelled by the written rules (PROJECT_LOG)",
+  "header": {
+    "footage_24h_ft": "447",
+    "hole_size_in": "10.625",
+    "md_ft": "3456",
+    "report_date": "2021-07-04",
+    "report_number": "8",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "3009"
+  },
+  "removed": {
+    "bha": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [
+      {
+        "_m": 0,
+        "bit_number": "5",
+        "bit_type": "VM-1",
+        "depth_in_ft": "3009",
+        "depth_out_ft": "",
+        "manufacturer": "VAREL",
+        "rop_ft_hr": "0",
+        "rpm": "50",
+        "serial_number": "",
+        "size_in": "10.625",
+        "wob_klbf": "10"
+      },
+      {
+        "_m": 1,
+        "bit_number": "6",
+        "bit_type": "TKC83",
+        "depth_in_ft": "3009",
+        "depth_out_ft": "",
+        "manufacturer": "NOV",
+        "rop_ft_hr": "35.2",
+        "rpm": "",
+        "serial_number": "",
+        "size_in": "10.625",
+        "wob_klbf": ""
+      }
+    ],
+    "casing": [
+      {
+        "_m": 0,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": 1,
+        "grade": "J-55",
+        "id_in": "",
+        "od_in": "11.75",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      }
+    ],
+    "mud": [
+      {
+        "_m": 0,
+        "chlorides_mg_l": "900",
+        "density_ppg": "8.7",
+        "depth_ft": "3341",
+        "funnel_viscosity_s": "39",
+        "ph": "10.5",
+        "pv_cp": "9",
+        "yp_lbf_100ft2": "10"
+      }
+    ],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "tripping",
+        "end": "4:00",
+        "end_md_ft": "3009",
+        "hours": "4",
+        "is_npt": "no",
+        "start": "0:00"
+      },
+      {
+        "_m": 1,
+        "activity": "tripping",
+        "end": "4:15",
+        "end_md_ft": "3009",
+        "hours": "0.25",
+        "is_npt": "no",
+        "start": "4:00"
+      },
+      {
+        "_m": 2,
+        "activity": "drilling",
+        "end": "6:00",
+        "end_md_ft": "3009",
+        "hours": "1.75",
+        "is_npt": "no",
+        "start": "4:15"
+      },
+      {
+        "_m": 3,
+        "activity": "logging_survey",
+        "end": "7:00",
+        "end_md_ft": "3009",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 4,
+        "activity": "tripping",
+        "end": "9:30",
+        "end_md_ft": "3009",
+        "hours": "2.5",
+        "is_npt": "no",
+        "start": "7:00"
+      },
+      {
+        "_m": 5,
+        "activity": "tripping",
+        "end": "10:00",
+        "end_md_ft": "3009",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "9:30"
+      },
+      {
+        "_m": 6,
+        "activity": "wellbore_problem",
+        "end": "11:00",
+        "end_md_ft": "3009",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "10:00"
+      },
+      {
+        "_m": 7,
+        "activity": "tripping",
+        "end": "12:00",
+        "end_md_ft": "3009",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "11:00"
+      },
+      {
+        "_m": 8,
+        "activity": "other",
+        "end": "12:30",
+        "end_md_ft": "3009",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "12:00"
+      },
+      {
+        "_m": 9,
+        "activity": "wellbore_problem",
+        "end": "13:30",
+        "end_md_ft": "3009",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "12:30"
+      },
+      {
+        "_m": 10,
+        "activity": "tripping",
+        "end": "16:00",
+        "end_md_ft": "3009",
+        "hours": "2.5",
+        "is_npt": "no",
+        "start": "13:30"
+      },
+      {
+        "_m": 11,
+        "activity": "drilling",
+        "end": "0:00",
+        "end_md_ft": "3456",
+        "hours": "8",
+        "is_npt": "no",
+        "start": "16:00"
+      }
+    ],
+    "surveys": []
+  },
+  "updated": "2026-11-04T12:54:04.983Z"
+}

@@ -1,0 +1,33 @@
+doc_id,well,pages,lesson
+D08,56-32,8-14,"The use of new PDC cutters and MSE (Mechanical Specific Energy) calculations significantly improved the rate of penetration, demonstrating the value of advanced bit technology and performance monitoring in hard rock drilling."
+D08,56-32,8-14,"Close monitoring of MSE and adjustment of drilling parameters was critical to achieving optimal PDC bit performance, highlighting the importance of real-time data analysis and adaptive drilling strategies."
+D08,56-32,8-14,The failure of the Silixa fiber optic cable during cementing emphasizes the need for careful planning and testing of sensitive equipment during cementing operations to avoid loss of critical monitoring capabilities.
+D08,56-32,8-14,"The failure of mud hammer technology in the bottom section of the hole indicates that alternative methods, such as PDC bits, may be more reliable in certain geological conditions, reinforcing the importance of evaluating multiple drilling techniques before committing to a specific method."
+D08,56-32,15-22,A physical count should be documented by the cement service company on future jobs to prevent mixing errors in cement blends.
+D08,56-32,15-22,"Removing the shock sub from the BHA improved the life of mud motors, allowing them to stay in the hole longer and increasing bit footage drilled."
+D08,56-32,15-22,Testing different types of PDC bits in granitic formations led to significant improvements in drilling performance.
+D08,56-32,15-22,The failure during cementing highlighted the importance of monitoring circulation and avoiding actions that could damage sensitive equipment like Silixa cables.
+D08,56-32,45-63,"Use temperature degradable LCMs such as Micro C, Sawdust, Cottonseed Hulls, and AltaVert 102 if severe lost circulation is encountered."
+D08,56-32,45-63,Maintain a pH of 11.0 with Caustic Soda and use TORKease to reduce torque and drag.
+D08,56-32,45-63,Monitor corrosion rates onsite and treat any unacceptable rates with corrosion additives.
+D08,56-32,45-63,Pump cold water as needed to control well conditions and consider the use of weighted brines for additional pressure control if required.
+D08,56-32,45-63,Investigate cementing incidents with third-party experts to ensure proper analysis and conclusions.
+D08,56-32,64-77,"Lessons learned should include both positive and negative experiences to improve work processes, equipment design, operation, quality, safety, and cost effectiveness."
+D08,56-32,64-77,"Performance measures for lessons learned programs should focus on how well the program uses opportunities to develop lessons, the quality of the lessons created, and integration into improvements."
+D08,56-32,64-77,"The lessons learned infrastructure should use existing systems where possible, and clearly defined ownership should be established for maintaining the infrastructure and support for development, communication, and use."
+D08,56-32,64-77,"Mechanisms for identifying potential lessons learned should be simple in terms of volume, type of information, and input mechanisms."
+D08,56-32,64-77,"Lessons should be context-driven, with information defined in terms of the environment in which they were learned and their significance."
+D08,56-32,64-77,There should be no stigma or blame assigned to individuals who identify a lesson learned.
+D08,56-32,64-77,"The objective of lessons learned programs is to provide a means of communicating experiences that can reduce risk, improve efficiency, and enhance cost effectiveness of processes and operations."
+D08,56-32,64-77,"Lessons learned should be disseminated with an assigned priority descriptor indicating the risk, immediacy, and urgency of the content."
+D08,56-32,64-77,"Priority descriptors for lessons learned include Red (>$35K USD), Blue ($5K-$35K USD), Green (<$5K USD), and Yellow (Good Practice)."
+D08,56-32,64-77,Lessons learned documents for local use may be tailored as appropriate for local needs but should include enough metadata to identify and determine their relevance within the company and departments.
+D08,56-32,78-83,"Ensure that each mud motor is brand new, or if rebuilt, only new components are used to avoid failures and reduce bit trips."
+D08,56-32,78-83,Test mud motors without the bit installed inside casing to prevent damage and ensure working conditions.
+D08,56-32,78-83,"Ream drilled sections every 2,000 ft to 3,000 ft of directional work using a conventional locked assembly to smooth out directional work and avoid getting stuck."
+D08,56-32,78-83,Avoid using CanRig surface oscillator while sliding to maintain hole verticality and ensure proper MSE reading.
+D08,56-32,78-83,"If no losses are detected while drilling, do not use Sodium Silicate in cement slurry as it could lead to premature set of the cement slurry."
+D08,56-32,78-83,Obtain proper bottom hole temperature prior to casing to avoid issues with cementing operations.
+D08,56-32,84-86,"If optic cable is installed, do not reciprocate casing."
+D08,56-32,84-86,Never reciprocate casing if fiber cable is installed on the OD of the casing.
+D08,56-32,84-86,"If Silixa cable is installed, request an updated temperature profile during cementing procedures and adjust cement slurry accordingly."

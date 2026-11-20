@@ -1,0 +1,359 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    52,
+    53,
+    54
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 146.63208556175232,
+    "prompt_tokens": 30352,
+    "output_tokens": 2128,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 6,
+      "marks": 1,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 22.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 0.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 14.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 7613.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 6,
+      "mapped": 6
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 19,
+      "report_date": "2021-07-15",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 7613.0,
+      "tvd_ft": 7611.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Drilled 10-5/8\" hole to 8,500'. Steve Caldwell , Justin Bristol Toolpusher: Virgil Welch , Brian Gresham 7132807438 Wellsite Supervisors: Tel No.:"
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 7613.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "13",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 6742.0,
+        "depth_out_ft": 7613.0,
+        "wob_klbf": 0.0,
+        "rpm": 0.0,
+        "rop_ft_hr": 0.0
+      }
+    ],
+    "bha": [
+      {
+        "order": null,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 6865.0,
+        "inclination_deg": 1.46,
+        "azimuth_deg": 26.2,
+        "tvd_ft": 6863.7
+      },
+      {
+        "md_ft": 6960.0,
+        "inclination_deg": 1.09,
+        "azimuth_deg": 38.8,
+        "tvd_ft": 6958.6
+      },
+      {
+        "md_ft": 7056.0,
+        "inclination_deg": 1.57,
+        "azimuth_deg": 206.0,
+        "tvd_ft": 7054.6
+      },
+      {
+        "md_ft": 7151.0,
+        "inclination_deg": 1.92,
+        "azimuth_deg": 193.9,
+        "tvd_ft": 7149.6
+      },
+      {
+        "md_ft": 7246.0,
+        "inclination_deg": 1.38,
+        "azimuth_deg": 197.6,
+        "tvd_ft": 7244.5
+      },
+      {
+        "md_ft": 7341.0,
+        "inclination_deg": 0.83,
+        "azimuth_deg": 203.9,
+        "tvd_ft": 7339.5
+      },
+      {
+        "md_ft": 7436.0,
+        "inclination_deg": 0.89,
+        "azimuth_deg": 200.9,
+        "tvd_ft": 7434.5
+      },
+      {
+        "md_ft": 7531.0,
+        "inclination_deg": 0.95,
+        "azimuth_deg": 208.9,
+        "tvd_ft": 7529.5
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "8:00",
+        "hours": 8.0,
+        "end_md_ft": 7613.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Waited on hydraulic hose to arrive.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      },
+      {
+        "start": "8:00",
+        "end": "13:00",
+        "hours": 5.0,
+        "end_md_ft": 7613.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pumping down the string to cool tools every hour at 300 gpm.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "16:30",
+        "hours": 3.5,
+        "end_md_ft": 7613.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Racked back HWDP along with 8' drill collars. Laid out motor, bit, stabs. Motor took a high amount of torque to drain 45 kft/lbs. Bit had 3-plugged jets with pieces of rubber from the stator. Bit was also DBR'ed. Motor Stabilizer was 0.5\" under-gauged. Stabilizer above the motor was 0.75\" under-gauged. Top Stabilizer was 1.25\" under-gauged.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "22:30",
+        "hours": 6.0,
+        "end_md_ft": 7613.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up new (Bico) motor 1.5 deg, 0.160 rev/gal. Picked up new 10-5/8\" NOV bit. Picked up 1- Re-Run Roller Reamers 10-3/8\" stab placed at 39.53'. Picked up new 10-1/2\" spiral stab placed at 100.82'. Placed cubic sensors at 50.96', 132.86'. Made up and scribed tools. Tripped in the hole with BHA to 1,000'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:30",
+        "end": "23:30",
+        "hours": 1.0,
+        "end_md_ft": 7613.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole from 1,000' to 2,613'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:30",
+        "end": "0:00",
+        "hours": 0.5,
+        "end_md_ft": 7613.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced rig. Adjusted service loop.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 7613.0,
+        "time": "0:00",
+        "description": "Waited on hydraulic hose to arrive."
+      },
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 7613.0,
+        "time": "13:00",
+        "description": "Racked back HWDP along with 8' drill collars. Laid out motor, bit, stabs. Motor took a high amount of torque to drain 45 kft/lbs. Bit had 3-plugged jets with pieces of rubber from the stator. Bit was also DBR'ed. Motor Stabilizer was 0.5\" under-gauged. Stabilizer above the motor was 0.75\" under-gauged. Top Stabilizer was 1.25\" under-gauged."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 7613.0,
+        "time": "23:30",
+        "description": "Serviced rig. Adjusted service loop."
+      }
+    ],
+    "summary": "The report details drilling operations on July 15, 2021, with the well at a measured depth of 7,613 ft and vertical depth of 7,611 ft. Operations included tripping in the hole from 2,613' to 7,072', reaming from 7,072' to 7,231', and planned drilling to 8,500'. The report notes non-productive time (NPT) due to waiting for hydraulic hose arrival and equipment issues with the motor and stabilizers."
+  }
+}

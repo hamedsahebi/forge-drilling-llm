@@ -1,0 +1,187 @@
+{
+  "blind": true,
+  "header": {
+    "footage_24h_ft": "0",
+    "hole_size_in": "",
+    "md_ft": "7613",
+    "report_date": "2021-07-15",
+    "report_number": "19",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "7611"
+  },
+  "removed": {
+    "bha": [],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [
+      {
+        "_m": null,
+        "bit_number": "13",
+        "bit_type": "",
+        "depth_in_ft": "6742",
+        "depth_out_ft": "7613",
+        "manufacturer": "NOV",
+        "rop_ft_hr": "0",
+        "rpm": "0",
+        "serial_number": "",
+        "size_in": "10.625",
+        "wob_klbf": "0"
+      }
+    ],
+    "casing": [
+      {
+        "_m": null,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": null,
+        "grade": "J-55",
+        "id_in": "",
+        "od_in": "11.750",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      }
+    ],
+    "mud": [
+      {
+        "_m": null,
+        "chlorides_mg_l": "700",
+        "density_ppg": "8.3",
+        "depth_ft": "7613",
+        "funnel_viscosity_s": "26",
+        "ph": "10",
+        "pv_cp": "0",
+        "yp_lbf_100ft2": "1"
+      }
+    ],
+    "operations": [
+      {
+        "_m": null,
+        "activity": "waiting",
+        "end": "8:00",
+        "end_md_ft": "7613",
+        "hours": "8",
+        "is_npt": "yes",
+        "start": "0:00"
+      },
+      {
+        "_m": null,
+        "activity": "tripping",
+        "end": "13:00",
+        "end_md_ft": "7613",
+        "hours": "5",
+        "is_npt": "no",
+        "start": "8:00"
+      },
+      {
+        "_m": null,
+        "activity": "tripping",
+        "end": "16:30",
+        "end_md_ft": "7613",
+        "hours": "3.5",
+        "is_npt": "no",
+        "start": "13:00"
+      },
+      {
+        "_m": null,
+        "activity": "rig_up_down",
+        "end": "22:30",
+        "end_md_ft": "7613",
+        "hours": "6",
+        "is_npt": "no",
+        "start": "16:30"
+      },
+      {
+        "_m": null,
+        "activity": "tripping",
+        "end": "23:30",
+        "end_md_ft": "7613",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "22:30"
+      },
+      {
+        "_m": null,
+        "activity": "rig_repair",
+        "end": "0:00",
+        "end_md_ft": "7613",
+        "hours": "0.50",
+        "is_npt": "no",
+        "start": "23:30"
+      }
+    ],
+    "surveys": [
+      {
+        "_m": null,
+        "azimuth_deg": "26.2",
+        "inclination_deg": "1.46",
+        "md_ft": "6865.0",
+        "tvd_ft": "6863.7"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "38.8",
+        "inclination_deg": "1.09",
+        "md_ft": "6960.0",
+        "tvd_ft": "6958.6"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "206.0",
+        "inclination_deg": "1.57",
+        "md_ft": "7056.0",
+        "tvd_ft": "7054.6"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "193.9",
+        "inclination_deg": "1.92",
+        "md_ft": "7151.0",
+        "tvd_ft": "7149.6"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "197.6",
+        "inclination_deg": "1.38",
+        "md_ft": "7246.0",
+        "tvd_ft": "7244.5"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "203.9",
+        "inclination_deg": "0.83",
+        "md_ft": "7341.0",
+        "tvd_ft": "7339.5"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "200.9",
+        "inclination_deg": "0.89",
+        "md_ft": "7436.0",
+        "tvd_ft": "7434.5"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "208.9",
+        "inclination_deg": "0.95",
+        "md_ft": "7531.0",
+        "tvd_ft": "7529.5"
+      }
+    ]
+  },
+  "updated": "2026-11-09T12:17:41.709Z"
+}

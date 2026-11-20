@@ -1,0 +1,33 @@
+{
+  "doc_id": "D08",
+  "page": 28,
+  "bbox": [
+    78.1,
+    222.8,
+    288.1,
+    502.8
+  ],
+  "source": "raster",
+  "caption": "Figure 9: 20 in. conductor pipe",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p28_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 7.771182537078857,
+    "prompt_tokens": 1295,
+    "output_tokens": 90
+  },
+  "data": {
+    "transcription": "none",
+    "description": "The figure shows a drilling operation with two individuals working around a large piece of equipment, which appears to be a drill rig. The equipment is mounted on a heavy-duty vehicle and is surrounded by gravel terrain. There are no visible text or numbers within the image that can be used for transcription.",
+    "kind": "photo",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [],
+    "key_values": []
+  }
+}

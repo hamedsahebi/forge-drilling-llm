@@ -1,0 +1,460 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    29,
+    30,
+    31
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 163.84050798416138,
+    "prompt_tokens": 32928,
+    "output_tokens": 2710,
+    "activity_pass": true,
+    "sanity_flags": [
+      "bits.0.wob_klbf=165.0"
+    ],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 13,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": null,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 5761.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "7",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 3651.0,
+        "depth_out_ft": 5761.0,
+        "wob_klbf": null,
+        "rpm": 40.0,
+        "rop_ft_hr": 31.5
+      },
+      {
+        "bit_number": "8",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 5761.0,
+        "depth_out_ft": 5761.0,
+        "wob_klbf": 0.0,
+        "rpm": 0.0,
+        "rop_ft_hr": 0.0
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 13,
+      "mapped": 12
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 11,
+      "report_date": "2021-07-07",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 5761.0,
+      "tvd_ft": 5760.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Swap out motor from 0.111 rev/gal to 0.116 rev/gal. Trip in the hole to 2,946'. Wait on SCR electrician to arrive from Vernal, estimated arrival time 0900 HRS. Troubleshoot issues with traction A motor on drawworks and repair. Trip in the hole to 5,761'. Continue to drill 10-5/8\" hole section from 5,761' to 6,700' (coring depth)."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 5761.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "7",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 3651.0,
+        "depth_out_ft": 5761.0,
+        "wob_klbf": 65.0,
+        "rpm": 40.0,
+        "rop_ft_hr": 67.0
+      },
+      {
+        "bit_number": "8",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 5761.0,
+        "depth_out_ft": 5761.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 11,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "4:30",
+        "hours": 4.5,
+        "end_md_ft": 5628.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 5,334' to 5,628'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:30",
+        "end": "5:00",
+        "hours": 0.5,
+        "end_md_ft": 5628.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10 5/8\" hole from 5,628' to 5,643'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:00",
+        "end": "7:30",
+        "hours": 2.5,
+        "end_md_ft": 5761.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 5,628' to 5,761'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "7:30",
+        "end": "11:00",
+        "hours": 3.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "ROP dropped to 30%, POH for Bit",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:00",
+        "end": "12:30",
+        "hours": 1.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "POH w/BHA / found 2 jets plugged with motor rubber and bit DBR'd.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "10-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:30",
+        "end": "13:00",
+        "hours": 0.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Lay down NMDC, Motor and bit.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "10-344",
+        "activity_source": "llm"
+      },
+      {
+        "start": "13:00",
+        "end": "15:30",
+        "hours": 2.5,
+        "end_md_ft": 5761.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Slipped and Cut drilling line while waiting on Schlumberger tools to arrive.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "CUTDL",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:30",
+        "end": "16:00",
+        "hours": 0.5,
+        "end_md_ft": 5761.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced rig while waiting on Schlumberger tools to arrive.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "19:00",
+        "hours": 3.0,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up 5.5\" drill pipe and standing back in derrick while waiting on Schlumberger tools to arrive. Motor arrived on location at 19:10 HRS.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:00",
+        "end": "19:30",
+        "hours": 0.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Strap Motor prior to picking up.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:30",
+        "end": "22:30",
+        "hours": 3.0,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up 1.50 deg bent assembly. Scribe Motor. Run in the hole with BHA to 1,042'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:30",
+        "end": "23:30",
+        "hours": 1.0,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Ran in the hole from 1,042' to 2,946'. Installed TIW valve in sting. Picked up and racked back 6 stands of 5.5\" drill pipe.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:30",
+        "end": "0:00",
+        "hours": 0.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up and racked back 6 stands of 5.5\" drill pipe out of the mouse hole.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-1",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 5761.0,
+        "time": "7:30",
+        "description": "ROP dropped to 30%, POH for Bit"
+      },
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 5761.0,
+        "time": "11:00",
+        "description": "POH w/BHA / found 2 jets plugged with motor rubber and bit DBR'd."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 5761.0,
+        "time": "13:00",
+        "description": "Slipped and Cut drilling line while waiting on Schlumberger tools to arrive."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 5761.0,
+        "time": "15:30",
+        "description": "Serviced rig while waiting on Schlumberger tools to arrive."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 5761.0,
+        "time": "16:00",
+        "description": "Picked up 5.5\" drill pipe and standing back in derrick while waiting on Schlumberger tools to arrive. Motor arrived on location at 19:10 HRS."
+      }
+    ],
+    "summary": "Drilling operations were suspended due to low ROP and equipment issues, including a slipped drilling line and motor problems. The team performed maintenance, replaced the bit and motor, and prepared for resuming drilling."
+  }
+}

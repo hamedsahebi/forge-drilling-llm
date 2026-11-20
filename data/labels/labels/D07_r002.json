@@ -1,0 +1,232 @@
+{
+  "activity_rules": "2026-11-06: activity classes relabelled by the written rules (PROJECT_LOG)",
+  "header": {
+    "footage_24h_ft": "293",
+    "hole_size_in": "22",
+    "md_ft": "421",
+    "report_date": "2021-06-28",
+    "report_number": "2",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": ""
+  },
+  "removed": {
+    "bha": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [],
+    "casing": [
+      {
+        "_m": 0,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      }
+    ],
+    "mud": [
+      {
+        "_m": null,
+        "chlorides_mg_l": "800",
+        "density_ppg": "8.9",
+        "depth_ft": "421",
+        "funnel_viscosity_s": "51",
+        "ph": "9",
+        "pv_cp": "19",
+        "yp_lbf_100ft2": "22"
+      }
+    ],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "tripping",
+        "end": "1:00",
+        "end_md_ft": "128",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "0:00"
+      },
+      {
+        "_m": 1,
+        "activity": "circulating",
+        "end": "1:30",
+        "end_md_ft": "128",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "1:00"
+      },
+      {
+        "_m": 2,
+        "activity": "drilling",
+        "end": "5:00",
+        "end_md_ft": "421",
+        "hours": "3.5",
+        "is_npt": "no",
+        "start": "1:30"
+      },
+      {
+        "_m": 3,
+        "activity": "circulating",
+        "end": "5:30",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "5:00"
+      },
+      {
+        "_m": 4,
+        "activity": "other",
+        "end": "6:00",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "5:30"
+      },
+      {
+        "_m": 5,
+        "activity": "tripping",
+        "end": "6:30",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 6,
+        "activity": "tripping",
+        "end": "7:00",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "6:30"
+      },
+      {
+        "_m": 7,
+        "activity": "rig_up_down",
+        "end": "8:00",
+        "end_md_ft": "421",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "7:00"
+      },
+      {
+        "_m": 8,
+        "activity": "rig_up_down",
+        "end": "10:00",
+        "end_md_ft": "421",
+        "hours": "2",
+        "is_npt": "no",
+        "start": "8:00"
+      },
+      {
+        "_m": 9,
+        "activity": "rig_up_down",
+        "end": "11:00",
+        "end_md_ft": "421",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "10:00"
+      },
+      {
+        "_m": 10,
+        "activity": "rig_up_down",
+        "end": "12:30",
+        "end_md_ft": "421",
+        "hours": "1.5",
+        "is_npt": "no",
+        "start": "11:00"
+      },
+      {
+        "_m": 11,
+        "activity": "other",
+        "end": "13:00",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "12:30"
+      },
+      {
+        "_m": 12,
+        "activity": "rig_up_down",
+        "end": "14:30",
+        "end_md_ft": "421",
+        "hours": "1.5",
+        "is_npt": "no",
+        "start": "13:00"
+      },
+      {
+        "_m": 13,
+        "activity": "rig_up_down",
+        "end": "16:00",
+        "end_md_ft": "421",
+        "hours": "1.5",
+        "is_npt": "no",
+        "start": "14:30"
+      },
+      {
+        "_m": 14,
+        "activity": "bop_testing",
+        "end": "16:30",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "16:00"
+      },
+      {
+        "_m": 15,
+        "activity": "tripping",
+        "end": "17:00",
+        "end_md_ft": "421",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "16:30"
+      },
+      {
+        "_m": 16,
+        "activity": "rig_up_down",
+        "end": "0:00",
+        "end_md_ft": "421",
+        "hours": "7",
+        "is_npt": "no",
+        "start": "17:00"
+      }
+    ],
+    "surveys": [
+      {
+        "_m": 0,
+        "azimuth_deg": "358.3",
+        "inclination_deg": "0.69",
+        "md_ft": "241",
+        "tvd_ft": "241"
+      },
+      {
+        "_m": 1,
+        "azimuth_deg": "359.5",
+        "inclination_deg": "1.04",
+        "md_ft": "337",
+        "tvd_ft": "337"
+      }
+    ]
+  },
+  "updated": "2026-11-03T10:22:58.563Z"
+}

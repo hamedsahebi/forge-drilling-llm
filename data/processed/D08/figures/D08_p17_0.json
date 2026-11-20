@@ -1,0 +1,86 @@
+{
+  "doc_id": "D08",
+  "page": 17,
+  "bbox": [
+    72.0,
+    106.2,
+    540.1,
+    399.5
+  ],
+  "source": "raster",
+  "caption": "Figure 4: Planned days versus depth for well 56-32",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p17_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 21.91884183883667,
+    "prompt_tokens": 1330,
+    "output_tokens": 375
+  },
+  "data": {
+    "transcription": "Figure 4: Planned days versus depth for well 56-32",
+    "description": "The figure illustrates the planned days required to reach various depths in a well, specifically Well 56-32. The x-axis represents time in days and the y-axis represents depth in feet. The graph shows different stages of drilling with varying casing sizes and tools used at each stage.",
+    "kind": "time_vs_depth",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "17-1/2\" Hole",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-3/8\" Casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "12-1/4\" Hole",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "9-5/8\" Casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "8-3/4\" Hole to 7,500' with PDC",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "8-3/4\" Hole to 9,000' with mud hammer",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "5-1/2\" Casing",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Depth = 0 ft",
+      "Days = 0",
+      "Depth = 1760 ft",
+      "Days = 1",
+      "Depth = 3480 ft",
+      "Days = 2",
+      "Depth = 5200 ft",
+      "Days = 9",
+      "Depth = 6920 ft",
+      "Days = 12",
+      "Depth = 7500 ft",
+      "Days = 21",
+      "Depth = 8400 ft",
+      "Days = 27",
+      "Depth = 9000 ft",
+      "Days = 33"
+    ]
+  }
+}

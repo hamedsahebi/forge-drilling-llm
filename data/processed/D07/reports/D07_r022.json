@@ -1,0 +1,359 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    61,
+    62,
+    63
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 129.7261300086975,
+    "prompt_tokens": 30079,
+    "output_tokens": 2037,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 10,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": null
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 39.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "14",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 8540.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "15",
+        "size_in": 8.75,
+        "manufacturer": "HALLBT",
+        "bit_type": "FC3843",
+        "serial_number": null,
+        "depth_in_ft": 8500.0,
+        "depth_out_ft": null,
+        "wob_klbf": 4.0,
+        "rpm": 12.0,
+        "rop_ft_hr": 7.5
+      },
+      {
+        "bit_number": "15",
+        "size_in": 8.75,
+        "manufacturer": "HALLBT",
+        "bit_type": "FC3843",
+        "serial_number": null,
+        "depth_in_ft": 8530.0,
+        "depth_out_ft": null,
+        "wob_klbf": 3.3,
+        "rpm": 7.0,
+        "rop_ft_hr": 3.3
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 10,
+      "mapped": 2
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 22,
+      "report_date": "2021-07-18",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8540.0,
+      "tvd_ft": 8438.0,
+      "footage_24h_ft": 10.0,
+      "hole_size_in": null,
+      "current_operation": "Tripped out of the hole with clean out assembly from 8,514' to 1,947'.",
+      "planned_operation": "Trip out of the hole from 1,947' to surface. Rig up loggers. Log well."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 39.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "14",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 8540.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "15",
+        "size_in": 8.75,
+        "manufacturer": "HALLBT",
+        "bit_type": "FC3843",
+        "serial_number": null,
+        "depth_in_ft": 8500.0,
+        "depth_out_ft": 8530.0,
+        "wob_klbf": 10.0,
+        "rpm": 55.0,
+        "rop_ft_hr": 7.5
+      },
+      {
+        "bit_number": "15",
+        "size_in": 8.75,
+        "manufacturer": "HALLBT",
+        "bit_type": "FC3843",
+        "serial_number": null,
+        "depth_in_ft": 8530.0,
+        "depth_out_ft": 8540.0,
+        "wob_klbf": 16.0,
+        "rpm": 65.0,
+        "rop_ft_hr": 3.3
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "8-3/4\" core assembly",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "10-5/8\" clean out assembly",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "2:30",
+        "hours": 2.5,
+        "end_md_ft": 8530.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Made up 8-3/4\" core assembly.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "2:30",
+        "end": "7:30",
+        "hours": 5.0,
+        "end_md_ft": 8530.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 8-3/4\" core assembly to 8,530'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "7:30",
+        "end": "10:30",
+        "hours": 3.0,
+        "end_md_ft": 8540.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Cored with 8-3/4\" assembly from 8,530' to 8,540'. Core barrel jammed up at 8,540'.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "10:30",
+        "end": "15:00",
+        "hours": 4.5,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "POH with coring assembly as per trip out schedule.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "15:00",
+        "end": "16:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "waiting",
+        "is_npt": false,
+        "description": "Shut down for high winds and thunder storm.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "WOW",
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:00",
+        "end": "17:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Continue to POH with coring assembly",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:00",
+        "end": "19:30",
+        "hours": 2.5,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Laid down all coring tools.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "19:30",
+        "end": "20:00",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Cleaned and cleared floor.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "20:00",
+        "end": "21:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Make up 10-5/8\" clean out assembly.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:00",
+        "end": "0:00",
+        "hours": 3.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 10-5/8\" clean out assembly to 6,454'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 8540.0,
+        "time": "7:30",
+        "description": "Cored with 8-3/4\" assembly from 8,530' to 8,540'. Core barrel jammed up at 8,540'."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 8540.0,
+        "time": "15:00",
+        "description": "Shut down for high winds and thunder storm."
+      }
+    ],
+    "summary": "Drilling operations on July 18, 2021 involved tripping in and out of the hole with various assemblies, coring activities, and a shutdown due to weather conditions."
+  }
+}

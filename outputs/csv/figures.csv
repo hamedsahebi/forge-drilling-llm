@@ -1,0 +1,765 @@
+figure_id,doc_id,well,page,source,caption,kind,title,x_axis,y_axis,series,key_values,unverified_values,value_source,transcription,description,image_path,seconds
+D08_p13_0,D08,56-32,13,raster,Figure 1: Utah FORGE project location.,map,,,,[],[],[],label,"The figure is a map of Utah, highlighting the location of the Utah FORGE project. The map includes major highways and cities such as Salt Lake City, Provo, and St. George. The inset shows a detailed view of the area around Antelope Road and Geothermal Plant Road.","The figure provides an overview of the geographical location of the Utah FORGE project within Utah. It highlights key locations like major highways (Interstate 15, Interstate 80) and cities such as Salt Lake City and St. George. The inset focuses on a specific area around Antelope Road and Geothermal Plant Road.",data\processed\D08\figures\D08_p13_0.png,11.333623886108398
+D08_p14_0,D08,56-32,14,raster,"Figure 2: Aerial view of surface locations of Utah FORGE Wells. Drilled wells are shown in white, planned in yellow.",map,,,,"[{""name"": ""16B(78)-32"", ""unit"": null, ""trend"": ""Production Well""}, {""name"": ""16A(78)-32"", ""unit"": null, ""trend"": ""Injection Well""}, {""name"": ""56-32"", ""unit"": null, ""trend"": ""Seismic Monitoring Well""}, {""name"": ""WOO-2"", ""unit"": null, ""trend"": ""Seismic Monitoring Well""}, {""name"": ""58-32"", ""unit"": null, ""trend"": ""Pilot Well""}, {""name"": ""68-32"", ""unit"": null, ""trend"": ""Seismic Monitoring Well""}, {""name"": ""78-32"", ""unit"": null, ""trend"": ""Seismic Monitoring Well""}, {""name"": ""78B-32"", ""unit"": null, ""trend"": ""Seismic Monitoring Well""}]","[""16B(78)-32 = 10,987 ft MD"", ""16A(78)-32 = 10,987 ft MD"", ""56-32 = 9,145 ft MD"", ""WOO-2 = ~9,500 ft MD"", ""58-32 = 7,536 ft MD"", ""68-32 = 1,000 ft MD"", ""78-32 = 3,280 ft MD"", ""78B-32 = ~9,500 ft MD""]",[],label,Utah FORGE Infrastructure,"The figure shows an aerial view of the surface locations for various wells in Utah FORGE. The wells are labeled with their respective names and depths, indicating they are part of a seismic monitoring network.",data\processed\D08\figures\D08_p14_0.png,23.07200574874878
+D08_p16_0,D08,56-32,16,raster,Figure 3: Planned well construction for 56-32,well_log,,,,"[{""name"": ""BTC conductor"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""17-1/2\"" hole to \u00b1350'"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""13-3/8\"", 54.5#, J-55, BTC casing"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""12-1/4\"" hole to \u00b13,500'"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""9-5/8\"", 36# J-55 , LTC casing"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""8-3/4\"" hole to 7,500' to be drilled with PDC bits and to 9,000' with mud hammer"", ""unit"": ""ft"", ""trend"": null}]",[],"[""Depth = -128.5 ft"", ""Depth = -350 ft"", ""Depth = -3,500 ft"", ""Depth = -7,500 ft"", ""Depth = -9,000 ft""]",chart,Figure 3: Planned well construction for 56-32,"The figure illustrates the planned well construction for Well 56-32, detailing various stages of drilling and casing. It includes depth measurements in feet (ft) on the vertical axis and describes different sections of the well with corresponding diameters, materials, and depths.",data\processed\D08\figures\D08_p16_0.png,20.2536838054657
+D08_p17_0,D08,56-32,17,raster,Figure 4: Planned days versus depth for well 56-32,time_vs_depth,,,,"[{""name"": ""17-1/2\"" Hole"", ""unit"": null, ""trend"": null}, {""name"": ""13-3/8\"" Casing"", ""unit"": null, ""trend"": null}, {""name"": ""12-1/4\"" Hole"", ""unit"": null, ""trend"": null}, {""name"": ""9-5/8\"" Casing"", ""unit"": null, ""trend"": null}, {""name"": ""8-3/4\"" Hole to 7,500' with PDC"", ""unit"": null, ""trend"": null}, {""name"": ""8-3/4\"" Hole to 9,000' with mud hammer"", ""unit"": null, ""trend"": null}, {""name"": ""5-1/2\"" Casing"", ""unit"": null, ""trend"": null}]",[],"[""Depth = 0 ft"", ""Days = 0"", ""Depth = 1760 ft"", ""Days = 1"", ""Depth = 3480 ft"", ""Days = 2"", ""Depth = 5200 ft"", ""Days = 9"", ""Depth = 6920 ft"", ""Days = 12"", ""Depth = 7500 ft"", ""Days = 21"", ""Depth = 8400 ft"", ""Days = 27"", ""Depth = 9000 ft"", ""Days = 33""]",chart,Figure 4: Planned days versus depth for well 56-32,"The figure illustrates the planned days required to reach various depths in a well, specifically Well 56-32. The x-axis represents time in days and the y-axis represents depth in feet. The graph shows different stages of drilling with varying casing sizes and tools used at each stage.",data\processed\D08\figures\D08_p17_0.png,21.91884183883667
+D08_p19_0,D08,56-32,19,raster,"Figure 5: 56-32 well schematic, as built",well_schematic,,,,"[{""name"": ""BTC conductor @ 128.5'"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""17-1/2\"" hole to 381'"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""13-3/8\"", 54.5#, J-55, BTC casing @ 381'"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""12-1/4\"" hole to @3,500'"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""9-5/8\"", 36# J-55, LTC casing @ 3,494'"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""Float collar & 135' of cement at bottom"", ""unit"": """", ""trend"": null}, {""name"": ""8-3/4\"" hole @ 9,133.5'"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""5-1/2\"", 17#, L-80, BTC Casing"", ""unit"": """", ""trend"": null}]","[""Depth = -128 ft"", ""Depth = -380 ft"", ""Depth = -3,500 ft"", ""Depth = -9,145 ft""]",[],label,"Figure 5: 56-32 well schematic, as built
+56-32
+Monitoring Well
+As Built
+Drawn by GRG ver. March 2021 – Not to scale","The figure is a well schematic for the 56-32 monitoring well, showing the drilling stages and casing depths.",data\processed\D08\figures\D08_p19_0.png,24.895975828170776
+D08_p1_0,D08,56-32,1,raster,,well_log,,,,[],[],[],chart,"End of Well Report
+Forge Seismic Monitoring Well 56-32
+Milford, Utah
+Prepared by:
+Geothermal Resource Group, Inc.","The figure is an end-of-well report for the Forge Seismic Monitoring Well 56-32 located in Milford, Utah. It includes logos of various organizations involved with the well and a map highlighting locations related to geothermal resource activities. The document is prepared by Geothermal Resource Group, Inc.",data\processed\D08\figures\D08_p1_0.png,10.214967966079712
+D08_p1_1,D08,56-32,1,raster,,map,,,,"[{""name"": ""Energy & Geoscience Institute (EGI)"", ""unit"": null, ""trend"": null}, {""name"": ""Utah Geological Survey"", ""unit"": null, ""trend"": null}, {""name"": ""U.S. Department of Energy"", ""unit"": null, ""trend"": null}, {""name"": ""Golder"", ""unit"": null, ""trend"": null}, {""name"": ""Smithfield"", ""unit"": null, ""trend"": null}, {""name"": ""US Solar Fund"", ""unit"": null, ""trend"": null}, {""name"": ""Utah Division of State History"", ""unit"": null, ""trend"": null}, {""name"": ""Utah Division of Water Rights"", ""unit"": null, ""trend"": null}, {""name"": ""Geothermal Resource Group"", ""unit"": null, ""trend"": null}, {""name"": ""SWCA"", ""unit"": null, ""trend"": null}, {""name"": ""INL Idaho National Laboratory"", ""unit"": null, ""trend"": null}, {""name"": ""ITASCA Consulting Group, Inc."", ""unit"": null, ""trend"": null}, {""name"": ""WISCONSIN"", ""unit"": null, ""trend"": null}, {""name"": ""U.S. Department of the Interior Bureau of Land Management"", ""unit"": null, ""trend"": null}, {""name"": ""The University of North Carolina at Chapel Hill"", ""unit"": null, ""trend"": null}, {""name"": ""Schlumberger"", ""unit"": null, ""trend"": null}, {""name"": ""NREL National Renewable Energy Laboratory"", ""unit"": null, ""trend"": null}, {""name"": ""HOT ROCK MANAGEMENT SERVICES"", ""unit"": null, ""trend"": null}, {""name"": ""BHA Bottom Hole Assembly"", ""unit"": null, ""trend"": null}, {""name"": ""HWDP Heavy Weight Drill Pipe"", ""unit"": null, ""trend"": null}, {""name"": ""DC Drill Collar"", ""unit"": null, ""trend"": null}, {""name"": ""SPP Standpipe Pressure"", ""unit"": null, ""trend"": null}, {""name"": ""BOPE Blowout Preventer Equipment"", ""unit"": null, ""trend"": null}, {""name"": ""SEEQUENT"", ""unit"": null, ""trend"": null}]","[""MSE = mechanical specific energy"", ""ROP = rate of penetration"", ""WOB = weight on bit"", ""BHA = bottom-hole assembly"", ""HWDP = heavy-weight drill pipe"", ""DC = drill collar"", ""SPP = standpipe pressure"", ""BOPE = blowout preventer equipment""]",[],label,"The figure is a map of the United States with various organizations and entities represented by their logos. The map includes state boundaries, and there are yellow dots scattered across different states indicating locations or points of interest. Each logo represents an organization involved in geoscience research or energy-related activities. The map also includes smaller maps on the right side showing regions outside the U.S., specifically Switzerland (GEO ENERGIE SUISSE), China, and New Zealand.","The figure illustrates a collaborative network of organizations engaged in geoscience and energy research across various states within the United States. The presence of logos from entities such as the Energy & Geoscience Institute at the University of Utah, U.S. Department of Energy, and others suggests a focus on research and development activities related to energy resources and environmental sustainability. The yellow dots likely represent specific locations where these organizations conduct fieldwork or have significant projects.",data\processed\D08\figures\D08_p1_1.png,32.41099739074707
+D08_p21_0,D08,56-32,21,raster,Figure 6: Planned (red) versus actual (black) drilling days plot for 56-32.,drilling_parameter_chart,,,,"[{""name"": ""Planned"", ""unit"": null, ""trend"": ""red""}, {""name"": ""Actual"", ""unit"": null, ""trend"": ""black""}]",[],"[""Depth = 0 ft to 10,000 ft"", ""Days = 0 to 40""]",chart,Figure 6: Planned (red) versus actual (black) drilling days plot for 56-32.,"The figure shows a comparison of planned and actual drilling days against depth. The red line represents the planned drilling progress, while the black line indicates the actual drilling progress. The graph is labeled 'Days vs Depth' with the well number '56-32' at the top. The x-axis represents days, ranging from 0 to 40, and the y-axis represents depth in feet, ranging from 0 to 10,000.",data\processed\D08\figures\D08_p21_0.png,14.149904489517212
+D08_p27_0,D08,56-32,27,raster,Figure 7: Final directional survey plot,directional_plot,,,,"[{""name"": ""Surface casing"", ""unit"": null, ""trend"": null}, {""name"": ""Intermediate casing"", ""unit"": null, ""trend"": null}, {""name"": ""Production casing"", ""unit"": null, ""trend"": null}]",[],"[""TVD (ft) = 9,138 ft"", ""MD (ft) = 0 ft"", ""Inc (deg) = 0 deg"", ""Azl (deg) = 240 deg"", ""TVD (ft) = 9,138.3 ft"", ""Easting (ft) = -60 ft"", ""Northing (ft) = 50 ft""]",chart,"Figure 7: Final directional survey plot
+56-32_EOWR.pdf (well 56-32), page 27","The figure is a final directional survey plot for well 56-32. It includes two main components: the left side shows a vertical profile of the well with labeled casing sections, and the right side displays an Easting vs Northing plot.",data\processed\D08\figures\D08_p27_0.png,15.930020809173584
+D08_p28_0,D08,56-32,28,raster,Figure 9: 20 in. conductor pipe,photo,,,,[],[],[],label,none,"The figure shows a drilling operation with two individuals working around a large piece of equipment, which appears to be a drill rig. The equipment is mounted on a heavy-duty vehicle and is surrounded by gravel terrain. There are no visible text or numbers within the image that can be used for transcription.",data\processed\D08\figures\D08_p28_0.png,7.771182537078857
+D08_p28_1,D08,56-32,28,raster,Figure 9: 20 in. conductor pipe,photo,,,,[],[],[],label,none,"The figure shows a close-up view of a 20-inch conductor pipe, which is part of the well casing. The pipe appears to be partially inserted into a metal frame or support structure, possibly for storage or maintenance purposes.",data\processed\D08\figures\D08_p28_1.png,7.260982513427734
+D08_p29_0,D08,56-32,29,raster,Figure 11: Cellar with conductor and mouse hole in cemented cellar,photo,,,,[],[],[],label,none,"The figure shows a construction site where two cylindrical objects, likely drill collars or casing sections, are partially buried in the ground. The background includes a corrugated metal structure and some soil. There is no text or numerical data within the image.",data\processed\D08\figures\D08_p29_0.png,7.42533278465271
+D08_p29_1,D08,56-32,29,raster,Figure 11: Cellar with conductor and mouse hole in cemented cellar,photo,,,,[],[],[],label,none,"The figure shows a close-up of a well casing or conductor in the context of a cellar. The object appears to be metallic and cylindrical, possibly part of a drilling assembly such as a BHA (Bottom Hole Assembly). It is situated on what looks like a cemented cellar floor with some visible wear and residue around it.",data\processed\D08\figures\D08_p29_1.png,8.0650155544281
+D08_p30_0,D08,56-32,30,raster,"Figure 12: 20 in. Conductor stack, used for drilling 17-1/2 in. hole.",directional_plot,,,,"[{""name"": ""20\"" Riser (welded to the conductor)"", ""unit"": null, ""trend"": null}, {""name"": ""drain valve"", ""unit"": null, ""trend"": null}, {""name"": ""20\"", 94 ppf, J-55, BTC Conductor"", ""unit"": null, ""trend"": null}]",[],"[""Riser = 20\"""", ""Conductor = 20\"""", ""ppf (pounds per foot) = 94"", ""J-55 = J-55 grade"", ""BTC = Bottom Hole Assembly"", ""Ground level = cellar ground""]",chart,"Figure 12: 20 in. Conductor stack, used for drilling 17-1/2 in. hole.
+56-32_EOWR.pdf (well 56-32), page 30","The figure illustrates a conductor stack used for drilling an 17-1/2 inch well bore, specifically for Well 56-32.",data\processed\D08\figures\D08_p30_0.png,15.776277780532837
+D08_p32_0,D08,56-32,32,raster,"Figure 13: BHA # 1, used bit # 1",bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SUB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SHOCK"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 379.88 ft"", ""HWDP, Length = 178 ft"", ""MONEL, Length = 30 ft"", ""XO, Length = 3 ft"", ""SUB, Length = 3 ft"", ""DC, Length = 31 ft"", ""SHOCK, Length = 10 ft"", ""STAB, Length = 31 ft"", ""MMTR, Length = 31 ft"", ""BIT, Length = 2 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Range: 9W County: Beaver State: UT
+BHA No: 1 BHA Length (ft): 379.88 Date In: 07-Feb-21 04:30 Depth In (ft): 152
+Date Out: 07-Feb-21 06:00 Depth Out (ft): 380
+HWDP, Length: 178 ft
+5.500 ins, 4.000 ins
+Top Thread 4.5IF
+S/No: RIG
+380 ft from top to Bit
+MONEL, Length: 30 ft
+8.000 ins, 3.250 ins
+Top Thread 6.625REG
+S/No: NMDC802
+107 ft from top to Bit
+XO, Length: 3 ft
+8.000 ins, 3.000 ins
+Top Thread 4.5IF
+S/No: RIG
+202 ft from top to Bit
+SUB, Length: 3 ft
+8.000 ins, 3.250 ins
+Top Thread 6.625REG
+UBHO
+S/No: GGDS
+77 ft from top to Bit
+dc, Length: 31 ft
+7.875 ins, 2.875 ins
+Top Thread 6.625REG
+S/No: RIG
+199 ft from top to Bit
+SHOCK, Length: 10 ft
+8.000 ins, 3.000 ins
+Top Thread 6.625REG
+S/No: SSB.O
+74 ft from top to Bit
+dc, Length: 31 ft
+8.000 ins, 2.875 ins
+Top Thread 6.625REG
+S/No: RIG
+168 ft from top to Bit
+STAB, Length: 31 ft
+8.000 ins, 3.250 ins
+Top Thread 6.625REG
+S/No: STB17
+64 ft from top to Bit
+dc, Length: 30 ft
+7.875 ins, 2.875 ins
+Top Thread 6.625REG
+S/No: RIG 8 INCH
+137 ft from top to Bit
+MMTR, Length: 31 ft
+10.000 ins, 2.000 ins
+Top Thread 7.625REG
+S/No: 9512
+33 ft from top to Bit
+BIT, Length: 2 ft
+17.500 ins
+Top Thread 7.625REG
+5 BLADE PDC
+S/No: A252419
+2 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), MONEL, XO, SUB, DC (Drill Collar), SHOCK, STAB, MMTR, and BIT (Bit). Each component is detailed with its length in feet and inches, top thread specifications, and serial number if applicable. The report also includes the date of insertion and removal from the well, as well as the depth at which each component was placed.",data\processed\D08\figures\D08_p32_0.png,58.79567623138428
+D08_p34_0,D08,56-32,34,raster,,,,,,[],[],[],,,,data\processed\D08\figures\D08_p34_0.png,47.75879716873169
+D08_p35_0,D08,56-32,35,raster,Figure 14: 13-3/8 in. surface casing cement pressure chart,pressure_chart,,,,"[{""name"": ""Max Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Total Volume"", ""unit"": ""bbl"", ""trend"": null}, {""name"": ""Total Rate"", ""unit"": ""bpm"", ""trend"": null}, {""name"": ""Slurry Density"", ""unit"": ""ppg"", ""trend"": null}]",[],"[""Max Pressure = 2000 psi"", ""Total Volume = 15 bbl"", ""Total Rate = 6 bpm"", ""Slurry Density = 18 ppg""]",chart,Max Pressure ( psi ) Total Volume ( bbl ) Total Rate ( bpm ) Slurry Density ( ppg ),"The figure is a pressure chart for the 13-3/8 in. surface casing cement job on well 56-32, recorded from 02:24 to 03:24 on February 8, 2021.",data\processed\D08\figures\D08_p35_0.png,14.205280303955078
+D08_p36_0,D08,56-32,36,raster,Figure 15 : BOPE 13-5/8 in. for drilling 12-1/4 in. hole.,directional_plot,,,,"[{""name"": ""Riser"", ""unit"": ""inches"", ""trend"": null}, {""name"": ""Annular Preventer"", ""unit"": ""inches"", ""trend"": null}, {""name"": ""Double Gate Preventer"", ""unit"": ""inches"", ""trend"": null}, {""name"": ""Mud Cross"", ""unit"": ""inches"", ""trend"": null}, {""name"": ""Sliplok Casing Head"", ""unit"": ""inches"", ""trend"": null}]",[],"[""Riser = 13-5/8\"" (5M)"", ""Annular Preventer = 13-5/8\"" (5M)"", ""Double Gate Preventer = 13-5/8\"" (5M)"", ""Mud Cross = 13-5/8\"" (5M)"", ""Sliplok Casing Head = 13-5/8\"" x 3M""]",chart,none,"The figure illustrates a blowout preventer equipment (BOPE) setup for drilling operations. It shows the components of the BOPE system, including risers, annular preventer, double gate preventer, mud cross, and casing head. The text indicates that this is for well 56-32 with a hole size of 13-5/8 inches (for drilling) and 12-1/4 inches (for casing). The document is dated April 2021.",data\processed\D08\figures\D08_p36_0.png,19.311744689941406
+D08_p38_0,D08,56-32,38,raster,Figure 16: BHA # 2 used with bit # 2,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 389.50 ft"", ""HWDP Length = 292 ft"", ""XO1 Length = 2 ft"", ""DC Length = 92 ft"", ""XO2 Length = 2 ft"", ""BIT Length = 2 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 2 BHA Length (ft): 389.50 Date In: 09-Feb-21 16:30 Depth In (ft): 380
+Date Out: 09-Feb-21 18:00 Depth Out (ft): 390
+HWDP, 10 joints, Length: 292 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Rig
+390 ft from top to Bit
+XO, Length: 2 ft
+8.000 ins, 2.000 ins
+Top Thread 4.5IF
+S/No: Rig
+98 ft from top to Bit
+dc, 3 joints, Length: 92 ft
+8.000 ins, 2.000 ins
+Top Thread 6.625REG
+S/No: Rig
+96 ft from top to Bit
+XO, Length: 2 ft
+8.000 ins, 2.000 ins
+Top Thread 6.625REG
+S/No: Rig
+4 ft from top to Bit
+BIT, Length: 2 ft
+12.250 ins
+Top Thread 6.625REG
+S/No: 6003696
+2 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), XO (X-Over), DC (Drill Collar), and the BIT itself. Each component is detailed with its length, thread size, and position from top to bottom of the assembly.",data\processed\D08\figures\D08_p38_0.png,35.00408911705017
+D08_p39_0,D08,56-32,39,raster,Figure 17: BHA # 3 used with bit # 3,well_log,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SHOCK"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]",[],"[""BHA Length = 1,091.56 ft"", ""HWDP Length = 730 ft"", ""XO Length = 3 ft"", ""DC Length = 274 ft"", ""SHOCK Length = 13 ft"", ""MONEL Length = 29 ft"", ""STAB Length = 5 ft"", ""XO Length = 4 ft"", ""MMTR Length = 33 ft"", ""BIT Length = 1 ft""]",chart,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 3 BHA Length (ft): 1,091.56 Date In: 09-Feb-21 16:30 Depth In (ft): 390
+Date Out: 10-Feb-21 00:00 Depth Out (ft): 3,308
+HWDP, 24 joints, Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,092 ft from top to Bit
+XO, Length: 3 ft
+8.000 ins, 3.000 ins
+Top Thread 4.5IF
+S/No: RIG
+DC, 9 joints, Length: 274 ft
+8.000 ins, 3.000 ins
+Top Thread 6.625REG
+S/No: RIG
+358 ft from top to Bit
+SHOCK, Length: 13 ft
+8.063 ins, 3.875 ins
+Top Thread 6.625REG
+S/No: 02/11/20
+MONEL, Length: 29 ft
+7.876 ins, 3.250 ins
+Top Thread 6.625REG
+S/No: DR8020
+72 ft from top to Bit
+STAB, Length: 5 ft
+8.000 ins, 3.000 ins
+Top Thread 6.625REG
+NM STAB
+XO, Length: 4 ft
+8.126 ins, 3.750 ins
+Top Thread 6.625REG
+NBUHBO
+MMTR, Length: 33 ft
+8.000 ins
+Top Thread 6.625REG
+S/No: ML010
+34 ft from top to Bit
+BIT, Length: 1 ft
+12.250 ins
+Top Thread 6.625REG
+Bit cored
+S/No: A268974
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), XO (X-Over), DC (Drill Collar), SHOCK, MONEL, STAB, and a BIT. Each component is detailed with its length, internal diameter, top thread specification, serial number, and the distance from the top to the bit. The report also includes the date of insertion and removal of the BHA into the well.",data\processed\D08\figures\D08_p39_0.png,50.64940166473389
+D08_p40_0,D08,56-32,40,raster,Figure 18: BHA # 4 used with bit # 4,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,078.98 ft"", ""Depth In = 3,308 ft"", ""Depth Out = 3,500 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 4 BHA Length (ft): 1,078.98 Date In: 10-Feb-21 20:00 Depth In (ft): 3,308
+Date Out: 11-Feb-21 06:00 Depth Out (ft): 3,500
+HWDP, Length: 730 ft
+XO, Length: 3 ft
+DC, Length: 274 ft
+MONEL, Length: 29 ft
+STAB, Length: 5 ft
+OTHER, Length: 4 ft
+MMTR, Length: 33 ft
+BIT, Length: 1 ft","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32. It details the components of BHA No. 4 used in drilling operations at UTAHFORGE field. The report includes the length and position from top to bit for each component, such as HWDP, XO, DC, MONEL, STAB, OTHER, MMTR, and BIT.",data\processed\D08\figures\D08_p40_0.png,27.276487350463867
+D08_p42_0,D08,56-32,42,raster,,table_image,,,,"[{""name"": ""Conditioning Data"", ""unit"": ""bbls"", ""trend"": null}, {""name"": ""Cement Data"", ""unit"": ""bbls"", ""trend"": null}, {""name"": ""Displacement Data"", ""unit"": ""bbls"", ""trend"": null}, {""name"": ""Calc. Displacement Vol"", ""unit"": ""bbls"", ""trend"": null}]","[""Volume (bbls) = 2"", ""Pump Time = 2"", ""Rate (bbls/min) = 2.0"", ""Pressure (psi) = 2,600"", ""Cement Data Volume (bbls) = 308.0"", ""Cement Data Pump Time = 39"", ""Cement Data Rate (bbls/min) = 8.0"", ""Cement Data Pressure (psi) = 250"", ""Displacement Data Volume (bbls) = 264.0"", ""Displacement Data Pump Time = 53"", ""Displacement Data Rate (bbls/min) = 5.0"", ""Displacement Data Pressure (psi) = 1,000"", ""Calc Top of Cement (ft) = 0"", ""Excess (%) = 50.00%"", ""Avg. Hole Size (ins) = 12.250"", ""Type Density = 13.40"", ""Yield = 1.64"", ""Sacks = 1030"", ""Volume = 308.0"", ""Rate = 8.0"", ""Additives = RC Therma Lite G1""]",[],label,"Cement Job Information
+Start Date/Time: 11-Feb-21 21:30
+Wellbore: Original Wellbore
+Job Type: PRIMARY
+Well Section: INT1
+String OD (ins): 9.625
+String Type: FULL
+Cementing Co: Resource
+Cementing Engineer: Alex
+Primary Job Detail
+Volume (bbls) Pump Time Rate (bbls/min) Pressure (psi)
+Conditioning Data:			2	2.0	2,600
+Cement Data:	308.0	39	8.0	250
+Displacement Data:	264.0	53	5.0	1,000
+Calc. Displacement Vol: 270.0
+Reciprocate Pipe?	Batch Mix? Bump Plug? Bump Pressure: 1,500
+Returns to Surface: FULL Cement at Surface? Volume (bbls): 34.0
+Calc Top of Cement (ft): 0 Excess (%): 50.00%
+Avg. Hole Size (ins): 12.250
+Slurry Information
+Type Density Yield Sacks Volume Rate Additives
+OTHER	13.40	1.64	1030	308.0	8.0	RC Therma Lite G1
+Post Job Information
+Liner Top Test (lbs/gal): 	Job Success? Yes
+Actual Top of Cmt (ft): 	CBL Bond Quality:
+Misc. Comments: 1) Hold pre-jog safety meeting.
+2) Pump 2 BBL of Fresh Water to Fill Lines
+3) Pressure test surface lines to 2,500 psi
+4) Pump 10 BBL of Fresh Water Spacer @ 6-8 BPM
+5) Pump 20 BBL of RC Mud Clean Spacer @ 6-8 BPM
+6) Pump 30 BBL of 10.5ppg Sepiolite Spacer @ 6-8 BPM
+7) Pump 5 BBL of Fresh Water Spacer @ 6-8 BPM
+8) Pump 13 BBL of Sodium Silicate Spacer @ 2-3 BPM
+9) Pump 5 BBL of Fresh Water Spacer @ 6-8 BPM
+10) Pump 300.8 BBL of 13.4 ppg RC ThermaLite HT @ 6-8 BPM
+11) Shut Down, Release Top Plug
+12) Displace Cement with 270 BBL of Drilling MUD @ 5 - 8 BPM
+– Monitor Pressure and returns.
+13) Slow down last 20 BBL to 2BPM
+14) Slow Down Last 10 BBL to 1BPM to BUMP PLUG.
+15) Shut Down, Check Floats, CIP","The figure provides detailed information about a cement job performed in the original wellbore of Well 56-32. The job was conducted on February 11, 2021, at 9:30 PM. It includes primary job details such as volume and rate data for conditioning, cementing, and displacement phases. The slurry information specifies the density, yield, sacks, volume, and rate of the cement used (RC Therma Lite G1). Post-job information indicates that the job was successful with a yes response to the liner top test and provides comments on the procedures followed during the job.",data\processed\D08\figures\D08_p42_0.png,61.225709676742554
+D08_p43_0,D08,56-32,43,raster,Figure 19: 9-5/8 in. intermediate casing cement pressure chart,pressure_chart,,,,"[{""name"": ""Max Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Total Volume"", ""unit"": ""bbl"", ""trend"": null}, {""name"": ""Total Rate"", ""unit"": ""bpm"", ""trend"": null}, {""name"": ""Slurry Density"", ""unit"": ""ppg"", ""trend"": null}]",[],"[""<Max Pressure> = 2600 psi"", ""<Total Volume> = 75 bbl"", ""<Total Rate> = 15 bpm"", ""<Slurry Density> = 30 ppg""]",chart,"Figure 19: 9-5/8"" Intermediate
+Max Pressure ( psi )
+Total Volume ( bbl )
+Total Rate ( bpm )
+Slurry Density ( ppg )","The figure is a cement pressure chart for an intermediate casing in well 56-32. It shows the maximum pressure, total volume, total rate, and slurry density over time.",data\processed\D08\figures\D08_p43_0.png,14.572953462600708
+D08_p44_0,D08,56-32,44,raster,Figure 20: BOPE stack for drilling 8-3/4 in. hole,directional_plot,,,,"[{""name"": ""13-5/8\"" 5M Riser"", ""unit"": null, ""trend"": null}, {""name"": ""Flowline"", ""unit"": null, ""trend"": null}, {""name"": ""13-5/8\"" 5M Annular Preventer"", ""unit"": null, ""trend"": null}, {""name"": ""13-5/8\"" 5M Double Gate Preventer"", ""unit"": null, ""trend"": null}, {""name"": ""13-5/8\"" 5M Mud Cross"", ""unit"": """", ""trend"": null}, {""name"": ""Side outlet valves to match the side outlets"", ""unit"": """", ""trend"": null}, {""name"": ""2-1/16\"" 3M check valve on kill line"", ""unit"": null, ""trend"": null}, {""name"": ""13-5/8\"" 5M x 3M Sliplok Casing Head"", ""unit"": """", ""trend"": null}, {""name"": ""2 ea. 2-1/16 5M side outlets and valves"", ""unit"": null, ""trend"": null}, {""name"": ""9-5/8\"", 36lb(AD 8-3/4), J-55, BTC casing"", ""unit"": null, ""trend"": null}, {""name"": ""13-3/8\"", 54.5#, J-55, BTC casing"", ""unit"": null, ""trend"": null}, {""name"": ""20\"" .375 WT LP Gr.B Conductor"", ""unit"": null, ""trend"": null}]",[],"[""Well = 56-32"", ""Hole size = 8-3/4\"""", ""Riser = 13-5/8\"" 5M"", ""Annular Preventer = 13-5/8\"" 5M"", ""Double Gate Preventer = 13-5/8\"" 5M"", ""Mud Cross = 13-5/8\"" 5M"", ""Side outlet valves to match the side outlets = -"", ""Check valve on kill line = 2-1/16\"""", ""Sliplok Casing Head = 13-5/8\"" x 3M"", ""Side outlets and valves = 2 ea. 2-1/16 5M"", ""Casing = 9-5/8\"", 36lb(AD 8-3/4), J-55, BTC"", ""Casing = 13-3/8\"", 54.5#, J-55, BTC"", ""Conductor = 20\"" .375 WT LP Gr.B""]",chart,"Figure 20: BOPE stack for drilling 8-3/4 in. hole
+DOCUMENT: 56-32_EOWR.pdf (well 56-32), page 44","The figure illustrates a blowout preventer equipment (BOPE) stack designed for drilling an 8-3/4 inch wellbore in Well 56-32. The stack includes various components such as risers, annular preventers, double gate preventers, mud cross, and casing heads.",data\processed\D08\figures\D08_p44_0.png,38.434083700180054
+D08_p46_0,D08,56-32,46,raster,Figure 21: 8-3/4 in. BHA #5 used with bit #5,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 762.86 ft"", ""Depth In = 3,500 ft"", ""Depth Out = 3,506 ft"", ""HWDP Length = 731 ft"", ""DC Length = 31 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 5 BHA Length (ft): 762.86 Date In: 12-Feb-21 13:00 Depth In (ft): 3,500
+Date Out: 12-Feb-21 14:30 Depth Out (ft): 3,506
+HWDP, Length: 731 ft SNo: Rig 763 ft from top to Bit
+DC, Length: 31 ft 6.000 ins SNo: Rig 32 ft from top to Bit
+BIT, Length: 1 ft 8.750 ins Top Thread 4.5REG SNo: 5258442 1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of three components: Heavy Weight Drill Pipe (HWDP), Drill Collar (DC), and Bit. The HWDP has a length of 731 feet and is positioned 763 feet from the top to the bit. The DC has a length of 31 feet, with an outer diameter of 6 inches, and is located 32 feet from the top to the bit. The Bit itself measures 1 foot in length and has an outer diameter of 8.750 inches, with a top thread specification of 4.5REG.",data\processed\D08\figures\D08_p46_0.png,28.599336862564087
+D08_p47_0,D08,56-32,47,raster,Figure 22: 8-3/4 in. BHA #6 used with bit #6,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SHOCK"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,178.12 ft"", ""HWDP Length = 730 ft"", ""DC Length = 368 ft"", ""SHOCK Length = 11 ft"", ""MONEL Length = 20 ft"", ""STAB Length = 4 ft"", ""OTHER Length = 3 ft"", ""MMTR Length = 33 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 6 BHA Length (ft): 1,178.12 Date In: 13-Feb-21 00:00 Depth In (ft): 3,506
+Date Out: 14-Feb-21 12:30 Depth Out (ft): 4,595
+HWDP, 24 joints, Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,178 ft from top to Bit
+DC, 12 joints, Length: 368 ft
+6.500 ins, 2.875 ins
+Top Thread 4.5IF
+S/No: RIG
+448 ft from top to Bit
+SHOCK, Length: 11 ft
+6.750 ins
+Top Thread 4.5IF
+S/No: AW17678794
+MONEL, Length: 20 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: DR9901
+69 ft from top to Bit
+STAB, Length: 4 ft
+6.500 ins, 3.000 ins
+Top Thread 4.5IF
+NMST STAB
+OTHER, Length: 3 ft
+6.813 ins, 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 33 ft
+7.000 ins
+Top Thread 4.5IF
+S/No: RM7007
+34 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins
+Top Thread 4.5REG
+S/No: A275660
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field, Beaver County, Utah. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SHOCK, MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.",data\processed\D08\figures\D08_p47_0.png,2697.2817783355713
+D08_p48_0,D08,56-32,48,raster,Figure 23: 8-3/4 in. BHA #7 used with bit #7,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SH/SUB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,178.54 ft"", ""HWDP Length = 730 ft"", ""DC Length = 368 ft"", ""SH/SUB Length = 11 ft"", ""MONEL Length = 28 ft"", ""STAB Length = 5 ft"", ""XO Length = 3 ft"", ""MMTR Length = 33 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No.: 7 BHA Length (ft): 1,178.54 Date In: 14-Feb-21 19:30 Depth In (ft): 495
+Date Out: 16-Feb-21 00:16 Depth Out (ft): 5,143
+HWDP, 24 joints, Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,179 ft from top to Bit
+DC, 12 joints, Length: 368 ft
+6.500 ins, 2.875 ins
+Top Thread 4.5IF
+S/No: RIG
+448 ft from top to Bit
+SH/SUB, Length: 11 ft
+6.750 ins
+Top Thread 4.5IF
+S/No: 3009389
+MONEL, Length: 28 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: DR9901
+69 ft from top to Bit
+STAB, Length: 5 ft
+6.500 ins, 3.000 ins
+Top Thread 4.5IF
+NMSTAB
+XO, Length: 3 ft
+6.813 ins, 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 33 ft
+7.000 ins
+Top Thread 4.5IF
+S/No: RM7004
+34 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins
+Top Thread 4.5REG
+S/No: 5865475-01
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SH/SUB (Stabilizer/Sub), MONEL (Monel), STAB (Stabilizer), XO (X-Over), MMTR (Motor), and the BIT itself, all arranged in a specific order. The report provides details such as the length of each component in feet and inches, top thread specifications, serial numbers, and their respective positions from the top to the bit.",data\processed\D08\figures\D08_p48_0.png,49.1347930431366
+D08_p49_0,D08,56-32,49,raster,Figure 24: 8-3/4 in. BHA #8 used with bit #8,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SHOCK"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,178.50 ft"", ""HWDP Length = 730 ft"", ""DC Length = 368 ft"", ""SHOCK Length = 11 ft"", ""MONEL Length = 28 ft"", ""STAB Length = 5 ft"", ""OTHER Length = 3 ft"", ""MMTR Length = 33 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No.: 8 BHA Length (ft): 1,178.50 Date In: 16-Feb-21 08:00 Depth In (ft): 5,143
+Date Out: 17-Feb-21 01:30 Depth Out (ft): 5,610
+HWDP, Length: 730 ft
+5.000 ins., 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,179 ft from top to Bit
+DC, Length: 368 ft
+6.500 ins., 2.875 ins
+Top Thread 4.5IF
+S/No: RIG
+448 ft from top to Bit
+SHOCK, Length: 11 ft
+6.750 ins.
+Top Thread 4.5IF
+S/No: 3009389
+MONEL, Length: 28 ft
+6.500 ins., 3.250 ins
+Top Thread 4.5IF
+S/No: DR9901
+69 ft from top to Bit
+STAB, Length: 5 ft
+6.500 ins., 3.000 ins
+Top Thread 4.5IF
+NMSTAB
+OTHER, Length: 3 ft
+6.815 ins., 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 33 ft
+7.000 ins.
+Top Thread 4.5IF
+S/No: RM7003
+34 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins.
+Top Thread 4.5REG
+S/No: A277166
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SHOCK, MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length in feet and inches, top thread specifications, serial number, and the distance from the top to the bit.",data\processed\D08\figures\D08_p49_0.png,45.57897710800171
+D08_p50_0,D08,56-32,50,raster,Figure 25: 8-3/4 in. BHA #9 used with bit #9,well_log,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""SHOCK"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]",[],"[""BHA Length = 1,179.22 ft"", ""HWDP Length = 730 ft"", ""DC Length = 368 ft"", ""SHOCK Length = 11 ft"", ""MONEL Length = 28 ft"", ""STAB Length = 5 ft"", ""OTHER Length = 3 ft"", ""MMTR Length = 33 ft"", ""BIT Length = 1 ft""]",chart,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 9 BHA Length (ft): 1,179.22 Date In: 17-Feb-21 09:00 Depth In (ft): 5,610
+Date Out: 18-Feb-21 01:30 Depth Out (ft): 5,999
+HWDP, 24 joints, Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,179 ft from top to Bit
+DC, 12 joints, Length: 368 ft
+6.500 ins, 2.875 ins
+Top Thread 4.5IF
+S/No: RIG
+449 ft from top to Bit
+SHOCK, Length: 11 ft
+6.875 ins
+Top Thread 4.5IF
+S/No: 6750040
+MONEL, Length: 28 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: DR9901
+70 ft from top to Bit
+STAB, Length: 5 ft
+6.563 ins, 3.000 ins
+Top Thread 4.5IF
+NMSTAB
+OTHER, Length: 3 ft
+6.813 ins, 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 33 ft
+7.000 ins
+Top Thread 4.5IF
+S/No: RM7002
+34 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins
+Top Thread 4.5REG
+S/No: A271436
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SHOCK, MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.",data\processed\D08\figures\D08_p50_0.png,46.90777349472046
+D08_p51_0,D08,56-32,51,raster,Figure 26: 8-3/4 in. BHA #10 used with bit #10,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,169.59 ft"", ""Depth In = 5,999 ft"", ""Depth Out = 7,207 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No.: 10 BHA Length (ft): 1,169.59 Date In: 18-Feb-21 11:00 Depth In (ft): 5,999
+Date Out: 20-Feb-21 19:30 Depth Out (ft): 7,207
+HWDP, 24 joints, Length: 730 ft
+Top Thread 4.5IF S/No: RIG
+S/No: 1,170 ft from top to Bit
+DC, 12 joints, Length: 368 ft
+Top Thread 4.5IF S/No: RIG
+S/No: 439 ft from top to Bit
+MONEL, Length: 28 ft
+Top Thread 4.5IF S/No: DR9901
+S/No: 71 ft from top to Bit
+STAB, Length: 5 ft
+Top Thread 4.5IF S/No: 650946
+OTHER, Length: 3 ft
+Top Thread 4.5IF S/No: 6751447
+MMTR, Length: 34 ft
+Top Thread 4.5IF S/No: GGDS
+S/No: 36 ft from top to Bit
+BIT, Length: 1 ft
+Top Thread 4.5REG S/No: A275803
+S/No: 1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, top thread type, serial number, and position from the top to the bit.",data\processed\D08\figures\D08_p51_0.png,37.185625076293945
+D08_p52_0,D08,56-32,52,raster,Figure 27: 8-3/4 in. BHA #11 used with bit #11,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,164.04 ft"", ""HWDP Length = 730 ft"", ""DC Length = 368 ft"", ""MONEL Length = 27 ft"", ""STAB Length = 5 ft"", ""OTHER Length = 3 ft"", ""MMTR Length = 30 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No.: 11 BHA Length (ft): 1,164.04 Date In: 21-Feb-21 05:00 Depth In (ft): 7,207
+Date Out: 21-Feb-21 11:00 Depth Out (ft): 7,620
+HWDP, 24 joints, Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No.: RIG
+1,164 ft from top to Bit
+DC, 12 joints, Length: 368 ft
+6.500 ins, 2.875 ins
+Top Thread 4.5IF
+S/No.: RIG
+434 ft from top to Bit
+MONEL, Length: 27 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No.: DR9901
+65 ft from top to Bit
+STAB, Length: 5 ft
+6.625 ins, 2.813 ins
+Top Thread 4.5IF
+NMSTAB
+OTHER, Length: 3 ft
+6.813 ins, 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 30 ft
+7.000 ins
+Top Thread 4.5IF
+S/No.: BPPB5700-0050
+31 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins
+Top Thread 4.5REG
+S/No.: a276121
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and position from the top to the bit.",data\processed\D08\figures\D08_p52_0.png,43.75724148750305
+D08_p53_0,D08,56-32,53,raster,Figure 28: 8-3/4 in. BHA #12 used with bit #12,well_log,,,,"[{""name"": ""BHA No"", ""unit"": ""number"", ""trend"": null}, {""name"": ""BHA Length (ft)"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""Date In"", ""unit"": ""date and time"", ""trend"": null}, {""name"": ""Depth In (ft)"", ""unit"": ""feet"", ""trend"": null}, {""name"": ""Date Out"", ""unit"": ""date and time"", ""trend"": null}, {""name"": ""Depth Out (ft)"", ""unit"": ""feet"", ""trend"": null}]",[],"[""BHA No = 12"", ""BHA Length (ft) = 1,182.64 feet"", ""Date In = 21-Feb-21 18:00"", ""Depth In (ft) = 7,620 feet"", ""Date Out = 22-Feb-21 08:00"", ""Depth Out (ft) = 7,620 feet""]",chart,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 12 BHA Length (ft): 1,182.64 Date In: 21-Feb-21 18:00 Depth In (ft): 7,620
+Date Out: 22-Feb-21 08:00 Depth Out (ft): 7,620
+","The figure is a BHA Graphical Report for Well ID Forge 56-32 in the UTAHFORGE field. It details the configuration of Bottom Hole Assembly (BHA) number 12 used with bit number 12. The report includes the length and depth information for each component from top to bottom, including drill pipe sections, drill collars, reamers, and other components. The BHA is set in place on February 21 at 6 PM and removed on February 22 at 8 AM.",data\processed\D08\figures\D08_p53_0.png,28.62904691696167
+D08_p54_0,D08,56-32,54,raster,Figure 29: 8-3/4 in. BHA #13 used with bit #11,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""JAR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""RR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,150.72 ft"", ""HWDP Length = 730 ft"", ""JAR Length = 33 ft"", ""DC Length = 31 ft"", ""RR Length = 7 ft"", ""STAB Length = 5 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Range: 9W County: Beaver State: UT
+BHA No.: 13 BHA Length (ft): 1,150.72 Date In: 23-Feb-21 00:00 Depth In (ft): 7,627
+Date Out: 23-Feb-21 09:00 Depth Out (ft): 7,662
+HWDP, 24 joints. Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Rig
+1,151 ft from top to Bit
+JAR, Length: 33 ft
+6.500 ins, 3.000 ins
+Top Thread 4.5IF
+420 ft from top to Bit
+DC, 10 joints. Length: 307 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Rig
+387 ft from top to Bit
+RR, Length: 7 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Eaver
+80 ft from top to Bit
+DC, Length: 31 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Rig
+74 ft from top to Bit
+RR, Length: 7 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Eaver
+43 ft from top to Bit
+DC, Length: 31 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Rig
+36 ft from top to Bit
+STAB, Length: 5 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: Eaver
+6 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins
+Top Thread 4.5REG
+Bit 12 Run 2
+S/No: A276121
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), JAR (Jointed Assembly Ring), DC (Drill Collar), RR (Reduction Ring), STAB (Stabilizer), and BIT (Bit). Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit. The report also includes the date of insertion and removal, as well as the depth at which these operations occurred.",data\processed\D08\figures\D08_p54_0.png,48.691590309143066
+D08_p55_0,D08,56-32,55,raster,Figure 30: 8-3/4 in. BHA #14 used with bit #13,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,227.95 ft"", ""HWDP Length = 730 ft"", ""DC Length = 433 ft"", ""MONEL Length = 27 ft"", ""STAB Length = 3 ft"", ""OTHER Length = 3 ft"", ""MMTR Length = 30 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 14 BHA Length (ft): 1,227.95 Date In: 24-Feb-21 07:30 Depth In (ft): 7,666
+Date Out: 26-Feb-21 03:00 Depth Out (ft): 8,900
+HWDP, 24 joints, Length: 730 ft
+5.000 ins., 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,228 ft from top to Bit
+DC, 12 joints, Length: 433 ft
+6.500 ins., 2.875 ins
+Top Thread 4.5IF
+S/No: RIG
+498 ft from top to Bit
+MONEL, Length: 27 ft
+6.500 ins., 3.250 ins
+Top Thread 4.5IF
+S/No: DR26583
+66 ft from top to Bit
+STAB, Length: 3 ft
+6.500 ins., 2.813 ins
+Top Thread 4.5IF
+NMSTAB
+OTHER, Length: 3 ft
+6.813 ins., 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 30 ft
+7.000 ins.
+Top Thread 4.5IF
+S/No: BPPB5700-0042
+31 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins.
+Top Thread 4.5REG
+S/No: A271437
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.",data\processed\D08\figures\D08_p55_0.png,42.74037003517151
+D08_p56_0,D08,56-32,56,raster,Figure 31: 8-3/4 in. BHA #15 used with bit #14,bha_schematic,,,,"[{""name"": ""HWDP"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""JAR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MONEL"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""STAB"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""OTHER"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""BHA Length = 1,202.18 ft"", ""HWDP Length = 730 ft"", ""JAR Length = 34 ft"", ""DC Length = 368 ft"", ""MONEL Length = 27 ft"", ""STAB Length = 5 ft"", ""OTHER Length = 3 ft"", ""MMTR Length = 34 ft"", ""BIT Length = 1 ft""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Section: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No: 15 BHA Length (ft): 1,202.18 Date In: 26-Feb-21 14:00 Depth In (ft): 8,900
+Date Out: 27-Feb-21 14:00 Depth Out (ft): 9,145
+HWDP, 24 joints, Length: 730 ft
+5.000 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: RIG
+1,202 ft from top to Bit
+JAR, Length: 34 ft
+6.500 ins, 3.000 ins
+Top Thread 4FH
+S/No: USKW13554349
+472 ft from top to Bit
+DC, 12 joints, Length: 368 ft
+6.500 ins, 2.875 ins
+Top Thread 4.5IF
+S/No: RIG
+438 ft from top to Bit
+MONEL, Length: 27 ft
+6.500 ins, 3.250 ins
+Top Thread 4.5IF
+S/No: DR26683
+70 ft from top to Bit
+STAB, Length: 5 ft
+6.500 ins, 2.813 ins
+Top Thread 4.5IF
+NMSTAB
+OTHER, Length: 3 ft
+6.813 ins, 3.250 ins
+Top Thread 4.5IF
+NMUBHO
+MMTR, Length: 34 ft
+7.000 ins
+Top Thread 4.5IF
+DISCOVERY
+S/No: 700DDS025
+36 ft from top to Bit
+BIT, Length: 1 ft
+8.750 ins
+Top Thread 4.5REG
+TKC813
+S/No: A276071
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), JAR (Joint Assembly Ring), DC (Drill Collar), MONEL, STAB, OTHER, MMTR (Measurement While Drilling Tool), and a BIT. Each component is detailed with its length in feet, internal diameter in inches, top thread type, serial number, and the distance from the top to the bit.",data\processed\D08\figures\D08_p56_0.png,47.348798513412476
+D08_p59_0,D08,56-32,59,raster,,table_image,,,,"[{""name"": ""Conditioning Data"", ""unit"": ""bbls"", ""trend"": null}, {""name"": ""Cement Data"", ""unit"": ""bbls"", ""trend"": null}, {""name"": ""Displacement Data"", ""unit"": ""bbls"", ""trend"": null}, {""name"": ""Calc. Displacement Vol"", ""unit"": ""bbls"", ""trend"": null}]","[""Volume (bbls) = 21"", ""Pump Time = 94 min"", ""Rate (bbls/min) = 5.0 bbls/min"", ""Pressure (psi) = 352 psi"", ""Density = 13.60 lbs/gal"", ""Yield = 1.73 sacks/bbl"", ""Sacks = 1870 sacks"", ""Volume = 576.2 bbls""]",[],label,"Cement Job Information
+Start Date/Time: 02-Mar-21 13:00
+Job Type: PRIMARY
+Well Section: PROD
+Cementing Co: Resource
+Wellbore: Original Wellbore
+String OD (ins): 5.500
+String Type: FULL
+Primary Job Detail
+Volume (bbls) Pump Time Rate (bbls/min) Pressure (psi)
+Conditioning Data: 		21	5.0	237
+Cement Data:	610.0	94	8.0	352
+Displacement Data:	27.0	5	5.0	6,200
+Calc. Displacement Vol:	27.0
+Reciprocate Pipe?	Batch Mix? 	Bump Plug?	Bump Pressure:
+Returns to Surface: NONE	Cement at Surface?
+Calc Top of Cement (ft): 3,200	Excess (%):	50.00%	Avg. Hole Size (ins): 8.750
+Slurry Information
+Type Density Yield Sacks Volume Rate Additives
+OTHER 	13.60 	1.73 	1870 	576.2 	RC-ThermaLite 50/50 G8. Economical High Strength Low Density Blend
+Post Job Information
+Liner Top Test (lbs/gal): 	Job Success?
+Actual Top of Cmt (ft): 	CBL Bond Quality:","The figure provides detailed information about a cement job in well 56-32. It includes the start date and time, job type, well section, and wellbore details. The primary job detail section lists volumes of conditioning data, cement data, displacement data, and calculated displacement volume along with corresponding pump times and rates. The slurry information specifies the density, yield, sacks used, and volume of the cement mixture, as well as additives used in the mix. Post-job information includes a liner top test result and job success status.",data\processed\D08\figures\D08_p59_0.png,36.0906982421875
+D08_p59_1,D08,56-32,59,raster,,table_image,,,,"[{""name"": ""SPACER"", ""unit"": ""lbs/gal"", ""trend"": null}, {""name"": ""CLASSC"", ""unit"": ""lbs/gal"", ""trend"": null}]","[""Density = 8.43 lbs/gal"", ""Density = 15.60 lbs/gal""]",[],label,"Cement Job Information
+Start Date/Time: 04-Mar-21 13:30
+Job Type: SECONDARY
+Well Section: PROD
+Cementing Co: Resource
+Secondary Job Details
+Remedial Type: ZONE
+No. of Attempts: 1
+Breakdown Pressure (psi): 
+Init. Injectn Pressure (psi): 
+Final Injectn Pressure (psi): 
+Init. Shut In Pressure (psi): 
+Hold Pressure (psi): 
+Bleed Back Volume (bbls): 
+Slurry Information
+Type Density Yield Sacks Volume Rate Additives
+SPACER 8.43 
+CLASSC 15.60 
+Post Job Information
+Liner Top Test (lbs/gal): 
+Actual Top of Cmt (ft): 0
+Misc. Comments: Pumped 25 bbl of Fresh water to stablish pressure and rate.
+Pumped 167 bbls of 15.6ppg Cement at a rate from 4 BPM to 1 BPM Shutdown, CP
+At 22:00 Hours verified TOP of Cement and Cement was at surface,
+","The figure provides detailed information about a secondary cement job in the original wellbore section of Well 56-32. The job started on March 4, 2021, at 1:30 PM with one attempt to remediate using zone breakdown pressure. Slurry information includes two types: SPACER and CLASSC, with densities of 8.43 lbs/gal and 15.60 lbs/gal respectively. The post-job information indicates that the job was successful (Yes) as no cement top was observed at the surface by 22:00 hours.",data\processed\D08\figures\D08_p59_1.png,27.063571214675903
+D08_p60_0,D08,56-32,60,raster,Figure 32: 5-1/2 in. Production casing cement pressure chart (primary job),time_vs_depth,,,,"[{""name"": ""Rate(bpm)"", ""unit"": ""bpm"", ""trend"": null}, {""name"": ""Pressure(psi)"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Density(ppg)"", ""unit"": ""ppg"", ""trend"": null}, {""name"": ""Volume(bbl)"", ""unit"": ""bbl"", ""trend"": null}]",[],[],chart,Rate(bpm),"The figure shows a production casing cement pressure chart for well 56-32. The x-axis represents time in hours and minutes, while the y-axis represents different parameters such as rate of penetration (bpm), pressure (psi), density (ppg), volume (bbl), and possibly other related drilling metrics.",data\processed\D08\figures\D08_p60_0.png,11.561208963394165
+D08_p60_1,D08,56-32,60,raster,Figure 33: 5-1/2 in. Production casing cement pressure chart (secondary job),time_vs_depth,,,,"[{""name"": ""Rate(bpm)"", ""unit"": null, ""trend"": null}, {""name"": ""Pressure(psi)"", ""unit"": null, ""trend"": null}, {""name"": ""Density(ppg)"", ""unit"": null, ""trend"": null}, {""name"": ""Volume(bbl)"", ""unit"": null, ""trend"": null}]",[],[],chart,Rate(bpm),The figure shows a rate of penetration over time in units of bits per minute.,data\processed\D08\figures\D08_p60_1.png,7.8140809535980225
+D08_p61_0,D08,56-32,61,raster,Figure 34: Permanent final wellhead,directional_plot,,,,"[{""name"": ""3-1/8\"" API 6A 2000 psi valve"", ""unit"": null, ""trend"": null}, {""name"": ""7-1/16\"" API 6A 2000 psi x 3-1/8\"" API 6A 2000 psi adapter flange"", ""unit"": null, ""trend"": null}, {""name"": ""7-1/16\"" API 6A, 2000 psi x 5-1/2\"" SOW Flange"", ""unit"": null, ""trend"": null}, {""name"": ""2-1/16\"" Thread-on, with 2\"" 2000 API 6A valve with 2\"" 600 valve"", ""unit"": null, ""trend"": null}, {""name"": ""5-1/2\"", 17#, L-80, BTC"", ""unit"": null, ""trend"": null}, {""name"": ""9-5/8\"", 36#, J-55, LTC Casing"", ""unit"": null, ""trend"": null}, {""name"": ""13-3/8\"", 54.5#, J-55, BTC Casing"", ""unit"": null, ""trend"": null}, {""name"": ""20\"", 94#, J-55 BTC Conductor"", ""unit"": null, ""trend"": null}]",[],"[""<API 6A pressure> = 2000 psi"", ""<valve size> = 3-1/8\"""", ""<adapter flange size> = 7-1/16\"" x 3-1/8\"""", ""<SOW Flange size> = 5-1/2\"""", ""<thread-on valve size> = 2\"""", ""<BTC size> = 5-1/2\"""", ""<LTC Casing size> = 9-5/8\"""", ""<BTC Casing size> = 13-3/8\"""", ""<BTC Conductor size> = 20\""""]",chart,"Figure 34: Permanent final wellhead
+56-32
+Permanent Wellhead
+Drawn by GRG May 2021 - Not to scale","The figure illustrates the permanent wellhead assembly for well 56-32. It includes various components such as valves, flanges, and casing sections. The wellhead is designed with multiple pressure ratings (API 6A) and specific sizes in inches.",data\processed\D08\figures\D08_p61_0.png,28.40064024925232
+D08_p62_0,D08,56-32,62,raster,Figure 35: 4-3/4 in. BHA #16 to clean-out cement inside 5-1/2 in. casing,bha_schematic,,,,"[{""name"": ""DC"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""XO"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""MMTR"", ""unit"": ""ft"", ""trend"": null}, {""name"": ""BIT"", ""unit"": ""ft"", ""trend"": null}]","[""MSE = 0"", ""ROP = 0 ft/min"", ""WOB = 0 lb"", ""BHA Length (ft) = 193.27"", ""Date In = 05-Mar-21 06:00"", ""Depth In (ft) = 731"", ""Date Out = 05-Mar-21 16:30"", ""Depth Out (ft) = 1,709""]",[],label,"BHA Graphical Report
+Well ID: Forge 56-32
+Field: UTAHFORGE
+Sect: 32 Town: 26S Rng: 9W County: Beaver State: UT
+BHA No.: 16 BHA Length (ft): 193.27 Date In: 05-Mar-21 06:00 Depth In (ft): 731
+Date Out: 05-Mar-21 16:30 Depth Out (ft): 1,709
+DC, Length: 178 ft
+4.000 ins, 2.125 ins
+Top Thread OTHER
+153 ft from top to Bit
+XO, Length: 1 ft
+4.000 ins, 2.125 ins
+Top Thread OTHER
+16 ft from top to Bit
+MMTR, Length: 14 ft
+4.000 ins
+Top Thread OTHER
+15 ft from top to Bit
+BIT, Length: 1 ft
+4.750 ins
+Top Thread OTHER
+S/No: J35057
+1 ft from top to Bit","The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of several components including DC (Drill Collar), XO (X-Over Joint), MMTR (Motor), and BIT (Bit). The report details the length and thread specifications of each component as well as their position relative to the bit tip.",data\processed\D08\figures\D08_p62_0.png,30.33855652809143
+D08_p63_0,D08,56-32,63,raster,Figure 36: Wireline logging tool used in 56-32,,,,,[],[],[],,,,data\processed\D08\figures\D08_p63_0.png,243.98341393470764
+D08_p64_0,D08,56-32,64,raster,Figure 37: MSE Formulas (Harold Vance Department of Petroleum Engineering. Texas A&M University),equipment_diagram,,,,"[{""name"": ""MSETotal"", ""unit"": ""dimensionless"", ""trend"": null}, {""name"": ""Axial Work"", ""unit"": ""dimensionless"", ""trend"": null}, {""name"": ""String Rotational Work"", ""unit"": ""dimensionless"", ""trend"": null}, {""name"": ""Bit Rotational Work"", ""unit"": ""dimensionless"", ""trend"": null}]","[""MSETotal = \frac{4WOB}{\text{\textpi}D^2}"", ""MSETotal = \frac{480(TORSurf - TORmm)RPMSurf}{D^2(ROP)}"", ""MSETotal = \frac{480TORmm RPMmm}{D^2(ROP)}"", ""MSETotal = \frac{4WOB_{Surf}}{\text{\textpi}D^2}"", ""MSETotal = \frac{480TORSurf RPMSurf}{D^2(ROP)}"", ""MSETotal = \frac{480(K_t \triangle P)(Kn Q)}{D^2(ROP)}"", ""MSETotal = \frac{4WOB_{MWD}}{\text{\textpi}D^2}"", ""MSETotal = \frac{480TORSurf RPMSurf}{D^2(ROP)}"", ""MSETotal = \frac{480TOR_{MWD} RPM_{MWD}}{D^2(ROP)}""]",[],label,"MSETotal = Axial Work + String Rotational Work + Bit Rotational Work
+MSETotal = rac{4WOB}{	ext{	extpi}D^2} + rac{480(TORSurf - TORmm)RPMSurf}{D^2(ROP)} + rac{480TORmm RPMmm}{D^2(ROP)}
+For motor applications this simplifies to:
+MSETotal = rac{4WOB_{Surf}}{	ext{	extpi}D^2} + rac{480TORSurf RPMSurf}{D^2(ROP)} + rac{480(K_t 	riangle P)(Kn Q)}{D^2(ROP)}
+For MWD applications this simplifies to:
+MSETotal = rac{4WOB_{MWD}}{	ext{	extpi}D^2} + rac{480TORSurf RPMSurf}{D^2(ROP)} + rac{480TOR_{MWD} RPM_{MWD}}{D^2(ROP)}","The figure provides formulas for calculating the total mechanical specific energy (MSETotal) in drilling operations. It breaks down MSE into three components: axial work, string rotational work, and bit rotational work. The formulas are given for general applications, motor applications, and MWD (Measurement While Drilling) applications. Each formula includes terms related to weight on bit (WOB), torque at the surface (TORSurf or TORmm), rotational speed (RPMSurf or RPMmm), drill collar diameter squared divided by rate of penetration (D^2(ROP)), and additional parameters for motor and MWD applications.",data\processed\D08\figures\D08_p64_0.png,39.23713183403015
+D08_p65_0,D08,56-32,65,raster,Figure 38: MSE monitored parameters while drilling the 17-1/2 in. hole section (Bit # 1),time_vs_depth,,,,"[{""name"": ""DAS MSE"", ""unit"": ""(ksi)"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""(kft-lbf)"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""(ft/hr)"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""(klbs)"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""(psi)"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""(in)"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""(RPM)"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""(kft-lbf)"", ""trend"": null}]",[],"[""DAS MSE = 0.00 (ksi)"", ""Convertible Torque = 0.00 (kft-lbf)"", ""On Bottom ROP = 0.00 (ft/hr)"", ""Weight on Bit = 3.0 (klbs)"", ""Differential Pressure = 0.00 (psi)"", ""Depth of Cut = 10.00 (in)"", ""Bit RPM = 200 (RPM)"", ""Bit Torque = 2 (kft-lbf)""]",chart,"The figure is a multi-line graph showing various drilling parameters over depth. The axes are labeled as follows: the vertical axis represents 'DEPTH FT' and the horizontal axis shows time in hours, minutes, and seconds. The legend indicates different colored lines representing various parameters such as DAS MSE (Mechanical Specific Energy), Convertible Torque, On Bottom ROP (Rate of Penetration), Weight on Bit, Differential Pressure, Depth of Cut, Bit RPM (Rotary Per Minute), and Bit Torque.","The figure provides a detailed view of the drilling process parameters over depth. It shows how these parameters change with time as the well is drilled deeper into the formation. The graph helps in understanding the performance of the drilling operation by tracking changes in mechanical specific energy, torque, rate of penetration, and other critical factors.",data\processed\D08\figures\D08_p65_0.png,24.98801350593567
+D08_p66_0,D08,56-32,66,raster,Figure 39: MSE monitored parameters while drilling the 12-1/4 in. hole section (Bit # 3),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""kN"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""kN-m"", ""trend"": null}, {""name"": ""On Board ROP"", ""unit"": ""m/min"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""kN-m"", ""trend"": null}]",[],"[""MSE Total = 200.00 Units"", ""Weight on Bit = 40.0 kN"", ""Convertible Torque = 50.00 kN-m"", ""On Board ROP = 1000.00 m/min"", ""Differential Pressure = 1000.00 psi"", ""Bit RPM = 200 RPM"", ""Bit Torque = 2 kN-m""]",chart,"The figure is a multi-axis plot showing various drilling parameters over time and depth. The axes are labeled as follows: Depth FT, MSE Total (Units), Weight on Bit (kN), Convertible Torque (kN-m), On Board ROP (m/min), Differential Pressure (psi), Bit RPM (RPM), and Bit Torque (kN-m). There is no machine-readable text within the figure area.","The plot displays drilling performance metrics such as mechanical specific energy, weight on bit, torque, rate of penetration, differential pressure, and other operational parameters. The data points are plotted against depth in feet and time in hours:minutes format. The curves show fluctuations over time which can be indicative of changes in drilling conditions or issues encountered during the operation.",data\processed\D08\figures\D08_p66_0.png,24.58926558494568
+D08_p67_0,D08,56-32,67,raster,Figure 40: MSE monitored parameters while drilling the 12-1/4 in. hole section (Bit # 4),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""(Units)"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""(kl-lbf)"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""(in)"", ""trend"": null}, {""name"": ""Weight on Bit (WOB)"", ""unit"": ""(klbs)"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""(ft/hr)"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""(psi)"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""(RPM)"", ""trend"": null}]",[],"[""MSE Total = 0.00 (Units)"", ""Convertible Torque = 0.00 (kl-lbf)"", ""Depth of Cut = 0.00 (in)"", ""Weight on Bit (WOB) = 40.0 (klbs)"", ""On Bottom ROP = 0.00 (ft/hr)"", ""Differential Pressure = 0.00 (psi)"", ""Bit RPM = 150.00 (RPM)""]",chart,"The figure shows a drilling log with various parameters monitored during the drilling of an 12-1/4 inch hole section. The depth is measured in feet and ranges from approximately 3300 to 3500 ft. The time is displayed on the left side, starting at 23:25 on February 10, 2021, and ending at 00:41 on February 11, 2021.","The figure provides a detailed view of drilling performance metrics such as MSE Total, Convertible Torque, Depth of Cut, Weight on Bit (WOB), On Bottom ROP (Rate of Penetration), Differential Pressure, and Bit RPM. The curves for each parameter are plotted against depth in feet.",data\processed\D08\figures\D08_p67_0.png,24.755629301071167
+D08_p68_0,D08,56-32,68,raster,Figure 41: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 6),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""(kf-lbf)"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""(ft/hr)"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""(psi)"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""(in)"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""(RPM)"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""(kf-lbf)"", ""trend"": null}]",[],"[""MSE Total = 200.00 Units"", ""Weight on Bit = 40.00 klbs"", ""Rotary RPM = 150.00 RPM"", ""Convertible Torque = 50.00 (kf-lbf)"", ""On Bottom ROP = 1000.00 (ft/hr)"", ""Differential Pressure = 1000.00 (psi)"", ""Depth of Cut = 2.00 (in)"", ""Bit RPM = 300.00 (RPM)"", ""Bit Torque = 1.00 (kf-lbf)""]",chart,"The figure is a multi-line graph showing various drilling parameters over time. The x-axis represents depth in feet, and the y-axis shows different drilling metrics such as MSE Total, Weight on Bit, Rotary RPM, Convertible Torque, On Bottom ROP (Rate of Penetration), Differential Pressure, Depth of Cut, Bit RPM, and Bit Torque.","The figure provides a detailed view of the drilling process for well 56-32. It shows how various parameters change as depth increases. The MSE Total is represented by red lines, Weight on Bit in blue, Rotary RPM in green, Convertible Torque and On Bottom ROP are shown with orange and purple lines respectively, Differential Pressure in yellow, Depth of Cut in pink, Bit RPM in light blue, and Bit Torque in dark blue.",data\processed\D08\figures\D08_p68_0.png,28.573012351989746
+D08_p69_0,D08,56-32,69,raster,Figure 42: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 7),time_vs_depth,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""kf-lbf"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""ft/hr"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""kf-lbf"", ""trend"": null}]",[],[],chart,MSE Total,"The figure shows the monitoring of various parameters while drilling an 8-3/4 inch hole section. The data is recorded over time, with depth in feet on the y-axis and time on the x-axis.",data\processed\D08\figures\D08_p69_0.png,13.868487358093262
+D08_p70_0,D08,56-32,70,raster,Figure 43: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 8),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""(Units)"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""(kl-lbf)"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""(in)"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""(klbs)"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""(ft/hr)"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""(psi)"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""(RPM)"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""(RPM)"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""(kl-lbf)"", ""trend"": null}]",[],"[""MSE Total = 0.00 (Units)"", ""Convertible Torque = 0.00 (kl-lbf)"", ""Depth of Cut = 0.00 (in)"", ""Weight on Bit = 40.0 (klbs)"", ""On Bottom ROP = 0.00 (ft/hr)"", ""Differential Pressure = 0.00 (psi)"", ""Rotary RPM = 150.0 (RPM)"", ""Bit RPM = 300.0 (RPM)"", ""Bit Torque = 1.0 (kl-lbf)""]",chart,"The figure shows a drilling log with various parameters monitored during the drilling of an 8-3/4 inch hole section. The x-axis represents depth in feet, and the y-axis represents time in hours. The following series are present: MSE Total (red), Convertible Torque (orange), Depth of Cut (pink), Weight on Bit (blue), On Bottom ROP (purple), Differential Pressure (green), Rotary RPM (brown), Bit RPM (yellow), and Bit Torque (gray).","The figure provides a detailed view of the drilling process, highlighting how different parameters such as torque, rate of penetration, and pressure change with depth. The MSE Total is shown in red, indicating mechanical specific energy, which is crucial for understanding the efficiency of the drilling operation.",data\processed\D08\figures\D08_p70_0.png,27.128904342651367
+D08_p71_0,D08,56-32,71,raster,Figure 44: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 9),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""klbf"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""ft/hr"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""in"", ""trend"": null}]",[],"[""MSE Total = 0.00 Units"", ""Convertible Torque = 50.00 klbf"", ""On Bottom ROP = 1000.00 ft/hr"", ""Differential Pressure = 0 psi"", ""Bit RPM = 300 RPM"", ""Weight on Bit = 40.0 klbs"", ""Rotary RPM = 150.00 RPM"", ""Depth of Cut = 2.00 in""]",chart,"The figure shows a drilling log with various parameters monitored during the drilling of an 8-3/4 inch hole section. The data is recorded at different times and depths, indicating changes in mechanical specific energy (MSE), convertible torque, rate of penetration (ROP), differential pressure, bit RPM, weight on bit (WOB), depth of cut, and other related parameters.","The figure provides a detailed view of the drilling process for well 56-32. It captures changes in various operational metrics such as MSE, torque, ROP, and WOB over time and depth. This information is crucial for understanding the efficiency and effectiveness of the drilling operation.",data\processed\D08\figures\D08_p71_0.png,24.1796612739563
+D08_p72_0,D08,56-32,72,raster,Figure 45: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 10),time_vs_depth,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""klf-lbf"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""ft/hr"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""in"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""klf-lbf"", ""trend"": null}]",[],[],chart,MSE Total,"The figure shows the monitoring of various parameters while drilling an 8-3/4 inch hole section. The data is recorded over a period from February 18, 2021 to February 20, 2021.",data\processed\D08\figures\D08_p72_0.png,15.064613342285156
+D08_p73_0,D08,56-32,73,raster,Figure 46: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 11),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""kft-lbf"", ""trend"": null}, {""name"": ""Weight on Bit"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""(ft/hr)"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Bit RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""in."", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""kft-lbf"", ""trend"": null}]",[],"[""MSE Total = 0.00 Units"", ""Convertible Torque = 50.00 kft-lbf"", ""Weight on Bit = 100.00 klbs"", ""On Bottom ROP = 350.00 ft/hr"", ""Differential Pressure = 1000.00 psi"", ""Bit RPM = 300 RPM"", ""Depth of Cut = 0.50 in."", ""Bit Torque = 1 kft-lbf""]",chart,"The figure is a multi-line graph showing various drilling parameters over time and depth. The axes are labeled as follows: the vertical axis represents Depth FT, with values ranging from 0 to 7650 feet; the horizontal axis represents Time, starting at February 21, 2021, and ending on February 23, 2021. The graph includes several series representing different drilling parameters such as MSE Total (Mechanical Specific Energy), Convertible Torque, Weight on Bit, On Bottom ROP (Rate of Penetration), Differential Pressure, Bit RPM (Rotary RPM), Depth of Cut, and Bit Torque.","The figure provides a detailed view of the drilling process for well 56-32. It shows how various parameters such as mechanical specific energy, torque, weight on bit, rate of penetration, differential pressure, and other operational metrics change with depth and time during the drilling operation. This data is crucial for understanding the performance of the drill string and identifying any anomalies or changes in drilling conditions.",data\processed\D08\figures\D08_p73_0.png,28.15955352783203
+D08_p74_0,D08,56-32,74,raster,Figure 47: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 13),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""kl-lbf"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""in."", ""trend"": null}, {""name"": ""Weight on Bit (WOB)"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""ft/hr"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""kl-lbf"", ""trend"": null}]",[],"[""MSE Total = 0.00 Units"", ""Convertible Torque = 0.00 kl-lbf"", ""Depth of Cut = 0.00 in."", ""Weight on Bit (WOB) = 100.0 klbs"", ""On Bottom ROP = 350.0 ft/hr"", ""Differential Pressure = 1000.0 psi"", ""Rotary RPM = 150.0 RPM"", ""Bit Torque = 1 kl-lbf""]",chart,"The figure shows a drilling log for well 56-32, specifically monitoring the parameters while drilling an 8-3/4 inch hole section. The log includes various drilling metrics such as MSE Total, Convertible Torque, Depth of Cut, Weight on Bit (WOB), On Bottom ROP (Rate of Penetration), Differential Pressure, Rotary RPM, and Bit Torque.","The figure provides a detailed view of the drilling process over time. It captures changes in various parameters such as depth, weight applied to the bit, rate of penetration, torque, and pressure during different stages of drilling. The data is plotted against time on the x-axis and depth (in feet) on the y-axis.",data\processed\D08\figures\D08_p74_0.png,25.446009635925293
+D08_p75_0,D08,56-32,75,raster,Figure 48: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 14),drilling_parameter_chart,,,,"[{""name"": ""MSE Total"", ""unit"": ""Units"", ""trend"": null}, {""name"": ""Convertible Torque"", ""unit"": ""kl-lbf"", ""trend"": null}, {""name"": ""Depth of Cut"", ""unit"": ""in."", ""trend"": null}, {""name"": ""Weight on Bit (WOB)"", ""unit"": ""klbs"", ""trend"": null}, {""name"": ""On Bottom ROP"", ""unit"": ""ft/hr"", ""trend"": null}, {""name"": ""Rotary RPM"", ""unit"": ""RPM"", ""trend"": null}, {""name"": ""Differential Pressure"", ""unit"": ""psi"", ""trend"": null}, {""name"": ""Bit Torque"", ""unit"": ""kl-lbf"", ""trend"": null}]",[],"[""MSE Total = 200.00 Units"", ""Convertible Torque = 50.00 kl-lbf"", ""Depth of Cut = 0.50 in."", ""Weight on Bit (WOB) = 100.00 klbs"", ""On Bottom ROP = 350.00 ft/hr"", ""Rotary RPM = 150.00 RPM"", ""Differential Pressure = 1000.00 psi"", ""Bit Torque = 1 kl-lbf""]",chart,MSE Total,"The figure shows a drilling log for well 56-32, specifically the 8-3/4 inch hole section. It includes various parameters monitored during drilling such as MSE total, convertible torque, depth of cut, weight on bit (WOB), rate of penetration (ROP), rotary RPM, differential pressure, and bit torque.",data\processed\D08\figures\D08_p75_0.png,22.024953365325928
+D09_p11_0,D09,78B-32,11,full_page,,drilling_parameter_chart,,,,"[{""name"": ""hook_load_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""wob_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""rpm"", ""unit"": null, ""trend"": null}, {""name"": ""torque_kftlb"", ""unit"": null, ""trend"": null}, {""name"": ""rop_ft_hr"", ""unit"": null, ""trend"": null}, {""name"": ""flow_pct"", ""unit"": null, ""trend"": null}, {""name"": ""on_bottom_hours"", ""unit"": null, ""trend"": null}, {""name"": ""circulating_hours"", ""unit"": null, ""trend"": null}, {""name"": ""mud_volume_bbl"", ""unit"": null, ""trend"": null}]",[],[],replaced,,"Pason drilling-parameter time log, page 11. Curves: hook_load_klbs, wob_klbs, rpm, torque_kftlb, rop_ft_hr, flow_pct, on_bottom_hours, circulating_hours, mud_volume_bbl. Values are in table chart_readings.",data\processed\D09\figures\D09_p11_0.png,40.6023645401001
+D09_p151_0,D09,78B-32,151,full_page,,drilling_parameter_chart,,,,"[{""name"": ""hook_load_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""wob_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""rpm"", ""unit"": null, ""trend"": null}, {""name"": ""torque_kftlb"", ""unit"": null, ""trend"": null}, {""name"": ""rop_ft_hr"", ""unit"": null, ""trend"": null}, {""name"": ""flow_pct"", ""unit"": null, ""trend"": null}, {""name"": ""on_bottom_hours"", ""unit"": null, ""trend"": null}, {""name"": ""circulating_hours"", ""unit"": null, ""trend"": null}, {""name"": ""mud_volume_bbl"", ""unit"": null, ""trend"": null}]",[],[],replaced,,"Pason drilling-parameter time log, page 151. Curves: hook_load_klbs, wob_klbs, rpm, torque_kftlb, rop_ft_hr, flow_pct, on_bottom_hours, circulating_hours, mud_volume_bbl. Values are in table chart_readings.",data\processed\D09\figures\D09_p151_0.png,35.75090527534485
+D09_p1_0,D09,78B-32,1,full_page,,drilling_parameter_chart,,,,"[{""name"": ""hook_load_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""wob_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""rpm"", ""unit"": null, ""trend"": null}, {""name"": ""torque_kftlb"", ""unit"": null, ""trend"": null}, {""name"": ""rop_ft_hr"", ""unit"": null, ""trend"": null}, {""name"": ""flow_pct"", ""unit"": null, ""trend"": null}, {""name"": ""on_bottom_hours"", ""unit"": null, ""trend"": null}, {""name"": ""circulating_hours"", ""unit"": null, ""trend"": null}, {""name"": ""mud_volume_bbl"", ""unit"": null, ""trend"": null}]",[],[],replaced,,"Pason drilling-parameter time log, page 1. Curves: hook_load_klbs, wob_klbs, rpm, torque_kftlb, rop_ft_hr, flow_pct, on_bottom_hours, circulating_hours, mud_volume_bbl. Values are in table chart_readings.",data\processed\D09\figures\D09_p1_0.png,33.68635630607605
+D09_p61_0,D09,78B-32,61,full_page,,drilling_parameter_chart,,,,"[{""name"": ""hook_load_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""wob_klbs"", ""unit"": null, ""trend"": null}, {""name"": ""rpm"", ""unit"": null, ""trend"": null}, {""name"": ""torque_kftlb"", ""unit"": null, ""trend"": null}, {""name"": ""rop_ft_hr"", ""unit"": null, ""trend"": null}, {""name"": ""flow_pct"", ""unit"": null, ""trend"": null}, {""name"": ""on_bottom_hours"", ""unit"": null, ""trend"": null}, {""name"": ""circulating_hours"", ""unit"": null, ""trend"": null}, {""name"": ""mud_volume_bbl"", ""unit"": null, ""trend"": null}]",[],[],replaced,,"Pason drilling-parameter time log, page 61. Curves: hook_load_klbs, wob_klbs, rpm, torque_kftlb, rop_ft_hr, flow_pct, on_bottom_hours, circulating_hours, mud_volume_bbl. Values are in table chart_readings.",data\processed\D09\figures\D09_p61_0.png,21.676571369171143
+D10_p13_0,D10,78B-32,13,full_page,,mud_log,,,,"[{""name"": ""WOB"", ""unit"": ""k"", ""trend"": null}, {""name"": ""RPM"", ""unit"": """", ""trend"": null}, {""name"": ""PP"", ""unit"": ""0"", ""trend"": null}, {""name"": ""SPM"", ""unit"": ""/0/98"", ""trend"": null}]",[],"[""WOB = 59 k"", ""RPM = 31"", ""PP = 2300"", ""SPM = 99/0/98""]",chart,"slide
+rotate
+WOB 59k
+RPM 31
+PP 2300
+SPM 99/0/98
+slide
+rotate","The figure appears to be a mud log from well 78B-32, page 13. It includes various drilling parameters such as weight on bit (WOB), revolutions per minute (RPM), and standpipe pressure (PP). The text also mentions 'slide' and 'rotate', which might indicate specific drilling techniques or equipment movements.",data\processed\D10\figures\D10_p13_0.png,17.479730367660522
+D10_p21_0,D10,78B-32,21,full_page,,mud_log,,,,"[{""name"": ""WOB"", ""unit"": ""k"", ""trend"": null}, {""name"": ""RPM"", ""unit"": """", ""trend"": null}, {""name"": ""PP"", ""unit"": ""95/96"", ""trend"": null}, {""name"": ""SPM"", ""unit"": """", ""trend"": null}]",[],"[""WOB = 41 k"", ""RPM = 50"", ""PP = 2569"", ""SPM = 0/95/96""]",chart,"WOB 41k
+RPM 50
+PP 2569
+SPM 0/95/96","The figure appears to be a mud log from well 78B-32, page 21. It includes data points for weight on bit (WOB), revolutions per minute (RPM), pump pressure (PP), and surface pump rate (SPM). The text also mentions 'no losses' at certain depths.",data\processed\D10\figures\D10_p21_0.png,15.999507188796997
+D10_p3_0,D10,78B-32,3,full_page,,mud_log,,,,"[{""name"": ""WOB"", ""unit"": null, ""trend"": null}, {""name"": ""RPM"", ""unit"": null, ""trend"": null}, {""name"": ""PP"", ""unit"": null, ""trend"": null}, {""name"": ""SPM"", ""unit"": null, ""trend"": null}, {""name"": ""ROP"", ""unit"": null, ""trend"": null}]",[],"[""WOB = 6k"", ""RPM = 47"", ""PP = 2200"", ""SPM = 131/0/122"", ""ROP = 80"", ""WOB = 2k"", ""RPM = 77"", ""PP = 2320"", ""SPM = 122/0/123""]",chart,"WOB 6k
+RPM 47
+PP 2200
+SPM 131/0/122
+ROP 80
+WOB 2k
+RPM 77
+PP 2320
+SPM 122/0/123","The figure is a mud log from well 78B-32, page 3. It provides drilling data such as weight on bit (WOB), revolutions per minute (RPM), pump pressure (PP), and standpipe pressure (SPM). The ROP values are also shown for different sections of the borehole.",data\processed\D10\figures\D10_p3_0.png,19.33235454559326
+D10_p6_0,D10,78B-32,6,full_page,,mud_log,,,,"[{""name"": ""WOB"", ""unit"": ""k"", ""trend"": null}, {""name"": ""RPM"", ""unit"": ""100"", ""trend"": null}, {""name"": ""ROP"", ""unit"": ""400"", ""trend"": null}, {""name"": ""SDM"", ""unit"": ""112/0/111"", ""trend"": null}]",[],"[""WOB = 10k k"", ""RPM = 100 100"", ""ROP = 400 400"", ""SDM = 112/0/111""]",chart,"WOB 10k
+RPM 100
+ROP 400
+SDM 112/0/111
+WOB 80
+ROP 0
+SDM 112/0/111
+WOB 10k
+RPM 100
+ROP 2480
+SDM 112/0/111
+WOB 80
+ROP 0
+SDM 112/0/111
+WOB 10k
+RPM 100
+ROP 400
+SDM 112/0/111
+WOB 80
+ROP 0
+SDM 112/0/111
+WOB 26k
+RPM 107
+ROP 2980
+SDM 122/0/120","The figure appears to be a mud log from well 78B-32, page 6. It includes various drilling parameters such as Weight on Bit (WOB), Rotational Speed (RPM), Rate of Penetration (ROP), and Specific Downhole Motor (SDM) data points.",data\processed\D10\figures\D10_p6_0.png,26.155771017074585

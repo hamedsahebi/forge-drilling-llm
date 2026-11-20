@@ -1,0 +1,432 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    20,
+    21,
+    22
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 171.9022660255432,
+    "prompt_tokens": 33097,
+    "output_tokens": 2494,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 12,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 0.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 3341.0,
+        "density_ppg": 8.7,
+        "funnel_viscosity_s": 39.0,
+        "pv_cp": 9.0,
+        "yp_lbf_100ft2": 10.0,
+        "ph": 10.5,
+        "chlorides_mg_l": 900.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "5",
+        "size_in": 10.625,
+        "manufacturer": "VAREL",
+        "bit_type": "VM-1",
+        "serial_number": null,
+        "depth_in_ft": 3009.0,
+        "depth_out_ft": 3009.0,
+        "wob_klbf": 10.0,
+        "rpm": 50.0,
+        "rop_ft_hr": 1.5
+      },
+      {
+        "bit_number": "6",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 3009.0,
+        "depth_out_ft": 3009.0,
+        "wob_klbf": null,
+        "rpm": 9.0,
+        "rop_ft_hr": 35.2
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 12,
+      "mapped": 10
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 8,
+      "report_date": "2021-07-04",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 3456.0,
+      "tvd_ft": 3009.0,
+      "footage_24h_ft": 447.0,
+      "hole_size_in": 10.625,
+      "current_operation": "Drilling 10 5/8\" hole section at 3,628'",
+      "planned_operation": "Drill 10 5/8\" hole section to 3,622'. Possibly trip to pick up conventional assembly with 1.5 deg motor due to build in angle."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 3341.0,
+        "density_ppg": 8.7,
+        "funnel_viscosity_s": 39.0,
+        "pv_cp": 9.0,
+        "yp_lbf_100ft2": 10.0,
+        "ph": 10.5,
+        "chlorides_mg_l": 900.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "5",
+        "size_in": 10.625,
+        "manufacturer": "VAREL",
+        "bit_type": "VM-1",
+        "serial_number": null,
+        "depth_in_ft": 3009.0,
+        "depth_out_ft": 3009.0,
+        "wob_klbf": 10.0,
+        "rpm": 50.0,
+        "rop_ft_hr": 0.0
+      },
+      {
+        "bit_number": "6",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 3009.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 35.2
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "RR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "FLOAT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 11,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 12,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "4:00",
+        "hours": 4.0,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up 5.5\" drill pipe from 740' to 2,900'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-34-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:00",
+        "end": "4:15",
+        "hours": 0.25,
+        "end_md_ft": 3009.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Lined up mud pumps and shakers. Filled pipe.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:15",
+        "end": "6:00",
+        "hours": 1.75,
+        "end_md_ft": 3009.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled out shoe track from 2,902' to 2,989'. Good cement in shoe track from 2,922’ to shoe. Observed 4’ off good cement outside of the shoe. Cleaned out rat hole from 2,989’ to 3,009'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-28",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "7:00",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "logging_survey",
+        "is_npt": false,
+        "description": "Perform FIT. Gradient of 0.61 psi/ft with EQM of 11.7 ppg",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-46",
+        "activity_source": "code"
+      },
+      {
+        "start": "7:00",
+        "end": "9:30",
+        "hours": 2.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "POH and lay down junk sub and bit. Junk basket had nine pieces of metal, small in size 0.5\" by .5\".",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "9:30",
+        "end": "10:00",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up Directional Tools and PDC",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:00",
+        "end": "11:00",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Repaired depth tracker in crown with Pason",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "11:00",
+        "end": "12:00",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up directional Tools and PDC",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:00",
+        "end": "12:30",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced Rig.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:30",
+        "end": "13:30",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Broke off TIW and saver sub / welded saver sub to TIW and reinstalled same.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "13:30",
+        "end": "16:00",
+        "hours": 2.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in hole to 3,009'. torqued every connection to 42K on 5.5\" drill pipe.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "TRPI",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "0:00",
+        "hours": 8.0,
+        "end_md_ft": 3456.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10 5/8\" section from 3,009' to 3,456'. Performed rotary step from 3,230' to 3,260'. Performed weight on bit step test from 3,265' to 3,291'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 3009.0,
+        "time": "10:00",
+        "description": "Repaired depth tracker in crown with Pason"
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 3009.0,
+        "time": "12:30",
+        "description": "Broke off TIW and saver sub / welded saver sub to TIW and reinstalled same."
+      }
+    ],
+    "summary": "The report details drilling activities from 04-Jul-21, including operations on the 10 5/8\" hole section and maintenance tasks such as repairing depth tracker and tripping in hole. No incidents or events were reported."
+  }
+}

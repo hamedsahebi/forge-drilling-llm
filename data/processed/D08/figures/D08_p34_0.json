@@ -1,0 +1,23 @@
+{
+  "doc_id": "D08",
+  "page": 34,
+  "bbox": [
+    99.4,
+    224.5,
+    512.6,
+    502.2
+  ],
+  "source": "raster",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p34_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 3,
+    "seconds": 47.75879716873169,
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+  },
+  "data": null
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "D08",
+  "page": 63,
+  "bbox": [
+    104.5,
+    270.7,
+    507.5,
+    624.7
+  ],
+  "source": "raster",
+  "caption": "Figure 36: Wireline logging tool used in 56-32",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p63_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 3,
+    "seconds": 243.98341393470764,
+    "prompt_tokens": 4387,
+    "output_tokens": 1500,
+    "error": "Unterminated string starting at: line 13 column 6 (char 2364)"
+  },
+  "data": null
+}

@@ -1,0 +1,142 @@
+{
+  "doc_id": "D04",
+  "well": "56-32",
+  "source": "56-32_DDR/DailyReportDetailRpt_210205202148.pdf",
+  "pages": [
+    1
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 51.95038175582886,
+    "prompt_tokens": 10149,
+    "output_tokens": 650,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 3,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "Water",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 129.0
+      },
+      {
+        "section": "Water",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 29.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 3,
+      "mapped": 1
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "56-32",
+      "report_number": 2,
+      "report_date": "2021-02-05",
+      "operator": "University of Utah",
+      "contractor": "Frontier",
+      "rig": "Frontier Spud Date: ",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 128.0,
+      "tvd_ft": 128.0,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": null,
+      "current_operation": "Safety meeting and initiating final rig up",
+      "planned_operation": "Rig up on Forge 16A"
+    },
+    "casing": [
+      {
+        "section": null,
+        "od_in": 20.0,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 129.0
+      }
+    ],
+    "mud": [],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "6:00",
+        "hours": 6.0,
+        "end_md_ft": 128.0,
+        "activity": "waiting",
+        "is_npt": true,
+        "description": "Wait on Day Light.",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "waiting",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "6:00",
+        "end": "18:00",
+        "hours": 12.0,
+        "end_md_ft": 128.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Set in place rig components and heavy loads, Draw works, A-Frame, Derrick and strung blocks. Raised derrick. Rigged up equipment.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "rig_up_down",
+        "activity_code": "RIGU",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:00",
+        "end": "0:00",
+        "hours": 6.0,
+        "end_md_ft": 128.0,
+        "activity": "waiting",
+        "is_npt": true,
+        "description": "Wait on Day Light.",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "waiting",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 128.0,
+        "time": "0:00",
+        "description": "Wait on Day Light."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 128.0,
+        "time": "18:00",
+        "description": "Wait on Day Light."
+      }
+    ],
+    "summary": "This report details the safety meeting conducted and the initiation of final rig up activities for well 56-32, with no incidents or events reported."
+  }
+}

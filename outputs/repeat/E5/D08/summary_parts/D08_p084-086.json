@@ -1,0 +1,51 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    84,
+    86
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 19.079848527908325,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "Seismic Monitoring Well 56-32",
+    "purpose": "Seismic Monitoring",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": null,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [
+      {
+        "section": "5-1/2 in. casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": null
+      }
+    ],
+    "bits": [],
+    "events": [
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": null,
+        "time": null,
+        "description": "Casing was reciprocated to regain circulation after suspected bridge in the annulus, which caused the Silixa cable to part in tension."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Displacement fluid could only be pumped for 27 bbls due to high pressure (~6,200 psi) reaching the limit of casing capacity."
+      }
+    ],
+    "lessons_learned": [
+      "If optic cable is installed, do not reciprocate casing.",
+      "Never reciprocate casing if fiber cable is installed on the OD of the casing.",
+      "If Silixa cable is installed, request an updated temperature profile during cementing procedures and adjust cement slurry accordingly."
+    ]
+  }
+}

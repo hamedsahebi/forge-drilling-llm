@@ -1,0 +1,77 @@
+{
+  "doc_id": "D08",
+  "page": 67,
+  "bbox": [
+    72.0,
+    106.2,
+    540.0,
+    580.3
+  ],
+  "source": "raster",
+  "caption": "Figure 40: MSE monitored parameters while drilling the 12-1/4 in. hole section (Bit # 4)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p67_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 24.755629301071167,
+    "prompt_tokens": 1500,
+    "output_tokens": 421
+  },
+  "data": {
+    "transcription": "The figure shows a drilling log with various parameters monitored during the drilling of an 12-1/4 inch hole section. The depth is measured in feet and ranges from approximately 3300 to 3500 ft. The time is displayed on the left side, starting at 23:25 on February 10, 2021, and ending at 00:41 on February 11, 2021.",
+    "description": "The figure provides a detailed view of drilling performance metrics such as MSE Total, Convertible Torque, Depth of Cut, Weight on Bit (WOB), On Bottom ROP (Rate of Penetration), Differential Pressure, and Bit RPM. The curves for each parameter are plotted against depth in feet.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE Total",
+        "unit": "(Units)",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "(kl-lbf)",
+        "trend": null
+      },
+      {
+        "name": "Depth of Cut",
+        "unit": "(in)",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit (WOB)",
+        "unit": "(klbs)",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "(ft/hr)",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "(psi)",
+        "trend": null
+      },
+      {
+        "name": "Bit RPM",
+        "unit": "(RPM)",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE Total = 0.00 (Units)",
+      "Convertible Torque = 0.00 (kl-lbf)",
+      "Depth of Cut = 0.00 (in)",
+      "Weight on Bit (WOB) = 40.0 (klbs)",
+      "On Bottom ROP = 0.00 (ft/hr)",
+      "Differential Pressure = 0.00 (psi)",
+      "Bit RPM = 150.00 (RPM)"
+    ]
+  }
+}

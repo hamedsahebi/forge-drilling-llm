@@ -1,0 +1,79 @@
+report_id,well,report_date,event_type,depth_ft,time,description
+D01_r001,16A(78)-32,2020-10-23,other,,06:00,No Activity. Wait on daylight.
+D01_r001,16A(78)-32,2020-10-23,other,,17:00,SDFN (Shut Down For Night)
+D03_r001,16A(78)-32,2021-01-08,other,,6:00,Clean Out Hole
+D03_r001,16A(78)-32,2021-01-08,other,,8:00,Trips
+D03_r001,16A(78)-32,2021-01-08,other,,12:00,Running Packer
+D03_r001,16A(78)-32,2021-01-08,other,,17:30,Step Down Test
+D04_r001,56-32,2021-02-05,other,128.0,0:00,Wait on Day Light.
+D04_r001,56-32,2021-02-05,other,128.0,18:00,Wait on Day Light.
+D07_r001,78B-32,2021-06-27,other,128.0,0:00,Wait on daylight.
+D07_r004,78B-32,2021-06-30,other,2232.0,11:00,Rig blacked out / cleaned #2 generator radiator due to overheating.
+D07_r004,78B-32,2021-06-30,other,2359.0,12:30,Rig Repair cleaned #1 generator radiator due to overheating.
+D07_r004,78B-32,2021-06-30,other,2399.0,14:00,Rig Repairs cleaned #3 generator radiator due to overheating.
+D07_r004,78B-32,2021-06-30,tight_hole,2699.0,22:00,"Pull out of the hole from 2,699' to 951'. Tight hole encountered from 2,351' to 1,799' 50-100k over string weight. Extended trip time due to tight connections and using rig tongs. Removed rotating rubber at 850'."
+D07_r005,78B-32,2021-07-01,bit_or_bha_failure,3009.0,15:30,After making a hook ROP dropped from 15'/hour to 0'/hour. Perform step test from 5K to 30K no ROP / No change in diff pressure and no pressure loss and no hook load change but found excessive amounts of metal on ditch magnet mix dry job.
+D07_r007,78B-32,2021-07-03,other,3009.0,11:30,"RIH with 5 stands of 5"" HWDP and 20 stands of 5"" DP / POH laying down DP and transporting to 16A for inspection / excessive over torque."
+D07_r007,78B-32,2021-07-03,tight_hole,3009.0,15:00,"RIH with same 5 stands of HWDP and remaining 18 stands of 5"" drill pipe / Laid down 54 joints of 5"" drill pipe and 15 joints of 5"" HWDP and transport to 16A for inspection / excessive over torque Note: When laying down 5"" DP every 3rd joint that had not been serviced (due to making only 2 trips) was extremely over torqued (55-70K) more than double max torque due to extreme drilling parameters. SD-80 unable to break so manual tongs were utilized teamed by 2 air tuggers to break the connection and ultimately had to go to a 4 part break line after the torque cylinder was destroyed."
+D07_r008,78B-32,2021-07-04,equipment_failure,3009.0,10:00,Repaired depth tracker in crown with Pason
+D07_r008,78B-32,2021-07-04,equipment_failure,3009.0,12:30,Broke off TIW and saver sub / welded saver sub to TIW and reinstalled same.
+D07_r010,78B-32,2021-07-06,other,5036.0,16:30,Serviced Rig
+D07_r010,78B-32,2021-07-06,equipment_failure,5036.0,17:00,Replaced stroke counter on # 2 mud pump
+D07_r011,78B-32,2021-07-07,bit_or_bha_failure,5761.0,7:30,"ROP dropped to 30%, POH for Bit"
+D07_r011,78B-32,2021-07-07,bit_or_bha_failure,5761.0,11:00,POH w/BHA / found 2 jets plugged with motor rubber and bit DBR'd.
+D07_r011,78B-32,2021-07-07,equipment_failure,5761.0,13:00,Slipped and Cut drilling line while waiting on Schlumberger tools to arrive.
+D07_r011,78B-32,2021-07-07,equipment_failure,5761.0,15:30,Serviced rig while waiting on Schlumberger tools to arrive.
+D07_r011,78B-32,2021-07-07,other,5761.0,16:00,"Picked up 5.5"" drill pipe and standing back in derrick while waiting on Schlumberger tools to arrive. Motor arrived on location at 19:10 HRS."
+D07_r012,78B-32,2021-07-08,other,5761.0,1:00,"Tripped in one stand to 3,030'. Circulate bottoms up to cool wellbore while waiting on electrician to arrive to troubleshoot issue with drawworks A traction motor. Max temperature observed at the flow line was 105 deg."
+D07_r012,78B-32,2021-07-08,equipment_failure,5761.0,2:00,"Tripped out of the hole from 2,946' to Surface. break out bit and swap motor from 1.5 deg, .111 rev to 1.25 deg .166 rev. Note: first motor arrived on location at 1915 HRS on 7-7. No paper work was provided with the motor when it arrived. Motor was made up and ran in the hole to 2,946'. Second motor arrived at 0100 HRS on 7-8. Once paper work was provided to the on-site GRG supervisor it was discovered that the first motor ran in the hole was a low speed high torque motor with a .111 rev. conversation was had with GRG team and decision was made to pull out of the hole and swap motors to the high speed low torque .166 rev that was delivered at 0100 HRS while waiting on electrician to arrive to troubleshoot drawworks A traction motor."
+D07_r012,78B-32,2021-07-08,other,5761.0,6:30,Waiting on Schlumberger to rebuild MWD
+D07_r012,78B-32,2021-07-08,equipment_failure,5761.0,15:00,Repair Rig / Work on rig SCR system. Electrician was unable to locate issue with drawwork traction motor A. Wait on SCR tech to arrive.
+D07_r013,78B-32,2021-07-09,other,5761.0,0:00,Wait on SCR technician to arrive.
+D07_r014,78B-32,2021-07-10,other,5761.0,0:00,Wait on SCR technician to arrive.
+D07_r014,78B-32,2021-07-10,equipment_failure,5761.0,10:00,Diagnose issues with SCR house and repair same. Rig back on Dayrate @ 13:00
+D07_r014,78B-32,2021-07-10,bit_or_bha_failure,5821.0,15:30,"Drill 10-5/8"" hole from 5,761' to 5,821'. Dumped and diluted 100 bbl's of fresh water while drilling ahead. Note: Observed pressure spike while drilling ahead at 5,806' along with motor stall. Pressure reached 4,158 psi at surface blowing pop-off on mud pump. Picked up off bottom and rest pop off. Once back on bottom differential pressure fell to 198 psi and continued dropping. large pieces of rubber observed at the shakers from stator indicating motor failed. Upon discussion with Schlumberger, it was discovered that the motor in the hole had a temperature rating of 208 deg. Max temperature on bottom was 300 deg."
+D07_r015,78B-32,2021-07-11,other,5821.0,1:15,"Broke circulation at 3,245' to cool tools"
+D07_r015,78B-32,2021-07-11,other,5821.0,2:00,"Broke circulation at 4,192' to cool tools"
+D07_r015,78B-32,2021-07-11,other,5821.0,2:45,"Broke circulation at 5,200' to cool tools"
+D07_r015,78B-32,2021-07-11,other,5821.0,3:15,"Broke circulation at 5,710' to cool tools"
+D07_r015,78B-32,2021-07-11,other,6561.0,14:00,Service rig and top drive while circulating on bottom with 1 pump to keep MWD cool
+D07_r017,78B-32,2021-07-13,bit_or_bha_failure,6740.0,1:30,"Cut core from 6,728' to 6,740'. Core barrel jammed up at 6,738', drilled down to 6,740' with no change. Decision was made to pull out of the hole."
+D07_r017,78B-32,2021-07-13,equipment_failure,6740.0,9:00,"RIH with clean out run to open hole to 10-5/8""."
+D07_r018,78B-32,2021-07-14,equipment_failure,6742.0,2:00,Slipped and cut drilling line.
+D07_r018,78B-32,2021-07-14,stuck_pipe,6742.0,3:30,"Tripped in the hole from 1,036' to 4,100'. Shallow test MWD tool @ 3,100'. Filling pipe and breaking circulation every 1,000' from 3,100' to 6,742'. Once on bottom when filling pipe got pipe stuck. Work loose shortly afterwards."
+D07_r018,78B-32,2021-07-14,other,7316.0,13:30,"Rotary drilling 10-5/8"" hole from 7,183' to 7,316' preforming step down test on WOB and RPM in an attempt to lower vibration on MWD"
+D07_r018,78B-32,2021-07-14,other,7316.0,15:45,Service Rig
+D07_r018,78B-32,2021-07-14,other,7613.0,20:30,"While drilling ahead at 7,613' differential pressure jumped from 350 psi to 1,199 psi. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,000 psi with 25k weight on bit and would not drill off. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,356 psi with 30k weight on bit and would not drill off. Decision was made to trip out of the hole."
+D07_r018,78B-32,2021-07-14,equipment_failure,7613.0,22:00,While tripping out of the hole service loop came into contact with top drive damaging the main hydraulic return line. Wait on hydraulic hose to arrive. Pump down the string to cool tools every hour at 300 gpm.
+D07_r019,78B-32,2021-07-15,other,7613.0,0:00,Waited on hydraulic hose to arrive.
+D07_r019,78B-32,2021-07-15,bit_or_bha_failure,7613.0,13:00,"Racked back HWDP along with 8' drill collars. Laid out motor, bit, stabs. Motor took a high amount of torque to drain 45 kft/lbs. Bit had 3-plugged jets with pieces of rubber from the stator. Bit was also DBR'ed. Motor Stabilizer was 0.5"" under-gauged. Stabilizer above the motor was 0.75"" under-gauged. Top Stabilizer was 1.25"" under-gauged."
+D07_r019,78B-32,2021-07-15,equipment_failure,7613.0,23:30,Serviced rig. Adjusted service loop.
+D07_r020,78B-32,2021-07-16,tight_hole,7613.0,4:15,"Took weight at 7,072'. Work string free with 90k in over-pull. Ream from 7,072' to 7,231'"
+D07_r022,78B-32,2021-07-18,bit_or_bha_failure,8540.0,7:30,"Cored with 8-3/4"" assembly from 8,530' to 8,540'. Core barrel jammed up at 8,540'."
+D07_r022,78B-32,2021-07-18,other,8540.0,15:00,Shut down for high winds and thunder storm.
+D07_r023,78B-32,2021-07-19,bit_or_bha_failure,8540.0,1:15,"Open 8-3/4"" core hole to 10-5/8"" from 8,500' to 8,514'. ROP dropped off from 50 ft/hr to 5 f/thr."
+D07_r023,78B-32,2021-07-19,equipment_failure,8540.0,23:00,Slipped and cut drilling line.
+D07_r024,78B-32,2021-07-20,equipment_failure,8540.0,0:00,Slipped and cut drilling line.
+D07_r024,78B-32,2021-07-20,tight_hole,8540.0,1:00,"Tripped in the hole with 10-5/8"" clean out assembly from 2,900' to 8,514'. Filled pipe and broke circulation. Filled pipe every 3,000'. Strapped all drill pipe while running in the hole."
+D07_r024,78B-32,2021-07-20,other,8540.0,6:00,Tripped out of the hole for Schlumberger logs.
+D07_r024,78B-32,2021-07-20,tight_hole,8540.0,22:00,"Tripped in the hole with 10-5/8"" clean out assembly to 4,657'. Filled pipe very 3,000'."
+D07_r025,78B-32,2021-07-21,equipment_failure,8540.0,14:00,Changed out IBOP valve for CRT. Install saver sub. Laid down all handling tools.
+D07_r026,78B-32,2021-07-22,other,8540.0,20:30,"Pull out of the hole with 7"" casing from 6,753' to 5,447'. Note: While pulling the first joint of 7"" casing fiber optic got cut pulling through the bushings."
+D07_r027,78B-32,2021-07-23,other,8540.0,0:00,"Pulled out of the hole with 7"" casing from 5,477' to 1,212'. Note: Fiber-optic cable was broke from 3,017' down to 1,212' in multiple place ranging from 40' to 160' foot sections."
+D07_r027,78B-32,2021-07-23,other,8540.0,7:30,"Waited on Orders while Silixa measured and determines usable length of fiber optic. Determined 3,686' of usable fiber-optic."
+D07_r028,78B-32,2021-07-24,tight_hole,8545.0,16:15,"Run  7"", 41#, T-110SS, Tenaris casing from 6,614' to 7,070'. Note: Floats failed at 6,795' while running casing gained 81k in hook load. All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r029,78B-32,2021-07-25,other,8545.0,6:00,Waited on cement while holding between 2800 psi and 3000 psi pressure on inside of casing. Cement fell to 95' below KB.
+D07_r029,78B-32,2021-07-25,other,8545.0,12:00,Mixed and pump 6 bbls of neat cement filling annulus from 95' to surface / CIP 13:00
+D07_r029,78B-32,2021-07-25,other,8545.0,13:00,"Waited on cement. Monitored cement samples while waiting on cement. Monitored temperature at 3,998' with Silixa fiber-optic cable. Monitored casing pressure with Resources Cementing. Bleeding pressure Note: Temperature at 4,200' monitored with Silixa cable at 197 degrees fahrenheit. at 1100 hrs final temp at 0000 hrs reached 208 degrees fahrenheit."
+D07_r030,78B-32,2021-07-26,other,8545.0,0:00,Waited on cement.
+D07_r030,78B-32,2021-07-26,other,8545.0,6:00,"Remove double gate BOP and strip out fiber optic / Remove Drilling spool and strip out fiber optic / Extension spool 11""3000 X 13-5/8"" 5000 and 7"" cemented together / cut extension spool in half and chip out cement in lower half of spool while protecting the fiber optic."
+D07_r030,78B-32,2021-07-26,other,8545.0,12:00,Rig up power tongs underneath substructure and back out landing joint removing the casing collar with it.
+D07_r030,78B-32,2021-07-26,other,8545.0,21:30,Rigged up pump truck to well head. Attempted to test truck prior to starting test. Unable to get a good test on the pump truck. Pressure leaking at the truck losing approximately 600 psi every 30 mins.
+D07_r031,78B-32,2021-07-27,other,8545.0,5:30,"Picked up 3.5"" drill pipe from 900' to 2,003' @07:15 noticed a slip die missing from rented slips."
+D07_r031,78B-32,2021-07-27,other,8545.0,7:15,Open doors on BOP and search for slip die
+D07_r031,78B-32,2021-07-27,other,8545.0,9:00,"Tripped out of the hole with drill pipe from 2,003' with BOP doors open looking for lost slip die."
+D07_r031,78B-32,2021-07-27,other,8545.0,12:00,"Once at top of drill collars close blind ram doors, Rigged up slings to lift BOP while pulling drill collars. Pick stack up 1 foot and chained off to sub substructure and block between wellhead and BOP Release pick up slings"
+D07_r031,78B-32,2021-07-27,other,8545.0,14:00,Pulled out of the hole with 10 stands of drill collars to bit looking for slip die.
+D07_r032,78B-32,2021-07-28,equipment_failure,8555.0,4:00,Rigged up Resource cementing pump truck. Troubleshoot pressure gage on truck.
+D07_r032,78B-32,2021-07-28,other,8555.0,5:00,Slipped and cut drilling line.
+D07_r034,78B-32,2021-07-30,other,9225.0,18:00,Shut down and test night tour for Covid-19 due to 3 guys on daylights testing positive.

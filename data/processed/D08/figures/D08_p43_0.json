@@ -1,0 +1,59 @@
+{
+  "doc_id": "D08",
+  "page": 43,
+  "bbox": [
+    72.0,
+    106.2,
+    555.3,
+    420.3
+  ],
+  "source": "raster",
+  "caption": "Figure 19: 9-5/8 in. intermediate casing cement pressure chart",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p43_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 14.572953462600708,
+    "prompt_tokens": 1306,
+    "output_tokens": 227
+  },
+  "data": {
+    "transcription": "Figure 19: 9-5/8\" Intermediate\nMax Pressure ( psi )\nTotal Volume ( bbl )\nTotal Rate ( bpm )\nSlurry Density ( ppg )",
+    "description": "The figure is a cement pressure chart for an intermediate casing in well 56-32. It shows the maximum pressure, total volume, total rate, and slurry density over time.",
+    "kind": "pressure_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Max Pressure",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Total Volume",
+        "unit": "bbl",
+        "trend": null
+      },
+      {
+        "name": "Total Rate",
+        "unit": "bpm",
+        "trend": null
+      },
+      {
+        "name": "Slurry Density",
+        "unit": "ppg",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "<Max Pressure> = 2600 psi",
+      "<Total Volume> = 75 bbl",
+      "<Total Rate> = 15 bpm",
+      "<Slurry Density> = 30 ppg"
+    ]
+  }
+}

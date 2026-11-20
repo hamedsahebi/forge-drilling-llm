@@ -1,0 +1,210 @@
+{
+ "note": "95% bootstrap over questions; one run per setting, so model run-to-run variation is not included",
+ "questions": 52,
+ "settings": {
+  "base": {
+   "all": {
+    "n": 52,
+    "mean": 0.433,
+    "ci95": [
+     0.298,
+     0.567
+    ]
+   },
+   "level1": {
+    "n": 24,
+    "mean": 0.417,
+    "ci95": [
+     0.229,
+     0.604
+    ]
+   },
+   "level2": {
+    "n": 15,
+    "mean": 0.3,
+    "ci95": [
+     0.1,
+     0.533
+    ]
+   },
+   "level3": {
+    "n": 13,
+    "mean": 0.615,
+    "ci95": [
+     0.308,
+     0.846
+    ]
+   }
+  },
+  "base_think": {
+   "all": {
+    "n": 52,
+    "mean": 0.5,
+    "ci95": [
+     0.365,
+     0.625
+    ]
+   },
+   "level1": {
+    "n": 24,
+    "mean": 0.479,
+    "ci95": [
+     0.292,
+     0.667
+    ]
+   },
+   "level2": {
+    "n": 15,
+    "mean": 0.367,
+    "ci95": [
+     0.167,
+     0.6
+    ]
+   },
+   "level3": {
+    "n": 13,
+    "mean": 0.692,
+    "ci95": [
+     0.462,
+     0.923
+    ]
+   }
+  },
+  "base_verify": {
+   "all": {
+    "n": 52,
+    "mean": 0.423,
+    "ci95": [
+     0.298,
+     0.558
+    ]
+   },
+   "level1": {
+    "n": 24,
+    "mean": 0.417,
+    "ci95": [
+     0.229,
+     0.604
+    ]
+   },
+   "level2": {
+    "n": 15,
+    "mean": 0.267,
+    "ci95": [
+     0.067,
+     0.467
+    ]
+   },
+   "level3": {
+    "n": 13,
+    "mean": 0.615,
+    "ci95": [
+     0.385,
+     0.846
+    ]
+   }
+  },
+  "base_verify_think": {
+   "all": {
+    "n": 52,
+    "mean": 0.567,
+    "ci95": [
+     0.442,
+     0.692
+    ]
+   },
+   "level1": {
+    "n": 24,
+    "mean": 0.604,
+    "ci95": [
+     0.417,
+     0.792
+    ]
+   },
+   "level2": {
+    "n": 15,
+    "mean": 0.367,
+    "ci95": [
+     0.167,
+     0.6
+    ]
+   },
+   "level3": {
+    "n": 13,
+    "mean": 0.731,
+    "ci95": [
+     0.5,
+     0.923
+    ]
+   }
+  }
+ },
+ "pairs": {
+  "base_think - base": {
+   "mean_diff": 0.067,
+   "ci95": [
+    -0.067,
+    0.202
+   ],
+   "p_sign_flip": 0.4206,
+   "b_better": 11,
+   "a_better": 6,
+   "same": 35
+  },
+  "base_verify - base": {
+   "mean_diff": -0.01,
+   "ci95": [
+    -0.048,
+    0.019
+   ],
+   "p_sign_flip": 1.0,
+   "b_better": 1,
+   "a_better": 2,
+   "same": 49
+  },
+  "base_verify_think - base": {
+   "mean_diff": 0.135,
+   "ci95": [
+    0.01,
+    0.26
+   ],
+   "p_sign_flip": 0.0671,
+   "b_better": 14,
+   "a_better": 5,
+   "same": 33
+  },
+  "base_verify - base_think": {
+   "mean_diff": -0.077,
+   "ci95": [
+    -0.202,
+    0.048
+   ],
+   "p_sign_flip": 0.3274,
+   "b_better": 6,
+   "a_better": 12,
+   "same": 34
+  },
+  "base_verify_think - base_think": {
+   "mean_diff": 0.067,
+   "ci95": [
+    -0.029,
+    0.163
+   ],
+   "p_sign_flip": 0.2375,
+   "b_better": 9,
+   "a_better": 4,
+   "same": 39
+  },
+  "base_verify_think - base_verify": {
+   "mean_diff": 0.144,
+   "ci95": [
+    0.019,
+    0.269
+   ],
+   "p_sign_flip": 0.0415,
+   "b_better": 14,
+   "a_better": 5,
+   "same": 33
+  }
+ }
+}

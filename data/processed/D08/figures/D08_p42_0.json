@@ -1,0 +1,76 @@
+{
+  "doc_id": "D08",
+  "page": 42,
+  "bbox": [
+    72.0,
+    333.1,
+    540.0,
+    692.5
+  ],
+  "source": "raster",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p42_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 61.225709676742554,
+    "prompt_tokens": 1322,
+    "output_tokens": 1151
+  },
+  "data": {
+    "transcription": "Cement Job Information\nStart Date/Time: 11-Feb-21 21:30\nWellbore: Original Wellbore\nJob Type: PRIMARY\nWell Section: INT1\nString OD (ins): 9.625\nString Type: FULL\nCementing Co: Resource\nCementing Engineer: Alex\nPrimary Job Detail\nVolume (bbls) Pump Time Rate (bbls/min) Pressure (psi)\nConditioning Data:\t\t\t2\t2.0\t2,600\nCement Data:\t308.0\t39\t8.0\t250\nDisplacement Data:\t264.0\t53\t5.0\t1,000\nCalc. Displacement Vol: 270.0\nReciprocate Pipe?\tBatch Mix? Bump Plug? Bump Pressure: 1,500\nReturns to Surface: FULL Cement at Surface? Volume (bbls): 34.0\nCalc Top of Cement (ft): 0 Excess (%): 50.00%\nAvg. Hole Size (ins): 12.250\nSlurry Information\nType Density Yield Sacks Volume Rate Additives\nOTHER\t13.40\t1.64\t1030\t308.0\t8.0\tRC Therma Lite G1\nPost Job Information\nLiner Top Test (lbs/gal): \tJob Success? Yes\nActual Top of Cmt (ft): \tCBL Bond Quality:\nMisc. Comments: 1) Hold pre-jog safety meeting.\n2) Pump 2 BBL of Fresh Water to Fill Lines\n3) Pressure test surface lines to 2,500 psi\n4) Pump 10 BBL of Fresh Water Spacer @ 6-8 BPM\n5) Pump 20 BBL of RC Mud Clean Spacer @ 6-8 BPM\n6) Pump 30 BBL of 10.5ppg Sepiolite Spacer @ 6-8 BPM\n7) Pump 5 BBL of Fresh Water Spacer @ 6-8 BPM\n8) Pump 13 BBL of Sodium Silicate Spacer @ 2-3 BPM\n9) Pump 5 BBL of Fresh Water Spacer @ 6-8 BPM\n10) Pump 300.8 BBL of 13.4 ppg RC ThermaLite HT @ 6-8 BPM\n11) Shut Down, Release Top Plug\n12) Displace Cement with 270 BBL of Drilling MUD @ 5 - 8 BPM\n– Monitor Pressure and returns.\n13) Slow down last 20 BBL to 2BPM\n14) Slow Down Last 10 BBL to 1BPM to BUMP PLUG.\n15) Shut Down, Check Floats, CIP",
+    "description": "The figure provides detailed information about a cement job performed in the original wellbore of Well 56-32. The job was conducted on February 11, 2021, at 9:30 PM. It includes primary job details such as volume and rate data for conditioning, cementing, and displacement phases. The slurry information specifies the density, yield, sacks, volume, and rate of the cement used (RC Therma Lite G1). Post-job information indicates that the job was successful with a yes response to the liner top test and provides comments on the procedures followed during the job.",
+    "kind": "table_image",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Conditioning Data",
+        "unit": "bbls",
+        "trend": null
+      },
+      {
+        "name": "Cement Data",
+        "unit": "bbls",
+        "trend": null
+      },
+      {
+        "name": "Displacement Data",
+        "unit": "bbls",
+        "trend": null
+      },
+      {
+        "name": "Calc. Displacement Vol",
+        "unit": "bbls",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Volume (bbls) = 2",
+      "Pump Time = 2",
+      "Rate (bbls/min) = 2.0",
+      "Pressure (psi) = 2,600",
+      "Cement Data Volume (bbls) = 308.0",
+      "Cement Data Pump Time = 39",
+      "Cement Data Rate (bbls/min) = 8.0",
+      "Cement Data Pressure (psi) = 250",
+      "Displacement Data Volume (bbls) = 264.0",
+      "Displacement Data Pump Time = 53",
+      "Displacement Data Rate (bbls/min) = 5.0",
+      "Displacement Data Pressure (psi) = 1,000",
+      "Calc Top of Cement (ft) = 0",
+      "Excess (%) = 50.00%",
+      "Avg. Hole Size (ins) = 12.250",
+      "Type Density = 13.40",
+      "Yield = 1.64",
+      "Sacks = 1030",
+      "Volume = 308.0",
+      "Rate = 8.0",
+      "Additives = RC Therma Lite G1"
+    ]
+  }
+}

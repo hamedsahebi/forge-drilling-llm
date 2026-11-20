@@ -1,0 +1,826 @@
+{
+ "page": 45,
+ "times": [
+  "2021-07-04T16:15:00",
+  "2021-07-04T16:45:00",
+  "2021-07-04T17:15:00",
+  "2021-07-04T17:45:00",
+  "2021-07-04T18:15:00",
+  "2021-07-04T18:45:00"
+ ],
+ "meta": {
+  "seconds": 160.7635955810547
+ },
+ "strips": [
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 0,
+   "variable": "hook_load_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1925766468048096,
+    "prompt_tokens": 1190,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 140.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 0,
+   "variable": "wob_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1690402030944824,
+    "prompt_tokens": 1191,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 30.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 0,
+   "variable": "rpm",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.158904790878296,
+    "prompt_tokens": 1187,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 30.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 1,
+   "variable": "torque_kftlb",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1517515182495117,
+    "prompt_tokens": 1193,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 8.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 1,
+   "variable": "rop_ft_hr",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.156376361846924,
+    "prompt_tokens": 1189,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 80.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 1,
+   "variable": "flow_pct",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.3156723976135254,
+    "prompt_tokens": 1188,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 80.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 2,
+   "variable": "on_bottom_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1152384281158447,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 2,
+   "variable": "circulating_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.281564950942993,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:15:00",
+   "track": 2,
+   "variable": "mud_volume_bbl",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.119748115539551,
+    "prompt_tokens": 1191,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 0,
+   "variable": "hook_load_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.2011427879333496,
+    "prompt_tokens": 1190,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 105.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 0,
+   "variable": "wob_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.14667010307312,
+    "prompt_tokens": 1191,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 30.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 0,
+   "variable": "rpm",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.190279960632324,
+    "prompt_tokens": 1187,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 1,
+   "variable": "torque_kftlb",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.138002634048462,
+    "prompt_tokens": 1193,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 7.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 1,
+   "variable": "rop_ft_hr",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.169983148574829,
+    "prompt_tokens": 1189,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 75.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 1,
+   "variable": "flow_pct",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.3080787658691406,
+    "prompt_tokens": 1188,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 80.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 2,
+   "variable": "on_bottom_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1191577911376953,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 2,
+   "variable": "circulating_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.2748959064483643,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T16:45:00",
+   "track": 2,
+   "variable": "mud_volume_bbl",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1740224361419678,
+    "prompt_tokens": 1191,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 200.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 0,
+   "variable": "hook_load_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.231632709503174,
+    "prompt_tokens": 1190,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 120.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 0,
+   "variable": "wob_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1742911338806152,
+    "prompt_tokens": 1191,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 28.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 0,
+   "variable": "rpm",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.187892198562622,
+    "prompt_tokens": 1187,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 20.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 1,
+   "variable": "torque_kftlb",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1763343811035156,
+    "prompt_tokens": 1193,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 5.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 1,
+   "variable": "rop_ft_hr",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.23050856590271,
+    "prompt_tokens": 1189,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 100.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 1,
+   "variable": "flow_pct",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.2624471187591553,
+    "prompt_tokens": 1188,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 2,
+   "variable": "on_bottom_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.23693585395813,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 2,
+   "variable": "circulating_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.2817816734313965,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:15:00",
+   "track": 2,
+   "variable": "mud_volume_bbl",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.129408597946167,
+    "prompt_tokens": 1191,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 0,
+   "variable": "hook_load_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.2064590454101562,
+    "prompt_tokens": 1190,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 120.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 0,
+   "variable": "wob_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1934351921081543,
+    "prompt_tokens": 1191,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 30.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 0,
+   "variable": "rpm",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.166106700897217,
+    "prompt_tokens": 1187,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 40.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 1,
+   "variable": "torque_kftlb",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1553354263305664,
+    "prompt_tokens": 1193,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 9.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 1,
+   "variable": "rop_ft_hr",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1653406620025635,
+    "prompt_tokens": 1189,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 80.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 1,
+   "variable": "flow_pct",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.326237440109253,
+    "prompt_tokens": 1188,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 80.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 2,
+   "variable": "on_bottom_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1841602325439453,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 2,
+   "variable": "circulating_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.292202949523926,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T17:45:00",
+   "track": 2,
+   "variable": "mud_volume_bbl",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1540403366088867,
+    "prompt_tokens": 1191,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 0,
+   "variable": "hook_load_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.164152145385742,
+    "prompt_tokens": 1190,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 150.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 0,
+   "variable": "wob_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.157520294189453,
+    "prompt_tokens": 1191,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 24.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 0,
+   "variable": "rpm",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1970083713531494,
+    "prompt_tokens": 1187,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 30.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 1,
+   "variable": "torque_kftlb",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.202785015106201,
+    "prompt_tokens": 1193,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 9.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 1,
+   "variable": "rop_ft_hr",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.17199444770813,
+    "prompt_tokens": 1189,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 50.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 1,
+   "variable": "flow_pct",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.291534662246704,
+    "prompt_tokens": 1188,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 2,
+   "variable": "on_bottom_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1863927841186523,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 2,
+   "variable": "circulating_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.266425371170044,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:15:00",
+   "track": 2,
+   "variable": "mud_volume_bbl",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1089460849761963,
+    "prompt_tokens": 1191,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 0,
+   "variable": "hook_load_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1814348697662354,
+    "prompt_tokens": 1190,
+    "output_tokens": 10
+   },
+   "result": {
+    "value": 130.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 0,
+   "variable": "wob_klbs",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.2184994220733643,
+    "prompt_tokens": 1191,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 30.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 0,
+   "variable": "rpm",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1799349784851074,
+    "prompt_tokens": 1187,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 70.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 1,
+   "variable": "torque_kftlb",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.1932411193847656,
+    "prompt_tokens": 1193,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 1,
+   "variable": "rop_ft_hr",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.2154510021209717,
+    "prompt_tokens": 1189,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 70.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 1,
+   "variable": "flow_pct",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.316586971282959,
+    "prompt_tokens": 1188,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 70.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 2,
+   "variable": "on_bottom_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.163938283920288,
+    "prompt_tokens": 1189,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 2,
+   "variable": "circulating_hours",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.305347204208374,
+    "prompt_tokens": 1189,
+    "output_tokens": 9
+   },
+   "result": {
+    "value": 10.0
+   }
+  },
+  {
+   "time": "2021-07-04T18:45:00",
+   "track": 2,
+   "variable": "mud_volume_bbl",
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.104745388031006,
+    "prompt_tokens": 1191,
+    "output_tokens": 8
+   },
+   "result": {
+    "value": 0.0
+   }
+  }
+ ]
+}

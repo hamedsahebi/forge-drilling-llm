@@ -1,0 +1,256 @@
+{
+ "page": 90,
+ "times": [
+  "2021-07-11T14:15:00",
+  "2021-07-11T14:45:00",
+  "2021-07-11T15:15:00",
+  "2021-07-11T15:45:00",
+  "2021-07-11T16:15:00",
+  "2021-07-11T16:45:00"
+ ],
+ "meta": {
+  "model": "qwen2.5vl:7b",
+  "attempts": 1,
+  "seconds": 42.145912885665894,
+  "prompt_tokens": 2503,
+  "output_tokens": 1307
+ },
+ "result": {
+  "rows": [
+   {
+    "time": "14:15",
+    "hook_load_klbs": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "wob_klbs": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "rpm": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "torque_kftlb": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "rop_ft_hr": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "flow_pct": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "on_bottom_hours": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "circulating_hours": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "mud_volume_bbl": {
+     "value": 0.76,
+     "kind": "at_max"
+    }
+   },
+   {
+    "time": "14:45",
+    "hook_load_klbs": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "wob_klbs": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "rpm": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "torque_kftlb": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "rop_ft_hr": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "flow_pct": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "on_bottom_hours": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "circulating_hours": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "mud_volume_bbl": {
+     "value": 0.76,
+     "kind": "at_max"
+    }
+   },
+   {
+    "time": "15:15",
+    "hook_load_klbs": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "wob_klbs": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "rpm": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "torque_kftlb": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "rop_ft_hr": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "flow_pct": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "on_bottom_hours": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "circulating_hours": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "mud_volume_bbl": {
+     "value": 0.76,
+     "kind": "at_max"
+    }
+   },
+   {
+    "time": "15:45",
+    "hook_load_klbs": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "wob_klbs": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "rpm": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "torque_kftlb": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "rop_ft_hr": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "flow_pct": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "on_bottom_hours": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "circulating_hours": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "mud_volume_bbl": {
+     "value": 0.76,
+     "kind": "at_max"
+    }
+   },
+   {
+    "time": "16:15",
+    "hook_load_klbs": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "wob_klbs": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "rpm": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "torque_kftlb": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "rop_ft_hr": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "flow_pct": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "on_bottom_hours": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "circulating_hours": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "mud_volume_bbl": {
+     "value": 0.76,
+     "kind": "at_max"
+    }
+   },
+   {
+    "time": "16:45",
+    "hook_load_klbs": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "wob_klbs": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "rpm": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "torque_kftlb": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "rop_ft_hr": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "flow_pct": {
+     "value": 0.76,
+     "kind": "at_max"
+    },
+    "on_bottom_hours": {
+     "value": 0.98,
+     "kind": "at_max"
+    },
+    "circulating_hours": {
+     "value": 0.23,
+     "kind": "at_min"
+    },
+    "mud_volume_bbl": {
+     "value": 0.76,
+     "kind": "at_max"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,37 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    64,
+    77
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 26.71864891052246,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "Seismic Monitoring Well 56-32",
+    "purpose": "Seismic Monitoring",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": null,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [],
+    "bits": [],
+    "events": [],
+    "lessons_learned": [
+      "Lessons learned should include both positive and negative experiences to improve work processes, equipment design, operation, quality, safety, and cost effectiveness.",
+      "Performance measures for lessons learned programs should focus on how well the program uses opportunities to develop lessons, the quality of the lessons created, and integration into improvements.",
+      "The lessons learned infrastructure should use existing systems where possible, and clearly defined ownership should be established for maintaining the infrastructure and support for development, communication, and use.",
+      "Mechanisms for identifying potential lessons learned should be simple in terms of volume, type of information, and input mechanisms.",
+      "Lessons should be context-driven, with information defined in terms of the environment in which they were learned and their significance.",
+      "There should be no stigma or blame assigned to individuals who identify a lesson learned.",
+      "The objective of lessons learned programs is to provide a means of communicating experiences that can reduce risk, improve efficiency, and enhance cost effectiveness of processes and operations.",
+      "Lessons learned should be disseminated with an assigned priority descriptor indicating the risk, immediacy, and urgency of the content.",
+      "Priority descriptors for lessons learned include Red (>$35K USD), Blue ($5K-$35K USD), Green (<$5K USD), and Yellow (Good Practice).",
+      "Lessons learned documents for local use may be tailored as appropriate for local needs but should include enough metadata to identify and determine their relevance within the company and departments."
+    ]
+  }
+}

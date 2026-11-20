@@ -1,0 +1,59 @@
+{
+  "doc_id": "D10",
+  "page": 13,
+  "bbox": [
+    0.0,
+    0.0,
+    750.7,
+    503.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D10\\figures\\D10_p13_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 17.479730367660522,
+    "prompt_tokens": 2323,
+    "output_tokens": 246
+  },
+  "data": {
+    "transcription": "slide\nrotate\nWOB 59k\nRPM 31\nPP 2300\nSPM 99/0/98\nslide\nrotate",
+    "description": "The figure appears to be a mud log from well 78B-32, page 13. It includes various drilling parameters such as weight on bit (WOB), revolutions per minute (RPM), and standpipe pressure (PP). The text also mentions 'slide' and 'rotate', which might indicate specific drilling techniques or equipment movements.",
+    "kind": "mud_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "WOB",
+        "unit": "k",
+        "trend": null
+      },
+      {
+        "name": "RPM",
+        "unit": "",
+        "trend": null
+      },
+      {
+        "name": "PP",
+        "unit": "0",
+        "trend": null
+      },
+      {
+        "name": "SPM",
+        "unit": "/0/98",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "WOB = 59 k",
+      "RPM = 31",
+      "PP = 2300",
+      "SPM = 99/0/98"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "activity_rules": "2026-11-06: activity classes relabelled by the written rules (PROJECT_LOG)",
+  "header": {
+    "footage_24h_ft": "405",
+    "hole_size_in": "5.75",
+    "md_ft": "8950",
+    "report_date": "2021-07-28",
+    "report_number": "32",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "8947"
+  },
+  "prefill": "claude",
+  "removed": {
+    "bha": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [
+      {
+        "_m": 0,
+        "bit_number": "16",
+        "bit_type": "STX",
+        "depth_in_ft": "8545",
+        "depth_out_ft": "8555",
+        "manufacturer": "BAKER",
+        "rop_ft_hr": "10",
+        "rpm": "45",
+        "serial_number": "",
+        "size_in": "5.75",
+        "wob_klbf": "16"
+      },
+      {
+        "_m": 1,
+        "bit_number": "17",
+        "bit_type": "TKC63",
+        "depth_in_ft": "8555",
+        "depth_out_ft": "",
+        "manufacturer": "REED",
+        "rop_ft_hr": "112.9",
+        "rpm": "30",
+        "serial_number": "",
+        "size_in": "5.75",
+        "wob_klbf": "30"
+      }
+    ],
+    "casing": [
+      {
+        "_m": 0,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": 1,
+        "grade": "J-55",
+        "id_in": "",
+        "od_in": "11.75",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      },
+      {
+        "_m": 2,
+        "grade": "T-110S",
+        "id_in": "",
+        "od_in": "7",
+        "section": "PROD",
+        "shoe_md_ft": "8509",
+        "weight_ppf": "41"
+      }
+    ],
+    "mud": [
+      {
+        "_m": null,
+        "chlorides_mg_l": "700",
+        "density_ppg": "8.3",
+        "depth_ft": "8626",
+        "funnel_viscosity_s": "26",
+        "ph": "11",
+        "pv_cp": "0",
+        "yp_lbf_100ft2": "1"
+      }
+    ],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "circulating",
+        "end": "0:30",
+        "end_md_ft": "8545",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "0:00"
+      },
+      {
+        "_m": 1,
+        "activity": "bop_testing",
+        "end": "1:45",
+        "end_md_ft": "8545",
+        "hours": "1.25",
+        "is_npt": "no",
+        "start": "0:30"
+      },
+      {
+        "_m": 2,
+        "activity": "drilling",
+        "end": "2:30",
+        "end_md_ft": "8545",
+        "hours": "0.75",
+        "is_npt": "no",
+        "start": "1:45"
+      },
+      {
+        "_m": 3,
+        "activity": "drilling",
+        "end": "3:30",
+        "end_md_ft": "8555",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "2:30"
+      },
+      {
+        "_m": 4,
+        "activity": "circulating",
+        "end": "4:00",
+        "end_md_ft": "8555",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "3:30"
+      },
+      {
+        "_m": 5,
+        "activity": "rig_up_down",
+        "end": "5:00",
+        "end_md_ft": "8555",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "4:00"
+      },
+      {
+        "_m": 6,
+        "activity": "other",
+        "end": "6:00",
+        "end_md_ft": "8555",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "5:00"
+      },
+      {
+        "_m": 7,
+        "activity": "logging_survey",
+        "end": "8:00",
+        "end_md_ft": "8555",
+        "hours": "2",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 8,
+        "activity": "tripping",
+        "end": "11:30",
+        "end_md_ft": "8555",
+        "hours": "3.5",
+        "is_npt": "no",
+        "start": "8:00"
+      },
+      {
+        "_m": 9,
+        "activity": "other",
+        "end": "12:00",
+        "end_md_ft": "8555",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "11:30"
+      },
+      {
+        "_m": 10,
+        "activity": "tripping",
+        "end": "14:00",
+        "end_md_ft": "8555",
+        "hours": "2",
+        "is_npt": "yes",
+        "start": "12:00"
+      },
+      {
+        "_m": 11,
+        "activity": "tripping",
+        "end": "20:00",
+        "end_md_ft": "8555",
+        "hours": "6",
+        "is_npt": "no",
+        "start": "14:00"
+      },
+      {
+        "_m": 12,
+        "activity": "drilling",
+        "end": "20:30",
+        "end_md_ft": "8615",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "20:00"
+      },
+      {
+        "_m": 13,
+        "activity": "drilling",
+        "end": "21:30",
+        "end_md_ft": "8654",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "20:30"
+      },
+      {
+        "_m": 14,
+        "activity": "drilling",
+        "end": "22:00",
+        "end_md_ft": "8709",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "21:30"
+      },
+      {
+        "_m": 15,
+        "activity": "drilling",
+        "end": "22:30",
+        "end_md_ft": "8742",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "22:00"
+      },
+      {
+        "_m": 16,
+        "activity": "drilling",
+        "end": "0:00",
+        "end_md_ft": "8950",
+        "hours": "1.5",
+        "is_npt": "no",
+        "start": "22:30"
+      }
+    ],
+    "surveys": [
+      {
+        "_m": 0,
+        "azimuth_deg": "264.5",
+        "inclination_deg": "2.78",
+        "md_ft": "8558",
+        "tvd_ft": "8556.1"
+      },
+      {
+        "_m": 1,
+        "azimuth_deg": "307.2",
+        "inclination_deg": "2.31",
+        "md_ft": "8653",
+        "tvd_ft": "8651"
+      },
+      {
+        "_m": 2,
+        "azimuth_deg": "21.4",
+        "inclination_deg": "0.99",
+        "md_ft": "8743",
+        "tvd_ft": "8741"
+      },
+      {
+        "_m": 3,
+        "azimuth_deg": "283.7",
+        "inclination_deg": "0.92",
+        "md_ft": "8843",
+        "tvd_ft": "8841"
+      }
+    ]
+  },
+  "updated": "2026-11-05T14:11:15.286Z"
+}

@@ -1,0 +1,556 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    26,
+    27,
+    28
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 224.6493947505951,
+    "prompt_tokens": 41303,
+    "output_tokens": 3729,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 15,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 5051.0,
+        "density_ppg": 8.4,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 600.0
+      },
+      {
+        "depth_ft": 5334.0,
+        "density_ppg": 8.4,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 600.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "7",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 3651.0,
+        "depth_out_ft": null,
+        "wob_klbf": 65.0,
+        "rpm": 40.0,
+        "rop_ft_hr": 70.1
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 15,
+      "mapped": 14
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 10,
+      "report_date": "2021-07-06",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 5334.0,
+      "tvd_ft": 5333.0,
+      "footage_24h_ft": null,
+      "hole_size_in": 10.5,
+      "current_operation": "Drilling 10 5/8\" hole section at 5,717' (report time)",
+      "planned_operation": "Drill 10 5/8\" hole section until ROP drops below 30 ft/hr.\nTrip out of the hole for new bit.\nContinue to drill 10 5/8\" hole section to coring point (6,700')"
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 5051.0,
+        "density_ppg": 8.4,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 600.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "7",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 3651.0,
+        "depth_out_ft": null,
+        "wob_klbf": 65.0,
+        "rpm": 40.0,
+        "rop_ft_hr": 70.1
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 11,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 3832.0,
+        "inclination_deg": 1.11,
+        "azimuth_deg": 93.7,
+        "tvd_ft": 3831.5
+      },
+      {
+        "md_ft": 3927.0,
+        "inclination_deg": 1.83,
+        "azimuth_deg": 89.4,
+        "tvd_ft": 3926.5
+      },
+      {
+        "md_ft": 4022.0,
+        "inclination_deg": 3.01,
+        "azimuth_deg": 85.3,
+        "tvd_ft": 4021.4
+      },
+      {
+        "md_ft": 4117.0,
+        "inclination_deg": 1.92,
+        "azimuth_deg": 159.4,
+        "tvd_ft": 4116.3
+      },
+      {
+        "md_ft": 4181.0,
+        "inclination_deg": 1.19,
+        "azimuth_deg": 199.7,
+        "tvd_ft": 4180.3
+      },
+      {
+        "md_ft": 4213.0,
+        "inclination_deg": 0.99,
+        "azimuth_deg": 220.1,
+        "tvd_ft": 4212.3
+      },
+      {
+        "md_ft": 4308.0,
+        "inclination_deg": 0.86,
+        "azimuth_deg": 209.3,
+        "tvd_ft": 4307.3
+      },
+      {
+        "md_ft": 4403.0,
+        "inclination_deg": 0.4,
+        "azimuth_deg": 258.7,
+        "tvd_ft": 4402.3
+      },
+      {
+        "md_ft": 4498.0,
+        "inclination_deg": 0.66,
+        "azimuth_deg": 264.5,
+        "tvd_ft": 4497.3
+      },
+      {
+        "md_ft": 4593.0,
+        "inclination_deg": 1.33,
+        "azimuth_deg": 319.3,
+        "tvd_ft": 4592.2
+      },
+      {
+        "md_ft": 4688.0,
+        "inclination_deg": 1.75,
+        "azimuth_deg": 318.6,
+        "tvd_ft": 4687.2
+      },
+      {
+        "md_ft": 4783.0,
+        "inclination_deg": 1.48,
+        "azimuth_deg": 0.5,
+        "tvd_ft": 4782.2
+      },
+      {
+        "md_ft": 4879.0,
+        "inclination_deg": 1.68,
+        "azimuth_deg": 339.3,
+        "tvd_ft": 4878.1
+      },
+      {
+        "md_ft": 4974.0,
+        "inclination_deg": 1.65,
+        "azimuth_deg": 322.9,
+        "tvd_ft": 4973.1
+      },
+      {
+        "md_ft": 5069.0,
+        "inclination_deg": 0.45,
+        "azimuth_deg": 52.1,
+        "tvd_ft": 5068.1
+      },
+      {
+        "md_ft": 5164.0,
+        "inclination_deg": 0.21,
+        "azimuth_deg": 25.9,
+        "tvd_ft": 5163.1
+      },
+      {
+        "md_ft": 5259.0,
+        "inclination_deg": 0.57,
+        "azimuth_deg": 255.7,
+        "tvd_ft": 5258.1
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "0:30",
+        "hours": 0.5,
+        "end_md_ft": 3765.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 3,730' to 3,765'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "0:30",
+        "end": "0:45",
+        "hours": 0.25,
+        "end_md_ft": 3780.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10 5/8\" hole from 3,765' to 3,780'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "0:45",
+        "end": "1:30",
+        "hours": 0.75,
+        "end_md_ft": 3927.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 3,780' to 3,927'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:30",
+        "end": "2:00",
+        "hours": 0.5,
+        "end_md_ft": 3947.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10 5/8\" hole from 3,927' to 3,947'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "3:00",
+        "hours": 1.0,
+        "end_md_ft": 4060.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 3,947' to 4,060'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:00",
+        "end": "3:30",
+        "hours": 0.5,
+        "end_md_ft": 4085.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10 5/8\" hole from 4,060' to 4,085'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:30",
+        "end": "4:15",
+        "hours": 0.75,
+        "end_md_ft": 4153.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 4,085' to 4,153'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:15",
+        "end": "4:45",
+        "hours": 0.5,
+        "end_md_ft": 4168.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10 5/8\" hole from 4,153' to 4,168'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:45",
+        "end": "11:45",
+        "hours": 7.0,
+        "end_md_ft": 4753.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 4,168' to 4,753",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:45",
+        "end": "12:15",
+        "hours": 0.5,
+        "end_md_ft": 4773.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10-5/8\" hole from 4,753' to 4,773'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:15",
+        "end": "16:30",
+        "hours": 4.25,
+        "end_md_ft": 5036.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 4,773' to 5,036'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "17:00",
+        "hours": 0.5,
+        "end_md_ft": 5036.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced Rig",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:00",
+        "end": "17:30",
+        "hours": 0.5,
+        "end_md_ft": 5036.0,
+        "activity": "rig_repair",
+        "is_npt": false,
+        "description": "Replaced stroke counter on # 2 mud pump",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:30",
+        "end": "18:15",
+        "hours": 0.75,
+        "end_md_ft": 5051.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drill 10-5/8\" hole from 5,036' to 5,051'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:15",
+        "end": "0:00",
+        "hours": 5.75,
+        "end_md_ft": 5334.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 5,051' to 5,334'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 5036.0,
+        "time": "16:30",
+        "description": "Serviced Rig"
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 5036.0,
+        "time": "17:00",
+        "description": "Replaced stroke counter on # 2 mud pump"
+      }
+    ],
+    "summary": "Drilling continued on the 10 5/8\" hole section with an average ROP of 69.74 ft/hr, and a weight-on-bit step test was performed at 4,099'. The system was also diluted with 200 bbl's of fresh water while drilling ahead."
+  }
+}

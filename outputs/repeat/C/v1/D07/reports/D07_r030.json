@@ -1,0 +1,281 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    79,
+    80,
+    81
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 147.2910339832306,
+    "prompt_tokens": 25961,
+    "output_tokens": 1945,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 9,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": null,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": null,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": null,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 9,
+      "mapped": 9
+    },
+    "llm_mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 1.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 30,
+      "report_date": "2021-07-26",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8545.0,
+      "tvd_ft": 8543.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Tested casing along with BOPE. Made up 5-3/4\" TCI clean out assembly. Picked up 4-3/4\" drill collars to 900'. Picked up 3.5\" drill pipe from 900' to 1,500' at report time. Trip in the hole with 5-3/4\" clean out assembly to top of float collar. Slip and cut drilling line. Test annular along with pipe rams. Drill out shoe track. Clean out cement to 8,545'. Perform xLOT. Pull out of the hole and pick up 5 3/4\" Directional Drilling Assembly."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 1.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "3:00",
+        "hours": 3.0,
+        "end_md_ft": 8545.0,
+        "activity": "waiting",
+        "is_npt": false,
+        "description": "Waited on cement.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "3-13",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:00",
+        "end": "6:00",
+        "hours": 3.0,
+        "end_md_ft": 8545.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Bled back 4 bbl's from casing to cement truck.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "cementing",
+        "activity_code": "6-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "12:00",
+        "hours": 6.0,
+        "end_md_ft": 8545.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Remove double gate BOP and strip out fiber optic / Remove Drilling spool and strip out fiber optic / Extension spool 11\"3000 X 13-5/8\" 5000 and 7\" cemented together / cut extension spool in half and chip out cement in lower half of spool while protecting the fiber optic.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "6-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:00",
+        "end": "13:00",
+        "hours": 1.0,
+        "end_md_ft": 8545.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Rig up power tongs underneath substructure and back out landing joint removing the casing collar with it.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "6-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "14:00",
+        "hours": 1.0,
+        "end_md_ft": 8545.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Installed 7\" riser nipple on the well head and torqued the well head to 17,070 ft/lbs to the 7\" casing.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "6-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:00",
+        "end": "15:00",
+        "hours": 1.0,
+        "end_md_ft": 8545.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Removed the riser nipple and install well head side valves with companion flanges.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "6-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:00",
+        "end": "21:30",
+        "hours": 6.5,
+        "end_md_ft": 8545.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Installed drilling spool w/ 2ea 2\" 10K valves and 1- 2\" 10K check valve on the kill side with a 2\" 1502, and 1ea 4\"10K manual valve and a 4\" 10K hydraulic valve on the choke side / Installed 7-1/16\" 10 K double gate BOP, Installed 7-16\" 10K X 7-1/16\" 15K crossover spool / installed 7-1/16\" 10K annular BOP w/ 7-1/16\" 15K lower flange and 7-1/16\" 10K upper flange / installing 7-1/16\" 10K riser nipple. Installed turn buckles. Function test BOP.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "6-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:30",
+        "end": "23:00",
+        "hours": 1.5,
+        "end_md_ft": 8545.0,
+        "activity": "bop_testing",
+        "is_npt": false,
+        "description": "Rigged up pump truck to well head. Attempted to test truck prior to starting test. Unable to get a good test on the pump truck. Pressure leaking at the truck losing approximately 600 psi every 30 mins.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "3-15",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:00",
+        "end": "0:00",
+        "hours": 1.0,
+        "end_md_ft": 8545.0,
+        "activity": "bop_testing",
+        "is_npt": false,
+        "description": "Removed Pason transducer from stand-pipe and installed on 2\" 10K valve on well head to monitor casing pressure. Tested casing along with inside choke valve and out side kill check valve to 300 psi. held for 5 mins. good test. All test charted out on Pason.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-15",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "0:00",
+        "description": "Waited on cement."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "6:00",
+        "description": "Remove double gate BOP and strip out fiber optic / Remove Drilling spool and strip out fiber optic / Extension spool 11\"3000 X 13-5/8\" 5000 and 7\" cemented together / cut extension spool in half and chip out cement in lower half of spool while protecting the fiber optic."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "12:00",
+        "description": "Rig up power tongs underneath substructure and back out landing joint removing the casing collar with it."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "21:30",
+        "description": "Rigged up pump truck to well head. Attempted to test truck prior to starting test. Unable to get a good test on the pump truck. Pressure leaking at the truck losing approximately 600 psi every 30 mins."
+      }
+    ],
+    "summary": "The report details activities on 26-Jul-21, including waiting on cement, bled back casing, and testing BOPs. Operations included casing testing, cleanout assembly, and preparation for directional drilling. No incidents or events were reported."
+  }
+}

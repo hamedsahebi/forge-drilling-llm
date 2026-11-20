@@ -1,0 +1,90 @@
+{
+  "doc_id": "D08",
+  "page": 39,
+  "bbox": [
+    109.5,
+    106.2,
+    502.4,
+    634.2
+  ],
+  "source": "raster",
+  "caption": "Figure 17: BHA # 3 used with bit # 3",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p39_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 50.64940166473389,
+    "prompt_tokens": 1395,
+    "output_tokens": 943
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 3 BHA Length (ft): 1,091.56 Date In: 09-Feb-21 16:30 Depth In (ft): 390\nDate Out: 10-Feb-21 00:00 Depth Out (ft): 3,308\nHWDP, 24 joints, Length: 730 ft\n5.000 ins, 3.250 ins\nTop Thread 4.5IF\nS/No: RIG\n1,092 ft from top to Bit\nXO, Length: 3 ft\n8.000 ins, 3.000 ins\nTop Thread 4.5IF\nS/No: RIG\nDC, 9 joints, Length: 274 ft\n8.000 ins, 3.000 ins\nTop Thread 6.625REG\nS/No: RIG\n358 ft from top to Bit\nSHOCK, Length: 13 ft\n8.063 ins, 3.875 ins\nTop Thread 6.625REG\nS/No: 02/11/20\nMONEL, Length: 29 ft\n7.876 ins, 3.250 ins\nTop Thread 6.625REG\nS/No: DR8020\n72 ft from top to Bit\nSTAB, Length: 5 ft\n8.000 ins, 3.000 ins\nTop Thread 6.625REG\nNM STAB\nXO, Length: 4 ft\n8.126 ins, 3.750 ins\nTop Thread 6.625REG\nNBUHBO\nMMTR, Length: 33 ft\n8.000 ins\nTop Thread 6.625REG\nS/No: ML010\n34 ft from top to Bit\nBIT, Length: 1 ft\n12.250 ins\nTop Thread 6.625REG\nBit cored\nS/No: A268974\n1 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), XO (X-Over), DC (Drill Collar), SHOCK, MONEL, STAB, and a BIT. Each component is detailed with its length, internal diameter, top thread specification, serial number, and the distance from the top to the bit. The report also includes the date of insertion and removal of the BHA into the well.",
+    "kind": "well_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "SHOCK",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MONEL",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "STAB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 1,091.56 ft",
+      "HWDP Length = 730 ft",
+      "XO Length = 3 ft",
+      "DC Length = 274 ft",
+      "SHOCK Length = 13 ft",
+      "MONEL Length = 29 ft",
+      "STAB Length = 5 ft",
+      "XO Length = 4 ft",
+      "MMTR Length = 33 ft",
+      "BIT Length = 1 ft"
+    ]
+  }
+}

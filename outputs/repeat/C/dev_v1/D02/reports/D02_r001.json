@@ -1,0 +1,404 @@
+{
+  "doc_id": "D02",
+  "well": "16A(78)-32",
+  "source": "16A78-32_DDR/16A(78)-32_Daily_Reports/drilling/11_04_2020_Utah_Forge_FORGE_16A_[78]-32_Drilling-C_11420201142020_25_reporttmp.pdf",
+  "pages": [
+    1
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 201.6660704612732,
+    "prompt_tokens": 18742,
+    "output_tokens": 2765,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 8,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 54.0,
+        "grade": "A53B",
+        "shoe_md_ft": 130.0
+      },
+      {
+        "section": "Surface",
+        "od_in": 13.38,
+        "weight_ppf": 68.0,
+        "grade": "L-80",
+        "shoe_md_ft": 1629.0
+      }
+    ],
+    "casing_source": "llm",
+    "activity_code": {
+      "found": false,
+      "rows": 0,
+      "mapped": 0
+    },
+    "llm_mud": [
+      {
+        "depth_ft": null,
+        "density_ppg": 8.7,
+        "funnel_viscosity_s": 30.0,
+        "pv_cp": 14.0,
+        "yp_lbf_100ft2": 4.0,
+        "ph": 7.5,
+        "chlorides_mg_l": 4.0
+      },
+      {
+        "depth_ft": null,
+        "density_ppg": null,
+        "funnel_viscosity_s": null,
+        "pv_cp": null,
+        "yp_lbf_100ft2": null,
+        "ph": null,
+        "chlorides_mg_l": null
+      }
+    ],
+    "mud_source": "llm",
+    "llm_bits": [
+      {
+        "bit_number": "2",
+        "size_in": 9.63,
+        "manufacturer": "NOV",
+        "bit_type": "PDC",
+        "serial_number": "A275580",
+        "depth_in_ft": 0.0,
+        "depth_out_ft": 0.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "1",
+        "size_in": 17.5,
+        "manufacturer": "NOV",
+        "bit_type": "PDC",
+        "serial_number": "A275580",
+        "depth_in_ft": 1629.0,
+        "depth_out_ft": 1629.0,
+        "wob_klbf": 9.0,
+        "rpm": 25.0,
+        "rop_ft_hr": 181.0
+      }
+    ],
+    "bits_source": "llm",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "FORGE 16A [78]-32",
+      "report_number": 16,
+      "report_date": "2020-11-04",
+      "operator": "Frontier Drilling",
+      "contractor": "Frontier Drilling",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 1629.0,
+      "tvd_ft": 1629.0,
+      "footage_24h_ft": null,
+      "hole_size_in": 17.5,
+      "current_operation": "Change BHA to drill float equipment",
+      "planned_operation": "Drill shoe track , Trip out of hole, Pick up Rotary Steerable BHA"
+    },
+    "casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 54.0,
+        "grade": "A53B",
+        "shoe_md_ft": 130.0
+      },
+      {
+        "section": "Surface",
+        "od_in": 13.38,
+        "weight_ppf": 68.0,
+        "grade": "L-80",
+        "shoe_md_ft": 1629.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": null,
+        "density_ppg": 8.7,
+        "funnel_viscosity_s": 30.0,
+        "pv_cp": 14.0,
+        "yp_lbf_100ft2": 4.0,
+        "ph": 7.5,
+        "chlorides_mg_l": 4.0
+      },
+      {
+        "depth_ft": null,
+        "density_ppg": null,
+        "funnel_viscosity_s": null,
+        "pv_cp": null,
+        "yp_lbf_100ft2": null,
+        "ph": null,
+        "chlorides_mg_l": null
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "2",
+        "size_in": 9.63,
+        "manufacturer": "NOV",
+        "bit_type": "PDC",
+        "serial_number": "A275580",
+        "depth_in_ft": 0.0,
+        "depth_out_ft": 0.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "1",
+        "size_in": 17.5,
+        "manufacturer": "NOV",
+        "bit_type": "PDC",
+        "serial_number": "A275580",
+        "depth_in_ft": 1629.0,
+        "depth_out_ft": 1629.0,
+        "wob_klbf": 9.0,
+        "rpm": 25.0,
+        "rop_ft_hr": 181.0
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "Drill Bit-PDC Bit",
+        "od_in": 12.25,
+        "id_in": null,
+        "length_ft": 2.0
+      },
+      {
+        "order": 2,
+        "component": "Steerable Assembly-VERTICAL SCOUT",
+        "od_in": 9.63,
+        "id_in": null,
+        "length_ft": 8.0
+      },
+      {
+        "order": 3,
+        "component": "X-Over-PIN TO PIN",
+        "od_in": 8.06,
+        "id_in": 2.75,
+        "length_ft": 2.19
+      },
+      {
+        "order": 4,
+        "component": "Motor-7/8, 5.9 STG, 0.155 RPG ,STRAIGHT",
+        "od_in": 9.63,
+        "id_in": null,
+        "length_ft": 41.11
+      },
+      {
+        "order": 5,
+        "component": "Shock Sub-SHOCK SUB",
+        "od_in": 8.38,
+        "id_in": 2.75,
+        "length_ft": 13.52
+      },
+      {
+        "order": 6,
+        "component": "Stabilizer",
+        "od_in": 8.06,
+        "id_in": 2.75,
+        "length_ft": 4.97
+      },
+      {
+        "order": 7,
+        "component": "Monel Collar",
+        "od_in": 8.25,
+        "id_in": 3.25,
+        "length_ft": 29.52
+      },
+      {
+        "order": 8,
+        "component": "Sub-HANG OFF SUB",
+        "od_in": 8.25,
+        "id_in": 3.25,
+        "length_ft": 5.09
+      },
+      {
+        "order": 9,
+        "component": "Drill Collar-4 STDS DC",
+        "od_in": 8.0,
+        "id_in": 2.88,
+        "length_ft": 366.49
+      },
+      {
+        "order": 10,
+        "component": "X-Over-6 5/8 REG PIN X 4 1/2 IF BOX",
+        "od_in": 8.25,
+        "id_in": 2.75,
+        "length_ft": 2.8
+      },
+      {
+        "order": 11,
+        "component": "Drill Pipe-5\" hvy wt dp",
+        "od_in": 5.0,
+        "id_in": 3.0,
+        "length_ft": 276.35
+      },
+      {
+        "order": 12,
+        "component": "Drill Pipe-5\" DP",
+        "od_in": 5.0,
+        "id_in": 4.28,
+        "length_ft": 862.17
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 1325.0,
+        "inclination_deg": 1.58,
+        "azimuth_deg": 166.01,
+        "tvd_ft": 1325.0
+      },
+      {
+        "md_ft": 1420.0,
+        "inclination_deg": 1.1,
+        "azimuth_deg": 155.91,
+        "tvd_ft": 1420.0
+      },
+      {
+        "md_ft": 1514.0,
+        "inclination_deg": 0.75,
+        "azimuth_deg": 126.2,
+        "tvd_ft": 1514.0
+      },
+      {
+        "md_ft": 1523.0,
+        "inclination_deg": 0.66,
+        "azimuth_deg": 124.35,
+        "tvd_ft": 1523.0
+      }
+    ],
+    "operations": [
+      {
+        "start": "06:00",
+        "end": "09:00",
+        "hours": 3.0,
+        "end_md_ft": null,
+        "activity": "other",
+        "is_npt": false,
+        "description": "PJSM (pre job safety meeting) with FORGE DSM's and Frontier Drilling. Move and sort drill pipe for drilling operations. Intermediate Drilling Other. General housekeeping pick up tools and empty trash containers.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "other",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "09:00",
+        "end": "16:00",
+        "hours": 7.0,
+        "end_md_ft": null,
+        "activity": "bop_testing",
+        "is_npt": false,
+        "description": "Rig up A-1 Testing and begin BOPE testing at 09:00. Test blinds to 250 psi low, 5,000 psi high. Test pipe rams to 250 psi low, 5,000 psi high. Test choke manifold, choke lines and all valves to 250 psi low, 5,000 psi high. Test mud lines back to pumps to 80% of liner rating of 3,600 psi. Test casing to 1,500 psi. All tests were good. Meet with Jim Goddard, Division of Water Rights, State of Utah at 10:00. Tour rig and pad, Witness BOPE testing in progress. Review required information by state including casing report, cement report and BOPE charts and reports.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "bop_testing",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:00",
+        "end": "17:00",
+        "hours": 1.0,
+        "end_md_ft": null,
+        "activity": "bop_testing",
+        "is_npt": false,
+        "description": "Intermediate Casing Test B.O.P. Nabors installing a K Box Light (Control Center for Nabors Rig Watch), Install wear bushing. Intermediate Casing Test B.O.P. Perform function test on accumulator as per procedures.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "bop_testing",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:00",
+        "end": "18:00",
+        "hours": 1.0,
+        "end_md_ft": null,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Safety Meeting. Slip and Cut Drill Line. Set top drive in shipping position, chain off blocks to derrick. Prepare to slip and cut drilling line. Nabors continue to work on K Box Light.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "other",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "18:00",
+        "end": "23:00",
+        "hours": 5.0,
+        "end_md_ft": null,
+        "activity": "other",
+        "is_npt": false,
+        "description": "PJSM (pre job safety meeting) with FORGE DSM's and Frontier Drilling. Intermediate Casing Cut off Drill Line. Intermediate Casing Dir Work. Pick up Intermediate Directional Tools BHA # 2, with 12 1/4\" PDC bit.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "other",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "23:00",
+        "end": "00:30",
+        "hours": 1.5,
+        "end_md_ft": null,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Intermediate Casing Trips. Trip in Hole with VRRS , tag cement.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "tripping",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "00:30",
+        "end": "03:30",
+        "hours": 3.0,
+        "end_md_ft": null,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Intermediate Casing Drilling. Drill cement and Float Collar, stop drilling , prepare to pull out of hole.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "03:30",
+        "end": "06:00",
+        "hours": 2.5,
+        "end_md_ft": null,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Intermediate Casing Trips. Trip out of hole ,(TOOH) VRSS, bit no issues. Conclusion probable rubber inference. Plan Forward trip in hole with mill tooth bit drill up float equipment.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "tripping",
+        "activity_code": null,
+        "activity_source": "llm"
+      }
+    ],
+    "events": [],
+    "summary": "This report details the drilling activities on FORGE 16A [78]-32 on 11/04/2020, including the change of BHA to drill float equipment, planned operations for the day, and the status of the well at MD/TVD 1629 ft with a hole size of 17.5 inches."
+  }
+}

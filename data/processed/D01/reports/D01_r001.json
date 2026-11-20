@@ -1,0 +1,134 @@
+{
+  "doc_id": "D01",
+  "well": "16A(78)-32",
+  "source": "16A78-32_DDR/16A(78)-32_Daily_Reports/drilling/Utah_Forge_FORGE_16A_(78)-32_Drilling-C_10232020_10232020_26_reporttmp.pdf",
+  "pages": [
+    1
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 67.1005425453186,
+    "prompt_tokens": 10868,
+    "output_tokens": 883,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 4,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [],
+    "casing_source": "llm",
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": false,
+      "rows": 0,
+      "mapped": 0
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "FORGE 16A [78]-32",
+      "report_number": 4,
+      "report_date": "2020-10-23",
+      "operator": "Frontier Drilling",
+      "contractor": "Frontier Drilling",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": null,
+      "tvd_ft": null,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": null
+    },
+    "casing": [],
+    "mud": [],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "06:00",
+        "end": "07:00",
+        "hours": 1.0,
+        "end_md_ft": null,
+        "activity": "waiting",
+        "is_npt": true,
+        "description": "No Activity. Wait on daylight.",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "waiting",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "07:00",
+        "end": "07:30",
+        "hours": 0.5,
+        "end_md_ft": null,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Safety meeting with FORGE Supt. Duane Winkler, FORGE DSM Leroy Swearingen, Frontier Drilling and RW Jones",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "other",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "07:30",
+        "end": "17:00",
+        "hours": 9.5,
+        "end_md_ft": null,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Rigging up with Frontier Personnel; 2 Superintendents, 1 Rig Manager, 12 crew members, 2 cranes and1 forklift. Other equipment and personnel on location included 1 fuel truck, 3 water trucks, 1 Frontier haul truck with collars and choke manifold, 2 haul trucks with solids control equipment and 2 solids control personnel. Also Stuart Coleman and Lauralee Simano with Chevron to tour the rig. Finish putting derrick together, string up blocks and set derrick on floor. Raise A-legs, hook up mud lines, complete running electrical lines and set stairs to floor. Begin rigging up gas buster and flare lines. Begin putting up wind walls. Work on rig generators. Rig floor is 50% rigged up, mud pits are 100% rigged up, back yard is 65% rigged up. Did a 30 minute walk around and tour with Chevron personnel.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "rig_up_down",
+        "activity_code": null,
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:00",
+        "end": "06:00",
+        "hours": 13.0,
+        "end_md_ft": null,
+        "activity": "waiting",
+        "is_npt": true,
+        "description": "SDFN (Shut Down For Night)",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "waiting",
+        "activity_code": null,
+        "activity_source": "llm"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": null,
+        "time": "06:00",
+        "description": "No Activity. Wait on daylight."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": null,
+        "time": "17:00",
+        "description": "SDFN (Shut Down For Night)"
+      }
+    ],
+    "summary": "This report details the rigging up activities for Frontier Rig 16 on October 23, 2020, with no drilling operations conducted due to waiting for daylight and completing setup tasks."
+  }
+}

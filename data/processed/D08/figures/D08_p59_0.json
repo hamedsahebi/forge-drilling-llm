@@ -1,0 +1,63 @@
+{
+  "doc_id": "D08",
+  "page": 59,
+  "bbox": [
+    72.0,
+    124.9,
+    565.2,
+    337.1
+  ],
+  "source": "raster",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p59_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 36.0906982421875,
+    "prompt_tokens": 1327,
+    "output_tokens": 659
+  },
+  "data": {
+    "transcription": "Cement Job Information\nStart Date/Time: 02-Mar-21 13:00\nJob Type: PRIMARY\nWell Section: PROD\nCementing Co: Resource\nWellbore: Original Wellbore\nString OD (ins): 5.500\nString Type: FULL\nPrimary Job Detail\nVolume (bbls) Pump Time Rate (bbls/min) Pressure (psi)\nConditioning Data: \t\t21\t5.0\t237\nCement Data:\t610.0\t94\t8.0\t352\nDisplacement Data:\t27.0\t5\t5.0\t6,200\nCalc. Displacement Vol:\t27.0\nReciprocate Pipe?\tBatch Mix? \tBump Plug?\tBump Pressure:\nReturns to Surface: NONE\tCement at Surface?\nCalc Top of Cement (ft): 3,200\tExcess (%):\t50.00%\tAvg. Hole Size (ins): 8.750\nSlurry Information\nType Density Yield Sacks Volume Rate Additives\nOTHER \t13.60 \t1.73 \t1870 \t576.2 \tRC-ThermaLite 50/50 G8. Economical High Strength Low Density Blend\nPost Job Information\nLiner Top Test (lbs/gal): \tJob Success?\nActual Top of Cmt (ft): \tCBL Bond Quality:",
+    "description": "The figure provides detailed information about a cement job in well 56-32. It includes the start date and time, job type, well section, and wellbore details. The primary job detail section lists volumes of conditioning data, cement data, displacement data, and calculated displacement volume along with corresponding pump times and rates. The slurry information specifies the density, yield, sacks used, and volume of the cement mixture, as well as additives used in the mix. Post-job information includes a liner top test result and job success status.",
+    "kind": "table_image",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Conditioning Data",
+        "unit": "bbls",
+        "trend": null
+      },
+      {
+        "name": "Cement Data",
+        "unit": "bbls",
+        "trend": null
+      },
+      {
+        "name": "Displacement Data",
+        "unit": "bbls",
+        "trend": null
+      },
+      {
+        "name": "Calc. Displacement Vol",
+        "unit": "bbls",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Volume (bbls) = 21",
+      "Pump Time = 94 min",
+      "Rate (bbls/min) = 5.0 bbls/min",
+      "Pressure (psi) = 352 psi",
+      "Density = 13.60 lbs/gal",
+      "Yield = 1.73 sacks/bbl",
+      "Sacks = 1870 sacks",
+      "Volume = 576.2 bbls"
+    ]
+  }
+}

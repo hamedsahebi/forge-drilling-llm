@@ -1,0 +1,108 @@
+{
+  "doc_id": "D08",
+  "page": 44,
+  "bbox": [
+    72.0,
+    297.4,
+    464.7,
+    654.0
+  ],
+  "source": "raster",
+  "caption": "Figure 20: BOPE stack for drilling 8-3/4 in. hole",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p44_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 38.434083700180054,
+    "prompt_tokens": 1321,
+    "output_tokens": 703
+  },
+  "data": {
+    "transcription": "Figure 20: BOPE stack for drilling 8-3/4 in. hole\nDOCUMENT: 56-32_EOWR.pdf (well 56-32), page 44",
+    "description": "The figure illustrates a blowout preventer equipment (BOPE) stack designed for drilling an 8-3/4 inch wellbore in Well 56-32. The stack includes various components such as risers, annular preventers, double gate preventers, mud cross, and casing heads.",
+    "kind": "directional_plot",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "13-5/8\" 5M Riser",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Flowline",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-5/8\" 5M Annular Preventer",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-5/8\" 5M Double Gate Preventer",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-5/8\" 5M Mud Cross",
+        "unit": "",
+        "trend": null
+      },
+      {
+        "name": "Side outlet valves to match the side outlets",
+        "unit": "",
+        "trend": null
+      },
+      {
+        "name": "2-1/16\" 3M check valve on kill line",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-5/8\" 5M x 3M Sliplok Casing Head",
+        "unit": "",
+        "trend": null
+      },
+      {
+        "name": "2 ea. 2-1/16 5M side outlets and valves",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "9-5/8\", 36lb(AD 8-3/4), J-55, BTC casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-3/8\", 54.5#, J-55, BTC casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "20\" .375 WT LP Gr.B Conductor",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Well = 56-32",
+      "Hole size = 8-3/4\"",
+      "Riser = 13-5/8\" 5M",
+      "Annular Preventer = 13-5/8\" 5M",
+      "Double Gate Preventer = 13-5/8\" 5M",
+      "Mud Cross = 13-5/8\" 5M",
+      "Side outlet valves to match the side outlets = -",
+      "Check valve on kill line = 2-1/16\"",
+      "Sliplok Casing Head = 13-5/8\" x 3M",
+      "Side outlets and valves = 2 ea. 2-1/16 5M",
+      "Casing = 9-5/8\", 36lb(AD 8-3/4), J-55, BTC",
+      "Casing = 13-3/8\", 54.5#, J-55, BTC",
+      "Conductor = 20\" .375 WT LP Gr.B"
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    5,
+    7
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 52.56345295906067,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "56-32",
+    "purpose": "Seismic Monitoring Well",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": null,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [
+      {
+        "section": "20 in. conductor pipe",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": null
+      },
+      {
+        "section": "13-3/8 in. surface casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": null
+      },
+      {
+        "section": "9-5/8 in. intermediate casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": null
+      },
+      {
+        "section": "5-1/2 in. production casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": null
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "1",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "2",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "3",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "4",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "5",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "6",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "7",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "8",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "9",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "10",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "11",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "12",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "13",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "14",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      }
+    ],
+    "events": [],
+    "lessons_learned": []
+  }
+}

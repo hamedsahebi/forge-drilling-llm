@@ -1,0 +1,264 @@
+{
+  "doc_id": "D06",
+  "well": "56-32",
+  "source": "56-32_DDR/DailyReportDetailRpt_210309095105.pdf",
+  "pages": [
+    1,
+    2
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 96.95684885978699,
+    "prompt_tokens": 16518,
+    "output_tokens": 1618,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 10,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "COND",
+        "od_in": 20.0,
+        "weight_ppf": null,
+        "grade": "FULL",
+        "shoe_md_ft": 129.0
+      },
+      {
+        "section": "SURF",
+        "od_in": 13.375,
+        "weight_ppf": 55.0,
+        "grade": "J-55",
+        "shoe_md_ft": 382.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 9.625,
+        "weight_ppf": 36.0,
+        "grade": "J-55",
+        "shoe_md_ft": 3494.0
+      },
+      {
+        "section": null,
+        "od_in": 5.5,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 9105.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 10,
+      "mapped": 6
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "56-32",
+      "report_number": 33,
+      "report_date": "2021-03-08",
+      "operator": "University of Utah",
+      "contractor": "Frontier",
+      "rig": "Frontier",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 9145.0,
+      "tvd_ft": 9138.0,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": null,
+      "current_operation": "Change valves and seats in pumps and replace 5\" liners back to 6\"",
+      "planned_operation": ""
+    },
+    "casing": [
+      {
+        "section": "COND",
+        "od_in": 20.0,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 129.0
+      },
+      {
+        "section": "SURF",
+        "od_in": 13.375,
+        "weight_ppf": 55.0,
+        "grade": "J-55",
+        "shoe_md_ft": 382.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 9.625,
+        "weight_ppf": 36.0,
+        "grade": "J-55",
+        "shoe_md_ft": 3494.0
+      },
+      {
+        "section": null,
+        "od_in": 5.5,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 9105.0
+      }
+    ],
+    "mud": [],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "2:30",
+        "hours": 2.5,
+        "end_md_ft": 9145.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "RIH scraping casing to 8,933'",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "casing",
+        "activity_code": "10-6-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:30",
+        "end": "4:30",
+        "hours": 2.0,
+        "end_md_ft": 9145.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Wash and Ream from 8,933' to 9,034'",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-3",
+        "activity_source": "llm"
+      },
+      {
+        "start": "4:30",
+        "end": "5:00",
+        "hours": 0.5,
+        "end_md_ft": 9145.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulate hole clean",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:00",
+        "end": "6:00",
+        "hours": 1.0,
+        "end_md_ft": 9145.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Displace the mud in the hole with 200 bbl fresh water",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "8:00",
+        "hours": 2.0,
+        "end_md_ft": 9145.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Displace the water in the hole with 266 bbl Biocide water",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "8:00",
+        "end": "16:00",
+        "hours": 8.0,
+        "end_md_ft": 9145.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "POH laying down all 2-7/8\" drill pipe",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "tripping",
+        "activity_code": "10-342",
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "hours": 0.5,
+        "end_md_ft": 9145.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Lay down BHA",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "tripping",
+        "activity_code": "10-344",
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:30",
+        "end": "18:00",
+        "hours": 1.5,
+        "end_md_ft": 9145.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Remove flow line and cut casing at ground level, separate cross over spools, load out 3rd truck of rental tools and 4th truck w/ motors to Casper",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "rig_up_down",
+        "activity_code": "1-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:00",
+        "end": "22:00",
+        "hours": 4.0,
+        "end_md_ft": 9145.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Weld on wellhead and install master valve. Weld on weldalet and install threaded valve",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "rig_up_down",
+        "activity_code": "WELLHD",
+        "activity_source": "llm"
+      },
+      {
+        "start": "22:00",
+        "end": "0:00",
+        "hours": 2.0,
+        "end_md_ft": 9145.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Clean pits",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "other",
+        "activity_code": "3-97",
+        "activity_source": "code"
+      }
+    ],
+    "events": [],
+    "summary": "Daily drilling report for well 56-32 on March 8, 2021, detailing operations including casing scraping, reaming, hole cleaning, mud displacement, and equipment preparation for rig down."
+  }
+}

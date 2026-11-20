@@ -1,0 +1,204 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    45,
+    63
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 68.81830048561096,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "Seismic Monitoring Well 56-32",
+    "purpose": "Seismic Monitoring",
+    "spud_date": null,
+    "td_date": "01-02-2021",
+    "total_depth_md_ft": 9105.0,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [
+      {
+        "section": "5-1/2 in.",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": "L-80",
+        "shoe_md_ft": 9105.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "5/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 20.0,
+        "rpm": 20.0,
+        "rop_ft_hr": 409.0
+      },
+      {
+        "bit_number": "6/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 40.0,
+        "rpm": 227.0,
+        "rop_ft_hr": 700.0
+      },
+      {
+        "bit_number": "7/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 50.0,
+        "rpm": 205.0,
+        "rop_ft_hr": 680.0
+      },
+      {
+        "bit_number": "8/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 50.0,
+        "rpm": 205.0,
+        "rop_ft_hr": 700.0
+      },
+      {
+        "bit_number": "9/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 50.0,
+        "rpm": 200.0,
+        "rop_ft_hr": 687.0
+      },
+      {
+        "bit_number": "10/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 46.0,
+        "rpm": 198.0,
+        "rop_ft_hr": 677.0
+      },
+      {
+        "bit_number": "11/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 46.0,
+        "rpm": 202.0,
+        "rop_ft_hr": 685.0
+      },
+      {
+        "bit_number": "11/2",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 46.0,
+        "rpm": 194.0,
+        "rop_ft_hr": 577.0
+      },
+      {
+        "bit_number": "12/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 20.0,
+        "rpm": 153.0,
+        "rop_ft_hr": 10.0
+      },
+      {
+        "bit_number": "12/2",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 32.0,
+        "rpm": 164.0,
+        "rop_ft_hr": 5.0
+      },
+      {
+        "bit_number": "13/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 50.0,
+        "rpm": 190.0,
+        "rop_ft_hr": 667.0
+      },
+      {
+        "bit_number": "14/1",
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": null,
+        "serial_number": null,
+        "depth_in_ft": null,
+        "depth_out_ft": null,
+        "wob_klbf": 45.0,
+        "rpm": 183.0,
+        "rop_ft_hr": 644.0
+      }
+    ],
+    "events": [
+      {
+        "event_type": "lost_circulation",
+        "depth_ft": null,
+        "time": null,
+        "description": "Severe lost circulation was encountered during cementing of the 5-1/2 in. casing, leading to rapid pressure increase from 500 psi to 1,800 psi."
+      },
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": null,
+        "time": null,
+        "description": "Cement displacement was not possible due to high pressure of approximately 6,200 psi that were at the limit of the casing capacity."
+      },
+      {
+        "event_type": "lost_circulation",
+        "depth_ft": null,
+        "time": null,
+        "description": "The cementing process required pumping 160 bbls of fresh water into the annular to clear spacers and allow for a top squeeze to place cement between casings."
+      }
+    ],
+    "lessons_learned": [
+      "Use temperature degradable LCMs such as Micro C, Sawdust, Cottonseed Hulls, and AltaVert 102 if severe lost circulation is encountered.",
+      "Maintain a pH of 11.0 with Caustic Soda and use TORKease to reduce torque and drag.",
+      "Monitor corrosion rates onsite and treat any unacceptable rates with corrosion additives.",
+      "Pump cold water as needed to control well conditions and consider the use of weighted brines for additional pressure control if required.",
+      "Investigate cementing incidents with third-party experts to ensure proper analysis and conclusions."
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "doc_id": "D03",
+  "well": "16A(78)-32",
+  "source": "16A78-32_DDR/16A(78)-32_Daily_Reports/completion/Utah_Forge_FORGE_16A_(78)-32_Completion-C_01082021_01082021_17_reporttmp.pdf",
+  "pages": [
+    1
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 72.68205094337463,
+    "prompt_tokens": 9476,
+    "output_tokens": 1152,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 5,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 54.0,
+        "grade": "A53B",
+        "shoe_md_ft": 130.0
+      },
+      {
+        "section": "Surface",
+        "od_in": 13.375,
+        "weight_ppf": 68.0,
+        "grade": "L-80",
+        "shoe_md_ft": 1629.0
+      },
+      {
+        "section": "Intermediate",
+        "od_in": 9.625,
+        "weight_ppf": 40.0,
+        "grade": "HCL-80",
+        "shoe_md_ft": 5110.0
+      },
+      {
+        "section": "Production",
+        "od_in": 7.0,
+        "weight_ppf": 38.0,
+        "grade": "T-95",
+        "shoe_md_ft": 10787.0
+      }
+    ],
+    "casing_source": "llm",
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 5,
+      "mapped": 0
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "FORGE 16A [78]-32",
+      "report_number": 5,
+      "report_date": "2021-01-08",
+      "operator": "",
+      "contractor": "Frontier Drilling",
+      "rig": "Frontier Rig 16",
+      "report_type": "completion"
+    },
+    "depth": {
+      "md_ft": 10987.0,
+      "tvd_ft": 8559.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": "Shut well in to monitor pressure decline",
+      "planned_operation": "Monitor pressure decline, pressure up on wellbore, perform flowback test"
+    },
+    "casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 54.0,
+        "grade": "A53B",
+        "shoe_md_ft": 130.0
+      },
+      {
+        "section": "Surface",
+        "od_in": 13.375,
+        "weight_ppf": 68.0,
+        "grade": "L-80",
+        "shoe_md_ft": 1629.0
+      },
+      {
+        "section": "Intermediate",
+        "od_in": 9.625,
+        "weight_ppf": 40.0,
+        "grade": "HCL-80",
+        "shoe_md_ft": 5110.0
+      },
+      {
+        "section": "Production",
+        "od_in": 7.0,
+        "weight_ppf": 38.0,
+        "grade": "T-95",
+        "shoe_md_ft": 10787.0
+      }
+    ],
+    "mud": [],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "6:00",
+        "end": "8:00",
+        "hours": 2.0,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": false,
+        "description": "Wash and ream shoe track from 10,685' to 10,780'",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": false,
+        "description": "Trip out of hole with clean out mill assembly from 10,780 to surface; break off mill and lay down",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "12:00",
+        "end": "17:30",
+        "hours": 5.5,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": false,
+        "description": "Make up Renown packer assembly and trip in hole on drill pipe to 10,610' to perform DFIT; Remove top drive subs to accommodate pump head on drill pipe. Rig up Resource Cement pump truck. Held safety meeting. Mix and pump 78 bbl of friction reducer down drill pipe. Break off head and drop ball to set packer. Test all lines to 9,000 psi. Position packer at setting depth and pump setting ball down to seat and set packer.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:30",
+        "end": "23:00",
+        "hours": 5.5,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": false,
+        "description": "Perform DFIT",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "23:00",
+        "end": "6:00",
+        "hours": 7.0,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": false,
+        "description": "Shut well in to monitor pressure decline",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [],
+    "summary": "This report details the completion operations for FORGE 16A [78]-32, including well preparation, running a packer, performing DFIT (Drainage Flowback Integrity Test), and shutting in the well to monitor pressure decline."
+  }
+}

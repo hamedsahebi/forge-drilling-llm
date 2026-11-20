@@ -1,0 +1,64 @@
+{
+  "doc_id": "D08",
+  "page": 64,
+  "bbox": [
+    108.5,
+    195.3,
+    503.5,
+    374.5
+  ],
+  "source": "raster",
+  "caption": "Figure 37: MSE Formulas (Harold Vance Department of Petroleum Engineering. Texas A&M University)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p64_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 39.23713183403015,
+    "prompt_tokens": 1325,
+    "output_tokens": 712
+  },
+  "data": {
+    "transcription": "MSETotal = Axial Work + String Rotational Work + Bit Rotational Work\nMSETotal = \frac{4WOB}{\text{\textpi}D^2} + \frac{480(TORSurf - TORmm)RPMSurf}{D^2(ROP)} + \frac{480TORmm RPMmm}{D^2(ROP)}\nFor motor applications this simplifies to:\nMSETotal = \frac{4WOB_{Surf}}{\text{\textpi}D^2} + \frac{480TORSurf RPMSurf}{D^2(ROP)} + \frac{480(K_t \triangle P)(Kn Q)}{D^2(ROP)}\nFor MWD applications this simplifies to:\nMSETotal = \frac{4WOB_{MWD}}{\text{\textpi}D^2} + \frac{480TORSurf RPMSurf}{D^2(ROP)} + \frac{480TOR_{MWD} RPM_{MWD}}{D^2(ROP)}",
+    "description": "The figure provides formulas for calculating the total mechanical specific energy (MSETotal) in drilling operations. It breaks down MSE into three components: axial work, string rotational work, and bit rotational work. The formulas are given for general applications, motor applications, and MWD (Measurement While Drilling) applications. Each formula includes terms related to weight on bit (WOB), torque at the surface (TORSurf or TORmm), rotational speed (RPMSurf or RPMmm), drill collar diameter squared divided by rate of penetration (D^2(ROP)), and additional parameters for motor and MWD applications.",
+    "kind": "equipment_diagram",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSETotal",
+        "unit": "dimensionless",
+        "trend": null
+      },
+      {
+        "name": "Axial Work",
+        "unit": "dimensionless",
+        "trend": null
+      },
+      {
+        "name": "String Rotational Work",
+        "unit": "dimensionless",
+        "trend": null
+      },
+      {
+        "name": "Bit Rotational Work",
+        "unit": "dimensionless",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSETotal = \frac{4WOB}{\text{\textpi}D^2}",
+      "MSETotal = \frac{480(TORSurf - TORmm)RPMSurf}{D^2(ROP)}",
+      "MSETotal = \frac{480TORmm RPMmm}{D^2(ROP)}",
+      "MSETotal = \frac{4WOB_{Surf}}{\text{\textpi}D^2}",
+      "MSETotal = \frac{480TORSurf RPMSurf}{D^2(ROP)}",
+      "MSETotal = \frac{480(K_t \triangle P)(Kn Q)}{D^2(ROP)}",
+      "MSETotal = \frac{4WOB_{MWD}}{\text{\textpi}D^2}",
+      "MSETotal = \frac{480TORSurf RPMSurf}{D^2(ROP)}",
+      "MSETotal = \frac{480TOR_{MWD} RPM_{MWD}}{D^2(ROP)}"
+    ]
+  }
+}

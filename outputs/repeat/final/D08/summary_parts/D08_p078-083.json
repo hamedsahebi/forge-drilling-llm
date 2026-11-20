@@ -1,0 +1,124 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    78,
+    83
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 53.257230043411255,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "Seismic Monitoring Well 56-32",
+    "purpose": "Seismic Monitoring",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": null,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [],
+    "bits": [],
+    "events": [
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": null,
+        "time": null,
+        "description": "While running in the hole with the mud hammer and 2 roller reamers, they got stuck for several hours and finally worked loose."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Running the mud hammer the third time also resulted in a failed run."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "The CanRig system created discrepancies on the measurement of MSE and interfered with directional work to keep hole vertical."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Failed hammer run was indicated for the reason for the hammer failure."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Failed hammer run was indicated for the reason for the hammer failure."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "The mud motor needed to be tested without the bit installed, and testing with the bit inside casing could cause damage."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Mud motors should have only new components or use only new mud motors due to hard and abrasive drilling conditions."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "70% of our bit trips were due to lower bearing and housing failure, which also causes uncontrollable MSE due to higher torque and less differential."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "The mud motor was found not to have been assembled with any new parts except for the lower bearings, limiting its operational hours."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Mud motors should be tested without the bit installed inside casing to avoid damage and ensure working conditions."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "The mud motor was found not to have been assembled with any new parts except for the lower bearings, limiting its operational hours."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Mud motors should be tested without the bit installed inside casing to avoid damage and ensure working conditions."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "The mud motor was found not to have been assembled with any new parts except for the lower bearings, limiting its operational hours."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "Mud motors should be tested without the bit installed inside casing to avoid damage and ensure working conditions."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": null,
+        "time": null,
+        "description": "The mud motor was found not to have been assembled with any new parts except for the lower bearings, limiting its operational hours."
+      }
+    ],
+    "lessons_learned": [
+      "Ensure that each mud motor is brand new, or if rebuilt, only new components are used to avoid failures and reduce bit trips.",
+      "Test mud motors without the bit installed inside casing to prevent damage and ensure working conditions.",
+      "Ream drilled sections every 2,000 ft to 3,000 ft of directional work using a conventional locked assembly to smooth out directional work and avoid getting stuck.",
+      "Avoid using CanRig surface oscillator while sliding to maintain hole verticality and ensure proper MSE reading.",
+      "If no losses are detected while drilling, do not use Sodium Silicate in cement slurry as it could lead to premature set of the cement slurry.",
+      "Obtain proper bottom hole temperature prior to casing to avoid issues with cementing operations."
+    ]
+  }
+}

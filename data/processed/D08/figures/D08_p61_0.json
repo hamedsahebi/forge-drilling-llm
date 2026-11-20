@@ -1,0 +1,84 @@
+{
+  "doc_id": "D08",
+  "page": 61,
+  "bbox": [
+    116.3,
+    161.9,
+    495.6,
+    419.8
+  ],
+  "source": "raster",
+  "caption": "Figure 34: Permanent final wellhead",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p61_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 28.40064024925232,
+    "prompt_tokens": 1310,
+    "output_tokens": 503
+  },
+  "data": {
+    "transcription": "Figure 34: Permanent final wellhead\n56-32\nPermanent Wellhead\nDrawn by GRG May 2021 - Not to scale",
+    "description": "The figure illustrates the permanent wellhead assembly for well 56-32. It includes various components such as valves, flanges, and casing sections. The wellhead is designed with multiple pressure ratings (API 6A) and specific sizes in inches.",
+    "kind": "directional_plot",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "3-1/8\" API 6A 2000 psi valve",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "7-1/16\" API 6A 2000 psi x 3-1/8\" API 6A 2000 psi adapter flange",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "7-1/16\" API 6A, 2000 psi x 5-1/2\" SOW Flange",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "2-1/16\" Thread-on, with 2\" 2000 API 6A valve with 2\" 600 valve",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "5-1/2\", 17#, L-80, BTC",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "9-5/8\", 36#, J-55, LTC Casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "13-3/8\", 54.5#, J-55, BTC Casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "20\", 94#, J-55 BTC Conductor",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "<API 6A pressure> = 2000 psi",
+      "<valve size> = 3-1/8\"",
+      "<adapter flange size> = 7-1/16\" x 3-1/8\"",
+      "<SOW Flange size> = 5-1/2\"",
+      "<thread-on valve size> = 2\"",
+      "<BTC size> = 5-1/2\"",
+      "<LTC Casing size> = 9-5/8\"",
+      "<BTC Casing size> = 13-3/8\"",
+      "<BTC Conductor size> = 20\""
+    ]
+  }
+}

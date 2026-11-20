@@ -1,0 +1,74 @@
+{
+  "doc_id": "D08",
+  "page": 69,
+  "bbox": [
+    72.0,
+    106.2,
+    540.0,
+    626.9
+  ],
+  "source": "raster",
+  "caption": "Figure 42: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 7)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p69_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 13.868487358093262,
+    "prompt_tokens": 1639,
+    "output_tokens": 198
+  },
+  "data": {
+    "transcription": "MSE Total",
+    "description": "The figure shows the monitoring of various parameters while drilling an 8-3/4 inch hole section. The data is recorded over time, with depth in feet on the y-axis and time on the x-axis.",
+    "kind": "time_vs_depth",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE Total",
+        "unit": "Units",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit",
+        "unit": "klbs",
+        "trend": null
+      },
+      {
+        "name": "Rotary RPM",
+        "unit": "RPM",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "kf-lbf",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "ft/hr",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Bit RPM",
+        "unit": "RPM",
+        "trend": null
+      },
+      {
+        "name": "Bit Torque",
+        "unit": "kf-lbf",
+        "trend": null
+      }
+    ],
+    "key_values": []
+  }
+}

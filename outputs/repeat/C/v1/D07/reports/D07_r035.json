@@ -1,0 +1,179 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    93
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 70.84989023208618,
+    "prompt_tokens": 11362,
+    "output_tokens": 944,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 2,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 2,
+      "mapped": 0
+    },
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 35,
+      "report_date": "2021-07-31",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 9500.0,
+      "tvd_ft": 9497.0,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": 16.0,
+      "current_operation": "Rigging down",
+      "planned_operation": "Move rig to yard"
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "mud": [],
+    "bits": [],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "2 MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "30 DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": 1020.17
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "6:00",
+        "hours": 6.0,
+        "end_md_ft": 9225.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Continued nippling down 7-1/16\" 10K BOP's. Installed master valve with 3\" 10k spool on top. Note: Weatherized top section of casing by poring 8 gals of vegetable oil down 7\" casing.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "6-99",
+        "activity_source": "llm"
+      },
+      {
+        "start": "6:00",
+        "end": "0:00",
+        "hours": 18.0,
+        "end_md_ft": 9225.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Load out 6 loads of rental equipment 3.5\" pipe, loaded out 2 loads of cooling towers to drill cool, loaded out mud logging shack, loaded out centrifuge tank, clean cellar and pits with price pumping, Rig released from Day rate @ midnight on 7/31/2012",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [],
+    "summary": "This is the final drilling report for well 78B-32, with the rig rigged down and operations planned to move the rig to the yard."
+  }
+}

@@ -1,0 +1,855 @@
+{
+ "counts": {
+  "base": {
+   "retrieval": 12,
+   "data": 16,
+   "label": 1,
+   "reasoning": 2
+  },
+  "base_think": {
+   "reasoning": 4,
+   "data": 15,
+   "retrieval": 8,
+   "label": 1
+  },
+  "base_verify": {
+   "retrieval": 12,
+   "data": 16,
+   "label": 1,
+   "reasoning": 3
+  },
+  "base_verify_think": {
+   "data": 15,
+   "retrieval": 6,
+   "label": 1,
+   "reasoning": 4
+  }
+ },
+ "total": {
+  "retrieval": 38,
+  "data": 62,
+  "label": 4,
+  "reasoning": 13
+ },
+ "answers": [
+  {
+   "setting": "base",
+   "id": "Q01",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "filtered casing.section on \"7 in.\" text; DB section is PROD"
+  },
+  {
+   "setting": "base",
+   "id": "Q04",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "queried chart_readings instead of reports (MD 9,500, TVD 9,497 are there)"
+  },
+  {
+   "setting": "base",
+   "id": "Q06",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "filtered section on \"9-5/8\"/\"Intermediate\"; DB section is INT1"
+  },
+  {
+   "setting": "base",
+   "id": "Q10",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "join with events tripled the 8 h row; cause not read from description"
+  },
+  {
+   "setting": "base",
+   "id": "Q11",
+   "grade": "partial",
+   "type": "retrieval",
+   "why": "did not select description (\"Shut down for high winds and thunder storm\")"
+  },
+  {
+   "setting": "base",
+   "id": "Q12",
+   "grade": "wrong",
+   "type": "data",
+   "why": "D04_r001 report date extracted as 5 Feb (label: 6 Feb); the 12 h NPT is stored under 5 Feb"
+  },
+  {
+   "setting": "base",
+   "id": "Q13",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "searched figures, not the time log (operations has \"Triple-Combo / Max BHT was 416 F\")"
+  },
+  {
+   "setting": "base",
+   "id": "Q15",
+   "grade": "wrong",
+   "type": "data",
+   "why": "TD not stored correctly (well_summary TD 9,105 = shoe); agents used max survey TVD"
+  },
+  {
+   "setting": "base",
+   "id": "Q16",
+   "grade": "wrong",
+   "type": "data",
+   "why": "granite top not in the database"
+  },
+  {
+   "setting": "base",
+   "id": "Q17",
+   "grade": "wrong",
+   "type": "data",
+   "why": "ROP comparison text not in the tables"
+  },
+  {
+   "setting": "base",
+   "id": "Q18",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "searched the pages column for the keyword; the lesson is in eowr_lessons"
+  },
+  {
+   "setting": "base",
+   "id": "Q19",
+   "grade": "wrong",
+   "type": "data",
+   "why": "core result not in the tables"
+  },
+  {
+   "setting": "base",
+   "id": "Q20",
+   "grade": "partial",
+   "type": "data",
+   "why": "schematic readings hold depths only, not the casing spec"
+  },
+  {
+   "setting": "base",
+   "id": "Q21",
+   "grade": "wrong",
+   "type": "data",
+   "why": "float collar and cement left not in the database"
+  },
+  {
+   "setting": "base",
+   "id": "Q24",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned 9-5/8 in. depth (3,100 ft) not in the figure readings"
+  },
+  {
+   "setting": "base",
+   "id": "Q25",
+   "grade": "wrong",
+   "type": "label",
+   "why": "DB time log classes laying down pipe as tripping (14 h); the label does not (3.75 h)"
+  },
+  {
+   "setting": "base",
+   "id": "Q27",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "filtered activity = waiting, not is_npt"
+  },
+  {
+   "setting": "base",
+   "id": "Q28",
+   "grade": "wrong",
+   "type": "data",
+   "why": "charts give no hole depth over time (bit depth only); ROP readings near zero"
+  },
+  {
+   "setting": "base",
+   "id": "Q29",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart ROP readings cover 05:00-06:00 only"
+  },
+  {
+   "setting": "base",
+   "id": "Q30",
+   "grade": "wrong",
+   "type": "data",
+   "why": "4 of 12 chart WOB readings in the hour"
+  },
+  {
+   "setting": "base",
+   "id": "Q32",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart hook load max that day 148.7 klbs vs 341.8 in the sensor file"
+  },
+  {
+   "setting": "base",
+   "id": "Q34",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "summed footage_24h (null) instead of MD difference 9,500 - 8,950"
+  },
+  {
+   "setting": "base",
+   "id": "Q35",
+   "grade": "partial",
+   "type": "data",
+   "why": "EOWR bit table ROP missing for 12-1/4 in. bits"
+  },
+  {
+   "setting": "base",
+   "id": "Q36",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned vs actual days not in the database"
+  },
+  {
+   "setting": "base",
+   "id": "Q37",
+   "grade": "wrong",
+   "type": "data",
+   "why": "EOWR footage missing for 8-3/4 in. bits"
+  },
+  {
+   "setting": "base",
+   "id": "Q39",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "5-1/2 in. shoe looked for in daily casing only (it is in eowr_casing)"
+  },
+  {
+   "setting": "base",
+   "id": "Q40",
+   "grade": "wrong",
+   "type": "reasoning",
+   "why": "compared EOWR 3,500 (summary row) with all daily shoes; DB holds both 3,500 and 3,494 in eowr_casing"
+  },
+  {
+   "setting": "base",
+   "id": "Q42",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned depth (Figure 4) not in the database"
+  },
+  {
+   "setting": "base",
+   "id": "Q44",
+   "grade": "wrong",
+   "type": "reasoning",
+   "why": "accepted the false premise and listed cementing losses"
+  },
+  {
+   "setting": "base",
+   "id": "Q45",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "did not query EOWR events or lessons on the cement job; reasoned from casing specs"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q01",
+   "grade": "wrong",
+   "type": "reasoning",
+   "why": "got 8,532 and 8,509, chose 8,532 (older report)"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q02",
+   "grade": "wrong",
+   "type": "reasoning",
+   "why": "first query returned bit #17 (5.75 in. REED, 8,555 ft), answer said no record"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q05",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "listed all strings, unsure which is production"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q12",
+   "grade": "wrong",
+   "type": "data",
+   "why": "D04_r001 report date extracted as 5 Feb (label: 6 Feb); the 12 h NPT is stored under 5 Feb"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q13",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "searched figures, not the time log (operations has \"Triple-Combo / Max BHT was 416 F\")"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q15",
+   "grade": "wrong",
+   "type": "data",
+   "why": "TD not stored correctly (well_summary TD 9,105 = shoe); agents used max survey TVD"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q16",
+   "grade": "wrong",
+   "type": "data",
+   "why": "granite top not in the database"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q17",
+   "grade": "wrong",
+   "type": "data",
+   "why": "ROP comparison text not in the tables"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q19",
+   "grade": "wrong",
+   "type": "data",
+   "why": "core result not in the tables"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q21",
+   "grade": "wrong",
+   "type": "data",
+   "why": "float collar and cement left not in the database"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q22",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "search \"BHA 5\" missed Figure 21 (BHA length 762.86 ft is stored)"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q23",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "search \"days-versus-depth\" missed Figure 4; \"9000 ft, 33 days\" is in its readings"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q24",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned 9-5/8 in. depth (3,100 ft) not in the figure readings"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q25",
+   "grade": "wrong",
+   "type": "label",
+   "why": "DB time log classes laying down pipe as tripping (14 h); the label does not (3.75 h)"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q27",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "found the 24 h day, missed that the event spans two days"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q28",
+   "grade": "wrong",
+   "type": "data",
+   "why": "charts give no hole depth over time (bit depth only); ROP readings near zero"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q30",
+   "grade": "wrong",
+   "type": "data",
+   "why": "4 of 12 chart WOB readings in the hour"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q31",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "typed the date as 7 June; the correct hour averages 7.3 vs 9.5, so also a data gap"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q32",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart hook load max that day 148.7 klbs vs 341.8 in the sensor file"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q34",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "summed footage_24h (null) instead of MD difference 9,500 - 8,950"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q35",
+   "grade": "partial",
+   "type": "data",
+   "why": "EOWR bit table ROP missing for 12-1/4 in. bits"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q36",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned vs actual days not in the database"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q37",
+   "grade": "partial",
+   "type": "data",
+   "why": "EOWR footage missing for 8-3/4 in. bits"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q39",
+   "grade": "wrong",
+   "type": "data",
+   "why": "TD not stored correctly; survey max 4,640 ft"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q40",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "section filter missed INT1 / Intermediate"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q42",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned depth (Figure 4) not in the database"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q45",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "did not query EOWR events or lessons on the cement job; reasoned from casing specs"
+  },
+  {
+   "setting": "base_think",
+   "id": "Q46",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "used the summary, not events (\"core barrel jammed at 8,540 ft\")"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q01",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "filtered casing.section on \"7 in.\" text; DB section is PROD"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q04",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "queried chart_readings instead of reports (MD 9,500, TVD 9,497 are there)"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q06",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "filtered section on \"9-5/8\"/\"Intermediate\"; DB section is INT1"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q10",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "join with events tripled the 8 h row; cause not read from description"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q11",
+   "grade": "partial",
+   "type": "retrieval",
+   "why": "did not select description (\"Shut down for high winds and thunder storm\")"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q12",
+   "grade": "wrong",
+   "type": "data",
+   "why": "D04_r001 report date extracted as 5 Feb (label: 6 Feb); the 12 h NPT is stored under 5 Feb"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q13",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "searched figures, not the time log (operations has \"Triple-Combo / Max BHT was 416 F\")"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q15",
+   "grade": "wrong",
+   "type": "data",
+   "why": "TD not stored correctly (well_summary TD 9,105 = shoe); agents used max survey TVD"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q16",
+   "grade": "wrong",
+   "type": "data",
+   "why": "granite top not in the database"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q17",
+   "grade": "wrong",
+   "type": "data",
+   "why": "ROP comparison text not in the tables"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q18",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "searched the pages column for the keyword; the lesson is in eowr_lessons"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q19",
+   "grade": "wrong",
+   "type": "data",
+   "why": "core result not in the tables"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q20",
+   "grade": "partial",
+   "type": "data",
+   "why": "schematic readings hold depths only, not the casing spec"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q21",
+   "grade": "wrong",
+   "type": "data",
+   "why": "float collar and cement left not in the database"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q24",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned 9-5/8 in. depth (3,100 ft) not in the figure readings"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q25",
+   "grade": "wrong",
+   "type": "label",
+   "why": "DB time log classes laying down pipe as tripping (14 h); the label does not (3.75 h)"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q27",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "filtered activity = waiting, not is_npt"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q28",
+   "grade": "wrong",
+   "type": "data",
+   "why": "charts give no hole depth over time (bit depth only); ROP readings near zero"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q29",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart ROP readings cover 05:00-06:00 only"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q30",
+   "grade": "wrong",
+   "type": "data",
+   "why": "4 of 12 chart WOB readings in the hour"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q32",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart hook load max that day 148.7 klbs vs 341.8 in the sensor file"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q34",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "summed footage_24h (null) instead of MD difference 9,500 - 8,950"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q35",
+   "grade": "wrong",
+   "type": "data",
+   "why": "EOWR bit table ROP missing for 12-1/4 in. bits"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q36",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned vs actual days not in the database"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q37",
+   "grade": "wrong",
+   "type": "data",
+   "why": "EOWR footage missing for 8-3/4 in. bits"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q39",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "5-1/2 in. shoe looked for in daily casing only (it is in eowr_casing)"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q40",
+   "grade": "wrong",
+   "type": "reasoning",
+   "why": "compared EOWR 3,500 (summary row) with all daily shoes; DB holds both 3,500 and 3,494 in eowr_casing"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q42",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned depth (Figure 4) not in the database"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q44",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "accepted the false premise and listed cementing losses"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q45",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "did not query EOWR events or lessons on the cement job; reasoned from casing specs"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q46",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "found the jam, called it a failure, missed the 10 ft cored"
+  },
+  {
+   "setting": "base_verify",
+   "id": "Q49",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "bad join with trust returned no rows"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q12",
+   "grade": "wrong",
+   "type": "data",
+   "why": "D04_r001 report date extracted as 5 Feb (label: 6 Feb); the 12 h NPT is stored under 5 Feb"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q13",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "searched figures, not the time log (operations has \"Triple-Combo / Max BHT was 416 F\")"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q15",
+   "grade": "wrong",
+   "type": "data",
+   "why": "TD not stored correctly (well_summary TD 9,105 = shoe); agents used max survey TVD"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q16",
+   "grade": "wrong",
+   "type": "data",
+   "why": "granite top not in the database"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q17",
+   "grade": "wrong",
+   "type": "data",
+   "why": "ROP comparison text not in the tables"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q19",
+   "grade": "wrong",
+   "type": "data",
+   "why": "core result not in the tables"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q20",
+   "grade": "partial",
+   "type": "data",
+   "why": "schematic readings hold depths only, not the casing spec"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q21",
+   "grade": "wrong",
+   "type": "data",
+   "why": "float collar and cement left not in the database"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q23",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "search \"days-versus-depth\" missed Figure 4; \"9000 ft, 33 days\" is in its readings"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q24",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned 9-5/8 in. depth (3,100 ft) not in the figure readings"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q25",
+   "grade": "wrong",
+   "type": "label",
+   "why": "DB time log classes laying down pipe as tripping (14 h); the label does not (3.75 h)"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q27",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "found the 24 h day, missed that the event spans two days"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q28",
+   "grade": "wrong",
+   "type": "data",
+   "why": "charts give no hole depth over time (bit depth only); ROP readings near zero"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q29",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart ROP readings cover 05:00-06:00 only"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q30",
+   "grade": "wrong",
+   "type": "data",
+   "why": "4 of 12 chart WOB readings in the hour"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q31",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "typed the date as 7 June; the correct hour averages 7.3 vs 9.5, so also a data gap"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q32",
+   "grade": "wrong",
+   "type": "data",
+   "why": "chart hook load max that day 148.7 klbs vs 341.8 in the sensor file"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q34",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "summed footage_24h (null) instead of MD difference 9,500 - 8,950"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q36",
+   "grade": "wrong",
+   "type": "data",
+   "why": "planned vs actual days not in the database"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q38",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "mixed unrelated lessons into the answer"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q39",
+   "grade": "partial",
+   "type": "data",
+   "why": "TD not stored correctly; survey max 4,640 ft"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q40",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "section filter missed INT1 / Intermediate"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q42",
+   "grade": "partial",
+   "type": "data",
+   "why": "planned depth (Figure 4) not in the database"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q45",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "read the lessons but picked unrelated ones"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q46",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "used the summary, not events (\"core barrel jammed at 8,540 ft\")"
+  },
+  {
+   "setting": "base_verify_think",
+   "id": "Q48",
+   "grade": "partial",
+   "type": "reasoning",
+   "why": "incomplete rubric points"
+  },
+  {
+   "setting": "base",
+   "id": "Q49",
+   "grade": "wrong",
+   "type": "retrieval",
+   "why": "no at_max row retrieved; answered not stated without the chart limit"
+  }
+ ]
+}

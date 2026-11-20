@@ -1,0 +1,56 @@
+{
+  "doc_id": "D08",
+  "page": 30,
+  "bbox": [
+    129.6,
+    156.2,
+    482.3,
+    531.9
+  ],
+  "source": "raster",
+  "caption": "Figure 12: 20 in. Conductor stack, used for drilling 17-1/2 in. hole.",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p30_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 15.776277780532837,
+    "prompt_tokens": 1329,
+    "output_tokens": 248
+  },
+  "data": {
+    "transcription": "Figure 12: 20 in. Conductor stack, used for drilling 17-1/2 in. hole.\n56-32_EOWR.pdf (well 56-32), page 30",
+    "description": "The figure illustrates a conductor stack used for drilling an 17-1/2 inch well bore, specifically for Well 56-32.",
+    "kind": "directional_plot",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "20\" Riser (welded to the conductor)",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "drain valve",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "20\", 94 ppf, J-55, BTC Conductor",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Riser = 20\"",
+      "Conductor = 20\"",
+      "ppf (pounds per foot) = 94",
+      "J-55 = J-55 grade",
+      "BTC = Bottom Hole Assembly",
+      "Ground level = cellar ground"
+    ]
+  }
+}

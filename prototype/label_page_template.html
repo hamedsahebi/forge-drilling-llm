@@ -1,0 +1,214 @@
+<title>FORGE Report Labelling</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,600;112,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: report list | source pages | correction form. Same tokens as the pipeline map and database browser. */
+:root {
+  --bg: #f3f5f6; --sheet: #ffffff; --ink: #15212b; --muted: #5a6873; --rule: #d5dde2; --chip: #eef2f4;
+  --accent: #0d7a87; --changed: #fff3d6; --changed-ink: #7a4b00; --good: #1f7a4d; --bad: #b3261e;
+  --f-display: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f161c; --sheet: #151f27; --ink: #e3eaee; --muted: #93a2ad; --rule: #2b3a45; --chip: #1f2c35;
+  --accent: #3cc2cf; --changed: #3a2e12; --changed-ink: #f0c56a; --good: #5fcf94; --bad: #f28b82; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f161c; --sheet: #151f27; --ink: #e3eaee; --muted: #93a2ad; --rule: #2b3a45; --chip: #1f2c35;
+  --accent: #3cc2cf; --changed: #3a2e12; --changed-ink: #f0c56a; --good: #5fcf94; --bad: #f28b82; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.45; }
+.wrap { padding-block: 20px 28px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); max-width: 1700px; margin: 0 auto; display: grid; gap: 14px; }
+h1 { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: clamp(22px, 2.6vw, 30px); margin: 0; }
+.lede { margin: 0; color: var(--muted); max-width: 90ch; }
+#notice { color: var(--bad); margin: 0; }
+.app { display: grid; grid-template-columns: 190px minmax(0, 1fr) minmax(0, 1fr); gap: 14px; align-items: start; }
+@media (max-width: 1100px) { .app { grid-template-columns: minmax(0, 1fr); } }
+nav { display: grid; gap: 4px; }
+#progress { font-size: 13px; color: var(--muted); margin-bottom: 4px; font-variant-numeric: tabular-nums; }
+.rbtn { font: 400 13px var(--f-mono); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px; padding: 5px 8px; cursor: pointer; display: flex; justify-content: space-between; gap: 6px; text-align: left; }
+.rbtn[aria-current="true"] { border-color: var(--ink); box-shadow: inset 3px 0 0 var(--accent); }
+.st { font-size: 11px; color: var(--muted); }
+.st.done { color: var(--good); } .st.in_progress { color: var(--changed-ink); }
+.pane { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; min-width: 0; }
+.pdf { max-height: 82vh; overflow: auto; display: grid; gap: 8px; padding: 8px; }
+.pdf img { width: 100%; border: 1px solid var(--rule); cursor: zoom-in; display: block; }
+.pdf.zoom img { width: 200%; max-width: none; cursor: zoom-out; }
+.pdf .cap { font: 400 12px var(--f-mono); color: var(--muted); }
+.form { max-height: 82vh; overflow: auto; padding: 12px 14px; display: grid; gap: 16px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; position: sticky; top: -12px; z-index: 2; background: var(--sheet); padding: 12px 0 8px; margin-top: -12px; border-bottom: 1px solid var(--rule); }
+.bar h2 { font: 500 16px var(--f-mono); margin: 0; }
+#save { font-size: 12.5px; color: var(--muted); margin-left: auto; }
+button.act { font: 500 13px var(--f-body); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px; padding: 5px 12px; cursor: pointer; }
+button.act.primary { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+button.act:disabled { opacity: .45; cursor: default; }
+h3 { font: 600 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; display: flex; gap: 10px; align-items: baseline; }
+h3 span { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.grid { overflow-x: auto; }
+table { border-collapse: collapse; font-size: 13px; }
+th { font: 500 11.5px var(--f-mono); color: var(--muted); text-align: left; padding: 3px 4px; white-space: nowrap; }
+td { padding: 2px 3px; }
+input, select { font: 400 13px var(--f-mono); color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px; padding: 3px 5px; width: 100%; min-width: 64px; box-sizing: border-box; }
+input.changed, select.changed { background: var(--changed); color: var(--changed-ink); border-color: var(--changed-ink); }
+tr.added input, tr.added select { border-style: dashed; }
+.hdr { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.hdr label { display: grid; gap: 2px; font: 500 11.5px var(--f-mono); color: var(--muted); }
+.x { font: 500 13px var(--f-body); color: var(--bad); background: none; border: 0; cursor: pointer; padding: 0 4px; }
+.add { font: 500 12.5px var(--f-body); color: var(--accent); background: none; border: 0; cursor: pointer; padding: 4px 0; }
+.removed { font-size: 12px; color: var(--muted); }
+button:focus-visible, input:focus-visible, select:focus-visible, img:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+.blind { margin: 0; padding: 8px 12px; border-left: 3px solid var(--accent, #0d7a87); background: var(--chip, #eef2f4); font-size: 14px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Label the evaluation reports</h1>
+    <p class="lede">Check every value against the PDF. Fix wrong values, clear values the report does not show, add rows the model missed, and remove rows that are not in the report. Changed values turn yellow. Press <b>Mark checked</b> when a report is done. Your work saves automatically.</p>
+    <p id="notice" hidden></p>
+  </header>
+  <div class="app">
+    <nav id="nav" aria-label="Reports"><div id="progress"></div></nav>
+    <div class="pane pdf" id="pdf" title="Click a page to zoom"></div>
+    <div class="pane form" id="form"></div>
+  </div>
+</div>
+
+<script id="data" type="application/json">{{DATA}}</script>
+<script>
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const byId = Object.fromEntries(D.reports.map(r => [r.id, r]));
+const SELECTS = { activity: D.activities, is_npt: ["yes", "no"], report_type: ["drilling", "completion"] };
+
+let db = null, saved = {}, current = null, work = null, saving = false, dirty = false, timer = null;
+
+function fromModel(r) {
+  return { status: "not_started", ...(r.blind ? { blind: true } : {}), header: { ...r.model.header },
+    tables: Object.fromEntries(Object.entries(r.model.tables).map(([t, rows]) => [t, rows.map((row, i) => ({ _m: i, ...row }))])),
+    removed: Object.fromEntries(Object.keys(D.tables).map(t => [t, []])) };
+}
+
+function statusOf(id) { return saved[id]?.status || "not_started"; }
+function drawNav() {
+  const done = D.reports.filter(r => statusOf(r.id) === "done").length;
+  $("progress").textContent = `${done} of ${D.reports.length} checked`;
+  $("nav").querySelectorAll(".rbtn").forEach(b => b.remove());
+  for (const r of D.reports) {
+    const s = r.id === current && work ? work.status : statusOf(r.id);
+    $("nav").insertAdjacentHTML("beforeend", `<button class="rbtn" data-id="${r.id}" aria-current="${r.id === current}">${r.id}${r.blind ? " (blind)" : ""}<span class="st ${s}">${s === "done" ? "checked" : s === "in_progress" ? "started" : ""}</span></button>`);
+  }
+}
+$("nav").addEventListener("click", e => { const b = e.target.closest(".rbtn"); if (b) open(b.dataset.id); });
+
+function field(t, rowIdx, f, value, modelValue, added) {
+  const cls = !added && value !== modelValue ? "changed" : "";
+  const key = `data-t="${t}" data-r="${rowIdx}" data-f="${f}"`;
+  const title = !added && value !== modelValue ? ` title="Model: ${esc(modelValue || "(empty)")}"` : "";
+  if (SELECTS[f]) {
+    const opts = ["", ...SELECTS[f]].map(o => `<option${o === value ? " selected" : ""}>${esc(o)}</option>`).join("");
+    return `<select class="${cls}" ${key}${title} aria-label="${f}">${opts}</select>`;
+  }
+  return `<input class="${cls}" ${key}${title} aria-label="${f}" value="${esc(value)}">`;
+}
+
+function drawForm() {
+  const r = byId[current], m = r.model;
+  let h = `<div class="bar"><h2>${r.id}</h2><span class="st">${esc(r.well)} &middot; ${esc(r.date || "")}</span>
+    <span id="save"></span>
+    <button class="act" id="reset">${r.blind ? "Clear all" : "Reset to model values"}</button>
+    <button class="act primary" id="done">${work.status === "done" ? "Reopen" : "Mark checked"}</button></div>`;
+  if (r.blind) h += `<p class="blind">Blind report: every field starts empty and no model values are shown. Enter what the PDF prints; leave a field empty if it is not there.</p>`;
+  h += `<div><h3>Header and depth</h3><div class="hdr">${D.header.map(f =>
+    `<label>${f}${field("header", -1, f, work.header[f] ?? "", m.header[f] ?? "", false)}</label>`).join("")}</div></div>`;
+  for (const [t, cols] of Object.entries(D.tables)) {
+    const rows = work.tables[t], nrem = work.removed[t].length;
+    h += `<div><h3>${t}<span>${rows.length} rows${nrem ? ` &middot; ${nrem} removed` : ""}</span></h3><div class="grid"><table>`;
+    if (rows.length) h += `<thead><tr>${cols.map(c => `<th>${c}</th>`).join("")}<th></th></tr></thead>`;
+    h += `<tbody>${rows.map((row, i) => {
+      const added = row._m === null, mrow = added ? {} : m.tables[t][row._m];
+      return `<tr class="${added ? "added" : ""}">${cols.map(c => `<td>${field(t, i, c, row[c] ?? "", mrow[c] ?? "", added)}</td>`).join("")}
+        <td><button class="x" data-t="${t}" data-r="${i}" aria-label="Remove this row" title="Not in the report: remove">&times;</button></td></tr>`;
+    }).join("")}</tbody></table></div>
+    <button class="add" data-t="${t}">${r.blind ? "+ Add a row" : "+ Add a row the model missed"}</button></div>`;
+  }
+  $("form").innerHTML = h;
+  $("done").onclick = () => { work.status = work.status === "done" ? "in_progress" : "done"; changed(); drawForm(); drawNav(); };
+  $("reset").onclick = () => { work = fromModel(r); changed(); drawForm(); };
+  showSave();
+}
+
+$("form").addEventListener("input", e => {
+  const el = e.target, t = el.dataset.t;
+  if (!t) return;
+  const f = el.dataset.f, i = +el.dataset.r, r = byId[current];
+  if (t === "header") { work.header[f] = el.value; el.classList.toggle("changed", el.value !== (r.model.header[f] ?? "")); }
+  else {
+    const row = work.tables[t][i]; row[f] = el.value;
+    if (row._m !== null) el.classList.toggle("changed", el.value !== (r.model.tables[t][row._m][f] ?? ""));
+  }
+  changed();
+});
+$("form").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b || !b.dataset.t) return;
+  const t = b.dataset.t, cols = D.tables[t];
+  if (b.classList.contains("x")) { const [row] = work.tables[t].splice(+b.dataset.r, 1); if (row._m !== null) work.removed[t].push(row._m); }
+  else work.tables[t].push({ _m: null, ...Object.fromEntries(cols.map(c => [c, ""])) });
+  changed(); drawForm();
+});
+
+function open(id) {
+  flush();
+  current = id;
+  const r = byId[id];
+  work = saved[id] ? structuredClone(saved[id]) : fromModel(r);
+  $("pdf").classList.remove("zoom");
+  $("pdf").innerHTML = r.pages.map((src, i) => `<div class="cap">PDF page ${r.pdf_pages[i]}</div><img src="${src}" alt="${r.id}, PDF page ${r.pdf_pages[i]}" tabindex="0">`).join("");
+  drawNav(); drawForm();
+  try { history.replaceState(null, "", "#" + id.replace(/_/g, "-")); } catch (e) {}
+}
+$("pdf").addEventListener("click", e => { if (e.target.tagName === "IMG") $("pdf").classList.toggle("zoom"); });
+$("pdf").addEventListener("keydown", e => { if (e.key === "Enter" && e.target.tagName === "IMG") $("pdf").classList.toggle("zoom"); });
+
+// Saving: one write at a time per report, a short pause after the last edit
+function showSave(text) { const el = $("save"); if (el) el.textContent = text ?? (!db ? "" : saving || dirty ? "Saving..." : saved[current] ? "Saved" : ""); }
+function changed() { if (work.status === "not_started") work.status = "in_progress"; dirty = true; showSave(); clearTimeout(timer); timer = setTimeout(save, 800); }
+function flush() { if (dirty) { clearTimeout(timer); save(); } }
+async function save() {
+  if (!db || !dirty || saving) return;
+  saving = true; dirty = false;
+  const id = current, body = { ...structuredClone(work), updated: new Date().toISOString() };
+  try {
+    await db.doc("labels/" + id).set(body);
+    saved[id] = body;
+  } catch (e) {
+    dirty = true;
+    showSave(e && e.code === "quota_exceeded" ? "Not saved: storage is full" : "Not saved yet. Your changes stay on this page; keep it open and edit again to retry.");
+    saving = false; return;
+  }
+  saving = false;
+  if (id === current) showSave();
+  drawNav();
+  if (dirty) save();
+}
+
+window.addEventListener("pagehide", flush);
+
+async function connect() {
+  const notice = $("notice");
+  db = window.claude ? await claude.use("db").catch(() => null) : null;
+  if (!db) { notice.hidden = false; notice.textContent = "Saving is not available in this view. Open the page on claude.ai to save your labels."; return; }
+  const slow = setTimeout(() => { notice.hidden = false; notice.textContent = "Saved labels cannot be reached yet. You can keep working; saving will retry."; }, 10000);
+  db.collection("labels").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) { clearTimeout(slow); notice.hidden = true; }
+    const first = !Object.keys(saved).length;
+    for (const d of snap.docs) saved[d.id] = d.data();
+    if (first && current && saved[current] && !dirty) { work = structuredClone(saved[current]); drawForm(); }
+    drawNav(); showSave();
+  }, e => { clearTimeout(slow); notice.hidden = false; notice.textContent = "Saved labels cannot be loaded (" + e.code + "). Reload the page later."; });
+}
+
+const start = location.hash.slice(1).replace(/-/g, "_");
+open(byId[start] ? start : D.reports[0].id);
+connect();
+</script>

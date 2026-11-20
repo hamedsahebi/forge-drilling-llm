@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "From PDF drilling reports to a trusted database: code and data"
+authors:
+  - family-names: Sahebi
+    given-names: Hamed
+    affiliation: "Department of Energy and Petroleum Engineering, University of Stavanger"
+  - family-names: Sui
+    given-names: Dan
+    affiliation: "Department of Energy and Petroleum Engineering, University of Stavanger"
+license: MIT
+repository-code: "https://github.com/hamedsahebi/forge-drilling-llm"
+keywords:
+  - drilling reports
+  - large language models
+  - information extraction
+  - chart data extraction
+  - Utah FORGE
+references:
+  - type: conference-paper
+    title: "Real-Time Drilling Performance Monitoring Using AI-Enhanced Microservices and LLM Integration"
+    authors:
+      - family-names: Sahebi
+        given-names: Hamed
+      - family-names: Sui
+        given-names: Dan
+    conference:
+      name: "Abu Dhabi International Petroleum Exhibition and Conference (ADIPEC)"
+    year: 2025
+    doi: "10.2118/228955-MS"

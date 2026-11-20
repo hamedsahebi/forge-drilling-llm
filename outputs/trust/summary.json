@@ -1,0 +1,91 @@
+{
+ "reports_scored": 38,
+ "verdicts": {
+  "pass": 1485,
+  "weak": 1591,
+  "unchecked": 454,
+  "fail": 43,
+  "pdf_read": 1647,
+  "conflict": 10
+ },
+ "by_source": {
+  "llm": 3583,
+  "table": 925,
+  "code": 322,
+  "column": 400
+ },
+ "by_table": {
+  "bha": {
+   "weak": 266
+  },
+  "bits": {
+   "pdf_read": 314
+  },
+  "casing": {
+   "pdf_read": 387,
+   "weak": 20
+  },
+  "depth": {
+   "pass": 83,
+   "weak": 73,
+   "conflict": 10,
+   "fail": 22
+  },
+  "events": {
+   "unchecked": 300
+  },
+  "header": {
+   "pass": 111,
+   "weak": 114,
+   "fail": 2,
+   "unchecked": 38
+  },
+  "mud": {
+   "pdf_read": 224
+  },
+  "operations": {
+   "pass": 1291,
+   "pdf_read": 722,
+   "weak": 818,
+   "fail": 19,
+   "unchecked": 116
+  },
+  "surveys": {
+   "weak": 300
+  }
+ },
+ "by_check": {
+  "continuity": {
+   "pass": 34,
+   "fail": 2
+  },
+  "hole_size_sequence": {
+   "weak": 9,
+   "fail": 3
+  },
+  "hours_24": {
+   "pass": 37,
+   "fail": 1
+  },
+  "md_vs_time_log": {
+   "pass": 29,
+   "fail": 8
+  },
+  "printed_label": {
+   "pass": 204,
+   "fail": 18
+  },
+  "sensor_depth": {
+   "pass": 33,
+   "fail": 1
+  },
+  "source_match": {
+   "weak": 3942,
+   "fail": 20
+  },
+  "time_log_row": {
+   "pass": 1254,
+   "fail": 2
+  }
+ }
+}

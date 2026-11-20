@@ -1,0 +1,47 @@
+{
+  "doc_id": "D08",
+  "page": 21,
+  "bbox": [
+    72.0,
+    263.7,
+    540.1,
+    576.0
+  ],
+  "source": "raster",
+  "caption": "Figure 6: Planned (red) versus actual (black) drilling days plot for 56-32.",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p21_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 14.149904489517212,
+    "prompt_tokens": 1351,
+    "output_tokens": 215
+  },
+  "data": {
+    "transcription": "Figure 6: Planned (red) versus actual (black) drilling days plot for 56-32.",
+    "description": "The figure shows a comparison of planned and actual drilling days against depth. The red line represents the planned drilling progress, while the black line indicates the actual drilling progress. The graph is labeled 'Days vs Depth' with the well number '56-32' at the top. The x-axis represents days, ranging from 0 to 40, and the y-axis represents depth in feet, ranging from 0 to 10,000.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Planned",
+        "unit": null,
+        "trend": "red"
+      },
+      {
+        "name": "Actual",
+        "unit": null,
+        "trend": "black"
+      }
+    ],
+    "key_values": [
+      "Depth = 0 ft to 10,000 ft",
+      "Days = 0 to 40"
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    13,
+    14,
+    15
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 155.54212927818298,
+    "prompt_tokens": 30766,
+    "output_tokens": 2208,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 7,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 3009.0,
+        "density_ppg": 9.0,
+        "funnel_viscosity_s": 42.0,
+        "pv_cp": 14.0,
+        "yp_lbf_100ft2": 15.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "3",
+        "size_in": 14.75,
+        "manufacturer": "NOV",
+        "bit_type": "TKC66",
+        "serial_number": null,
+        "depth_in_ft": 2699.0,
+        "depth_out_ft": 2699.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 30.2
+      },
+      {
+        "bit_number": "4",
+        "size_in": 14.75,
+        "manufacturer": "NOV",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 2699.0,
+        "depth_out_ft": 3009.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 10.25
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 7,
+      "mapped": 7
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 5,
+      "report_date": "2021-07-01",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 2699.0,
+      "tvd_ft": 2699.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Run in the hole with stab-in tool. Circulate and cement 11 3/4\" casing. Nipple down 20\" BOPE. Rig down Casing crew. Run 11 3/4\" casing to set depth. Cleaned and cleared rig floor. Rigged up and ran 11 3/4\" casing to 2,800' (report time). Pulled out of the hole from 951' to Surface. Broke out bit and inspected MWD. No visible wear on roller reamer or stabs. Motor had minimal movement in bearing assembly. Cleaned and cleared rig floor. Laid out RSS assembly. Cleaned and cleared rig floor for casing run. Pulled out of the hole from 3,009' to surface. Laid out RSS assembly. cleaned and cleared rig floor for casing run. Bit was 3.75\" under gage with 3.5\" of the center of the bit was washed out with 4 jets missing. RSS had signs of wear below the pads approximately 0.25\" wide by 0.25\" deep. No signs of wear on the stabilizers or roller reamer. Motor had approximately 0.25\" of play in bearing assembly."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 3009.0,
+        "density_ppg": 9.0,
+        "funnel_viscosity_s": 42.0,
+        "pv_cp": 14.0,
+        "yp_lbf_100ft2": 15.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "3",
+        "size_in": 14.75,
+        "manufacturer": "NOV",
+        "bit_type": "TKC66",
+        "serial_number": null,
+        "depth_in_ft": 433.0,
+        "depth_out_ft": 2699.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 251.8
+      },
+      {
+        "bit_number": "4",
+        "size_in": 14.75,
+        "manufacturer": "NOV",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 2699.0,
+        "depth_out_ft": 3009.0,
+        "wob_klbf": 40.0,
+        "rpm": 188.0,
+        "rop_ft_hr": 30.2
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "RR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "FLOAT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 11,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 12,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "2:00",
+        "hours": 2.0,
+        "end_md_ft": 2699.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pulled out of the hole from 951' to Surface. Broke out bit and inspected MWD. No visible wear on roller reamer or stabs. Motor had minimal movement in bearing assembly. cleaned and cleared rig floor.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "4:00",
+        "hours": 2.0,
+        "end_md_ft": 2699.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Make up 14 3/4\" Bit and trip in the hole with BHA to 951'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:00",
+        "end": "5:15",
+        "hours": 1.25,
+        "end_md_ft": 2699.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Trip in the hole from 951' to 2,699'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "10-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:15",
+        "end": "15:30",
+        "hours": 10.25,
+        "end_md_ft": 3009.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14-3/4\" hole from 2,699' to 3,009' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:30",
+        "end": "16:00",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "After making a hook ROP dropped from 15'/hour to 0'/hour. Perform step test from 5K to 30K no ROP / No change in diff pressure and no pressure loss and no hook load change but found excessive amounts of metal on ditch magnet mix dry job.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "19:30",
+        "hours": 3.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pulled out of the hole from 3,009' to 951' with no issues. hoe taking proper fill. Stopped and removed rotating rubber at 1,100'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:30",
+        "end": "0:00",
+        "hours": 4.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Racked back HWDP. Racked back 8\" drill collars. Laid out Cubic sensor, Diffuser sub, along with float sub. Pulled up and broke out bit. laid out the remaining RSS tools. (Note: Bit was 3.75\" under gage, 3.5\" of the center of the bit was washed out with 4 jets missing. RSS had signs of wear below the pads approximately .25\" wide by .25\" deep. No signs of wear on the stabilizers or roller reamer. Motor had approximately .25\" of play in bearing assembly.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 3009.0,
+        "time": "15:30",
+        "description": "After making a hook ROP dropped from 15'/hour to 0'/hour. Perform step test from 5K to 30K no ROP / No change in diff pressure and no pressure loss and no hook load change but found excessive amounts of metal on ditch magnet mix dry job."
+      },
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 3009.0,
+        "time": "19:30",
+        "description": "Racked back HWDP. Racked back 8\" drill collars. Laid out Cubic sensor, Diffuser sub, along with float sub. Pulled up and broke out bit. laid out the remaining RSS tools. (Note: Bit was 3.75\" under gage, 3.5\" of the center of the bit was washed out with 4 jets missing. RSS had signs of wear below the pads approximately .25\" wide by .25\" deep. No signs of wear on the stabilizers or roller reamer. Motor had approximately .25\" of play in bearing assembly."
+      }
+    ],
+    "summary": "Drilling operations were conducted from 2,699' to 3,009', with a decision made to pull out due to low ROP. The bit showed significant wear and damage, and the RSS tools exhibited signs of wear. The casing run was planned for later in the day."
+  }
+}

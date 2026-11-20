@@ -1,0 +1,495 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    49,
+    50,
+    51
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 196.8493206501007,
+    "prompt_tokens": 36584,
+    "output_tokens": 3290,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 16,
+      "marks": 1,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 22.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 0.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 14.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 7423.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "1",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 6742.0,
+        "depth_out_ft": null,
+        "wob_klbf": 65.0,
+        "rpm": 45.0,
+        "rop_ft_hr": 12.5
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 16,
+      "mapped": 15
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 18,
+      "report_date": "2021-07-14",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 7613.0,
+      "tvd_ft": 7611.0,
+      "footage_24h_ft": 871.0,
+      "hole_size_in": 10.5,
+      "current_operation": "Waiting on hydraulic hose for top drive to arrive.",
+      "planned_operation": "Install topdrive hydraulic service link hose.\nPull out of the hole from 6,599' to BHA.\nSwap   out motor and bit.\nTrip in the hole to 7,613'.\nContinue  to drill 10-5/8\" hole section from 7,613'."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 7423.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "13",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 6742.0,
+        "depth_out_ft": null,
+        "wob_klbf": 65.0,
+        "rpm": 45.0,
+        "rop_ft_hr": 69.7
+      }
+    ],
+    "bha": [
+      {
+        "order": null,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 6675.0,
+        "inclination_deg": 1.18,
+        "azimuth_deg": 44.2,
+        "tvd_ft": 6673.7
+      },
+      {
+        "md_ft": 6770.0,
+        "inclination_deg": 1.25,
+        "azimuth_deg": 26.0,
+        "tvd_ft": 6768.7
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "2:00",
+        "hours": 2.0,
+        "end_md_ft": 6742.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Made up 10-5/8\" directional assembly and trip in the hole to 1,036'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "3:30",
+        "hours": 1.5,
+        "end_md_ft": 6742.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Slipped and cut drilling line.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "CUTDL",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:30",
+        "end": "8:30",
+        "hours": 5.0,
+        "end_md_ft": 6742.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole from 1,036' to 4,100'. Shallow test MWD tool @ 3,100'. Filling pipe and breaking circulation every 1,000' from 3,100' to 6,742'. Once on bottom when filling pipe got pipe stuck. Work loose shortly afterwards.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "8:30",
+        "end": "10:30",
+        "hours": 2.0,
+        "end_md_ft": 6946.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotate drilling 10-5/8\" hole from 6,742' to 6,946'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:30",
+        "end": "11:00",
+        "hours": 0.5,
+        "end_md_ft": 6970.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drilling 10-5/8\" hole from 6,946' to 6,970'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:00",
+        "end": "13:00",
+        "hours": 2.0,
+        "end_md_ft": 7158.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotate drilling 10-5/8\" hole from 6,970' to 7,158'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "13:30",
+        "hours": 0.5,
+        "end_md_ft": 7183.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drilling 10-5/8\" hole from 7,158' to 7,183'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:30",
+        "end": "15:45",
+        "hours": 2.25,
+        "end_md_ft": 7316.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotary drilling 10-5/8\" hole from 7,183' to 7,316' preforming step down test on WOB and RPM in an attempt to lower vibration on MWD",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:45",
+        "end": "16:00",
+        "hours": 0.25,
+        "end_md_ft": 7316.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Service Rig",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "16:15",
+        "hours": 0.25,
+        "end_md_ft": 7326.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotate drilling 10-5/8\" hole from 7,316' to 7,326''",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:15",
+        "end": "17:00",
+        "hours": 0.75,
+        "end_md_ft": 7350.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drilling 10-5/8\" hole from 7,326' to 7,350'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:00",
+        "end": "18:00",
+        "hours": 1.0,
+        "end_md_ft": 7424.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotate drilling 10-5/8\" hole from 7,350' to 7,424'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:00",
+        "end": "20:30",
+        "hours": 2.5,
+        "end_md_ft": 7613.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotate drilling 10-5/8\" hole from 7,424' to 7,613'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:30",
+        "end": "21:00",
+        "hours": 0.5,
+        "end_md_ft": 7613.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "While drilling ahead at 7,613' differential pressure jumped from 350 psi to 1,199 psi. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,000 psi with 25k weight on bit and would not drill off. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,356 psi with 30k weight on bit and would not drill off. Decision was made to trip out of the hole.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "21:00",
+        "end": "22:00",
+        "hours": 1.0,
+        "end_md_ft": 7613.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out of the hole from 7,613' to 6,559'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:00",
+        "end": "0:00",
+        "hours": 2.0,
+        "end_md_ft": 7613.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "While tripping out of the hole service loop came into contact with top drive damaging the main hydraulic return line. Wait on hydraulic hose to arrive. Pump down the string to cool tools every hour at 300 gpm.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 6742.0,
+        "time": "2:00",
+        "description": "Slipped and cut drilling line."
+      },
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": 6742.0,
+        "time": "3:30",
+        "description": "Tripped in the hole from 1,036' to 4,100'. Shallow test MWD tool @ 3,100'. Filling pipe and breaking circulation every 1,000' from 3,100' to 6,742'. Once on bottom when filling pipe got pipe stuck. Work loose shortly afterwards."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 7316.0,
+        "time": "13:30",
+        "description": "Rotary drilling 10-5/8\" hole from 7,183' to 7,316' preforming step down test on WOB and RPM in an attempt to lower vibration on MWD"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 7316.0,
+        "time": "15:45",
+        "description": "Service Rig"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 7613.0,
+        "time": "20:30",
+        "description": "While drilling ahead at 7,613' differential pressure jumped from 350 psi to 1,199 psi. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,000 psi with 25k weight on bit and would not drill off. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,356 psi with 30k weight on bit and would not drill off. Decision was made to trip out of the hole."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 7613.0,
+        "time": "22:00",
+        "description": "While tripping out of the hole service loop came into contact with top drive damaging the main hydraulic return line. Wait on hydraulic hose to arrive. Pump down the string to cool tools every hour at 300 gpm."
+      }
+    ],
+    "summary": "Drilling operations on Forge 78B-32 encountered high differential pressure during drilling and tripped out of the hole. A damaged hydraulic service link hose was found while tripping out, leading to a wait for replacement."
+  }
+}

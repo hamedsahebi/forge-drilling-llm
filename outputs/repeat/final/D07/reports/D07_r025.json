@@ -1,0 +1,356 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    68,
+    69
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 135.7745349407196,
+    "prompt_tokens": 25657,
+    "output_tokens": 2233,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 10,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": null,
+        "shoe_md_ft": 8532.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 38.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 8415.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 1.0
+      },
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 8540.0,
+        "depth_out_ft": 8545.0,
+        "wob_klbf": 25.0,
+        "rpm": 45.0,
+        "rop_ft_hr": 0.5
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 10,
+      "mapped": 8
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 25,
+      "report_date": "2021-07-21",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8545.0,
+      "tvd_ft": 8543.0,
+      "footage_24h_ft": 5.0,
+      "hole_size_in": null,
+      "current_operation": "Running 7\" casing to 2,514'",
+      "planned_operation": "Run 7\" casing to set depth of 8,531'"
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": null,
+        "shoe_md_ft": 8532.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 38.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 8415.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 8540.0,
+        "depth_out_ft": 8545.0,
+        "wob_klbf": 25.0,
+        "rpm": 45.0,
+        "rop_ft_hr": 10.0
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "float shoe",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "7\" casing joint",
+        "od_in": 16.0,
+        "id_in": 11.75,
+        "length_ft": 416.0
+      },
+      {
+        "order": 3,
+        "component": "7\" casing joint",
+        "od_in": 16.0,
+        "id_in": 11.75,
+        "length_ft": 2990.0
+      },
+      {
+        "order": 4,
+        "component": "float collar",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "2:00",
+        "hours": 2.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 10-5/8\" clean out assembly to 8,540'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "2:30",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 8,540' to 8,545'. Note: Five foot was drilled to fit casing and provide 13' of rat hole.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:30",
+        "end": "3:30",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated surface to surface strokes to clean the wellbore prior to running casing.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:30",
+        "end": "6:00",
+        "hours": 2.5,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pull out of the hole laying down 5.5\" drill pipe from 8,545' to 6,300'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "14:00",
+        "hours": 8.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pull out of the hole laying down 5.5\" drill pipe from 6,300' to HWDP, Lay down HWDP",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:00",
+        "end": "17:00",
+        "hours": 3.0,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Changed out IBOP valve for CRT. Install saver sub. Laid down all handling tools.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:00",
+        "end": "18:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Removed 5.5\" ram blocks. Installed Frontiers 5\" ram blocks back into double gate.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "18:00",
+        "end": "21:00",
+        "hours": 3.0,
+        "end_md_ft": 8540.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Load racks with 7\" casing. Cleaned threads on casing and prep to run.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "21:00",
+        "end": "23:30",
+        "hours": 2.5,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Held detailed safety meeting with all involved personal. Rigged up Wyoming Casing Service. Rigged up Silixa. Loaded out floor with Silixa centralizes.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:30",
+        "end": "0:00",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Ran 7\", 41#, T-110SS, Tenaris casing as followed. 7\"- float shoe. 2-joints of 7\", 41#, T-110SS. 7\"- float collar at report time. Note: Casing was ran with torque turn system. All joints were torqued to manufactures recommendation of 17,070 FT/LBS.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "casing",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 8540.0,
+        "time": "14:00",
+        "description": "Changed out IBOP valve for CRT. Install saver sub. Laid down all handling tools."
+      }
+    ],
+    "summary": "Drilling operations continued with running 7-inch casing to 8,531', including tripping in the hole, drilling 10-5/8\" hole, and preparing for casing installation."
+  }
+}

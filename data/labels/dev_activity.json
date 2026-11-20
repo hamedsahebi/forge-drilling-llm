@@ -1,0 +1,30 @@
+{
+ "_note": "Dev set (D01, D02, D05) activity reference for tuning the activity prompt only, never for reported accuracy. Written by Claude from the activity labelling rules in docs/PROJECT_LOG.md on 2026-11-09, before the new prompt was run; not checked by Hamed. Row index = operations row. Corrected after the first run: D02_r001 row 4 (safety meeting, cut drill line, pick up directional BHA) is tripping by the BHA rule, not other.",
+ "D01_r001": [
+  "waiting",
+  "other",
+  "rig_up_down",
+  "waiting"
+ ],
+ "D02_r001": [
+  "other",
+  "bop_testing",
+  "bop_testing",
+  "other",
+  "tripping",
+  "tripping",
+  "drilling",
+  "tripping"
+ ],
+ "D05_r001": [
+  "drilling",
+  "drilling",
+  "drilling",
+  "tripping",
+  "tripping",
+  "circulating",
+  "drilling",
+  "drilling",
+  "drilling"
+ ]
+}

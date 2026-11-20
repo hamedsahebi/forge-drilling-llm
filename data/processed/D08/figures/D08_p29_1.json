@@ -1,0 +1,33 @@
+{
+  "doc_id": "D08",
+  "page": 29,
+  "bbox": [
+    311.4,
+    106.6,
+    525.2,
+    391.7
+  ],
+  "source": "raster",
+  "caption": "Figure 11: Cellar with conductor and mouse hole in cemented cellar",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p29_1.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 8.0650155544281,
+    "prompt_tokens": 1300,
+    "output_tokens": 97
+  },
+  "data": {
+    "transcription": "none",
+    "description": "The figure shows a close-up of a well casing or conductor in the context of a cellar. The object appears to be metallic and cylindrical, possibly part of a drilling assembly such as a BHA (Bottom Hole Assembly). It is situated on what looks like a cemented cellar floor with some visible wear and residue around it.",
+    "kind": "photo",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [],
+    "key_values": []
+  }
+}

@@ -1,0 +1,284 @@
+{
+ "runs": [
+  "..\\outputs\\repeat\\B3\\run1",
+  "..\\outputs\\repeat\\B3\\run3"
+ ],
+ "reports": 21,
+ "fields": 4211,
+ "same": 4179,
+ "differ": 32,
+ "share_same": 0.9924,
+ "differ_by_table": {
+  "events": 13,
+  "operations": 18,
+  "summary": 1
+ },
+ "row_count_differences": [
+  {
+   "report": "D03_r001",
+   "table": "events",
+   "rows": [
+    4,
+    0
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "report": "D03_r001",
+   "path": "events[0].description",
+   "values": [
+    "Clean Out Hole",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[0].event_type",
+   "values": [
+    "other",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[0].time",
+   "values": [
+    "6:00",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[1].description",
+   "values": [
+    "Trips",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[1].event_type",
+   "values": [
+    "other",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[1].time",
+   "values": [
+    "8:00",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[2].description",
+   "values": [
+    "Running Packer",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[2].event_type",
+   "values": [
+    "other",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[2].time",
+   "values": [
+    "12:00",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[3].description",
+   "values": [
+    "Step Down Test",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[3].event_type",
+   "values": [
+    "other",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "events[3].time",
+   "values": [
+    "17:30",
+    null
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[0].description",
+   "values": [
+    "Clean Out Hole",
+    "Wash and ream shoe track from 10,685' to 10,780'"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[0].is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[0].llm_is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[1].description",
+   "values": [
+    "Trips",
+    "Trip out of hole with clean out mill assembly from 10,780 to surface; break off mill and lay down"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[1].is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[1].llm_is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[2].activity",
+   "values": [
+    "completion",
+    "wellbore_problem"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[2].description",
+   "values": [
+    "Running Packer",
+    "Make up Renown packer assembly and trip in hole on drill pipe to 10,610' to perform DFIT; Remove top drive subs to accommodate pump head on drill pipe. Rig up Resource Cement pump truck. Held safety meeting. Mix and pump 78 bbl of friction reducer down drill pipe. Break off head and drop ball to set packer. Test all lines to 9,000 psi. Position packer at setting depth and pump setting ball down to seat and set packer."
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[2].is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[2].llm_activity",
+   "values": [
+    "completion",
+    "wellbore_problem"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[2].llm_is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[3].activity",
+   "values": [
+    "completion",
+    "wellbore_problem"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[3].description",
+   "values": [
+    "Step Down Test",
+    "Perform DFIT"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[3].is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[3].llm_activity",
+   "values": [
+    "completion",
+    "wellbore_problem"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[3].llm_is_npt",
+   "values": [
+    true,
+    false
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[4].activity",
+   "values": [
+    "completion",
+    "wellbore_problem"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "operations[4].llm_activity",
+   "values": [
+    "completion",
+    "wellbore_problem"
+   ]
+  },
+  {
+   "report": "D03_r001",
+   "path": "summary",
+   "values": [
+    "This report details the completion operations for FORGE 16A [78]-32, including well preparation, running a packer, performing DFIT (Drainage Flow Integrity Test), and shutting in the well to monitor pressure decline.",
+    "This report details the completion operations for FORGE 16A [78]-32, including well preparation, running a packer, performing DFIT (Drainage Flowback Integrity Test), and shutting in the well to monitor pressure decline."
+   ]
+  },
+  {
+   "report": "D07_r008",
+   "path": "events[1].event_type",
+   "values": [
+    "equipment_failure",
+    "bit_or_bha_failure"
+   ]
+  }
+ ]
+}

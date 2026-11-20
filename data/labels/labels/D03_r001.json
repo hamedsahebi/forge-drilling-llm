@@ -1,0 +1,113 @@
+{
+  "header": {
+    "footage_24h_ft": "0",
+    "hole_size_in": "7",
+    "md_ft": "10987",
+    "report_date": "2021-01-08",
+    "report_number": "5",
+    "report_type": "completion",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "8559"
+  },
+  "removed": {
+    "bha": [],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [],
+    "casing": [
+      {
+        "_m": 0,
+        "grade": "A53B",
+        "id_in": "19",
+        "od_in": "20",
+        "section": "Conductor",
+        "shoe_md_ft": "130",
+        "weight_ppf": "54"
+      },
+      {
+        "_m": 1,
+        "grade": "L-80",
+        "id_in": "12.410",
+        "od_in": "13.375",
+        "section": "Surface",
+        "shoe_md_ft": "1629",
+        "weight_ppf": "68"
+      },
+      {
+        "_m": 2,
+        "grade": "HCL-80",
+        "id_in": "8.750",
+        "od_in": "9.625",
+        "section": "Intermediate",
+        "shoe_md_ft": "5110",
+        "weight_ppf": "40"
+      },
+      {
+        "_m": 3,
+        "grade": "T-95",
+        "id_in": "5.920",
+        "od_in": "7",
+        "section": "Production",
+        "shoe_md_ft": "10787",
+        "weight_ppf": "38"
+      }
+    ],
+    "mud": [],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "completion",
+        "end": "8:00",
+        "end_md_ft": "",
+        "hours": "2",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 1,
+        "activity": "tripping",
+        "end": "12:00",
+        "end_md_ft": "",
+        "hours": "4",
+        "is_npt": "no",
+        "start": "8:00"
+      },
+      {
+        "_m": 2,
+        "activity": "completion",
+        "end": "17:30",
+        "end_md_ft": "",
+        "hours": "5.5",
+        "is_npt": "no",
+        "start": "12:00"
+      },
+      {
+        "_m": 3,
+        "activity": "completion",
+        "end": "23:00",
+        "end_md_ft": "",
+        "hours": "5.5",
+        "is_npt": "no",
+        "start": "17:30"
+      },
+      {
+        "_m": 4,
+        "activity": "completion",
+        "end": "6:00",
+        "end_md_ft": "",
+        "hours": "7",
+        "is_npt": "no",
+        "start": "23:00"
+      }
+    ],
+    "surveys": []
+  },
+  "updated": "2026-11-06T10:41:17.347Z"
+}

@@ -1,0 +1,33 @@
+{
+  "doc_id": "D08",
+  "page": 13,
+  "bbox": [
+    72.0,
+    106.2,
+    535.6,
+    590.8
+  ],
+  "source": "raster",
+  "caption": "Figure 1: Utah FORGE project location.",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p13_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 11.333623886108398,
+    "prompt_tokens": 1481,
+    "output_tokens": 156
+  },
+  "data": {
+    "transcription": "The figure is a map of Utah, highlighting the location of the Utah FORGE project. The map includes major highways and cities such as Salt Lake City, Provo, and St. George. The inset shows a detailed view of the area around Antelope Road and Geothermal Plant Road.",
+    "description": "The figure provides an overview of the geographical location of the Utah FORGE project within Utah. It highlights key locations like major highways (Interstate 15, Interstate 80) and cities such as Salt Lake City and St. George. The inset focuses on a specific area around Antelope Road and Geothermal Plant Road.",
+    "kind": "map",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [],
+    "key_values": []
+  }
+}

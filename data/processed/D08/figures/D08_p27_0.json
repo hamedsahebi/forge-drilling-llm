@@ -1,0 +1,57 @@
+{
+  "doc_id": "D08",
+  "page": 27,
+  "bbox": [
+    79.5,
+    106.2,
+    532.5,
+    567.5
+  ],
+  "source": "raster",
+  "caption": "Figure 7: Final directional survey plot",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p27_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 15.930020809173584,
+    "prompt_tokens": 1412,
+    "output_tokens": 251
+  },
+  "data": {
+    "transcription": "Figure 7: Final directional survey plot\n56-32_EOWR.pdf (well 56-32), page 27",
+    "description": "The figure is a final directional survey plot for well 56-32. It includes two main components: the left side shows a vertical profile of the well with labeled casing sections, and the right side displays an Easting vs Northing plot.",
+    "kind": "directional_plot",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Surface casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Intermediate casing",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Production casing",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "TVD (ft) = 9,138 ft",
+      "MD (ft) = 0 ft",
+      "Inc (deg) = 0 deg",
+      "Azl (deg) = 240 deg",
+      "TVD (ft) = 9,138.3 ft",
+      "Easting (ft) = -60 ft",
+      "Northing (ft) = 50 ft"
+    ]
+  }
+}

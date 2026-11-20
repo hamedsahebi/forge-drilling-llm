@@ -1,0 +1,47 @@
+{
+  "doc_id": "D08",
+  "page": 59,
+  "bbox": [
+    72.0,
+    384.2,
+    566.8,
+    656.1
+  ],
+  "source": "raster",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p59_1.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 27.063571214675903,
+    "prompt_tokens": 1305,
+    "output_tokens": 477
+  },
+  "data": {
+    "transcription": "Cement Job Information\nStart Date/Time: 04-Mar-21 13:30\nJob Type: SECONDARY\nWell Section: PROD\nCementing Co: Resource\nSecondary Job Details\nRemedial Type: ZONE\nNo. of Attempts: 1\nBreakdown Pressure (psi): \nInit. Injectn Pressure (psi): \nFinal Injectn Pressure (psi): \nInit. Shut In Pressure (psi): \nHold Pressure (psi): \nBleed Back Volume (bbls): \nSlurry Information\nType Density Yield Sacks Volume Rate Additives\nSPACER 8.43 \nCLASSC 15.60 \nPost Job Information\nLiner Top Test (lbs/gal): \nActual Top of Cmt (ft): 0\nMisc. Comments: Pumped 25 bbl of Fresh water to stablish pressure and rate.\nPumped 167 bbls of 15.6ppg Cement at a rate from 4 BPM to 1 BPM Shutdown, CP\nAt 22:00 Hours verified TOP of Cement and Cement was at surface,\n",
+    "description": "The figure provides detailed information about a secondary cement job in the original wellbore section of Well 56-32. The job started on March 4, 2021, at 1:30 PM with one attempt to remediate using zone breakdown pressure. Slurry information includes two types: SPACER and CLASSC, with densities of 8.43 lbs/gal and 15.60 lbs/gal respectively. The post-job information indicates that the job was successful (Yes) as no cement top was observed at the surface by 22:00 hours.",
+    "kind": "table_image",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "SPACER",
+        "unit": "lbs/gal",
+        "trend": null
+      },
+      {
+        "name": "CLASSC",
+        "unit": "lbs/gal",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Density = 8.43 lbs/gal",
+      "Density = 15.60 lbs/gal"
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+<title>FORGE Report Pipeline Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,600;112,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a wide engineering flow sheet (sources left -> consumers right, one lane per content type), detail panel beside it */
+:root {
+  --bg: #f3f5f6; --sheet: #ffffff; --ink: #15212b; --muted: #5a6873; --rule: #d5dde2; --grid: #e7ecef;
+  --tables: #0d7a87; --narr: #a85e14; --figs: #6447b0; --charts: #b52f48; --store: #34536a; --plan: #8a96a0;
+  --chip: #eef2f4;
+  --f-display: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f161c; --sheet: #151f27; --ink: #e3eaee; --muted: #93a2ad; --rule: #2b3a45; --grid: #1c2831;
+  --tables: #3cc2cf; --narr: #e5a052; --figs: #a48df0; --charts: #f06a83; --store: #8fb2cc; --plan: #6d7c87;
+  --chip: #1f2c35; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f161c; --sheet: #151f27; --ink: #e3eaee; --muted: #93a2ad; --rule: #2b3a45; --grid: #1c2831;
+  --tables: #3cc2cf; --narr: #e5a052; --figs: #a48df0; --charts: #f06a83; --store: #8fb2cc; --plan: #6d7c87;
+  --chip: #1f2c35; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+.wrap { padding-block: 28px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); max-width: 1500px; margin: 0 auto; display: grid; gap: 18px; }
+header { display: grid; gap: 6px; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: clamp(26px, 3.4vw, 40px); line-height: 1.05; margin: 0; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 72ch; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.controls .sep { width: 1px; height: 24px; background: var(--rule); margin: 0 4px; }
+button.chipbtn { font: 500 13px var(--f-body); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 999px; padding: 6px 13px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px; }
+button.chipbtn:hover { border-color: var(--muted); }
+button.chipbtn[aria-pressed="true"] { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+button.chipbtn:focus-visible, .node:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c); display: inline-block; }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 18px; align-items: start; }
+@media (max-width: 1100px) { .main { grid-template-columns: minmax(0, 1fr); } }
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; overflow-x: auto; min-width: 0; }
+svg#map { display: block; width: 100%; min-width: 980px; height: auto; }
+.lane-band { fill: var(--grid); opacity: .55; }
+.lane-label { font: 600 10px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; }
+.col-label { font: 500 11px var(--f-mono); fill: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.edge { fill: none; stroke-width: 1.6; opacity: .55; transition: opacity .25s; }
+.edge.planned { stroke-dasharray: 5 5; }
+.node { cursor: pointer; transition: opacity .25s; }
+.node rect.box { fill: var(--sheet); stroke-width: 1.6; transition: stroke-width .15s; }
+.node.planned rect.box { stroke-dasharray: 5 4; }
+.node:hover rect.box, .node.active rect.box { stroke-width: 3; }
+.node.active rect.box { fill: var(--chip); }
+.node .t { font: 600 13px var(--f-body); fill: var(--ink); }
+.node .f { font: 400 10.5px var(--f-mono); fill: var(--muted); }
+.node .badge { font: 600 9px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; }
+.dim { opacity: .14 !important; }
+.packet { pointer-events: none; }
+.hide-planned .planned { display: none; }
+aside.panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 20px; display: grid; gap: 12px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); min-width: 0; }
+@media (max-width: 1100px) { aside.panel { position: static; } }
+.panel .lane-tag { font: 600 11px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--c); display: flex; gap: 8px; align-items: center; }
+.panel h2 { font-family: var(--f-display); font-stretch: 112%; font-weight: 600; font-size: 22px; line-height: 1.15; margin: 0; text-wrap: balance; }
+.panel .file { font: 400 12.5px var(--f-mono); color: var(--muted); overflow-wrap: anywhere; }
+.panel h3 { font: 600 11px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.panel ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+.panel li { font-size: 14px; }
+.panel code { font-family: var(--f-mono); font-size: 12.5px; background: var(--chip); padding: 0 4px; border-radius: 3px; overflow-wrap: anywhere; }
+.status { font: 600 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 3px; border: 1px solid currentColor; justify-self: start; }
+.st-built { color: var(--tables); } .st-eval { color: var(--store); } .st-progress { color: var(--narr); } .st-planned { color: var(--plan); }
+.navrow { display: flex; gap: 8px; justify-content: space-between; border-top: 1px solid var(--rule); padding-top: 10px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; gap: 6px; align-items: center; }
+.legend svg { overflow: visible; }
+footer { font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .packet { display: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Utah FORGE · public reports · local Qwen3-8B / Qwen2.5-VL-7B</div>
+    <h1>From PDF drilling reports to queryable data</h1>
+    <p class="lede">Every pipeline in the prototype, from the downloaded PDFs and sensor CSVs to the SQLite database, the agent and the chart-vs-sensor evaluation. Click a stage for its inputs, process and outputs, or press <b>Walk through</b> to follow the data in order.</p>
+  </header>
+
+  <div class="controls" role="toolbar" aria-label="Map controls">
+    <button class="chipbtn" id="f-all" data-lane="all" aria-pressed="true">All pipelines</button>
+    <button class="chipbtn" data-lane="tables" aria-pressed="false" style="--c:var(--tables)"><i class="dot"></i>Daily-report tables</button>
+    <button class="chipbtn" data-lane="narr" aria-pressed="false" style="--c:var(--narr)"><i class="dot"></i>Long-report narrative</button>
+    <button class="chipbtn" data-lane="figs" aria-pressed="false" style="--c:var(--figs)"><i class="dot"></i>Figures</button>
+    <button class="chipbtn" data-lane="charts" aria-pressed="false" style="--c:var(--charts)"><i class="dot"></i>Chart vs sensor</button>
+    <span class="sep"></span>
+    <button class="chipbtn" id="walk" aria-pressed="false">▶ Walk through</button>
+    <button class="chipbtn" id="flow" aria-pressed="true">Data flow on</button>
+    <button class="chipbtn" id="planned" aria-pressed="true">Show planned</button>
+  </div>
+
+  <div class="main">
+    <div class="sheet"><svg id="map" viewBox="0 0 1290 800" role="img" aria-label="Pipeline flowchart"></svg></div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <div class="legend">
+    <span><svg width="26" height="10"><rect x="1" y="1" width="24" height="8" rx="2" fill="none" stroke="currentColor"/></svg>built</span>
+    <span><svg width="26" height="10"><rect x="1" y="1" width="24" height="8" rx="2" fill="none" stroke="currentColor" stroke-dasharray="4 3"/></svg>planned</span>
+    <span><svg width="14" height="10"><circle cx="7" cy="5" r="4" fill="currentColor"/></svg>data moving between stages</span>
+  </div>
+  <footer>Dev set for prompt tuning: reports D01, D02, D05 and chart pages 46, 90, 183. Accuracy is reported on other documents only. Source data: US DOE Geothermal Data Repository, CC BY 4.0.</footer>
+</div>
+
+<script>
+const LANES = {
+  src:    { name: "Sources",              color: "--muted" },
+  shared: { name: "Shared parsing",       color: "--store" },
+  tables: { name: "Daily-report tables",  color: "--tables" },
+  narr:   { name: "Long-report narrative",color: "--narr" },
+  figs:   { name: "Figures",              color: "--figs" },
+  charts: { name: "Chart vs sensor",      color: "--charts" },
+  store:  { name: "Store and use",        color: "--store" },
+};
+const STATUS = { built: ["Built", "st-built"], eval: ["Built and scored", "st-eval"], progress: ["In progress", "st-progress"], planned: ["Planned", "st-planned"] };
+const W = 160;
+const COL = [20, 205, 390, 575, 760, 945, 1115];
+
+// x column, y top, h height. lanes: tables 40-170, narr 190-300, figs 320-430, charts 470-780
+const NODES = [
+  { id: "src_ddr", lane: "src", col: 0, y: 48, h: 74, title: "Daily report PDFs", file: "D01–D07 · 3 wells", status: "built",
+    inputs: ["Utah FORGE GDR download (<code>data/download_forge.py</code>)"],
+    process: ["16A(78)-32: WellEz-style forms (D01–D03)", "56-32: RIMBase reports (D04–D06)", "78B-32: 93-page compilation that splits into 35 reports (D07)"],
+    outputs: ["41 daily reports in two templates"],
+    notes: ["D01, D02 and D05 are the prompt-tuning set; they are never scored."] },
+  { id: "src_eowr", lane: "src", col: 0, y: 208, h: 74, title: "End-of-Well Report", file: "D08 · 56-32 · 86 pages", status: "built",
+    inputs: ["FORGE GDR PDF"], process: ["Long prose report with tables and 54 figures"], outputs: ["Narrative text and figures for the next stages"] },
+  { id: "src_plots", lane: "src", col: 0, y: 338, h: 74, title: "Plot documents", file: "D09 Pason graph · D10 mud log", status: "built",
+    inputs: ["FORGE GDR PDFs for well 78B-32"],
+    process: ["D09: 246-page Pason EDR time log, vector curves plus a text layer", "D10: mud log", "Four sample pages of each go through the figure pipeline"],
+    outputs: ["Chart pages for the figure lane and the chart-vs-sensor lane"] },
+  { id: "src_sensor", lane: "src", col: 0, y: 640, h: 74, title: "Pason sensor CSVs", file: "78B-32 · 1 s and 10 s", status: "built",
+    inputs: ["<code>download_forge.py --sensors</code> (GDR 1330, DOI 10.15121/1814488)"],
+    process: ["1 s file: 411 MB, 22 channels, ends 1 Aug 2021", "10 s file: 762 MB, 387 channels incl. MSE and On Bottom ROP, runs to 10 Aug 2021 with gaps", "Missing values are <code>-999.25</code>"],
+    outputs: ["Ground truth for every curve on the D09 chart"], notes: ["Not committed to git (too large)."] },
+
+  { id: "parse", lane: "shared", col: 1, y: 48, h: 364, title: "PDF parsing", file: "parse_pdf.py · PyMuPDF", status: "built",
+    inputs: ["Daily report PDFs", "End-of-Well Report", "Plot document sample pages"],
+    process: ["Monospace layout text that keeps table columns aligned", "Split compilations into single reports", "Detect figures: raster images plus clusters of vector drawing; skip logos and ruled tables", "Attach the caption and text-layer hints to each figure"],
+    outputs: ["Layout text per report", "Figure crops with caption and hints"],
+    notes: ["Plain extracted text made values drift into wrong columns (grade = \"FULL\", chlorides 7.2e15). Layout text fixed most of it."] },
+
+  { id: "t_extract", lane: "tables", col: 2, y: 48, h: 74, title: "Per-table extraction", file: "run_prototype.py", status: "built",
+    inputs: ["Layout text of one daily report", "One pydantic schema per table"],
+    process: ["One schema-constrained call per table: header and depth, time log, casing, mud, bits, BHA, surveys", "JSON validated by pydantic; on error the model gets the message and retries", "Then <code>apply_casing_table()</code> replaces the casing rows with the Casing/Tubular table read by word position, where the page has one (37 of 41 reports); the LLM rows stay in <code>meta.llm_casing</code>", "Then <code>apply_mud_table()</code> replaces the mud checks with the Mud Information table read by word position (mud 66.7% -> 90.9% against the labels)", "Then <code>apply_bit_table()</code> replaces the bits with the Bit/BHA/Workstring table (bits 64.0% -> 93.7%)", "Then <code>apply_activity_code()</code> sets activity from the operator's time-log Code column (IADC activity number, e.g. 3-<b>6</b>-4 = trips) where the code maps to one class; the LLM class stays in <code>llm_activity</code>", "Rows without a mapped code: <code>classify_rows()</code>, a separate activity pass with written class definitions and one required field per row (r0..rN), so no row is dropped or renumbered"],
+    outputs: ["DailyReport JSON (header, operations, casing, mud, bits, BHA, surveys)", "<code>meta.casing_source</code>: table or llm"], model: "Qwen3-8B, thinking off",
+    notes: ["One call for the whole schema left casing, mud, bits and BHA empty.", "The LLM took OH Diam. as casing size and top MD as shoe depth. Casing fields against the 15 hand labels: 90.0% from the LLM, 97.7% from the table reader; the remaining 4 errors were label errors, now fixed (100%).", "Activity on the 120 labelled rows with a mapped code: code 93.3%; LLM alone on the other 34 rows: 38.2% (labels revised to written rules after the comparison; overall 63.6% -> 81.2%).", "Activity pass with class definitions: LLM-only rows 38.2% -> 64.7% (22/34, first 15) and 0/11 -> 7/11 (blind).", "Final cold run (Ollama 0.40.15, pinned, 2026-11-10): blind 6 reports 92.9% of 591 fields; first 15 reports 97.0% of 1,515; casing, mud and surveys 100%.", "Per-table calls: BHA 11 of 12 components correct on D02.", "Thinking mode was 5–15× slower with no accuracy gain."] },
+  { id: "t_plaus", lane: "tables", col: 3, y: 48, h: 74, title: "Plausibility ranges", file: "PLAUSIBLE · sanity_check()", status: "built",
+    inputs: ["DailyReport JSON"],
+    process: ["Physical range per field (e.g. mud density 6–22 ppg, hole size 2–40 in, chlorides ≤ 250,000 mg/L)", "Out-of-range values set to null and logged"],
+    outputs: ["Cleaned DailyReport plus a list of flags"],
+    notes: ["Caught decoding errors such as chlorides 7.2e15 and a pump rate read as bit RPM."] },
+  { id: "t_npt", lane: "tables", col: 4, y: 48, h: 74, title: "NPT / event classifier", file: "label_rows() · qwen3:8b", status: "built",
+    inputs: ["Time-log rows of one report"],
+    process: ["Second, focused pass row by row", "NPT yes/no and event type (stuck pipe, lost circulation, tight hole, equipment failure …)", "Rule: planned work is never NPT", "Then <code>apply_npt_column()</code> replaces the NPT flag with the operator's Non-Prod marks, read from word positions, in documents that use the column"],
+    outputs: ["Operations with <code>is_npt</code>, <code>npt_source</code> (column or llm) and <code>llm_is_npt</code>", "Events (still from the LLM)"],
+    notes: ["D07 is the only document with marks: the LLM flag scored precision 23%, recall 58% against them.", "Marked hours equal the NPT hours stated in Comments on all 6 D07 reports that state them.", "Where no mark exists in the document, the flag is still the LLM estimate.", "Spot-check precision of problem events about 60–65%; no geothermal classes yet (e.g. tool cooling)."] },
+
+  { id: "t_trust", lane: "tables", col: 4, y: 130, h: 58, title: "Trust layer", file: "trust.py · no LLM", status: "built",
+    inputs: ["Saved report JSON", "PDF word positions", "Other reports of the well", "Pason hole depth (78B-32)"],
+    process: ["Printed labels: date, rig, MD, TVD, footage", "Casing rows and time-log rows read by word position", "Hours sum to 24; End MD against MD; depth continuity; hole-size sequence", "Sensor depth", "Every value also searched for in the report text (weak)", "Values read from the PDF by code (tables, Code and Non-Prod columns) get <code>pdf_read</code> and <code>source</code> table, code or column", "No extracted value is changed"],
+    outputs: ["Verdict per value: pass, pdf_read, weak, conflict, fail, unchecked; <code>source</code>: table, code, column or llm", "<code>outputs/trust/</code>; tables <code>checks</code> and <code>trust</code>"],
+    notes: ["38 non-dev reports: 54 fail, 10 conflict, 1,477 pass, 1,647 pdf_read, 1,600 weak, 422 unchecked (before the table readers: 111 fail, 57 of them casing).", "All fails and conflicts are on LLM values.", "Mud, bits, BHA and surveys only get the weak check so far."] },
+
+  { id: "n_chunk", lane: "narr", col: 2, y: 208, h: 74, title: "Chunking", file: "run_text() · long_report", status: "built",
+    inputs: ["Layout text of the 86-page End-of-Well Report"],
+    process: ["Drop alignment padding to save tokens", "Group pages into chunks that fit a 12k context"],
+    outputs: ["Page-ranged text chunks"], notes: ["A 16k context spills the 8B model to the CPU on an 8 GB GPU."] },
+  { id: "n_calls", lane: "narr", col: 3, y: 208, h: 74, title: "Facts + narrative calls", file: "WellFacts · WellNarrative", status: "built",
+    inputs: ["One chunk at a time"],
+    process: ["Facts call: depths, casing points, key numbers", "Narrative call: problem events and lessons learned with page references"],
+    outputs: ["Partial summaries per chunk"], model: "Qwen3-8B",
+    notes: ["Tables were repeated and fragmented across chunks. Planned fix: per-table extraction on the pages where tables sit."] },
+  { id: "n_merge", lane: "narr", col: 4, y: 208, h: 74, title: "Well summary", file: "WellSummary (map-reduce)", status: "built",
+    inputs: ["Partial summaries"], process: ["Merge facts, de-duplicate events and lessons"],
+    outputs: ["End-of-Well digest: 17 problem events, 28 lessons learned"] },
+
+  { id: "f_crop", lane: "figs", col: 2, y: 338, h: 74, title: "Figure crops + hints", file: "find_figures()", status: "built",
+    inputs: ["Detected figures from parsing"], process: ["Render each figure", "Attach the caption and any text-layer words inside it as hints"],
+    outputs: ["62 figure images with context"] },
+  { id: "f_vlm", lane: "figs", col: 3, y: 338, h: 74, title: "Transcribe → describe → structure", file: "FigureInfo · qwen2.5vl:7b", status: "built",
+    inputs: ["Figure image, caption, hints"],
+    process: ["Schema fields ordered so the model first copies visible text, then describes, then fills structured values", "Generation capped (num_predict, repeat_penalty) to stop runaway lists"],
+    outputs: ["Title, description, series and values per figure"], model: "Qwen2.5-VL-7B",
+    notes: ["Example numbers in the prompt were copied into 14 of 62 figures (23%).", "\"Leave empty if illegible\": no copying, but 43 of 62 figures empty.", "This ordering: BHA diagrams read in full, no copying, 12 of 62 empty."] },
+  { id: "f_class", lane: "figs", col: 4, y: 338, h: 74, title: "Figure classification", file: "FigureKind · 14 classes", status: "built",
+    inputs: ["Structured figure output"],
+    process: ["Kind: BHA schematic, well schematic, time vs depth, drilling-parameter chart, pressure chart, equipment diagram, mud log …"],
+    outputs: ["Typed figure records (60 of 62 succeeded)"],
+    notes: ["About 67% agreement with captions before the pressure_chart and equipment_diagram classes were added."] },
+
+  { id: "c_sensor", lane: "charts", col: 2, y: 640, h: 74, title: "Sensor ground truth", file: "sensor_truth.py", status: "built",
+    inputs: ["10 s Pason CSV (762 MB)"], process: ["Keep the 12 channels drawn on the chart", "Replace -999.25 by empty"],
+    outputs: ["<code>78B-32_pason_10s_chart.csv.gz</code>: 3.2 MB, 322,646 rows (committed)"] },
+  { id: "c_vector", lane: "charts", col: 2, y: 472, h: 74, title: "Deterministic chart reader", file: "chart_reader.py", status: "eval",
+    inputs: ["All 246 pages of the Pason graph PDF"],
+    process: ["Page-1 legend maps colour → variable and 0–max scale in three tracks", "Time axis: 36 pt per 10 min; dates carried across pages; the chart closes up long data gaps, so time restarts at each jump", "Curves read from PDF vector paths every 5 min", "Tag each value reading, at_max or at_min (pinned at a track edge)", "Bit depth and TVD from text-layer labels"],
+    outputs: ["<code>readings_vector.csv.gz</code>: 101,381 readings, 101,367 with sensor truth", "Loaded into the database as table <code>chart_readings</code>"],
+    notes: ["87–100% correct per variable; median error ≤ 0.13% of full scale.", "So the chart is a faithful copy of the sensors; any vision error is a reading error."] },
+  { id: "c_llm", lane: "charts", col: 3, y: 556, h: 74, title: "Vision chart reader", file: "chart_llm.py · qwen2.5vl:7b", status: "eval",
+    inputs: ["20 test pages with drilling activity (3 more dev pages for choosing the prompt)", "Legend as text (it is printed on page 1 only)"],
+    process: ["Whole page: all nine curves at six tick times in one call", "Hybrid (best): the text layer locates each tick and track; one crop per curve, ±10 min, with a dashed marker and the scale numbers printed on the grid lines", "The model reads one value; code tags it as an axis limit if it is within 2% of an edge"],
+    outputs: ["<code>readings_llm_axis.csv.gz</code> and <code>readings_llm_kind_first.csv.gz</code>, same columns as the vector reader"], model: "Qwen2.5-VL-7B",
+    notes: ["Test, same 1,080 points: vector reader 98.5% correct; hybrid vision 47.2% (68% of readings within ±10% of full scale, median error 5.2%); whole page 21.3%.", "The whole page never gave a plain reading: every value was labelled pinned at an edge.", "Hybrid took 161 s per page against under 1 s for the vector parser.", "Off-scale values flagged correctly in only 58% of cases; mud volume was read as 0 in 29 of them."] },
+  { id: "c_eval", lane: "charts", col: 4, y: 556, h: 74, title: "Scoring", file: "eval_charts.py", status: "eval",
+    inputs: ["Any <code>readings_*.csv.gz</code>", "Sensor extract"],
+    process: ["Truth = nearest 10 s record plus min/max within ±30 s", "Reading correct within ±2% of full scale", "at_max correct if truth ≥ 98% of scale", "Depth labels within ±5 ft"],
+    outputs: ["<code>summary.json</code>: correct %, median error, count of true values beyond the scale"] },
+  { id: "c_result", lane: "charts", col: 5, y: 556, h: 74, title: "Chart accuracy table", file: "outputs/chart_eval/", status: "eval",
+    inputs: ["Scores per method and variable"],
+    process: ["Compare routes on the same pages"],
+    outputs: ["Paper result: chart reading error against real sensors"],
+    notes: ["Axis limits are common: mud volume is above its 200 bbl scale in 9,142 of 9,901 samples. A reader that reports the edge value is wrong every time."] },
+
+  { id: "db", lane: "store", col: 5, y: 48, h: 364, title: "SQLite + CSV", file: "build_db.py", status: "built",
+    inputs: ["DailyReport JSON (tables lane)", "Well summary (narrative lane)", "Figure records (figure lane)", "Deterministic chart readings (chart lane)"],
+    process: ["Flatten JSON into one table per entity", "Keep report_id, well, date and page on every row for citation", "Chart readings pinned at the top of the scale get no value, so MAX and AVG cannot return an axis limit", "Each figure gets <code>value_source</code>: label (<code>key_values</code>), chart (<code>unverified_values</code>) or replaced (D09, use <code>chart_readings</code>)", "The text the model copied from each figure is kept in <code>transcription</code>"],
+    outputs: ["<code>outputs/drilling_reports.db</code>", "Tables: reports, operations, casing, mud, bits, bha, surveys, events, figures, well_summary, eowr_casing, eowr_bits, eowr_events, eowr_lessons, chart_readings, plus checks and trust", "Same tables as CSV in <code>outputs/csv/</code>, except chart_readings", "About 1,000 structured rows, plus the trust results and 101,381 chart readings"] },
+  { id: "agent", lane: "store", col: 6, y: 48, h: 110, title: "SQL agent", file: "agent.py · qwen3:8b", status: "built",
+    inputs: ["User question", "SQLite database"],
+    process: ["Tools: <code>run_sql</code> (read-only SELECT, 50 rows), <code>search_figures</code> (word match on captions, descriptions, values and transcribed text; a figure id jumps to <code>get_figure</code>; a sentence that matches nothing retries word by word) and <code>get_figure</code> (whole transcription)", "Figure results carry a <code>TRUST:</code> line from value_source, e.g. \"unverified vision reading\"", "Rules: always call a tool, select label columns with the value, query both bits and eowr_bits, group NPT by npt_source", "Grounded with the real category values, a retry rule and a drilling glossary (MSE, NPT, BHA …)", "Rule: for parameters at a time on 78B-32, use <code>chart_readings</code>, not figure key values", "Rule: a chart number from a figure must be called an unverified vision reading"],
+    outputs: ["Answer with numbers and cited report_id / figure_id", "<code>--demo</code>: 6 questions graded by SQL; <code>--checks</code>: 5 rule checks; cross-source test: 3 questions"],
+    notes: ["Without grounding it invented filter values and said \"no BHA data\" with 287 rows present.", "Figure answers are reliable for labelled diagrams, unreliable for chart values (ROP 1,000 ft/h was an axis limit; truth 34.8).", "Demo graded by SQL: 1 right, 3 partial, 2 wrong -> 2 right, 4 partial, 0 wrong. Rule checks 1/5 -> 5/5 once the tools changed; prompt rules alone did not move the 8B model."] },
+  { id: "show", lane: "store", col: 6, y: 186, h: 74, title: "Showcase page", file: "make_showcase.py", status: "built",
+    inputs: ["Database, figures, agent answers"], process: ["Fill showcase_template.html"], outputs: ["<code>outputs/showcase.html</code>, published as a private artifact"] },
+
+  { id: "p_vec", lane: "narr", col: 5, y: 440, h: 64, title: "Narrative vector search", file: "planned", status: "planned",
+    inputs: ["Report narratives and time-log comments"], process: ["Semantic search next to SQL, so \"stuck pipe\" also finds \"tight hole\" and \"pack-off\""], outputs: ["A third agent tool"] },
+  { id: "p_fig", lane: "figs", col: 6, y: 288, h: 74, title: "look_at_figure tool", file: "planned", status: "planned",
+    inputs: ["figure_id and the user's question"], process: ["Re-ask the vision model at question time", "Every figure value typed as reading, axis limit or label"], outputs: ["Figure answers with provenance"] },
+  { id: "p_qs", lane: "store", col: 6, y: 400, h: 92, title: "Question-set evaluation", file: "score_labels.py · 15 + 6 blind reports (blind 92.9%) · questions planned", status: "progress",
+    inputs: ["21 hand-labelled non-dev reports: 15 checked from pre-filled values (97.0% of 1,515 fields correct) and 6 blind D07 reports (r013, r019, r022, r024, r033, r034) labelled from empty fields: <b>92.9% of 591 fields, the headline score</b> (final cold run, Ollama 0.40.15)", "Questions split into text, table, figure, cross-source (not written yet)"],
+    process: ["Score correct value, correct citation, and correctly saying \"not available\"", "Field-level F1 for tables; NPT precision and recall", "Ablations: one call vs per table, plain vs layout text, glossary, plausibility ranges, grounding"],
+    outputs: ["The paper's per-stage accuracy tables"] },
+];
+
+const EDGES = [
+  ["src_ddr", "parse", "tables"], ["src_eowr", "parse", "narr"], ["src_eowr", "parse", "figs"], ["src_plots", "parse", "figs"],
+  ["parse", "t_extract", "tables"], ["t_extract", "t_plaus", "tables"], ["t_plaus", "t_npt", "tables"], ["t_npt", "t_trust", "tables"], ["t_trust", "db", "tables"],
+  ["parse", "n_chunk", "narr"], ["n_chunk", "n_calls", "narr"], ["n_calls", "n_merge", "narr"], ["n_merge", "db", "narr"],
+  ["parse", "f_crop", "figs"], ["f_crop", "f_vlm", "figs"], ["f_vlm", "f_class", "figs"], ["f_class", "db", "figs"],
+  ["src_plots", "c_vector", "charts"], ["src_plots", "c_llm", "charts"], ["src_sensor", "c_sensor", "charts"],
+  ["c_vector", "c_eval", "charts"], ["c_llm", "c_eval", "charts"], ["c_sensor", "c_eval", "charts"], ["c_eval", "c_result", "charts"], ["c_vector", "db", "charts"],
+  ["db", "agent", "store"], ["db", "show", "store"],
+  ["n_merge", "p_vec", "narr", 1], ["p_vec", "agent", "narr", 1], ["f_class", "p_fig", "figs", 1], ["p_fig", "agent", "figs", 1],
+  ["db", "p_qs", "store", 1],
+];
+const ORDER = ["src_ddr","src_eowr","src_plots","parse","t_extract","t_plaus","t_npt","t_trust","n_chunk","n_calls","n_merge","f_crop","f_vlm","f_class","db","agent","show","src_sensor","c_sensor","c_vector","c_llm","c_eval","c_result","p_vec","p_fig","p_qs"];
+
+// Box heights come from the text they hold, so a wrapped title or file name never runs into the status label
+const TITLE_CHARS = 19, FILE_CHARS = 23;
+function wrapLines(str, max) {
+  const out = []; let line = "";
+  for (const w of str.split(" ")) { if ((line + " " + w).trim().length > max && line) { out.push(line); line = w; } else line = (line + " " + w).trim(); }
+  if (line) out.push(line);
+  return out;
+}
+const rowH = {};
+for (const n of NODES) {
+  n.h = Math.max(n.h, 47 + 16 * wrapLines(n.title, TITLE_CHARS).length + 13 * (wrapLines(n.file, FILE_CHARS).length - 1));
+  if (n.lane !== "store") rowH[n.lane + n.y] = Math.max(rowH[n.lane + n.y] || 0, n.h);
+}
+for (const n of NODES) n.h = rowH[n.lane + n.y] || n.h;  // boxes in one row stay level, so links between them run straight
+
+const NS = "http://www.w3.org/2000/svg";
+const svg = document.getElementById("map");
+const byId = Object.fromEntries(NODES.map(n => [n.id, n]));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const laneOf = n => n.lane;
+const nodeLanes = id => new Set(EDGES.filter(e => e[0] === id || e[1] === id).map(e => e[2]));
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; }
+
+// lane bands and column headers
+const BANDS = [["tables", 36, 156], ["narr", 196, 98], ["figs", 326, 128], ["charts", 458, 270]];
+for (const [lane, y, h] of BANDS) {
+  el("rect", { x: 380, y, width: 560, height: h, rx: 4, class: "lane-band" }, svg);
+  const t = el("text", { x: 388, y: y + 9, class: "lane-label", fill: `var(${LANES[lane].color})` }, svg); t.textContent = LANES[lane].name;
+}
+[["Inputs", 0], ["Parse", 1], ["Extract", 2], ["Check", 3], ["Label", 4], ["Store", 5], ["Use", 6]].forEach(([s, c]) => {
+  const t = el("text", { x: COL[c] + 2, y: 22, class: "col-label" }, svg); t.textContent = s;
+});
+
+const edgeG = el("g", {}, svg), packetG = el("g", {}, svg), nodeG = el("g", {}, svg);
+function port(n, side, other) {
+  const x = COL[n.col] + (side === "out" ? W : 0);
+  let y = n.y + n.h / 2;
+  if (n.h > 120 && other) y = Math.min(Math.max(other.y + other.h / 2, n.y + 20), n.y + n.h - 20);  // tall nodes: meet the partner's row
+  return [x, y];
+}
+const edgeEls = EDGES.map(([a, b, lane, planned], i) => {
+  const A = byId[a], B = byId[b];
+  let [x1, y1] = port(A, "out", B), [x2, y2] = port(B, "in", A);
+  const same = B.col === A.col, down = B.y > A.y;
+  if (same) { x1 = x2 = COL[A.col] + W / 2; y1 = down ? A.y + A.h : A.y; y2 = down ? B.y : B.y + B.h; }  // same column: vertical link
+  const dx = Math.max(40, (x2 - x1) / 2), dy = down ? 30 : -30;
+  const d = same ? `M${x1},${y1} C${x1},${y1 + dy} ${x2},${y2 - dy} ${x2},${y2}` : `M${x1},${y1} C${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`;
+  const p = el("path", { d, class: "edge" + (planned ? " planned" : ""), stroke: `var(${LANES[lane].color})`, id: "e" + i, "marker-end": "" }, edgeG);
+  p.dataset.lane = lane; p.dataset.a = a; p.dataset.b = b;
+  // packet animated along the edge, staggered by where the edge sits in the flow
+  const stage = Math.min(ORDER.indexOf(a), 40);
+  const c = el("circle", { r: planned ? 2.6 : 3.4, class: "packet" + (planned ? " planned" : ""), fill: `var(${LANES[lane].color})` }, packetG);
+  c.dataset.lane = lane;
+  const m = el("animateMotion", { dur: "2.6s", repeatCount: "indefinite", begin: `${(stage % 6) * 0.45}s`, rotate: "auto" }, c);
+  el("mpath", { href: "#e" + i }, m);
+  return p;
+});
+
+const nodeEls = {};
+for (const n of NODES) {
+  const lc = n.lane === "src" ? "--muted" : LANES[n.lane].color;
+  const g = el("g", { class: "node" + (n.status === "planned" ? " planned" : ""), tabindex: 0, role: "button", "aria-label": n.title }, nodeG);
+  g.dataset.id = n.id;
+  el("rect", { class: "box", x: COL[n.col], y: n.y, width: W, height: n.h, rx: 5, stroke: `var(${lc})` }, g);
+  el("rect", { x: COL[n.col], y: n.y, width: 4, height: n.h, rx: 2, fill: `var(${lc})` }, g);
+  const t = el("text", { class: "t", x: COL[n.col] + 12, y: n.y + 22 }, g);
+  wrap(t, n.title, TITLE_CHARS, COL[n.col] + 12);
+  const lines = t.childNodes.length;
+  const f = el("text", { class: "f", x: COL[n.col] + 12, y: n.y + 24 + lines * 16 }, g);
+  wrap(f, n.file, FILE_CHARS, COL[n.col] + 12, 13);
+  const b = el("text", { class: "badge", x: COL[n.col] + 12, y: n.y + n.h - 9, fill: `var(${lc})` }, g);
+  b.textContent = STATUS[n.status][0];
+  g.addEventListener("click", () => { stopWalk(); select(n.id); });
+  g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); stopWalk(); select(n.id); } });
+  nodeEls[n.id] = g;
+}
+function wrap(textEl, str, max, x, lh = 16) {
+  const words = str.split(" "); let line = "", first = true;
+  const push = s => { const ts = el("tspan", { x, dy: first ? 0 : lh }, textEl); ts.textContent = s; first = false; };
+  for (const w of words) { if ((line + " " + w).trim().length > max && line) { push(line); line = w; } else line = (line + " " + w).trim(); }
+  if (line) push(line);
+}
+
+// panel
+const panel = document.getElementById("panel");
+let current = "parse";
+function list(title, items) { return items && items.length ? `<div><h3>${title}</h3><ul>${items.map(i => `<li>${i}</li>`).join("")}</ul></div>` : ""; }
+function select(id) {
+  current = id;
+  const n = byId[id], lane = LANES[n.lane];
+  for (const k in nodeEls) nodeEls[k].classList.toggle("active", k === id);
+  const [sl, sc] = STATUS[n.status];
+  const i = ORDER.indexOf(id);
+  panel.innerHTML = `
+    <div class="lane-tag" style="--c:var(${n.lane === "src" ? "--muted" : lane.color})"><i class="dot"></i>${lane.name}</div>
+    <h2>${n.title}</h2>
+    <div class="file">${n.file}</div>
+    <span class="status ${sc}">${sl}</span>
+    ${n.model ? `<div><h3>Model</h3><div>${n.model}</div></div>` : ""}
+    ${list("Inputs", n.inputs)}${list("Process", n.process)}${list("Outputs", n.outputs)}${list("What we found", n.notes)}
+    <div class="navrow">
+      <button class="chipbtn" id="prev" ${i <= 0 ? "disabled" : ""}>← Previous stage</button>
+      <button class="chipbtn" id="next" ${i >= ORDER.length - 1 ? "disabled" : ""}>Next stage →</button>
+    </div>`;
+  panel.querySelector("#prev").onclick = () => { stopWalk(); step(-1); };
+  panel.querySelector("#next").onclick = () => { stopWalk(); step(1); };
+}
+function step(d) {
+  let i = ORDER.indexOf(current);
+  do { i += d; } while (i >= 0 && i < ORDER.length && !visible(ORDER[i]));
+  if (i >= 0 && i < ORDER.length) select(ORDER[i]);
+}
+const visible = id => !(hidePlanned && byId[id].status === "planned") && (lane === "all" || nodeLanes(id).has(lane) || byId[id].lane === lane);
+
+// lane filter
+let lane = "all", hidePlanned = false;
+function applyFilter() {
+  edgeEls.forEach(p => p.classList.toggle("dim", lane !== "all" && p.dataset.lane !== lane));
+  packetG.querySelectorAll(".packet").forEach(c => c.style.visibility = (lane === "all" || c.dataset.lane === lane) ? "visible" : "hidden");
+  for (const n of NODES) nodeEls[n.id].classList.toggle("dim", lane !== "all" && !nodeLanes(n.id).has(lane) && n.lane !== lane);
+}
+document.querySelectorAll("[data-lane]").forEach(b => b.addEventListener("click", () => {
+  lane = b.dataset.lane;
+  document.querySelectorAll("[data-lane]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  applyFilter();
+  const first = ORDER.find(visible); if (first && !visible(current)) select(first);
+}));
+document.getElementById("planned").addEventListener("click", e => {
+  hidePlanned = !hidePlanned; e.currentTarget.setAttribute("aria-pressed", !hidePlanned);
+  svg.classList.toggle("hide-planned", hidePlanned);
+  if (!visible(current)) select(ORDER.find(visible));
+});
+document.getElementById("flow").addEventListener("click", e => {
+  const on = e.currentTarget.getAttribute("aria-pressed") !== "true";
+  e.currentTarget.setAttribute("aria-pressed", on); e.currentTarget.textContent = on ? "Data flow on" : "Data flow off";
+  on ? svg.unpauseAnimations() : svg.pauseAnimations();
+  packetG.style.display = on ? "" : "none";
+});
+
+// walkthrough: follows ORDER through the visible stages
+let timer = null;
+const walkBtn = document.getElementById("walk");
+function stopWalk() { clearInterval(timer); timer = null; walkBtn.setAttribute("aria-pressed", "false"); walkBtn.textContent = "▶ Walk through"; }
+walkBtn.addEventListener("click", () => {
+  if (timer) return stopWalk();
+  walkBtn.setAttribute("aria-pressed", "true"); walkBtn.textContent = "❚❚ Pause";
+  const vis = ORDER.filter(visible);
+  if (vis.indexOf(current) === vis.length - 1 || vis.indexOf(current) < 0) select(vis[0]); else step(1);
+  timer = setInterval(() => { const v = ORDER.filter(visible); if (v.indexOf(current) >= v.length - 1) return stopWalk(); step(1); }, 4200);
+});
+
+select("parse");
+</script>

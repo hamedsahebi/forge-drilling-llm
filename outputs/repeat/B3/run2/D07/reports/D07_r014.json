@@ -1,0 +1,324 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    37,
+    38,
+    39
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 137.5161054134369,
+    "prompt_tokens": 31113,
+    "output_tokens": 1839,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 7,
+      "marks": 5,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 22.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 14.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 5821.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 7,
+      "mapped": 7
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 14,
+      "report_date": "2021-07-10",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 5821.0,
+      "tvd_ft": 5820.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Drill 10-5/8\" hole section to 6,700' (coring depth)."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 5821.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "8",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 5761.0,
+        "depth_out_ft": 5821.0,
+        "wob_klbf": 65.0,
+        "rpm": 40.0,
+        "rop_ft_hr": 60.0
+      }
+    ],
+    "bha": [
+      {
+        "order": null,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "2 OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "3 OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "10:00",
+        "hours": 10.0,
+        "end_md_ft": 5761.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Wait on SCR technician to arrive.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:00",
+        "end": "13:00",
+        "hours": 3.0,
+        "end_md_ft": 5761.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Diagnose issues with SCR house and repair same. Rig back on Dayrate @ 13:00",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "15:30",
+        "hours": 2.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "RIH to bottom / fill pipe",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "10-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:30",
+        "end": "16:30",
+        "hours": 1.0,
+        "end_md_ft": 5821.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drill 10-5/8\" hole from 5,761' to 5,821'. Dumped and diluted 100 bbl's of fresh water while drilling ahead. Note: Observed pressure spike while drilling ahead at 5,806' along with motor stall. Pressure reached 4,158 psi at surface blowing pop-off on mud pump. Picked up off bottom and rest pop off. Once back on bottom differential pressure fell to 198 psi and continued dropping. large pieces of rubber observed at the shakers from stator indicating motor failed. Upon discussion with Schlumberger, it was discovered that the motor in the hole had a temperature rating of 208 deg. Max temperature on bottom was 300 deg.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "19:30",
+        "hours": 3.0,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Trip out of the hole from 5,821' to surface with no issues. Dumped and diluted 100 bbl's of fresh water while tripping out of the hole.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:30",
+        "end": "22:00",
+        "hours": 2.5,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Rack back HWDP along with 8' drill collars. Broke out bit and laid out motor. Note: Motor rotated with no resistance, no fluid in motor. Bit had 2 plugged jets with stator rubber. Stabilizer above the motor at 41' was 3/4\" under-gagged.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:00",
+        "end": "0:00",
+        "hours": 2.0,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Picked up new (NOV) motor 1.5 deg, 0.111 rev. Picked up new 10-5/8\" NOV bit. Picked up new top 10-3/8\" stab. Made up and scribed tools. Tripped in the hole with BHA to 1,000'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-1",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 5761.0,
+        "time": "0:00",
+        "description": "Wait on SCR technician to arrive."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 5761.0,
+        "time": "10:00",
+        "description": "Diagnose issues with SCR house and repair same. Rig back on Dayrate @ 13:00"
+      },
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 5821.0,
+        "time": "15:30",
+        "description": "Drill 10-5/8\" hole from 5,761' to 5,821'. Dumped and diluted 100 bbl's of fresh water while drilling ahead. Note: Observed pressure spike while drilling ahead at 5,806' along with motor stall. Pressure reached 4,158 psi at surface blowing pop-off on mud pump. Picked up off bottom and rest pop off. Once back on bottom differential pressure fell to 198 psi and continued dropping. large pieces of rubber observed at the shakers from stator indicating motor failed. Upon discussion with Schlumberger, it was discovered that the motor in the hole had a temperature rating of 208 deg. Max temperature on bottom was 300 deg."
+      }
+    ],
+    "summary": "Daily drilling report for well 78B-32 on 10-Jul-21 includes motor failure at 5,806', pressure spike reaching 4,158 psi, and replacement of the motor and bit. Total NPT hours recorded as 15 due to equipment issues."
+  }
+}

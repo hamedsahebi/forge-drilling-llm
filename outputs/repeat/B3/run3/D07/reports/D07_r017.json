@@ -1,0 +1,435 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    46,
+    47,
+    48
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 184.22255039215088,
+    "prompt_tokens": 33663,
+    "output_tokens": 2716,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 15,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 22.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 14.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 6742.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      },
+      {
+        "depth_ft": 6742.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "11",
+        "size_in": 8.75,
+        "manufacturer": "H&P",
+        "bit_type": "FC3843",
+        "serial_number": null,
+        "depth_in_ft": 6723.0,
+        "depth_out_ft": null,
+        "wob_klbf": 14.0,
+        "rpm": 55.0,
+        "rop_ft_hr": 2.0
+      },
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 6740.0,
+        "depth_out_ft": null,
+        "wob_klbf": 21.0,
+        "rpm": 61.0,
+        "rop_ft_hr": 1.0
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 15,
+      "mapped": 10
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 17,
+      "report_date": "2021-07-13",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 6742.0,
+      "tvd_ft": 6741.0,
+      "footage_24h_ft": null,
+      "hole_size_in": 10.5,
+      "current_operation": "Tripped out of the hole from 6,742' to BHA.",
+      "planned_operation": "Continue to trip in the hole to 6,742'. Drill 10-5/8\" hole section from 6,742'."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 6742.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 9.5,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "11",
+        "size_in": 8.75,
+        "manufacturer": "H&P",
+        "bit_type": "FC3843",
+        "serial_number": null,
+        "depth_in_ft": 6723.0,
+        "depth_out_ft": null,
+        "wob_klbf": 14.0,
+        "rpm": 55.0,
+        "rop_ft_hr": 12.0
+      },
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 6740.0,
+        "depth_out_ft": 6742.0,
+        "wob_klbf": 21.0,
+        "rpm": 61.0,
+        "rop_ft_hr": 2.0
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "RR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": 845.73
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "1:00",
+        "hours": 1.0,
+        "end_md_ft": 6728.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 8-3/4\" core assembly to 6,728'. Filling pipe every 1,000'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "1:00",
+        "end": "1:30",
+        "hours": 0.5,
+        "end_md_ft": 6728.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Filled pipe and established circulation. Record up and down weights. Tagged bottom while circulating @ 400 GPM, dropped ball and slowed pump to 300 GPM, ball seated.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:30",
+        "end": "2:30",
+        "hours": 1.0,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Cut core from 6,728' to 6,740'. Core barrel jammed up at 6,738', drilled down to 6,740' with no change. Decision was made to pull out of the hole.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "2:30",
+        "end": "6:00",
+        "hours": 3.5,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out with core assembly from 6,740' to 1,300'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "6:00",
+        "end": "7:00",
+        "hours": 1.0,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out with core assembly from 1,300' to BHA.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-4",
+        "activity_source": "llm"
+      },
+      {
+        "start": "7:00",
+        "end": "8:00",
+        "hours": 1.0,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Laid down core and coring assembly / Recovered 9.5' of core.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-34-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "8:00",
+        "end": "9:00",
+        "hours": 1.0,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Made up bit and bit sub / pick up reamer at 30' off the bit.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "9:00",
+        "end": "14:30",
+        "hours": 5.5,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "RIH with clean out run to open hole to 10-5/8\".",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:30",
+        "end": "15:00",
+        "hours": 0.5,
+        "end_md_ft": 6740.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced rig and change tong dies in SD80.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:00",
+        "end": "16:00",
+        "hours": 1.0,
+        "end_md_ft": 6740.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Open 8-3/4\" core hole to 10-5/8\" from 6,700' to 6,740'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-21",
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "hours": 0.5,
+        "end_md_ft": 6742.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 10-5/8\" hole from 6,740' to 6,742'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "17:00",
+        "hours": 0.5,
+        "end_md_ft": 6742.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated hole clean @ 6,742'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:00",
+        "end": "20:00",
+        "hours": 3.0,
+        "end_md_ft": 6742.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out of the hole from 6,742' to BHA.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:00",
+        "end": "21:30",
+        "hours": 1.5,
+        "end_md_ft": 6742.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Racked back HWDP along with 8' drill collars. Broke out bit and laid out.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:30",
+        "end": "0:00",
+        "hours": 2.5,
+        "end_md_ft": 6742.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up 1.15 deg bent motor 0.166 rev/gal. Scribe Motor. Make up dir assembly.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 6740.0,
+        "time": "1:30",
+        "description": "Cut core from 6,728' to 6,740'. Core barrel jammed up at 6,738', drilled down to 6,740' with no change. Decision was made to pull out of the hole."
+      }
+    ],
+    "summary": "Drilling operations on July 13, 2021, involved tripping out of the hole after core cutting and drilling a 10-5/8\" hole section to 6,742', with no incidents reported."
+  }
+}

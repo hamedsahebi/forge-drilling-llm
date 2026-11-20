@@ -1,0 +1,462 @@
+report_id,well,report_date,start,end,hours,end_md_ft,activity,activity_source,activity_code,llm_activity,is_npt,npt_source,llm_is_npt,description
+D01_r001,16A(78)-32,2020-10-23,06:00,07:00,1.0,,waiting,llm,,waiting,1,llm,1,No Activity. Wait on daylight.
+D01_r001,16A(78)-32,2020-10-23,07:00,07:30,0.5,,other,llm,,other,0,llm,0,"Safety meeting with FORGE Supt. Duane Winkler, FORGE DSM Leroy Swearingen, Frontier Drilling and RW Jones"
+D01_r001,16A(78)-32,2020-10-23,07:30,17:00,9.5,,rig_up_down,llm,,rig_up_down,0,llm,0,"Rigging up with Frontier Personnel; 2 Superintendents, 1 Rig Manager, 12 crew members, 2 cranes and1 forklift. Other equipment and personnel on location included 1 fuel truck, 3 water trucks, 1 Frontier haul truck with collars and choke manifold, 2 haul trucks with solids control equipment and 2 solids control personnel. Also Stuart Coleman and Lauralee Simano with Chevron to tour the rig. Finish putting derrick together, string up blocks and set derrick on floor. Raise A-legs, hook up mud lines, complete running electrical lines and set stairs to floor. Begin rigging up gas buster and flare lines. Begin putting up wind walls. Work on rig generators. Rig floor is 50% rigged up, mud pits are 100% rigged up, back yard is 65% rigged up. Did a 30 minute walk around and tour with Chevron personnel."
+D01_r001,16A(78)-32,2020-10-23,17:00,06:00,13.0,,waiting,llm,,waiting,1,llm,1,SDFN (Shut Down For Night)
+D02_r001,16A(78)-32,2020-11-04,06:00,09:00,3.0,,other,llm,,other,0,llm,0,PJSM (pre job safety meeting) with FORGE DSM's and Frontier Drilling. Move and sort drill pipe for drilling operations. Intermediate Drilling Other. General housekeeping pick up tools and empty trash containers.
+D02_r001,16A(78)-32,2020-11-04,09:00,16:00,7.0,,bop_testing,llm,,bop_testing,0,llm,0,"Rig up A-1 Testing and begin BOPE testing at 09:00. Test blinds to 250 psi low, 5,000 psi high. Test pipe rams to 250 psi low, 5,000 psi high. Test choke manifold, choke lines and all valves to 250 psi low, 5,000 psi high. Test mud lines back to pumps to 80% of liner rating of 3,600 psi. Test casing to 1,500 psi. All tests were good. Meet with Jim Goddard, Division of Water Rights, State of Utah at 10:00. Tour rig and pad, Witness BOPE testing in progress. Review required information by state including casing report, cement report and BOPE charts and reports."
+D02_r001,16A(78)-32,2020-11-04,16:00,17:00,1.0,,bop_testing,llm,,bop_testing,0,llm,0,"Intermediate Casing Test B.O.P. Nabors installing a K Box Light (Control Center for Nabors Rig Watch), Install wear bushing. Intermediate Casing Test B.O.P. Perform function test on accumulator as per procedures."
+D02_r001,16A(78)-32,2020-11-04,17:00,18:00,1.0,,other,llm,,other,0,llm,0,"Safety Meeting. Slip and Cut Drill Line. Set top drive in shipping position, chain off blocks to derrick. Prepare to slip and cut drilling line. Nabors continue to work on K Box Light."
+D02_r001,16A(78)-32,2020-11-04,18:00,23:00,5.0,,other,llm,,other,0,llm,0,"PJSM (pre job safety meeting) with FORGE DSM's and Frontier Drilling. Intermediate Casing Cut off Drill Line. Intermediate Casing Dir Work. Pick up Intermediate Directional Tools BHA # 2, with 12 1/4"" PDC bit."
+D02_r001,16A(78)-32,2020-11-04,23:00,00:30,1.5,,tripping,llm,,tripping,0,llm,0,"Intermediate Casing Trips. Trip in Hole with VRRS , tag cement."
+D02_r001,16A(78)-32,2020-11-04,00:30,03:30,3.0,,drilling,llm,,drilling,0,llm,0,"Intermediate Casing Drilling. Drill cement and Float Collar, stop drilling , prepare to pull out of hole."
+D02_r001,16A(78)-32,2020-11-04,03:30,06:00,2.5,,tripping,llm,,tripping,0,llm,0,"Intermediate Casing Trips. Trip out of hole ,(TOOH) VRSS, bit no issues. Conclusion probable rubber inference. Plan Forward trip in hole with mill tooth bit drill up float equipment."
+D03_r001,16A(78)-32,2021-01-08,6:00,8:00,2.0,,drilling,llm,,drilling,1,llm,1,Clean Out Hole
+D03_r001,16A(78)-32,2021-01-08,8:00,12:00,4.0,,tripping,llm,,tripping,1,llm,1,Trips
+D03_r001,16A(78)-32,2021-01-08,12:00,17:30,5.5,,completion,llm,,completion,1,llm,1,Running Packer
+D03_r001,16A(78)-32,2021-01-08,17:30,23:00,5.5,,logging_survey,llm,,logging_survey,1,llm,1,Step Down Test
+D03_r001,16A(78)-32,2021-01-08,23:00,6:00,7.0,,completion,llm,,completion,0,llm,0,Shut well in to monitor pressure decline
+D04_r001,56-32,2021-02-05,0:00,6:00,6.0,128.0,waiting,llm,OTHER,waiting,1,llm,1,Wait on Day Light.
+D04_r001,56-32,2021-02-05,6:00,18:00,12.0,128.0,rig_up_down,code,RIGU,rig_up_down,0,llm,0,"Set in place rig components and heavy loads, Draw works, A-Frame, Derrick and strung blocks. Raised derrick. Rigged up equipment."
+D04_r001,56-32,2021-02-05,18:00,0:00,6.0,128.0,waiting,llm,OTHER,waiting,1,llm,1,Wait on Day Light.
+D05_r001,56-32,2021-02-14,0:00,1:00,1.0,4405.0,drilling,code,3-2-2,drilling,0,llm,0,"Rotary drilled 8-3/4"" hole from 4,385' to 4,405'."
+D05_r001,56-32,2021-02-14,1:00,3:00,2.0,4420.0,drilling,code,3-2-3,drilling,0,llm,0,"Slide drilled 8-3/4"" hole from 4,405' to 4,420'."
+D05_r001,56-32,2021-02-14,3:00,12:30,9.5,4595.0,drilling,code,3-2-2,drilling,0,llm,0,"Rotary drilled 8-3/4"" hole from 4,420' to 4,595'."
+D05_r001,56-32,2021-02-14,12:30,16:30,4.0,4595.0,tripping,code,3-6-4,tripping,0,llm,0,Pulled out of the hole laying down bit and tools.
+D05_r001,56-32,2021-02-14,16:30,19:00,2.5,4595.0,tripping,code,3-34-3,tripping,0,llm,0,"Made up bit, directional tools and ran in the hole."
+D05_r001,56-32,2021-02-14,19:00,19:30,0.5,4595.0,circulating,code,3-5-1,circulating,0,llm,0,Filled pipe and circulated.
+D05_r001,56-32,2021-02-14,19:30,20:30,1.0,4620.0,drilling,code,3-2-3,drilling,0,llm,0,"Slide drilled 8-3/4"" hole from 4,595' to 4,620'."
+D05_r001,56-32,2021-02-14,20:30,23:30,3.0,4692.0,drilling,code,3-2-2,drilling,0,llm,0,"Rotary drilled 8-3/4"" hole from 4,620' to 4,692'."
+D05_r001,56-32,2021-02-14,23:30,0:00,0.5,4702.0,drilling,code,3-2-3,drilling,0,llm,0,"Slide drilled 8-3/4"" hole from 4,692' to 4,702'."
+D06_r001,56-32,2021-03-08,0:00,2:30,2.5,9145.0,tripping,code,10-6-1,casing,0,llm,0,"RIH scraping casing to 8,933'"
+D06_r001,56-32,2021-03-08,2:30,4:30,2.0,9145.0,drilling,llm,3-3,drilling,0,llm,0,"Wash and Ream from 8,933' to 9,034'"
+D06_r001,56-32,2021-03-08,4:30,5:00,0.5,9145.0,circulating,code,3-5-1,circulating,0,llm,0,Circulate hole clean
+D06_r001,56-32,2021-03-08,5:00,6:00,1.0,9145.0,circulating,code,3-5-1,circulating,0,llm,0,Displace the mud in the hole with 200 bbl fresh water
+D06_r001,56-32,2021-03-08,6:00,8:00,2.0,9145.0,circulating,code,3-5-1,circulating,0,llm,0,Displace the water in the hole with 266 bbl Biocide water
+D06_r001,56-32,2021-03-08,8:00,16:00,8.0,9145.0,tripping,llm,10-342,tripping,0,llm,0,"POH laying down all 2-7/8"" drill pipe"
+D06_r001,56-32,2021-03-08,16:00,16:30,0.5,9145.0,tripping,llm,10-344,tripping,0,llm,0,Lay down BHA
+D06_r001,56-32,2021-03-08,16:30,18:00,1.5,9145.0,rig_up_down,code,1-14,rig_up_down,0,llm,0,"Remove flow line and cut casing at ground level, separate cross over spools, load out 3rd truck of rental tools and 4th truck w/ motors to Casper"
+D06_r001,56-32,2021-03-08,18:00,22:00,4.0,9145.0,rig_up_down,llm,WELLHD,rig_up_down,0,llm,0,Weld on wellhead and install master valve. Weld on weldalet and install threaded valve
+D06_r001,56-32,2021-03-08,22:00,0:00,2.0,9145.0,other,code,3-97,other,0,llm,0,Clean pits
+D07_r001,78B-32,2021-06-27,0:00,6:00,6.0,128.0,waiting,code,WOD,waiting,0,column,1,Wait on daylight.
+D07_r001,78B-32,2021-06-27,6:00,9:00,3.0,128.0,rig_up_down,code,RIGU,other,0,column,0,Pre-Spud Inspection.
+D07_r001,78B-32,2021-06-27,9:00,16:00,7.0,128.0,rig_up_down,code,1-01,rig_up_down,0,column,0,Cut and removed conductor pipe at 4” above ground level. Rigged up cellar pump. Set pipe racks in place. Strapped 105 joints of 5” drill pipe 9 joints of 5” HWDP and readied for pick up. Mixed spud mud.
+D07_r001,78B-32,2021-06-27,16:00,17:00,1.0,128.0,tripping,llm,10-341,tripping,0,column,0,Pick up and make up 5 stands of 5” HWDP.
+D07_r001,78B-32,2021-06-27,17:00,22:30,5.5,128.0,tripping,llm,10-341,tripping,0,column,0,"Pick up 114 joints of 5"" drill pipe and rack back in derrick."
+D07_r001,78B-32,2021-06-27,22:30,0:00,1.5,128.0,tripping,code,3-34-3,drilling,0,column,0,"Make up 22"" surface hole assembly."
+D07_r002,78B-32,2021-06-28,0:00,1:00,1.0,128.0,tripping,code,3-34-3,tripping,0,column,0,"Make up 22"" surface hole assembly."
+D07_r002,78B-32,2021-06-28,1:00,1:30,0.5,128.0,circulating,code,03-051,circulating,0,column,0,Filled pipe and hole.
+D07_r002,78B-32,2021-06-28,1:30,5:00,3.5,421.0,drilling,code,03-021,drilling,0,column,0,"Drilled 22"" hole from 128' to 421'."
+D07_r002,78B-32,2021-06-28,5:00,5:30,0.5,421.0,circulating,code,03-051,circulating,0,column,0,Circulated well bore clean.
+D07_r002,78B-32,2021-06-28,5:30,6:00,0.5,421.0,tripping,llm,3-27,tripping,0,column,0,Wiped hole f/ 421' t/ 100' with no issues. No fill on bottom.
+D07_r002,78B-32,2021-06-28,6:00,6:30,0.5,421.0,tripping,code,3-6-2,tripping,0,column,0,Pull out of the hole f/ 421'
+D07_r002,78B-32,2021-06-28,6:30,7:00,0.5,421.0,tripping,code,3-34-4,tripping,0,column,0,Lay down NMDC and bit
+D07_r002,78B-32,2021-06-28,7:00,8:00,1.0,421.0,rig_up_down,llm,4-56,rig_up_down,0,column,0,Rig up casing crew.
+D07_r002,78B-32,2021-06-28,8:00,10:00,2.0,421.0,casing,code,4-12-1,casing,0,column,0,"Rigged up and Ran 9 joints of 16"" k-55 64# BTC casing (382.89') of total casing. Landed out with 33' landing joint. Shoe set at 416' KB. Float collar at 372' KB."
+D07_r002,78B-32,2021-06-28,10:00,11:00,1.0,421.0,rig_up_down,llm,4-56,rig_up_down,0,column,0,Rig down casing crew
+D07_r002,78B-32,2021-06-28,11:00,12:30,1.5,421.0,casing,code,4-12-1,casing,0,column,0,Land casing with well head 3' below ground level.
+D07_r002,78B-32,2021-06-28,12:30,13:00,0.5,421.0,tripping,llm,5-56,tripping,0,column,0,RIH with stab-in and stab into float collar at 378
+D07_r002,78B-32,2021-06-28,13:00,14:30,1.5,421.0,cementing,llm,5-56,cementing,0,column,0,Rig up cement crew
+D07_r002,78B-32,2021-06-28,14:30,16:00,1.5,421.0,cementing,llm,5-99,cementing,0,column,0,"Pressure test to 1500 psi, Pump 20 bbl fresh water, pump 50 bbls of sepiolite, pump 5 bbl of fresh water, pump 13 bbl od sodium silkicate, pump 5 bbls fresh water, Mix and pump 146 bbl of 13.88 RC Theremelite w/ 2% CC, displace w/ 6 bbls fresh water, check floats CIP @ 16:00"
+D07_r002,78B-32,2021-06-28,16:00,16:30,0.5,421.0,rig_up_down,llm,5-56,rig_up_down,0,column,0,Rig down cement crew
+D07_r002,78B-32,2021-06-28,16:30,17:00,0.5,421.0,tripping,code,5-6-2,tripping,0,column,0,POH with stab-in
+D07_r002,78B-32,2021-06-28,17:00,0:00,7.0,421.0,rig_up_down,code,1-14,bop_testing,0,column,0,"Installed BOP as followed. 16"" x 20"" 2M DSA, 20"" 2M spacer spool, 20"" 2M x 20"" 3M DSA, 20"" 3M mud cross, 20"" 3M X 20"" 2M DSA, 20"" 2M double gates, 20"" 2M annular, 20"" 2M flow spool."
+D07_r003,78B-32,2021-06-29,0:00,3:00,3.0,421.0,bop_testing,code,3-15,rig_up_down,0,column,0,Installed inner and outer choke and kill valves. Installed choke and kill lines. Torqued all flanges.
+D07_r003,78B-32,2021-06-29,3:00,6:00,3.0,421.0,bop_testing,code,3-15,bop_testing,0,column,0,"Attempted to Test BOPE system to 300 psi low to 1,000 psi high. First Low test of 300 psi testing against the pipe rams held. Stepped pressure up to 1,000 psi and pressure bleed back down to 500 psi. Attempted to pressure back up to 1,000 psi, pressure bleed back down to 500 psi. Inspected all surface equipment for leaks. No leaks were found. Decision was made to test choke manifold while allowing more time for cement to set. Tested out all valves on choke manifold to 300 psi low for 5 mins and 1,000 psi high for 10 mins."
+D07_r003,78B-32,2021-06-29,6:00,9:00,3.0,421.0,rig_up_down,code,2-14,rig_up_down,0,column,0,Nipple up Flow nipple w/ rotating head to flow line
+D07_r003,78B-32,2021-06-29,9:00,10:00,1.0,421.0,rig_up_down,code,2-14,rig_up_down,0,column,0,Walk catwalk into place and raise V-Door
+D07_r003,78B-32,2021-06-29,10:00,11:30,1.5,421.0,tripping,code,3-34-3,rig_up_down,0,column,0,"Set racks and move and strap 15 each 8"" DCS"
+D07_r003,78B-32,2021-06-29,11:30,14:30,3.0,421.0,tripping,code,3-34-3,tripping,0,column,0,"Pick up 15 each 8"" DCS and stand back in Derrick"
+D07_r003,78B-32,2021-06-29,14:30,16:30,2.0,421.0,bop_testing,code,3-15,bop_testing,0,column,0,"Test Blind rams to 250 psi for 5 min low & 1000 psi for 10 min high / test good / PU stand of drill pipe and test pipe rams to 250 psi for 5 min & 1000 psi for 10 min test good, test bag to 250 psi for 5 min low & 1000 psi high for 10 min"
+D07_r003,78B-32,2021-06-29,16:30,18:00,1.5,421.0,tripping,code,3-34-3,tripping,0,column,0,"PU 14-3/4"" bit, bit sub, 3 stands of DCS and 1 stand of HWDP and RIH to drill float, cement and shoe"
+D07_r003,78B-32,2021-06-29,18:00,18:30,0.5,421.0,rig_up_down,code,2-14,rig_repair,0,column,0,Installed rotating rubber bushing to bearing assembly. Installed rotating rubber.
+D07_r003,78B-32,2021-06-29,18:30,19:30,1.0,421.0,drilling,code,3-28,drilling,0,column,0,Drilled out shoe track from 370' to 416'. Good cement Throughout shoe track.
+D07_r003,78B-32,2021-06-29,19:30,20:00,0.5,421.0,other,code,SERV,rig_repair,0,column,0,Serviced rig.
+D07_r003,78B-32,2021-06-29,20:00,20:45,0.75,421.0,drilling,code,3-28,drilling,0,column,0,Cleaned out rat hole to 421'. Drilled new formation to 433'
+D07_r003,78B-32,2021-06-29,20:45,21:00,0.25,421.0,circulating,code,3-5-1,circulating,0,column,0,Circulated hole clean for FIT.
+D07_r003,78B-32,2021-06-29,21:00,22:00,1.0,421.0,logging_survey,code,3-46,logging_survey,0,column,0,Performed FIT.
+D07_r003,78B-32,2021-06-29,22:00,23:30,1.5,421.0,tripping,code,3-6-2,tripping,0,column,0,Pulled out of the hole from 433' to surface. Broke out bit along with bit sub.
+D07_r003,78B-32,2021-06-29,23:30,0:00,0.5,421.0,other,llm,3-98,other,0,column,0,Held detailed safety meeting with all involved personal on picking up BHA.
+D07_r004,78B-32,2021-06-30,0:00,3:30,3.5,433.0,tripping,code,3-34-3,tripping,0,column,0,"Picked up 14 3/4"" RSS BHA to 433'."
+D07_r004,78B-32,2021-06-30,3:30,4:15,0.75,665.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14 3/4"" hole from 433' to 665' with full returns."
+D07_r004,78B-32,2021-06-30,4:15,4:30,0.25,665.0,circulating,code,03-051,circulating,0,column,0,"Circulated hole clean to rack back HWDP and place 3 stands of 8"" drill collars into BHA."
+D07_r004,78B-32,2021-06-30,4:30,5:30,1.0,665.0,tripping,code,3-34-3,tripping,0,column,0,"Pulled out of the hole from 665' to 389'. Racked back 3 stands of HWDP. Installed 3 stands of 8"" drill collars into the BHA. Tripped in the hole to 665'."
+D07_r004,78B-32,2021-06-30,5:30,6:00,0.5,858.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14 3/4"" hole from 665' to 858 with full returns."
+D07_r004,78B-32,2021-06-30,6:00,10:00,4.0,2077.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14-3/4"" hole from 858' to 2,077' with full returns."
+D07_r004,78B-32,2021-06-30,10:00,10:30,0.5,2077.0,other,code,SERV,rig_repair,0,column,0,Serviced rig / torqued saver sub
+D07_r004,78B-32,2021-06-30,10:30,11:00,0.5,2232.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14-3/4"" hole from 2,077' to 2,232' with full returns."
+D07_r004,78B-32,2021-06-30,11:00,11:30,0.5,2232.0,rig_repair,code,REPR,waiting,1,column,1,Rig blacked out / cleaned #2 generator radiator due to overheating.
+D07_r004,78B-32,2021-06-30,11:30,12:30,1.0,2359.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14-3/4"" hole from 2,232' to 2,359' with full returns."
+D07_r004,78B-32,2021-06-30,12:30,13:30,1.0,2359.0,rig_repair,code,REPR,rig_repair,1,column,1,Rig Repair cleaned #1 generator radiator due to overheating.
+D07_r004,78B-32,2021-06-30,13:30,14:00,0.5,2399.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14-3/4"" hole from 2,359' to 2,399' with full returns."
+D07_r004,78B-32,2021-06-30,14:00,15:30,1.5,2399.0,rig_repair,code,REPR,rig_repair,1,column,1,Rig Repairs cleaned #3 generator radiator due to overheating.
+D07_r004,78B-32,2021-06-30,15:30,21:15,5.75,2699.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14-3/4"" hole from 2,399' to 2,699' with full returns."
+D07_r004,78B-32,2021-06-30,21:15,22:00,0.75,2699.0,circulating,code,3-5-1,circulating,0,column,0,Circulate hole clean. Pump 15 bbl slug.
+D07_r004,78B-32,2021-06-30,22:00,0:00,2.0,2699.0,tripping,code,3-6-4,tripping,0,column,1,"Pull out of the hole from 2,699' to 951'. Tight hole encountered from 2,351' to 1,799' 50-100k over string weight. Extended trip time due to tight connections and using rig tongs. Removed rotating rubber at 850'."
+D07_r005,78B-32,2021-07-01,0:00,2:00,2.0,2699.0,tripping,code,3-6-2,tripping,0,column,0,Pulled out of the hole from 951' to Surface. Broke out bit and inspected MWD. No visible wear on roller reamer or stabs. Motor had minimal movement in bearing assembly. cleaned and cleared rig floor.
+D07_r005,78B-32,2021-07-01,2:00,4:00,2.0,2699.0,tripping,code,3-6-1,tripping,0,column,0,"Make up 14 3/4"" Bit and trip in the hole with BHA to 951'."
+D07_r005,78B-32,2021-07-01,4:00,5:15,1.25,2699.0,tripping,code,10-6-3,tripping,0,column,0,"Trip in the hole from 951' to 2,699'."
+D07_r005,78B-32,2021-07-01,5:15,15:30,10.25,3009.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 14-3/4"" hole from 2,699' to 3,009' with full returns."
+D07_r005,78B-32,2021-07-01,15:30,16:00,0.5,3009.0,drilling,code,3-2-3,wellbore_problem,0,column,1,After making a hook ROP dropped from 15'/hour to 0'/hour. Perform step test from 5K to 30K no ROP / No change in diff pressure and no pressure loss and no hook load change but found excessive amounts of metal on ditch magnet mix dry job.
+D07_r005,78B-32,2021-07-01,16:00,19:30,3.5,3009.0,tripping,code,3-6-2,tripping,0,column,0,"Pulled out of the hole from 3,009' to 951' with no issues. hoe taking proper fill. Stopped and removed rotating rubber at 1,100'."
+D07_r005,78B-32,2021-07-01,19:30,0:00,4.5,3009.0,tripping,code,3-6-2,tripping,0,column,0,"Racked back HWDP. Racked back 8"" drill collars. Laid out Cubic sensor, Diffuser sub, along with float sub. Pulled up and broke out bit. laid out the remaining RSS tools. (Note: Bit was 3.75"" under gage, 3.5"" of the center of the bit was washed out with 4 jets missing. RSS had signs of wear below the pads approximately .25"" wide by .25"" deep. No signs of wear on the stabilizers or roller reamer. Motor had approximately .25"" of play in bearing assembly.)"
+D07_r006,78B-32,2021-07-02,0:00,0:30,0.5,3009.0,other,code,3-97,rig_up_down,0,column,0,"Cleaned and cleared rig floor of 14 3/4"" handling tools."
+D07_r006,78B-32,2021-07-02,0:30,1:00,0.5,3009.0,other,llm,10-98,other,0,column,0,Hold detailed safety meeting with Wyoming Casing Service/Rig crew along with GRG representative.
+D07_r006,78B-32,2021-07-02,1:00,2:00,1.0,3009.0,rig_up_down,llm,CASE,rig_up_down,0,column,0,"Rig up 11 3/4"" casing running equipment."
+D07_r006,78B-32,2021-07-02,2:00,8:30,6.5,3009.0,casing,llm,CASE,casing,0,column,0,"Run 11 3/4"", 54 lbs/ft, J-55 BTC casing as follows: Float Shoe, 2-joints, Float collar followed by 71-joints. Landed out with 31' landing joint to set depth of 2,989.99'. Total casing ran 2,958.99'. Shoe set 2,984.70 KB. Float Collar 2,903.97' KB."
+D07_r006,78B-32,2021-07-02,8:30,9:00,0.5,3009.0,rig_up_down,llm,CASE,rig_up_down,0,column,0,Rig down casing crew
+D07_r006,78B-32,2021-07-02,9:00,9:30,0.5,3009.0,other,code,SERV,rig_up_down,0,column,0,Service rig
+D07_r006,78B-32,2021-07-02,9:30,11:30,2.0,3009.0,cementing,code,CMTP,rig_up_down,0,column,0,"Install valve in wellhead, rig up pumps in cellar, 4 bolt BOP"
+D07_r006,78B-32,2021-07-02,11:30,12:30,1.0,3009.0,tripping,code,TRPI,tripping,0,column,0,Trip in hole with stab-in
+D07_r006,78B-32,2021-07-02,12:30,13:30,1.0,3009.0,circulating,llm,CIRC,circulating,0,column,0,Circulate bottoms upo
+D07_r006,78B-32,2021-07-02,13:30,14:30,1.0,3009.0,cementing,code,CMTP,cementing,0,column,0,Rig up cement crew and held JSA
+D07_r006,78B-32,2021-07-02,14:30,16:30,2.0,3009.0,cementing,code,CMTP,cementing,0,column,0,"Pump 2 bbl water, pressure test lines to 3000 psi, pump 52 bbl fresh water, @ 6bpm, 20 bbl mud clean, @ 6 bpm, 10 bbl fresh water @ 6bpm-HT--HSLD atr 6 bpm, mix and pump 315 bbl RC-Thermalite (cement to surface at 300 bbl, Displace with 3 bbl water and 47 bbl drilling mud, check floats, CIP @ 16:00"
+D07_r006,78B-32,2021-07-02,16:30,18:00,1.5,3009.0,cementing,code,CMTP,tripping,0,column,0,Un-sting and trip out of the hole with stab-in to surface.
+D07_r006,78B-32,2021-07-02,18:00,21:00,3.0,3009.0,rig_up_down,llm,BOPO,rig_up_down,0,column,0,"Nipple down 21-1/4"" BOPE and set out."
+D07_r006,78B-32,2021-07-02,21:00,23:45,2.75,3009.0,rig_up_down,llm,WELLHD,rig_up_down,0,column,0,"Installed temporary 11 3/4"" x 13 5/8 "" SOW flange. Test to 1,000 psi. Good test."
+D07_r006,78B-32,2021-07-02,23:45,0:00,0.25,3009.0,rig_up_down,code,2-14,rig_up_down,0,column,0,"Installed 13 5/8"" 5M BOPE stack."
+D07_r007,78B-32,2021-07-03,0:00,7:00,7.0,3009.0,rig_up_down,code,2-14,rig_up_down,0,column,0,"Installed BOP as followed. 11.75” x 13 5/8” 2M Spacer spool. 13 5/8” 5M mud cross, 5M Double gates, 13 5/8” Annular, 13 5/8” Riser with rotating head. Installed inner and outer choke and kill valves. Installed choke and kill lines. Torqued all flanges. (Note: removed variable 3.5”x 5” ram blocks and installed 5.5” ram blocks)"
+D07_r007,78B-32,2021-07-03,7:00,11:30,4.5,3009.0,bop_testing,code,2-15,bop_testing,0,column,0,"#1 Test Blind rams, check valve, casing and 3 choke valves to 250 low pressure for 5 min and 1000 psi high pressure for 30 min, #2 Test pipe rams, outside kill side mud cross and 3 choke valves to 250 psi low pressure for 5 min and 1000 psi high pressure for 10 min, #3Test Bag, inside kill mud cross and 3 choke valves to 250 psi low pressure for 5 min and 1000 psi high pressure for 10 min #4 Test HCR valve to 250 psi low pressure for 5 min and 1000 psi high pressure for 10 min #5 Test inside choke side mud cross valve to 250 psi for 5 min and 1000 psi for 10 min. All test are good"
+D07_r007,78B-32,2021-07-03,11:30,15:00,3.5,3009.0,tripping,code,3-34-2,tripping,0,column,1,"RIH with 5 stands of 5"" HWDP and 20 stands of 5"" DP / POH laying down DP and transporting to 16A for inspection / excessive over torque."
+D07_r007,78B-32,2021-07-03,15:00,17:30,2.5,3009.0,tripping,code,4-34-2,tripping,0,column,1,"RIH with same 5 stands of HWDP and remaining 18 stands of 5"" drill pipe / Laid down 54 joints of 5"" drill pipe and 15 joints of 5"" HWDP and transport to 16A for inspection / excessive over torque Note: When laying down 5"" DP every 3rd joint that had not been serviced (due to making only 2 trips) was extremely over torqued (55-70K) more than double max torque due to extreme drilling parameters. SD-80 unable to break so manual tongs were utilized teamed by 2 air tuggers to break the connection and ultimately had to go to a 4 part break line after the torque cylinder was destroyed."
+D07_r007,78B-32,2021-07-03,17:30,18:00,0.5,3009.0,other,code,SERV,rig_repair,0,column,0,Serviced rig.
+D07_r007,78B-32,2021-07-03,18:00,21:00,3.0,3009.0,rig_up_down,llm,OTHER,rig_up_down,0,column,0,Rebuild I-BOP with new 6 5/8” X 6 5/8” sub. Installed 6 5/8” X 5.5” X/O lower Valve. Installed saver sub. Installed torque clamps.
+D07_r007,78B-32,2021-07-03,21:00,23:00,2.0,3009.0,tripping,code,3-34-1,rig_up_down,0,column,0,Transport 5.5” HWDP along with 71-joints of 5.5” drill pipe from 16A location to rig site. Load racks and strap same.
+D07_r007,78B-32,2021-07-03,23:00,0:00,1.0,3009.0,tripping,code,3-34-3,drilling,0,column,0,"Make up 10 5/8"" drill out assembly as followed. 10 5/8"" Mill Tooth. 8 1/8"" Junk Basket. 3-Stands of 8"" DC. 5-Stands of 5.5"" HWDP."
+D07_r008,78B-32,2021-07-04,0:00,4:00,4.0,3009.0,tripping,code,3-34-1,tripping,0,column,0,"Picked up 5.5"" drill pipe from 740' to 2,900'."
+D07_r008,78B-32,2021-07-04,4:00,4:15,0.25,3009.0,circulating,code,3-5-1,circulating,0,column,0,Lined up mud pumps and shakers. Filled pipe.
+D07_r008,78B-32,2021-07-04,4:15,6:00,1.75,3009.0,drilling,code,3-28,drilling,0,column,0,"Drilled out shoe track from 2,902' to 2,989'. Good cement in shoe track from 2,922’ to shoe. Observed 4’ off good cement outside of the shoe. Cleaned out rat hole from 2,989’ to 3,009'."
+D07_r008,78B-32,2021-07-04,6:00,7:00,1.0,3009.0,logging_survey,code,3-46,logging_survey,0,column,0,Perform FIT. Gradient of 0.61 psi/ft with EQM of 11.7 ppg
+D07_r008,78B-32,2021-07-04,7:00,9:30,2.5,3009.0,tripping,code,3-6-4,tripping,0,column,0,"POH and lay down junk sub and bit. Junk basket had nine pieces of metal, small in size 0.5"" by .5""."
+D07_r008,78B-32,2021-07-04,9:30,10:00,0.5,3009.0,tripping,code,4-34-3,tripping,0,column,0,Picked up Directional Tools and PDC
+D07_r008,78B-32,2021-07-04,10:00,11:00,1.0,3009.0,rig_repair,llm,OTHER,rig_repair,0,column,1,Repaired depth tracker in crown with Pason
+D07_r008,78B-32,2021-07-04,11:00,12:00,1.0,3009.0,tripping,code,4-34-3,tripping,0,column,0,Picked up directional Tools and PDC
+D07_r008,78B-32,2021-07-04,12:00,12:30,0.5,3009.0,other,code,SERV,rig_repair,0,column,0,Serviced Rig.
+D07_r008,78B-32,2021-07-04,12:30,13:30,1.0,3009.0,tripping,llm,OTHER,tripping,0,column,1,Broke off TIW and saver sub / welded saver sub to TIW and reinstalled same.
+D07_r008,78B-32,2021-07-04,13:30,16:00,2.5,3009.0,tripping,code,TRPI,tripping,0,column,0,"Tripped in hole to 3,009'. torqued every connection to 42K on 5.5"" drill pipe."
+D07_r008,78B-32,2021-07-04,16:00,0:00,8.0,3456.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10 5/8"" section from 3,009' to 3,456'. Performed rotary step from 3,230' to 3,260'. Performed weight on bit step test from 3,265' to 3,291'."
+D07_r009,78B-32,2021-07-05,0:00,5:00,5.0,3582.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10 5/8"" section from 3,456' to 3,582'. Pumped 100 bbl's of fresh water down at 3,557', ROP increased 85-95% once water hit the bit. ROP dropped back down once water cleared the bit. Reduced pump rate from 800 to 775 per Texas A&M advisor."
+D07_r009,78B-32,2021-07-05,5:00,5:30,0.5,3582.0,circulating,code,3-5-1,circulating,0,column,0,Circulated while discussing survey of 3.75 deg with team. Decision was made to drill 40' of new hole and take a check shoot.
+D07_r009,78B-32,2021-07-05,5:30,6:00,0.5,3602.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10 5/8"" section from 3,582' to 3,602'."
+D07_r009,78B-32,2021-07-05,6:00,7:30,1.5,3651.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 3,602' to 3,651'."
+D07_r009,78B-32,2021-07-05,7:30,8:00,0.5,3651.0,logging_survey,llm,CIRC,logging_survey,0,column,0,Take check shot and confirm steerable not working / circ and pump slug.
+D07_r009,78B-32,2021-07-05,8:00,12:00,4.0,3651.0,tripping,code,3-6-4,tripping,0,column,0,POH to change out directional assembly.
+D07_r009,78B-32,2021-07-05,12:00,13:30,1.5,3651.0,tripping,code,4-34-4,tripping,0,column,0,Lay down rotary steerable assembly and bit.
+D07_r009,78B-32,2021-07-05,13:30,14:30,1.0,3651.0,tripping,code,4-34-3,tripping,0,column,0,Picked up 1.5 deg bent assembly.
+D07_r009,78B-32,2021-07-05,14:30,16:00,1.5,3651.0,tripping,code,3-6-3,tripping,0,column,0,RIH to shoe.
+D07_r009,78B-32,2021-07-05,16:00,21:30,5.5,3651.0,circulating,llm,OTHER,circulating,0,column,0,Transferred mud from 78B-32 to sump @ 58-32 / cleaned pits / filled pits with water to prepare for change over.
+D07_r009,78B-32,2021-07-05,21:30,22:00,0.5,3651.0,tripping,code,3-6-3,tripping,0,column,0,"RIH from 2900' to 3,645'."
+D07_r009,78B-32,2021-07-05,22:00,23:00,1.0,3651.0,circulating,code,3-5-1,circulating,0,column,0,"Filled pipe and change hole over to fresh water with a total of 3,800 strokes at 486 gpm."
+D07_r009,78B-32,2021-07-05,23:00,23:30,0.5,3681.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10 5/8"" hole from 3,651' to 3,681'."
+D07_r009,78B-32,2021-07-05,23:30,0:00,0.5,3730.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 3,681' to 3,730'"
+D07_r010,78B-32,2021-07-06,0:00,0:30,0.5,3765.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 3,730' to 3,765'"
+D07_r010,78B-32,2021-07-06,0:30,0:45,0.25,3780.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10 5/8"" hole from 3,765' to 3,780'"
+D07_r010,78B-32,2021-07-06,0:45,1:30,0.75,3927.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 3,780' to 3,927'"
+D07_r010,78B-32,2021-07-06,1:30,2:00,0.5,3947.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10 5/8"" hole from 3,927' to 3,947'"
+D07_r010,78B-32,2021-07-06,2:00,3:00,1.0,4060.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 3,947' to 4,060'"
+D07_r010,78B-32,2021-07-06,3:00,3:30,0.5,4085.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10 5/8"" hole from 4,060' to 4,085'"
+D07_r010,78B-32,2021-07-06,3:30,4:15,0.75,4153.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 4,085' to 4,153'"
+D07_r010,78B-32,2021-07-06,4:15,4:45,0.5,4168.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10 5/8"" hole from 4,153' to 4,168'"
+D07_r010,78B-32,2021-07-06,4:45,11:45,7.0,4753.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 4,168' to 4,753"
+D07_r010,78B-32,2021-07-06,11:45,12:15,0.5,4773.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10-5/8"" hole from 4,753' to 4,773'"
+D07_r010,78B-32,2021-07-06,12:15,16:30,4.25,5036.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 4,773' to 5,036'"
+D07_r010,78B-32,2021-07-06,16:30,17:00,0.5,5036.0,other,code,SERV,rig_up_down,0,column,1,Serviced Rig
+D07_r010,78B-32,2021-07-06,17:00,17:30,0.5,5036.0,rig_repair,llm,OTHER,rig_repair,0,column,1,Replaced stroke counter on # 2 mud pump
+D07_r010,78B-32,2021-07-06,17:30,18:15,0.75,5051.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10-5/8"" hole from 5,036' to 5,051'"
+D07_r010,78B-32,2021-07-06,18:15,0:00,5.75,5334.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 5,051' to 5,334'"
+D07_r011,78B-32,2021-07-07,0:00,4:30,4.5,5628.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 5,334' to 5,628'."
+D07_r011,78B-32,2021-07-07,4:30,5:00,0.5,5628.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill 10 5/8"" hole from 5,628' to 5,643'."
+D07_r011,78B-32,2021-07-07,5:00,7:30,2.5,5761.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 10-5/8"" hole from 5,628' to 5,761'"
+D07_r011,78B-32,2021-07-07,7:30,11:00,3.5,5761.0,tripping,code,3-6-4,waiting,0,column,1,"ROP dropped to 30%, POH for Bit"
+D07_r011,78B-32,2021-07-07,11:00,12:30,1.5,5761.0,tripping,code,10-6-2,tripping,0,column,1,POH w/BHA / found 2 jets plugged with motor rubber and bit DBR'd.
+D07_r011,78B-32,2021-07-07,12:30,13:00,0.5,5761.0,tripping,llm,10-344,tripping,0,column,0,"Lay down NMDC, Motor and bit."
+D07_r011,78B-32,2021-07-07,13:00,15:30,2.5,5761.0,other,code,CUTDL,other,0,column,1,Slipped and Cut drilling line while waiting on Schlumberger tools to arrive.
+D07_r011,78B-32,2021-07-07,15:30,16:00,0.5,5761.0,other,code,SERV,rig_repair,0,column,1,Serviced rig while waiting on Schlumberger tools to arrive.
+D07_r011,78B-32,2021-07-07,16:00,19:00,3.0,5761.0,tripping,code,3-34-1,tripping,0,column,1,"Picked up 5.5"" drill pipe and standing back in derrick while waiting on Schlumberger tools to arrive. Motor arrived on location at 19:10 HRS."
+D07_r011,78B-32,2021-07-07,19:00,19:30,0.5,5761.0,tripping,code,3-34-3,tripping,0,column,0,Strap Motor prior to picking up.
+D07_r011,78B-32,2021-07-07,19:30,22:30,3.0,5761.0,tripping,code,3-34-3,tripping,0,column,0,"Picked up 1.50 deg bent assembly. Scribe Motor. Run in the hole with BHA to 1,042'."
+D07_r011,78B-32,2021-07-07,22:30,23:30,1.0,5761.0,tripping,code,3-6-3,tripping,0,column,0,"Ran in the hole from 1,042' to 2,946'. Installed TIW valve in sting. Picked up and racked back 6 stands of 5.5"" drill pipe."
+D07_r011,78B-32,2021-07-07,23:30,0:00,0.5,5761.0,tripping,code,3-34-1,tripping,0,column,0,"Picked up and racked back 6 stands of 5.5"" drill pipe out of the mouse hole."
+D07_r012,78B-32,2021-07-08,0:00,1:00,1.0,5761.0,tripping,code,3-34-1,tripping,0,column,0,"Continue picking up and racking back 6 stands of 5.5"" drill pipe out of the mouse hole."
+D07_r012,78B-32,2021-07-08,1:00,2:00,1.0,5761.0,circulating,code,3-5-1,tripping,0,column,1,"Tripped in one stand to 3,030'. Circulate bottoms up to cool wellbore while waiting on electrician to arrive to troubleshoot issue with drawworks A traction motor. Max temperature observed at the flow line was 105 deg."
+D07_r012,78B-32,2021-07-08,2:00,6:00,4.0,5761.0,tripping,code,3-34-3,tripping,1,column,1,"Tripped out of the hole from 2,946' to Surface. break out bit and swap motor from 1.5 deg, .111 rev to 1.25 deg .166 rev. Note: first motor arrived on location at 1915 HRS on 7-7. No paper work was provided with the motor when it arrived. Motor was made up and ran in the hole to 2,946'. Second motor arrived at 0100 HRS on 7-8. Once paper work was provided to the on-site GRG supervisor it was discovered that the first motor ran in the hole was a low speed high torque motor with a .111 rev. conversation was had with GRG team and decision was made to pull out of the hole and swap motors to the high speed low torque .166 rev that was delivered at 0100 HRS while waiting on electrician to arrive to troubleshoot drawworks A traction motor."
+D07_r012,78B-32,2021-07-08,6:00,6:30,0.5,5761.0,tripping,code,3-34-4,tripping,1,column,0,"Lay down MWD, NMDC and motor"
+D07_r012,78B-32,2021-07-08,6:30,11:30,5.0,5761.0,waiting,llm,9-32,waiting,1,column,1,Waiting on Schlumberger to rebuild MWD
+D07_r012,78B-32,2021-07-08,11:30,13:00,1.5,5761.0,tripping,code,3-34-3,tripping,1,column,0,Picked up Directional tools and RIH with same.
+D07_r012,78B-32,2021-07-08,13:00,14:00,1.0,5761.0,rig_repair,llm,OTHER,rig_repair,0,column,0,Changed Pason sensor in crown.
+D07_r012,78B-32,2021-07-08,14:00,15:00,1.0,5761.0,tripping,code,3-34-3,tripping,1,column,0,RIH to 1135'.
+D07_r012,78B-32,2021-07-08,15:00,0:00,9.0,5761.0,rig_repair,code,REPR,rig_repair,1,column,1,Repair Rig / Work on rig SCR system. Electrician was unable to locate issue with drawwork traction motor A. Wait on SCR tech to arrive.
+D07_r013,78B-32,2021-07-09,0:00,0:00,24.0,5761.0,rig_repair,code,REPR,waiting,1,column,1,Wait on SCR technician to arrive.
+D07_r014,78B-32,2021-07-10,0:00,10:00,10.0,5761.0,rig_repair,code,REPR,waiting,1,column,1,Wait on SCR technician to arrive.
+D07_r014,78B-32,2021-07-10,10:00,13:00,3.0,5761.0,rig_repair,code,REPR,rig_repair,1,column,1,Diagnose issues with SCR house and repair same. Rig back on Dayrate @ 13:00
+D07_r014,78B-32,2021-07-10,13:00,15:30,2.5,5761.0,tripping,code,10-6-3,drilling,0,column,0,RIH to bottom / fill pipe
+D07_r014,78B-32,2021-07-10,15:30,16:30,1.0,5821.0,drilling,code,3-2-3,drilling,0,column,1,"Drill 10-5/8"" hole from 5,761' to 5,821'. Dumped and diluted 100 bbl's of fresh water while drilling ahead. Note: Observed pressure spike while drilling ahead at 5,806' along with motor stall. Pressure reached 4,158 psi at surface blowing pop-off on mud pump. Picked up off bottom and rest pop off. Once back on bottom differential pressure fell to 198 psi and continued dropping. large pieces of rubber observed at the shakers from stator indicating motor failed. Upon discussion with Schlumberger, it was discovered that the motor in the hole had a temperature rating of 208 deg. Max temperature on bottom was 300 deg."
+D07_r014,78B-32,2021-07-10,16:30,19:30,3.0,5821.0,tripping,code,3-6-4,tripping,1,column,0,"Trip out of the hole from 5,821' to surface with no issues. Dumped and diluted 100 bbl's of fresh water while tripping out of the hole."
+D07_r014,78B-32,2021-07-10,19:30,22:00,2.5,5821.0,tripping,code,3-6-2,tripping,1,column,0,"Rack back HWDP along with 8' drill collars. Broke out bit and laid out motor. Note: Motor rotated with no resistance, no fluid in motor. Bit had 2 plugged jets with stator rubber. Stabilizer above the motor at 41' was 3/4"" under-gagged."
+D07_r014,78B-32,2021-07-10,22:00,0:00,2.0,5821.0,tripping,code,3-6-1,tripping,1,column,0,"Picked up new (NOV) motor 1.5 deg, 0.111 rev. Picked up new 10-5/8"" NOV bit. Picked up new top 10-3/8"" stab. Made up and scribed tools. Tripped in the hole with BHA to 1,000'."
+D07_r015,78B-32,2021-07-11,0:00,1:15,1.25,5821.0,tripping,code,3-6-3,tripping,1,column,0,"Tripped in the hole from 1,000' to 3,245'"
+D07_r015,78B-32,2021-07-11,1:15,1:30,0.25,5821.0,circulating,code,3-5-1,circulating,1,column,1,"Broke circulation at 3,245' to cool tools"
+D07_r015,78B-32,2021-07-11,1:30,2:00,0.5,5821.0,tripping,code,3-6-3,tripping,1,column,0,"Tripped in the hole from 3,245' to 4,192'"
+D07_r015,78B-32,2021-07-11,2:00,2:15,0.25,5821.0,circulating,code,3-5-1,circulating,1,column,1,"Broke circulation at 4,192' to cool tools"
+D07_r015,78B-32,2021-07-11,2:15,2:45,0.5,5821.0,tripping,code,3-6-3,tripping,1,column,0,"Tripped in the hole from 4,192' to 5,200'"
+D07_r015,78B-32,2021-07-11,2:45,3:00,0.25,5821.0,circulating,code,3-5-1,circulating,1,column,1,"Broke circulation at 5,200' to cool tools"
+D07_r015,78B-32,2021-07-11,3:00,3:15,0.25,5821.0,tripping,code,3-6-3,tripping,1,column,0,"Tripped in the hole from 5,200' to 5,710'"
+D07_r015,78B-32,2021-07-11,3:15,3:30,0.25,5821.0,circulating,code,3-5-1,circulating,1,column,1,"Broke circulation at 5,710' to cool tools"
+D07_r015,78B-32,2021-07-11,3:30,6:00,2.5,6087.0,drilling,code,3-2-3,drilling,0,column,0,"Drill 10-5/8"" hole from 5,821' to 6,087'. Performed WOB step test @ 5,900'. Performed RPM step test @ 5,920'"
+D07_r015,78B-32,2021-07-11,6:00,6:30,0.5,6108.0,drilling,code,3-2-3,drilling,0,column,0,"Slide Drill from 6,087' to 6,108'"
+D07_r015,78B-32,2021-07-11,6:30,14:00,7.5,6561.0,drilling,code,3-2-3,drilling,0,column,0,"Drill 10-5/8"" hole from 6,108' to 6,561' with 65K WOB, 800 GPM and 40-50 surface RPM. Dump 180 bbl from active system and add 150 bbl fresh water to system"
+D07_r015,78B-32,2021-07-11,14:00,14:30,0.5,6561.0,other,code,SERV,circulating,0,column,1,Service rig and top drive while circulating on bottom with 1 pump to keep MWD cool
+D07_r015,78B-32,2021-07-11,14:30,16:00,1.5,6700.0,drilling,code,3-2-3,drilling,0,column,0,"Drill 10-5/8"" hole from 6,561' to 6,700' with 65K WOB, 820 GPM and 51 surface RPM with no losses or hole issues: MWD temp has risen from 170F to 176F in the last 500' of drilling"
+D07_r015,78B-32,2021-07-11,16:00,16:30,0.5,6700.0,circulating,code,3-5-1,circulating,0,column,0,Circulate bottoms up while allowing weight to drill off
+D07_r015,78B-32,2021-07-11,16:30,20:00,3.5,6700.0,tripping,code,10-6-4,tripping,0,column,0,"Trip out of the hole from 6,700' to BHA. 30-40k over-pull"
+D07_r015,78B-32,2021-07-11,20:00,23:30,3.5,6700.0,tripping,code,3-34-4,rig_up_down,0,column,0,Racked back HWDP along with 8' drill collars. Laid out all directional tools. Motor drained good with minimal movement in bearing assembly. Sleeve stab on motor had one blade completely worn off
+D07_r015,78B-32,2021-07-11,23:30,0:00,0.5,6700.0,rig_up_down,llm,OTHER,rig_up_down,0,column,0,"Cleaned and cleared rig floor. Laid out 15 joints of 5.5"" drill pipe on racks and strapped same"
+D07_r016,78B-32,2021-07-12,0:00,0:30,0.5,6700.0,other,llm,SAFE,other,0,column,0,Held safety meeting with all involved personal on picking up coring assembly.
+D07_r016,78B-32,2021-07-12,0:30,3:00,2.5,6700.0,tripping,code,3-34-3,tripping,0,column,0,"Made up 8-3/4"" coring assembly as followed.
+8-3/4"" x 4"" core bit.
+Stabilizer 8-15/32""
+Core barrel 7-1/4""
+Stabilizer 8-15/32""
+Lower sub
+Upper sub
+Float sub
+X/O
+10-5/8"" roller reamer
+1-stand 8"" drill collars
+5-stands HWDP"
+D07_r016,78B-32,2021-07-12,3:00,4:30,1.5,6700.0,tripping,code,3-34-1,tripping,0,column,0,"Picked up 15 joints of 5.5"" drill pipe from pipe rack and trip in the hole."
+D07_r016,78B-32,2021-07-12,4:30,8:00,3.5,6700.0,tripping,code,3-6-3,circulating,0,column,0,"Tripped in the hole with 8-3/4"" core assembly. Filling pipe every 1,000'."
+D07_r016,78B-32,2021-07-12,8:00,8:30,0.5,6700.0,circulating,llm,3-4,circulating,0,column,0,"Tag bottom while circulating @ 400 GPM, drop ball and slow pump to 300 GPM, ball seated"
+D07_r016,78B-32,2021-07-12,8:30,10:00,1.5,6728.0,drilling,llm,3-4,drilling,0,column,0,Cut core from 6700' to 6728'
+D07_r016,78B-32,2021-07-12,10:00,15:30,5.5,6728.0,drilling,llm,3-4,drilling,0,column,0,POH with core @ controlled speed
+D07_r016,78B-32,2021-07-12,15:30,18:00,2.5,6728.0,tripping,llm,3-4,tripping,0,column,0,"Laid down Reamer, X/O, Float sub. Break down core barrel and collect core.
+Recovered 12' of core."
+D07_r016,78B-32,2021-07-12,18:00,20:00,2.0,6728.0,tripping,code,3-34-4,rig_up_down,0,column,0,"Run in the hole with 5-stands of 8"" drill collars. Remove lifting sub that belonged to Schlumberger and replace with lifting subs that belong to Frontier. Rack 8"" drill collars back in derrick."
+D07_r016,78B-32,2021-07-12,20:00,21:00,1.0,6728.0,tripping,llm,3-4,tripping,0,column,0,"Made up 8-3/4"" coring assembly as followed.
+8-3/4"" x 4"" core bit.
+Stabilizer 8-15/32"".
+Core barrel 7-1/4"" (dressed with aluminum barrel).
+Stabilizer 8-15/32"".
+Lower sub.
+Upper sub.
+Float sub.
+X/O.
+5-stands HWDP."
+D07_r016,78B-32,2021-07-12,21:00,0:00,3.0,6728.0,tripping,llm,3-4,tripping,0,column,0,"Tripped in the hole with 8-3/4"" core assembly to 5,623' at report time . Filling pipe every 1,000'."
+D07_r017,78B-32,2021-07-13,0:00,1:00,1.0,6728.0,tripping,llm,3-4,tripping,0,column,0,"Tripped in the hole with 8-3/4"" core assembly to 6,728'. Filling pipe every 1,000'."
+D07_r017,78B-32,2021-07-13,1:00,1:30,0.5,6728.0,circulating,code,3-5-1,circulating,0,column,0,"Filled pipe and established circulation. Record up and down weights. Tagged bottom while circulating @ 400 GPM, dropped ball and slowed pump to 300 GPM, ball seated."
+D07_r017,78B-32,2021-07-13,1:30,2:30,1.0,6740.0,drilling,llm,3-4,drilling,0,column,1,"Cut core from 6,728' to 6,740'. Core barrel jammed up at 6,738', drilled down to 6,740' with no change. Decision was made to pull out of the hole."
+D07_r017,78B-32,2021-07-13,2:30,6:00,3.5,6740.0,tripping,llm,3-4,tripping,0,column,0,"Tripped out with core assembly from 6,740' to 1,300'."
+D07_r017,78B-32,2021-07-13,6:00,7:00,1.0,6740.0,tripping,llm,3-4,tripping,0,column,0,"Tripped out with core assembly from 1,300' to BHA."
+D07_r017,78B-32,2021-07-13,7:00,8:00,1.0,6740.0,tripping,code,3-34-4,tripping,0,column,0,Laid down core and coring assembly / Recovered 9.5' of core.
+D07_r017,78B-32,2021-07-13,8:00,9:00,1.0,6740.0,tripping,code,3-34-3,tripping,0,column,0,Made up bit and bit sub / pick up reamer at 30' off the bit.
+D07_r017,78B-32,2021-07-13,9:00,14:30,5.5,6740.0,tripping,code,3-6-3,tripping,0,column,1,"RIH with clean out run to open hole to 10-5/8""."
+D07_r017,78B-32,2021-07-13,14:30,15:00,0.5,6740.0,other,code,SERV,rig_repair,0,column,0,Serviced rig and change tong dies in SD80.
+D07_r017,78B-32,2021-07-13,15:00,16:00,1.0,6740.0,drilling,llm,3-21,drilling,0,column,0,"Open 8-3/4"" core hole to 10-5/8"" from 6,700' to 6,740'."
+D07_r017,78B-32,2021-07-13,16:00,16:30,0.5,6742.0,drilling,code,3-2-1,drilling,0,column,0,"Drilled 10-5/8"" hole from 6,740' to 6,742'."
+D07_r017,78B-32,2021-07-13,16:30,17:00,0.5,6742.0,circulating,code,3-5-1,circulating,0,column,0,"Circulated hole clean @ 6,742'."
+D07_r017,78B-32,2021-07-13,17:00,20:00,3.0,6742.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole from 6,742' to BHA."
+D07_r017,78B-32,2021-07-13,20:00,21:30,1.5,6742.0,tripping,code,3-6-2,tripping,0,column,0,Racked back HWDP along with 8' drill collars. Broke out bit and laid out.
+D07_r017,78B-32,2021-07-13,21:30,0:00,2.5,6742.0,tripping,code,3-34-3,tripping,0,column,0,Picked up 1.15 deg bent motor 0.166 rev/gal. Scribe Motor. Make up dir assembly.
+D07_r018,78B-32,2021-07-14,0:00,2:00,2.0,6742.0,tripping,code,3-34-3,tripping,0,column,0,"Made up 10-5/8"" directional assembly and trip in the hole to 1,036'."
+D07_r018,78B-32,2021-07-14,2:00,3:30,1.5,6742.0,other,code,CUTDL,other,0,column,1,Slipped and cut drilling line.
+D07_r018,78B-32,2021-07-14,3:30,8:30,5.0,6742.0,tripping,code,3-6-3,tripping,0,column,1,"Tripped in the hole from 1,036' to 4,100'. Shallow test MWD tool @ 3,100'. Filling pipe and breaking circulation every 1,000' from 3,100' to 6,742'. Once on bottom when filling pipe got pipe stuck. Work loose shortly afterwards."
+D07_r018,78B-32,2021-07-14,8:30,10:30,2.0,6946.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 6,742' to 6,946'"
+D07_r018,78B-32,2021-07-14,10:30,11:00,0.5,6970.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drilling 10-5/8"" hole from 6,946' to 6,970'."
+D07_r018,78B-32,2021-07-14,11:00,13:00,2.0,7158.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 6,970' to 7,158'"
+D07_r018,78B-32,2021-07-14,13:00,13:30,0.5,7183.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drilling 10-5/8"" hole from 7,158' to 7,183'"
+D07_r018,78B-32,2021-07-14,13:30,15:45,2.25,7316.0,drilling,code,3-2-3,drilling,0,column,1,"Rotary drilling 10-5/8"" hole from 7,183' to 7,316' preforming step down test on WOB and RPM in an attempt to lower vibration on MWD"
+D07_r018,78B-32,2021-07-14,15:45,16:00,0.25,7316.0,other,code,SERV,rig_up_down,0,column,1,Service Rig
+D07_r018,78B-32,2021-07-14,16:00,16:15,0.25,7326.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 7,316' to 7,326''"
+D07_r018,78B-32,2021-07-14,16:15,17:00,0.75,7350.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drilling 10-5/8"" hole from 7,326' to 7,350'."
+D07_r018,78B-32,2021-07-14,17:00,18:00,1.0,7424.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 7,350' to 7,424'."
+D07_r018,78B-32,2021-07-14,18:00,20:30,2.5,7613.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 7,424' to 7,613'."
+D07_r018,78B-32,2021-07-14,20:30,21:00,0.5,7613.0,drilling,llm,OTHER,drilling,0,column,1,"While drilling ahead at 7,613' differential pressure jumped from 350 psi to 1,199 psi. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,000 psi with 25k weight on bit and would not drill off. Killed mud pumps and picked up off bottom. Brought pumps back online at 830 GPM slacked back off to bottom. Differential pressure jumped up to 1,356 psi with 30k weight on bit and would not drill off. Decision was made to trip out of the hole."
+D07_r018,78B-32,2021-07-14,21:00,22:00,1.0,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped out of the hole from 7,613' to 6,559'."
+D07_r018,78B-32,2021-07-14,22:00,0:00,2.0,7613.0,rig_repair,code,REPR,tripping,1,column,1,While tripping out of the hole service loop came into contact with top drive damaging the main hydraulic return line. Wait on hydraulic hose to arrive. Pump down the string to cool tools every hour at 300 gpm.
+D07_r019,78B-32,2021-07-15,0:00,8:00,8.0,7613.0,rig_repair,code,REPR,waiting,1,column,1,Waited on hydraulic hose to arrive.
+D07_r019,78B-32,2021-07-15,8:00,13:00,5.0,7613.0,tripping,code,3-6-4,circulating,0,column,0,Pumping down the string to cool tools every hour at 300 gpm.
+D07_r019,78B-32,2021-07-15,13:00,16:30,3.5,7613.0,tripping,code,3-6-2,drilling,0,column,1,"Racked back HWDP along with 8' drill collars. Laid out motor, bit, stabs. Motor took a high amount of torque to drain 45 kft/lbs. Bit had 3-plugged jets with pieces of rubber from the stator. Bit was also DBR'ed. Motor Stabilizer was 0.5"" under-gauged. Stabilizer above the motor was 0.75"" under-gauged. Top Stabilizer was 1.25"" under-gauged."
+D07_r019,78B-32,2021-07-15,16:30,22:30,6.0,7613.0,tripping,code,3-34-3,tripping,0,column,0,"Picked up new (Bico) motor 1.5 deg, 0.160 rev/gal. Picked up new 10-5/8"" NOV bit. Picked up 1- Re-Run Roller Reamers 10-3/8"" stab placed at 39.53'. Picked up new 10-1/2"" spiral stab placed at 100.82'. Placed cubic sensors at 50.96', 132.86'. Made up and scribed tools. Tripped in the hole with BHA to 1,000'."
+D07_r019,78B-32,2021-07-15,22:30,23:30,1.0,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 1,000' to 2,613'."
+D07_r019,78B-32,2021-07-15,23:30,0:00,0.5,7613.0,other,code,SERV,rig_repair,0,column,1,Serviced rig. Adjusted service loop.
+D07_r020,78B-32,2021-07-16,0:00,0:30,0.5,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 2,613' to 3,145'"
+D07_r020,78B-32,2021-07-16,0:30,0:45,0.25,7613.0,circulating,code,3-5-1,circulating,0,column,0,"Broke circulation at 3,145' to cool tools. Shallow tested tools."
+D07_r020,78B-32,2021-07-16,0:45,1:15,0.5,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 3,145' to 4,129'"
+D07_r020,78B-32,2021-07-16,1:15,1:30,0.25,7613.0,circulating,code,3-5-1,circulating,0,column,0,"Broke circulation at 4,129' to cool tools. Max temp observed at MWD was 201 deg. Max temp at surface was 98 deg."
+D07_r020,78B-32,2021-07-16,1:30,2:00,0.5,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 4,129' to 5,078'"
+D07_r020,78B-32,2021-07-16,2:00,2:15,0.25,7613.0,circulating,code,3-5-1,circulating,0,column,0,"Broke circulation at 5,078' to cool tools. Max temp observed at MWD was 228 deg. Max temp at surface was 98 deg."
+D07_r020,78B-32,2021-07-16,2:15,2:30,0.25,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 5,078' to 6,025'"
+D07_r020,78B-32,2021-07-16,2:30,3:00,0.5,7613.0,circulating,code,3-5-1,circulating,0,column,0,"Broke circulation at 6,025' to cool tools. Max temp observed at MWD was 260 deg. Max temp at surface was 103 deg."
+D07_r020,78B-32,2021-07-16,3:00,3:30,0.5,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 6,025 to 6,974'"
+D07_r020,78B-32,2021-07-16,3:30,4:00,0.5,7613.0,circulating,code,3-5-1,circulating,0,column,0,"Broke circulation at 6,974' to cool tools. Max temp observed at MWD was 292 deg. Max temp at surface was 108 deg."
+D07_r020,78B-32,2021-07-16,4:00,4:15,0.25,7613.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole from 6,974' to 7,072'"
+D07_r020,78B-32,2021-07-16,4:15,6:00,1.75,7613.0,drilling,llm,3-3,drilling,0,column,1,"Took weight at 7,072'. Work string free with 90k in over-pull. Ream from 7,072' to 7,231'"
+D07_r020,78B-32,2021-07-16,6:00,8:00,2.0,7613.0,drilling,llm,3-3,drilling,0,column,0,"Ream from 7,231' to 7,260'. Ran one stand from 7,260' to 7,340'. Ream from 7,260' to 7,613'"
+D07_r020,78B-32,2021-07-16,8:00,13:00,5.0,8091.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 7,613' to 8,091'. Conduct RPM step test @ 35,40,45,50. Conduct GPM step test at 700,800,900 GPM. Best results were what we were running 50 RPM 800 GPM. Conducted a water sweep test showing less ROP"
+D07_r020,78B-32,2021-07-16,13:00,13:45,0.75,8111.0,drilling,code,3-2-3,drilling,0,column,0,"Slid Drill from 8,091' to 8,111'"
+D07_r020,78B-32,2021-07-16,13:45,16:15,2.5,8282.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drilling 10-5/8"" hole from 8,111' to 8,282'"
+D07_r020,78B-32,2021-07-16,16:15,16:45,0.5,8303.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill from 8,282' to 8,303'"
+D07_r020,78B-32,2021-07-16,16:45,18:00,1.25,8377.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drill from 8,303' to 8,377'"
+D07_r020,78B-32,2021-07-16,18:00,18:30,0.5,8395.0,drilling,code,3-2-3,drilling,0,column,0,"Slide drill from 8,377' to 8,395'"
+D07_r020,78B-32,2021-07-16,18:30,20:00,1.5,8500.0,drilling,code,3-2-3,drilling,0,column,0,"Rotate drill from 8,395' to 8,500' (Core point)"
+D07_r020,78B-32,2021-07-16,20:00,20:30,0.5,8500.0,circulating,code,3-5-1,circulating,0,column,0,"Circulate bottoms up at 8,500'"
+D07_r020,78B-32,2021-07-16,20:30,0:00,3.5,8500.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole from 8,500' to 4,000' with no issues."
+D07_r021,78B-32,2021-07-17,0:00,2:00,2.0,8500.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole from 4,000' to BHA with no issues."
+D07_r021,78B-32,2021-07-17,2:00,7:00,5.0,8500.0,tripping,code,3-34-4,tripping,0,column,0,"Racked back HWDP. Laid out 15-8"" drill collars and all directional tools. Motor had approximately .5"" of squat in bearing assembly. Kick pad was wore smooth. Roller reamer above the motor had heavy wear on all buttons, 2 of the rollers had bad bearings. Top Stabilizer was .75"" under-gauged."
+D07_r021,78B-32,2021-07-17,7:00,8:30,1.5,8500.0,tripping,llm,3-4,tripping,0,column,0,"Picked up 8-3/4"" Coring assembly / RIH 5 HWDP"
+D07_r021,78B-32,2021-07-17,8:30,9:00,0.5,8500.0,tripping,llm,3-4,tripping,0,column,0,"Pick up 18 jts of 5.5"" drill pipe to replace DCS and Directional Tools"
+D07_r021,78B-32,2021-07-17,9:00,13:30,4.5,8500.0,tripping,llm,3-4,tripping,0,column,0,"RIH to 8,500' filling pipe every 20 stands with 8-3/4"" core head"
+D07_r021,78B-32,2021-07-17,13:30,17:30,4.0,8530.0,tripping,llm,3-4,tripping,0,column,0,"Drop ball and core from 8,500' to 8,530'. No over-pull observed when pulling off bottom."
+D07_r021,78B-32,2021-07-17,17:30,23:00,5.5,8530.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole from 8,530' with core assembly."
+D07_r021,78B-32,2021-07-17,23:00,0:00,1.0,8530.0,other,llm,3-4,other,0,column,0,"Handled BHA. Laid out core barrel. Recovered 23.7' of core. 50% 2-3"" in length with the other 50% 9-12"" in length. Note: Inner barrel assembly was pushed up inside of core barrel approximately 3""."
+D07_r022,78B-32,2021-07-18,0:00,2:30,2.5,8530.0,tripping,llm,3-4,tripping,0,column,0,"Made up 8-3/4"" core assembly."
+D07_r022,78B-32,2021-07-18,2:30,7:30,5.0,8530.0,tripping,llm,3-4,tripping,0,column,0,"Tripped in the hole with 8-3/4"" core assembly to 8,530'."
+D07_r022,78B-32,2021-07-18,7:30,10:30,3.0,8540.0,drilling,llm,3-4,drilling,0,column,1,"Cored with 8-3/4"" assembly from 8,530' to 8,540'. Core barrel jammed up at 8,540'."
+D07_r022,78B-32,2021-07-18,10:30,15:00,4.5,8540.0,tripping,llm,3-4,tripping,0,column,0,POH with coring assembly as per trip out schedule.
+D07_r022,78B-32,2021-07-18,15:00,16:00,1.0,8540.0,waiting,llm,WOW,waiting,0,column,1,Shut down for high winds and thunder storm.
+D07_r022,78B-32,2021-07-18,16:00,17:00,1.0,8540.0,tripping,llm,3-4,tripping,0,column,0,Continue to POH with coring assembly
+D07_r022,78B-32,2021-07-18,17:00,19:30,2.5,8540.0,tripping,llm,3-4,tripping,0,column,0,Laid down all coring tools.
+D07_r022,78B-32,2021-07-18,19:30,20:00,0.5,8540.0,other,llm,OTHER,other,0,column,0,Cleaned and cleared floor.
+D07_r022,78B-32,2021-07-18,20:00,21:00,1.0,8540.0,tripping,code,3-34-3,tripping,0,column,0,"Make up 10-5/8"" clean out assembly."
+D07_r022,78B-32,2021-07-18,21:00,0:00,3.0,8540.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with 10-5/8"" clean out assembly to 6,454'."
+D07_r023,78B-32,2021-07-19,0:00,1:15,1.25,8540.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with 10-5/8"" clean out assembly to 8,500'. Filled pipe and broke circulation."
+D07_r023,78B-32,2021-07-19,1:15,2:00,0.75,8540.0,drilling,llm,3-21,drilling,0,column,1,"Open 8-3/4"" core hole to 10-5/8"" from 8,500' to 8,514'. ROP dropped off from 50 ft/hr to 5 f/thr."
+D07_r023,78B-32,2021-07-19,2:00,3:00,1.0,8540.0,circulating,code,3-5-1,circulating,0,column,0,Circulated surface to surface strokes to cool well bore prior to logs.
+D07_r023,78B-32,2021-07-19,3:00,6:00,3.0,8540.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole with 10-5/8"" clean out assembly from 8,514' to 1,947'."
+D07_r023,78B-32,2021-07-19,6:00,7:00,1.0,8540.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole with clean out assembly from 1,947' to surface"
+D07_r023,78B-32,2021-07-19,7:00,15:00,8.0,8540.0,logging_survey,code,LOG,rig_up_down,0,column,0,"Rigged up and ran Sonic Scanner and borehole formation Imager / max temperature was 321 F @ 8,520' / good log / lay down tools."
+D07_r023,78B-32,2021-07-19,15:00,20:30,5.5,8540.0,logging_survey,code,LOG,rig_up_down,0,column,0,Rig up and run Triple-Combo / Max BHT was 354 F / Logging upwards
+D07_r023,78B-32,2021-07-19,20:30,21:00,0.5,8540.0,logging_survey,code,LOG,other,0,column,0,Laid down logging tools.
+D07_r023,78B-32,2021-07-19,21:00,21:30,0.5,8540.0,tripping,code,3-6-1,tripping,0,column,0,"Make up 10-5/8"" clean out assembly with TCI bit."
+D07_r023,78B-32,2021-07-19,21:30,23:00,1.5,8540.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with 10-5/8"" clean out assembly to 2,900'."
+D07_r023,78B-32,2021-07-19,23:00,0:00,1.0,8540.0,other,code,CUTDL,other,0,column,1,Slipped and cut drilling line.
+D07_r024,78B-32,2021-07-20,0:00,1:00,1.0,8540.0,other,code,CUTDL,other,0,column,1,Slipped and cut drilling line.
+D07_r024,78B-32,2021-07-20,1:00,4:00,3.0,8540.0,tripping,code,3-6-3,tripping,0,column,1,"Tripped in the hole with 10-5/8"" clean out assembly from 2,900' to 8,514'. Filled pipe and broke circulation. Filled pipe every 3,000'. Strapped all drill pipe while running in the hole."
+D07_r024,78B-32,2021-07-20,4:00,5:00,1.0,8540.0,drilling,llm,OPEN,drilling,0,column,0,"Opened 8-3/4"" core hole to 10-5/8"" from 8,514' to 8,540'."
+D07_r024,78B-32,2021-07-20,5:00,6:00,1.0,8540.0,circulating,code,3-5-1,circulating,0,column,0,Circulated surface to surface strokes to cool well bore prior to logs.
+D07_r024,78B-32,2021-07-20,6:00,10:00,4.0,8540.0,tripping,code,3-6-4,tripping,0,column,1,Tripped out of the hole for Schlumberger logs.
+D07_r024,78B-32,2021-07-20,10:00,21:30,11.5,8540.0,logging_survey,code,LOG,rig_up_down,0,column,0,Rigged up Schlumberger . Ran UBI log. Rigged down loggers.
+D07_r024,78B-32,2021-07-20,21:30,22:00,0.5,8540.0,tripping,code,3-6-1,tripping,0,column,0,"Made up 10-5/8"" clean out assembly with TCI bit."
+D07_r024,78B-32,2021-07-20,22:00,0:00,2.0,8540.0,tripping,code,3-6-3,tripping,0,column,1,"Tripped in the hole with 10-5/8"" clean out assembly to 4,657'. Filled pipe very 3,000'."
+D07_r025,78B-32,2021-07-21,0:00,2:00,2.0,8540.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with 10-5/8"" clean out assembly to 8,540'."
+D07_r025,78B-32,2021-07-21,2:00,2:30,0.5,8540.0,drilling,code,3-2-1,drilling,0,column,0,"Drilled 10-5/8"" hole from 8,540' to 8,545'. Note: Five foot was drilled to fit casing and provide 13' of rat hole."
+D07_r025,78B-32,2021-07-21,2:30,3:30,1.0,8540.0,circulating,code,3-5-1,circulating,0,column,0,Circulated surface to surface strokes to clean the wellbore prior to running casing.
+D07_r025,78B-32,2021-07-21,3:30,6:00,2.5,8540.0,tripping,code,3-34-2,tripping,0,column,0,"Pull out of the hole laying down 5.5"" drill pipe from 8,545' to 6,300'."
+D07_r025,78B-32,2021-07-21,6:00,14:00,8.0,8540.0,tripping,code,3-34-2,tripping,0,column,0,"Pull out of the hole laying down 5.5"" drill pipe from 6,300' to HWDP, Lay down HWDP"
+D07_r025,78B-32,2021-07-21,14:00,17:00,3.0,8540.0,casing,code,4-12-1,tripping,0,column,1,Changed out IBOP valve for CRT. Install saver sub. Laid down all handling tools.
+D07_r025,78B-32,2021-07-21,17:00,18:00,1.0,8540.0,tripping,llm,OTHER,tripping,0,column,0,"Removed 5.5"" ram blocks. Installed Frontiers 5"" ram blocks back into double gate."
+D07_r025,78B-32,2021-07-21,18:00,21:00,3.0,8540.0,rig_up_down,llm,OTHER,rig_up_down,0,column,0,"Load racks with 7"" casing. Cleaned threads on casing and prep to run."
+D07_r025,78B-32,2021-07-21,21:00,23:30,2.5,8540.0,casing,code,4-12-1,rig_up_down,0,column,0,Held detailed safety meeting with all involved personal. Rigged up Wyoming Casing Service. Rigged up Silixa. Loaded out floor with Silixa centralizes.
+D07_r025,78B-32,2021-07-21,23:30,0:00,0.5,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing as followed. 7""- float shoe. 2-joints of 7"", 41#, T-110SS. 7""- float collar at report time. Note: Casing was ran with torque turn system. All joints were torqued to manufactures recommendation of 17,070 FT/LBS."
+D07_r026,78B-32,2021-07-22,0:00,6:00,6.0,8540.0,casing,code,4-12-1,casing,0,column,0,"Run 7"", 41#, T-110SS, Tenaris casing from 94' to 2,514'."
+D07_r026,78B-32,2021-07-22,6:00,15:00,9.0,8540.0,casing,code,4-12-1,casing,0,column,0,"Run 7"", 41#, T-110SS, Tenaris casing from 2,514'. to 6,178'."
+D07_r026,78B-32,2021-07-22,15:00,15:30,0.5,8540.0,casing,code,4-12-1,casing,0,column,0,"Stopped to test fibers AT 6,178'. Breakage in fiber optic cable detected; decision was made to continue running in hole with remaining intact fiber/casing and monitor for cable quality."
+D07_r026,78B-32,2021-07-22,15:30,16:00,0.5,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing from 6,178' to 6,517'."
+D07_r026,78B-32,2021-07-22,16:00,18:30,2.5,8540.0,casing,code,4-12-1,casing,0,column,0,"Stopped at joint 6,517' to run Fiber optic tests- the measured fiber length shortened by approximately 500ft on the fibers. Meeting was held to decide plan moving forth; the decision was made to run 5 more joints in the hole and assess the fiber quality afterwards."
+D07_r026,78B-32,2021-07-22,18:30,19:15,0.75,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing from 6,517' to 6,753'."
+D07_r026,78B-32,2021-07-22,19:15,20:30,1.25,8540.0,casing,code,4-12-1,casing,0,column,0,Tested fibers; fibers shortened by 500ft. The decision was made to pull casing out of hole.
+D07_r026,78B-32,2021-07-22,20:30,0:00,3.5,8540.0,tripping,llm,4-99,tripping,0,column,1,"Pull out of the hole with 7"" casing from 6,753' to 5,447'. Note: While pulling the first joint of 7"" casing fiber optic got cut pulling through the bushings."
+D07_r027,78B-32,2021-07-23,0:00,6:00,6.0,8540.0,casing,llm,4-99,casing,0,column,1,"Pulled out of the hole with 7"" casing from 5,477' to 1,212'. Note: Fiber-optic cable was broke from 3,017' down to 1,212' in multiple place ranging from 40' to 160' foot sections."
+D07_r027,78B-32,2021-07-23,6:00,7:30,1.5,8540.0,casing,llm,4-99,casing,0,column,0,"Pulled out of the hole with 7"" casing from 1212' to 120'. NOTE: Fiber optic had no breaks from 1212' to 120'"
+D07_r027,78B-32,2021-07-23,7:30,10:00,2.5,8540.0,waiting,llm,WOO,waiting,0,column,1,"Waited on Orders while Silixa measured and determines usable length of fiber optic. Determined 3,686' of usable fiber-optic."
+D07_r027,78B-32,2021-07-23,10:00,18:00,8.0,8540.0,other,llm,WOE,other,0,column,0,"Silixa shipping a 5,000' cable from Montana to splice / Continue wiring 3,686' piece to BHA"
+D07_r027,78B-32,2021-07-23,18:00,20:00,2.0,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing from 94' to 685'. Note: BHA on fiber optics was placed at 8,389' top of third full joint. All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Pumped through shoe track to verify no blockage. Remaining joints were not filled."
+D07_r027,78B-32,2021-07-23,20:00,20:30,0.5,8540.0,other,llm,4-99,other,0,column,0,"Performed continuity test on fiber optics at 6,85'. Test was good."
+D07_r027,78B-32,2021-07-23,20:30,21:45,1.25,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing from 685' to 1,376'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r027,78B-32,2021-07-23,21:45,22:00,0.25,8540.0,other,llm,4-99,other,0,column,0,"Performed continuity test on fiber optics at 1,376'. Test was good."
+D07_r027,78B-32,2021-07-23,22:00,23:15,1.25,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing from 1,376' to 2,060'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r027,78B-32,2021-07-23,23:15,23:30,0.25,8540.0,other,llm,4-98,other,0,column,0,"Performed continuity test on fiber optics at 2,060'. Test was good."
+D07_r027,78B-32,2021-07-23,23:30,0:00,0.5,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran 7"", 41#, T-110SS, Tenaris casing from 2,060' to 2,380'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,0:00,0:45,0.75,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 2,380' to 2,742'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,0:45,1:00,0.25,8540.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 2,742'. Test was good."
+D07_r028,78B-32,2021-07-24,1:00,2:00,1.0,8540.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 2,742' to 3,428'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,2:00,2:15,0.25,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 3,428'. Test was good."
+D07_r028,78B-32,2021-07-24,2:15,2:30,0.25,8545.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 3,428' to 3,722'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,2:30,9:00,6.5,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Installed new spool of fiber-optic cable on to unit. Ran fiber-optic cable to rig floor. Spliced on new fiber-optic cable at 3,722'."
+D07_r028,78B-32,2021-07-24,9:00,10:00,1.0,8545.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 3,711' to 4,117'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,10:00,10:30,0.5,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 4,117'. Test was good."
+D07_r028,78B-32,2021-07-24,10:30,11:30,1.0,8545.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 4,117' to 4,803'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,11:30,12:00,0.5,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 4,803'. Test was good."
+D07_r028,78B-32,2021-07-24,12:00,13:00,1.0,8545.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 4,803' to 5,480'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,13:00,13:30,0.5,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 5,480'. Test was good."
+D07_r028,78B-32,2021-07-24,13:30,15:00,1.5,8545.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 5,480' to 6,161'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,15:00,15:15,0.25,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 6,161'. Test was good."
+D07_r028,78B-32,2021-07-24,15:15,16:00,0.75,8545.0,casing,code,4-12-1,casing,0,column,0,"Run  7"", 41#, T-110SS, Tenaris casing from 6,161' to 6,614'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,16:00,16:15,0.25,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 6,614'. Test was good."
+D07_r028,78B-32,2021-07-24,16:15,17:00,0.75,8545.0,casing,code,4-12-1,casing,0,column,1,"Run  7"", 41#, T-110SS, Tenaris casing from 6,614' to 7,070'. Note: Floats failed at 6,795' while running casing gained 81k in hook load. All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,17:00,17:30,0.5,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 7,070'. Test indicated one of the five fiber-optic had failed at 4,000' from surface. Decision was made to run in one joint to 7,106' and circulate bottoms up."
+D07_r028,78B-32,2021-07-24,17:30,19:00,1.5,8545.0,circulating,code,3-5-1,circulating,0,column,0,"Circulated bottoms up at 7,106'. Max surface flow temperature was 99 degrees Fahrenheit. Static temperature reading at 6,966' with fiber-optic cable was 359 degrees Fahrenheit."
+D07_r028,78B-32,2021-07-24,19:00,19:45,0.75,8545.0,casing,code,4-12-1,casing,0,column,0,"Run  7"", 41#, T-110SS, Tenaris casing from 7,070' to 7,812'. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling."
+D07_r028,78B-32,2021-07-24,19:45,20:00,0.25,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 7,812'. Test indicated all five fiber-optic cables failed from 4,500' to 7,812'. Static temperature was 240 degrees Fahrenheit at 4,500'."
+D07_r028,78B-32,2021-07-24,20:00,21:15,1.25,8545.0,casing,code,4-12-1,casing,0,column,0,"Ran  7"", 41#, T-110SS, Tenaris casing from 7,812' to set depth of 8,508'. Shoe set at 8,508' KB. Float collar at 8,414' KB. Note: All joints were torqued to manufacturers optimum recommendation of 17,070 FT/LBS. Ran all 15-joints without filling. Thread locked last 3 joints in the hole below landing joint."
+D07_r028,78B-32,2021-07-24,21:15,21:30,0.25,8545.0,logging_survey,llm,4-99,logging_survey,0,column,0,"Performed continuity test on fiber optics at 8,508'. Test indicated all five fiber-optic cables failed from 3,933' to 8508'. Static temperature was 208 degrees Fahrenheit at 3,933'."
+D07_r028,78B-32,2021-07-24,21:30,22:30,1.0,8545.0,rig_up_down,llm,4-99,rig_up_down,0,column,0,Rigged down CRT tool. Rigged up cement head. Broke circulation.
+D07_r028,78B-32,2021-07-24,22:30,0:00,1.5,8545.0,circulating,code,3-5-1,circulating,0,column,0,Circulated at 16 bbl's per min to cool well bore. Mixed and pumped 4ppb Micro C while circulating. Cleaned and cleared floor while circulating.
+D07_r029,78B-32,2021-07-25,0:00,2:30,2.5,8545.0,circulating,code,3-5-1,cementing,0,column,0,Circulated at 16 bbl's per min to cool well bore.
+D07_r029,78B-32,2021-07-25,2:30,6:00,3.5,8545.0,cementing,code,5-12-2,cementing,0,column,0,"Held safety meeting with all involved personal. Swapped lines to cement truck. Pumped cement as followed. Fill lines, pressure tested lines to 5,500 psi. Pumped 100 bbls of fresh water spacer@ 5 bpm. Pumped 20 bbls of RC Mud cleaner spacer @ 5 bpm. Pumped 10 bbls of fresh water spacer @ 5 bpm. Mixed and pumped 809 bbls of 12.7 ppg RC ThermaLite-HT cement @ 8 bpm. Note: Last 80 bbls of cement has 1.3% of retarder. Dropped top plug and displaced with 273 bbls of fresh water. Bumped plug with 500 psi over circulating pressure at 3385 psi. CIP at 06:16 HRS on 7-25-2021."
+D07_r029,78B-32,2021-07-25,6:00,12:00,6.0,8545.0,waiting,code,3-13,waiting,0,column,1,Waited on cement while holding between 2800 psi and 3000 psi pressure on inside of casing. Cement fell to 95' below KB.
+D07_r029,78B-32,2021-07-25,12:00,13:00,1.0,8545.0,cementing,code,5-12-2,cementing,0,column,1,Mixed and pump 6 bbls of neat cement filling annulus from 95' to surface / CIP 13:00
+D07_r029,78B-32,2021-07-25,13:00,0:00,11.0,8545.0,waiting,code,3-13,waiting,0,column,1,"Waited on cement. Monitored cement samples while waiting on cement. Monitored temperature at 3,998' with Silixa fiber-optic cable. Monitored casing pressure with Resources Cementing. Bleeding pressure Note: Temperature at 4,200' monitored with Silixa cable at 197 degrees fahrenheit. at 1100 hrs final temp at 0000 hrs reached 208 degrees fahrenheit."
+D07_r030,78B-32,2021-07-26,0:00,3:00,3.0,8545.0,waiting,code,3-13,waiting,0,column,1,Waited on cement.
+D07_r030,78B-32,2021-07-26,3:00,6:00,3.0,8545.0,rig_up_down,code,6-14,circulating,0,column,0,Bled back 4 bbl's from casing to cement truck.
+D07_r030,78B-32,2021-07-26,6:00,12:00,6.0,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,1,"Remove double gate BOP and strip out fiber optic / Remove Drilling spool and strip out fiber optic / Extension spool 11""3000 X 13-5/8"" 5000 and 7"" cemented together / cut extension spool in half and chip out cement in lower half of spool while protecting the fiber optic."
+D07_r030,78B-32,2021-07-26,12:00,13:00,1.0,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,1,Rig up power tongs underneath substructure and back out landing joint removing the casing collar with it.
+D07_r030,78B-32,2021-07-26,13:00,14:00,1.0,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,0,"Installed 7"" riser nipple on the well head and torqued the well head to 17,070 ft/lbs to the 7"" casing."
+D07_r030,78B-32,2021-07-26,14:00,15:00,1.0,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,0,Removed the riser nipple and install well head side valves with companion flanges.
+D07_r030,78B-32,2021-07-26,15:00,21:30,6.5,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,0,"Installed drilling spool w/ 2ea 2"" 10K valves and 1- 2"" 10K check valve on the kill side with a 2"" 1502, and 1ea 4""10K manual valve and a 4"" 10K hydraulic valve on the choke side / Installed 7-1/16"" 10 K double gate BOP, Installed 7-16"" 10K X 7-1/16"" 15K crossover spool / installed 7-1/16"" 10K annular BOP w/ 7-1/16"" 15K lower flange and 7-1/16"" 10K upper flange / installing 7-1/16"" 10K riser nipple. Installed turn buckles. Function test BOP."
+D07_r030,78B-32,2021-07-26,21:30,23:00,1.5,8545.0,bop_testing,code,3-15,rig_repair,0,column,1,Rigged up pump truck to well head. Attempted to test truck prior to starting test. Unable to get a good test on the pump truck. Pressure leaking at the truck losing approximately 600 psi every 30 mins.
+D07_r030,78B-32,2021-07-26,23:00,0:00,1.0,8545.0,bop_testing,code,3-15,logging_survey,0,column,0,"Removed Pason transducer from stand-pipe and installed on 2"" 10K valve on well head to monitor casing pressure. Tested casing along with inside choke valve and out side kill check valve to 300 psi. held for 5 mins. good test. All test charted out on Pason."
+D07_r031,78B-32,2021-07-27,0:00,3:00,3.0,8545.0,bop_testing,code,3-15,bop_testing,0,column,0,"Tested casing along with inside choke valve and out side kill check valve to 5,200 psi. held for 30 mins. good test. Tested outside valve on mud-cross along with inside kill valve to 300 psi low, 5200 high. Held low test for 5 mins held high test for 10 mins. Tested 3 outside valves on the choke to 300 psi low, 5200 high. Held low test for 5 mins held high test for 10 mins. Tested 3 middle valves on the choke to 300 psi low 5200 high. Held low test for 5 mins held high test for 10 mins. Tested 3 inside valves on choke to 300 psi low 5200 high. Held low test for 5 mins held high test for 10 mins. All test charted out on Pason."
+D07_r031,78B-32,2021-07-27,3:00,5:30,2.5,8545.0,tripping,code,3-34-3,tripping,0,column,0,"Picked up 4 3/4"" drill collar. Make up 5-3/4"" TCI bit. Picked up 29 joints of 4-3/4"" drill collars. Tripped in the hole to 900'."
+D07_r031,78B-32,2021-07-27,5:30,7:15,1.75,8545.0,tripping,code,3-34-1,tripping,0,column,1,"Picked up 3.5"" drill pipe from 900' to 2,003' @07:15 noticed a slip die missing from rented slips."
+D07_r031,78B-32,2021-07-27,7:15,9:00,1.75,8545.0,other,code,3-97,rig_up_down,0,column,1,Open doors on BOP and search for slip die
+D07_r031,78B-32,2021-07-27,9:00,12:00,3.0,8545.0,tripping,code,3-6-4,tripping,0,column,1,"Tripped out of the hole with drill pipe from 2,003' with BOP doors open looking for lost slip die."
+D07_r031,78B-32,2021-07-27,12:00,14:00,2.0,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,1,"Once at top of drill collars close blind ram doors, Rigged up slings to lift BOP while pulling drill collars. Pick stack up 1 foot and chained off to sub substructure and block between wellhead and BOP Release pick up slings"
+D07_r031,78B-32,2021-07-27,14:00,15:00,1.0,8545.0,tripping,code,3-6-2,tripping,0,column,1,Pulled out of the hole with 10 stands of drill collars to bit looking for slip die.
+D07_r031,78B-32,2021-07-27,15:00,16:00,1.0,8545.0,rig_up_down,code,6-14,rig_up_down,0,column,0,Remove BOP hanging system and Nipple BOP back up / Pull last stand of collars / no markings on bit to indicate slip die had passed / close blind rams and function pipe rams and Annular BOP / nothing fell on top of blind rams.
+D07_r031,78B-32,2021-07-27,16:00,16:30,0.5,8545.0,tripping,code,3-6-1,tripping,0,column,0,RIH w/ bit and drill collars to 900'.
+D07_r031,78B-32,2021-07-27,16:30,0:00,7.5,8545.0,tripping,code,3-6-3,tripping,0,column,0,"Picked up 3.5"" drill pipe and run in the hole to 8,400'."
+D07_r032,78B-32,2021-07-28,0:00,0:30,0.5,8545.0,circulating,code,03-051,circulating,0,column,0,Circulated bottoms up Prior to testing.
+D07_r032,78B-32,2021-07-28,0:30,1:45,1.25,8545.0,bop_testing,code,3-15,bop_testing,0,column,0,"Tested pipe rams to 300 psi low, 5200 high. Held low test for 5 mins held high test for 10 mins. Good test. Tested annular to 300 psi low, 5200 high. Held low test for 5 mins held high test for 10 mins. Good test."
+D07_r032,78B-32,2021-07-28,1:45,2:30,0.75,8545.0,drilling,code,3-28,drilling,0,column,0,"Drilled out cement and shoe track from 8,364'' to 8,508'. Good cement in shoe. Observed 1’ of good cement outside of the shoe. Cleaned out rat hole from 8,508’ to 8,545’. Note: Float collar did not take any weight while drilling out. Note: Pumped 2-5 gallon buckets of Poly Vis along with 25 pounds of torkease mixed in 40 bbl's of water."
+D07_r032,78B-32,2021-07-28,2:30,3:30,1.0,8555.0,drilling,llm,3-99,drilling,0,column,0,"Drilled 5-3/4"" hole from 8,545' to 8,555'."
+D07_r032,78B-32,2021-07-28,3:30,4:00,0.5,8555.0,circulating,code,3-5-1,circulating,0,column,0,Circulated bottoms up prior to performing XLOT.
+D07_r032,78B-32,2021-07-28,4:00,5:00,1.0,8555.0,rig_up_down,llm,OTHER,rig_up_down,0,column,1,Rigged up Resource cementing pump truck. Troubleshoot pressure gage on truck.
+D07_r032,78B-32,2021-07-28,5:00,6:00,1.0,8555.0,other,code,CUTDL,other,0,column,1,Slipped and cut drilling line.
+D07_r032,78B-32,2021-07-28,6:00,8:00,2.0,8555.0,logging_survey,code,3-46,logging_survey,0,column,0,Conducted xLOT with Resource cementing pump truck. Bleed back was 2.5 bbl with both low and high rates.
+D07_r032,78B-32,2021-07-28,8:00,11:30,3.5,8555.0,tripping,code,3-6-4,tripping,0,column,0,Pulled out of the hole and lay down bit.
+D07_r032,78B-32,2021-07-28,11:30,12:00,0.5,8555.0,other,code,SERV,rig_repair,0,column,0,Serviced Rig.
+D07_r032,78B-32,2021-07-28,12:00,14:00,2.0,8555.0,tripping,code,3-34-3,tripping,1,column,0,"Picked up 5-3/4"" directional drilling assembly. NOTE: hole took 25 bbls of fluid to fill X while picking up tools avg loss is 12.5 bbl/hour."
+D07_r032,78B-32,2021-07-28,14:00,20:00,6.0,8555.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with drill pipe filling pipe at 4,000' 6,000'. Staged in the hole every 50' from 7,000' to 8,150'. Washed down from 8,150' to 8,555' to keep tools under 345 degrees. Max temperature observed was 345 degrees at MWD. Note: Lost connection with MWD once on bottom. Recycled pump 3 times and was able to regain communication with MWD."
+D07_r032,78B-32,2021-07-28,20:00,20:30,0.5,8615.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 8,555' to 8,615'."
+D07_r032,78B-32,2021-07-28,20:30,21:30,1.0,8654.0,drilling,code,3-2-3,drilling,0,column,0,"Slide Drilled 5-3/4"" from 8,615' to 8,654'."
+D07_r032,78B-32,2021-07-28,21:30,22:00,0.5,8709.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 8,654' to 8,709'."
+D07_r032,78B-32,2021-07-28,22:00,22:30,0.5,8742.0,drilling,code,3-2-3,drilling,0,column,0,"Slide Drilled 5-3/4"" from 8,709' to 8,742'."
+D07_r032,78B-32,2021-07-28,22:30,0:00,1.5,8950.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 8,742' to 8,950'."
+D07_r033,78B-32,2021-07-29,0:00,0:30,0.5,8995.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 8,950' to 8,995'."
+D07_r033,78B-32,2021-07-29,0:30,1:00,0.5,9031.0,drilling,code,3-2-3,drilling,0,column,0,"Slide Drilled 5-3/4"" from 8,995' to 9,031'."
+D07_r033,78B-32,2021-07-29,1:00,2:00,1.0,9184.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 9,031' to 9,184'."
+D07_r033,78B-32,2021-07-29,2:00,3:00,1.0,9225.0,drilling,code,3-2-3,drilling,0,column,0,"Slide Drilled 5-3/4"" from 9,184' to 9,225'."
+D07_r033,78B-32,2021-07-29,3:00,4:00,1.0,9373.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 9,225' to 9,373'."
+D07_r033,78B-32,2021-07-29,4:00,5:00,1.0,9406.0,drilling,code,3-2-3,drilling,0,column,0,"Slide Drilled 5-3/4"" from 9,373' to 9,406'."
+D07_r033,78B-32,2021-07-29,5:00,6:00,1.0,9500.0,drilling,code,3-2-3,drilling,0,column,0,"Drilled 5-3/4"" hole from 9,406' to 9,500'."
+D07_r033,78B-32,2021-07-29,6:00,7:00,1.0,9225.0,circulating,code,3-5-1,circulating,0,column,0,Circulated hole clean at TD.
+D07_r033,78B-32,2021-07-29,7:00,12:00,5.0,9225.0,tripping,code,3-6-4,tripping,0,column,0,"Tripped out of the hole from 9,500' to BHA."
+D07_r033,78B-32,2021-07-29,12:00,13:00,1.0,9225.0,tripping,code,3-34-4,other,0,column,0,Laid down directional tools.
+D07_r033,78B-32,2021-07-29,13:00,13:30,0.5,9225.0,other,code,SERV,other,0,column,0,Lay down all directional tools
+D07_r033,78B-32,2021-07-29,13:30,14:00,0.5,9225.0,tripping,code,3-6-1,rig_repair,0,column,0,Serviced Rig.
+D07_r033,78B-32,2021-07-29,14:00,17:30,3.5,9225.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole w/ same bit, BS w/ a float and all DCS"
+D07_r033,78B-32,2021-07-29,17:30,20:00,2.5,9225.0,circulating,code,3-5-1,rig_up_down,0,column,0,"RIH filling pipe @ 4,000' 8,000' and bottom"
+D07_r033,78B-32,2021-07-29,20:00,0:00,4.0,9225.0,tripping,code,3-6-4,circulating,0,column,0,Circulated to cool well bore while waiting on loggers.
+D07_r033,78B-32,2021-07-29,20:00,0:00,4.0,9225.0,tripping,llm,,tripping,0,llm,0,"Tripped out of the hole from 9,500' to surface with no issues."
+D07_r034,78B-32,2021-07-30,0:00,4:00,4.0,9225.0,logging_survey,code,LOG,rig_up_down,0,column,0,Rigged up and run Triple-Combo / Max BHT was 416 F / Logging upwards
+D07_r034,78B-32,2021-07-30,4:00,6:00,2.0,9225.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with 5-3/4"" slick assembly to 5,000'"
+D07_r034,78B-32,2021-07-30,6:00,10:30,4.5,9225.0,tripping,code,3-34-2,tripping,0,column,0,"Laid down 3.5"" drill pipe to top of drill collars"
+D07_r034,78B-32,2021-07-30,10:30,12:15,1.75,9225.0,tripping,code,3-6-3,tripping,0,column,0,"Tripped in the hole with 3-1/2"" drill pipe and slick assembly to 5,500'"
+D07_r034,78B-32,2021-07-30,12:15,15:30,3.25,9225.0,tripping,code,3-34-2,tripping,0,column,0,"Laid down 3-1/2"" drill pipe to the top of the drill collars"
+D07_r034,78B-32,2021-07-30,15:30,18:00,2.5,9225.0,tripping,code,3-34-4,casing,0,column,0,"Laid down 4-3/4"" drill collars"
+D07_r034,78B-32,2021-07-30,18:00,19:00,1.0,9225.0,waiting,llm,SAFE,waiting,0,column,1,Shut down and test night tour for Covid-19 due to 3 guys on daylights testing positive.
+D07_r034,78B-32,2021-07-30,19:00,0:00,5.0,9225.0,rig_up_down,llm,6-99,rig_up_down,0,column,0,"Nippled down 7-1/16"" 10K BOP's"
+D07_r035,78B-32,2021-07-31,0:00,6:00,6.0,9225.0,rig_up_down,llm,6-99,rig_up_down,0,column,0,"Continued nippling down 7-1/16"" 10K BOP's. Installed master valve with 3"" 10k spool on top."
+D07_r035,78B-32,2021-07-31,6:00,0:00,18.0,9225.0,rig_up_down,llm,OTHER,rig_up_down,0,column,0,"Load out 6 loads of rental equipment 3.5"" pipe, loaded out 2 loads of cooling towers to drill cool, loaded out mud logging shack, loaded out centrifuge tank, clean cellar and pits with price pumping, Rig released from Day rate @ midnight on 7/31/2012"

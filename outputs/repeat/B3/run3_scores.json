@@ -1,0 +1,1174 @@
+{
+ "total": {
+  "fields": 1515,
+  "correct": 1462,
+  "wrong": 33,
+  "missed": 7,
+  "extra": 13,
+  "accuracy": 0.965,
+  "recall": 0.972,
+  "precision": 0.968
+ },
+ "by_table": {
+  "bits": {
+   "fields": 159,
+   "correct": 149,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 10,
+   "accuracy": 0.937,
+   "recall": 1.0,
+   "precision": 0.921
+  },
+  "casing": {
+   "fields": 175,
+   "correct": 175,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "header": {
+   "fields": 120,
+   "correct": 109,
+   "wrong": 1,
+   "missed": 7,
+   "extra": 3,
+   "accuracy": 0.908,
+   "recall": 0.926,
+   "precision": 0.962
+  },
+  "mud": {
+   "fields": 77,
+   "correct": 77,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "operations": {
+   "fields": 924,
+   "correct": 892,
+   "wrong": 32,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 0.965,
+   "recall": 0.965,
+   "precision": 0.965
+  },
+  "surveys": {
+   "fields": 60,
+   "correct": 60,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  }
+ },
+ "by_field": {
+  "bits.bit_number": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.938
+  },
+  "bits.bit_type": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.938
+  },
+  "bits.depth_in_ft": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.938
+  },
+  "bits.depth_out_ft": {
+   "fields": 16,
+   "correct": 14,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 2,
+   "accuracy": 0.875,
+   "recall": 1.0,
+   "precision": 0.818
+  },
+  "bits.manufacturer": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.938
+  },
+  "bits.rop_ft_hr": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.929
+  },
+  "bits.rpm": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.909
+  },
+  "bits.serial_number": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": null,
+   "precision": null
+  },
+  "bits.size_in": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.938
+  },
+  "bits.wob_klbf": {
+   "fields": 16,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.938,
+   "recall": 1.0,
+   "precision": 0.909
+  },
+  "casing.grade": {
+   "fields": 35,
+   "correct": 35,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "casing.od_in": {
+   "fields": 35,
+   "correct": 35,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "casing.section": {
+   "fields": 35,
+   "correct": 35,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "casing.shoe_md_ft": {
+   "fields": 35,
+   "correct": 35,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "casing.weight_ppf": {
+   "fields": 35,
+   "correct": 35,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "header.footage_24h_ft": {
+   "fields": 15,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 3,
+   "extra": 1,
+   "accuracy": 0.733,
+   "recall": 0.7,
+   "precision": 0.875
+  },
+  "header.hole_size_in": {
+   "fields": 15,
+   "correct": 9,
+   "wrong": 0,
+   "missed": 4,
+   "extra": 2,
+   "accuracy": 0.6,
+   "recall": 0.556,
+   "precision": 0.714
+  },
+  "header.md_ft": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "header.report_date": {
+   "fields": 15,
+   "correct": 14,
+   "wrong": 1,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 0.933,
+   "recall": 0.933,
+   "precision": 0.933
+  },
+  "header.report_number": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "header.report_type": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "header.rig": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "header.tvd_ft": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.chlorides_mg_l": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.density_ppg": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.depth_ft": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.funnel_viscosity_s": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.ph": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.pv_cp": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "mud.yp_lbf_100ft2": {
+   "fields": 11,
+   "correct": 11,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "operations.activity": {
+   "fields": 154,
+   "correct": 122,
+   "wrong": 32,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 0.792,
+   "recall": 0.792,
+   "precision": 0.792
+  },
+  "operations.end": {
+   "fields": 154,
+   "correct": 154,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "operations.end_md_ft": {
+   "fields": 154,
+   "correct": 154,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "operations.hours": {
+   "fields": 154,
+   "correct": 154,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "operations.is_npt": {
+   "fields": 154,
+   "correct": 154,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "operations.start": {
+   "fields": 154,
+   "correct": 154,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "surveys.azimuth_deg": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "surveys.inclination_deg": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "surveys.md_ft": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "surveys.tvd_ft": {
+   "fields": 15,
+   "correct": 15,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  }
+ },
+ "activity_by_source": {
+  "": {
+   "fields": 1361,
+   "correct": 1340,
+   "wrong": 1,
+   "missed": 7,
+   "extra": 13,
+   "accuracy": 0.985,
+   "recall": 0.994,
+   "precision": 0.989
+  },
+  "activity@code": {
+   "fields": 120,
+   "correct": 112,
+   "wrong": 8,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 0.933,
+   "recall": 0.933,
+   "precision": 0.933
+  },
+  "activity@llm": {
+   "fields": 34,
+   "correct": 10,
+   "wrong": 24,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 0.294,
+   "recall": 0.294,
+   "precision": 0.294
+  }
+ },
+ "by_prefill": {
+  "claude": {
+   "fields": 351,
+   "correct": 342,
+   "wrong": 6,
+   "missed": 2,
+   "extra": 1,
+   "accuracy": 0.974,
+   "recall": 0.977,
+   "precision": 0.979
+  },
+  "model": {
+   "fields": 1164,
+   "correct": 1120,
+   "wrong": 27,
+   "missed": 5,
+   "extra": 12,
+   "accuracy": 0.962,
+   "recall": 0.971,
+   "precision": 0.965
+  }
+ },
+ "by_group": {
+  "D07": {
+   "fields": 1338,
+   "correct": 1300,
+   "wrong": 22,
+   "missed": 3,
+   "extra": 13,
+   "accuracy": 0.972,
+   "recall": 0.981,
+   "precision": 0.973
+  },
+  "other": {
+   "fields": 177,
+   "correct": 162,
+   "wrong": 11,
+   "missed": 4,
+   "extra": 0,
+   "accuracy": 0.915,
+   "recall": 0.909,
+   "precision": 0.931
+  }
+ },
+ "by_report": {
+  "D03_r001": {
+   "fields": 58,
+   "correct": 51,
+   "wrong": 5,
+   "missed": 2,
+   "extra": 0,
+   "accuracy": 0.879,
+   "recall": 0.868,
+   "precision": 0.902
+  },
+  "D04_r001": {
+   "fields": 31,
+   "correct": 27,
+   "wrong": 3,
+   "missed": 1,
+   "extra": 0,
+   "accuracy": 0.871,
+   "recall": 0.857,
+   "precision": 0.889
+  },
+  "D06_r001": {
+   "fields": 88,
+   "correct": 84,
+   "wrong": 3,
+   "missed": 1,
+   "extra": 0,
+   "accuracy": 0.955,
+   "recall": 0.952,
+   "precision": 0.963
+  },
+  "D07_r002": {
+   "fields": 139,
+   "correct": 121,
+   "wrong": 9,
+   "missed": 0,
+   "extra": 9,
+   "accuracy": 0.871,
+   "recall": 0.93,
+   "precision": 0.87
+  },
+  "D07_r005": {
+   "fields": 82,
+   "correct": 81,
+   "wrong": 0,
+   "missed": 1,
+   "extra": 0,
+   "accuracy": 0.988,
+   "recall": 0.987,
+   "precision": 1.0
+  },
+  "D07_r008": {
+   "fields": 117,
+   "correct": 113,
+   "wrong": 3,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.966,
+   "recall": 0.973,
+   "precision": 0.964
+  },
+  "D07_r011": {
+   "fields": 123,
+   "correct": 121,
+   "wrong": 2,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 0.984,
+   "recall": 0.983,
+   "precision": 0.983
+  },
+  "D07_r014": {
+   "fields": 77,
+   "correct": 77,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "D07_r017": {
+   "fields": 135,
+   "correct": 132,
+   "wrong": 2,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.978,
+   "recall": 0.985,
+   "precision": 0.977
+  },
+  "D07_r020": {
+   "fields": 203,
+   "correct": 202,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.995,
+   "recall": 1.0,
+   "precision": 0.995
+  },
+  "D07_r023": {
+   "fields": 111,
+   "correct": 111,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "D07_r026": {
+   "fields": 88,
+   "correct": 83,
+   "wrong": 4,
+   "missed": 1,
+   "extra": 0,
+   "accuracy": 0.943,
+   "recall": 0.94,
+   "precision": 0.951
+  },
+  "D07_r029": {
+   "fields": 60,
+   "correct": 59,
+   "wrong": 0,
+   "missed": 1,
+   "extra": 0,
+   "accuracy": 0.983,
+   "recall": 0.983,
+   "precision": 1.0
+  },
+  "D07_r032": {
+   "fields": 168,
+   "correct": 168,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 0,
+   "accuracy": 1.0,
+   "recall": 1.0,
+   "precision": 1.0
+  },
+  "D07_r035": {
+   "fields": 35,
+   "correct": 32,
+   "wrong": 2,
+   "missed": 0,
+   "extra": 1,
+   "accuracy": 0.914,
+   "recall": 0.941,
+   "precision": 0.914
+  }
+ },
+ "not_in_schema": {
+  "casing.id_in": {
+   "fields": 35,
+   "correct": 31,
+   "wrong": 0,
+   "missed": 4,
+   "extra": 0,
+   "accuracy": 0.886,
+   "recall": 0.0,
+   "precision": null
+  }
+ },
+ "separate_tables": {
+  "bha": {
+   "fields": 86,
+   "correct": 0,
+   "wrong": 0,
+   "missed": 0,
+   "extra": 86,
+   "accuracy": 0.0,
+   "recall": null,
+   "precision": 0.0
+  }
+ },
+ "activity_confusion": {
+  "rig_up_down -> drilling": 5,
+  "completion -> wellbore_problem": 4,
+  "logging_survey -> casing": 3,
+  "waiting -> other": 2,
+  "tripping -> rig_up_down": 2,
+  "other -> drilling": 2,
+  "rig_up_down -> casing": 2,
+  "wellbore_problem -> drilling": 2,
+  "tripping -> wellbore_problem": 1,
+  "rig_repair -> waiting": 1,
+  "bop_testing -> drilling": 1,
+  "tripping -> circulating": 1,
+  "tripping -> drilling": 1,
+  "rig_up_down -> tripping": 1,
+  "drilling -> tripping": 1,
+  "logging_survey -> tripping": 1,
+  "casing -> drilling": 1,
+  "rig_up_down -> other": 1
+ },
+ "errors": [
+  {
+   "report": "D03_r001",
+   "table": "header",
+   "field": "footage_24h_ft",
+   "outcome": "missed",
+   "label": "0",
+   "model": ""
+  },
+  {
+   "report": "D03_r001",
+   "table": "header",
+   "field": "hole_size_in",
+   "outcome": "missed",
+   "label": "7",
+   "model": ""
+  },
+  {
+   "report": "D03_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "completion",
+   "model": "wellbore_problem"
+  },
+  {
+   "report": "D03_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "tripping",
+   "model": "wellbore_problem"
+  },
+  {
+   "report": "D03_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "completion",
+   "model": "wellbore_problem"
+  },
+  {
+   "report": "D03_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "completion",
+   "model": "wellbore_problem"
+  },
+  {
+   "report": "D03_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "completion",
+   "model": "wellbore_problem"
+  },
+  {
+   "report": "D04_r001",
+   "table": "header",
+   "field": "report_date",
+   "outcome": "wrong",
+   "label": "2021-02-06",
+   "model": "2021-02-05"
+  },
+  {
+   "report": "D04_r001",
+   "table": "header",
+   "field": "hole_size_in",
+   "outcome": "missed",
+   "label": "20",
+   "model": ""
+  },
+  {
+   "report": "D04_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "waiting",
+   "model": "other"
+  },
+  {
+   "report": "D04_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "waiting",
+   "model": "other"
+  },
+  {
+   "report": "D06_r001",
+   "table": "header",
+   "field": "hole_size_in",
+   "outcome": "missed",
+   "label": "20",
+   "model": ""
+  },
+  {
+   "report": "D06_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_repair",
+   "model": "waiting"
+  },
+  {
+   "report": "D06_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "tripping",
+   "model": "rig_up_down"
+  },
+  {
+   "report": "D06_r001",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "tripping",
+   "model": "rig_up_down"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "other",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "casing"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "casing"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "other",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "bop_testing",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "bit_number",
+   "outcome": "extra",
+   "label": "",
+   "model": "1"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "size_in",
+   "outcome": "extra",
+   "label": "",
+   "model": "22"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "manufacturer",
+   "outcome": "extra",
+   "label": "",
+   "model": "Smith"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "bit_type",
+   "outcome": "extra",
+   "label": "",
+   "model": "XR-C"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "depth_in_ft",
+   "outcome": "extra",
+   "label": "",
+   "model": "128"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "depth_out_ft",
+   "outcome": "extra",
+   "label": "",
+   "model": "421"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "wob_klbf",
+   "outcome": "extra",
+   "label": "",
+   "model": "15"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "rpm",
+   "outcome": "extra",
+   "label": "",
+   "model": "90"
+  },
+  {
+   "report": "D07_r002",
+   "table": "bits",
+   "field": "rop_ft_hr",
+   "outcome": "extra",
+   "label": "",
+   "model": "83.7"
+  },
+  {
+   "report": "D07_r005",
+   "table": "header",
+   "field": "hole_size_in",
+   "outcome": "missed",
+   "label": "16",
+   "model": ""
+  },
+  {
+   "report": "D07_r008",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "tripping",
+   "model": "circulating"
+  },
+  {
+   "report": "D07_r008",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "wellbore_problem",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r008",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "wellbore_problem",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r008",
+   "table": "bits",
+   "field": "depth_out_ft",
+   "outcome": "extra",
+   "label": "",
+   "model": "3009"
+  },
+  {
+   "report": "D07_r011",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "tripping",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r011",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "tripping"
+  },
+  {
+   "report": "D07_r017",
+   "table": "header",
+   "field": "hole_size_in",
+   "outcome": "extra",
+   "label": "",
+   "model": "10.5"
+  },
+  {
+   "report": "D07_r017",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "drilling",
+   "model": "tripping"
+  },
+  {
+   "report": "D07_r017",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "logging_survey",
+   "model": "tripping"
+  },
+  {
+   "report": "D07_r020",
+   "table": "header",
+   "field": "footage_24h_ft",
+   "outcome": "extra",
+   "label": "",
+   "model": "887"
+  },
+  {
+   "report": "D07_r026",
+   "table": "header",
+   "field": "footage_24h_ft",
+   "outcome": "missed",
+   "label": "0",
+   "model": ""
+  },
+  {
+   "report": "D07_r026",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "logging_survey",
+   "model": "casing"
+  },
+  {
+   "report": "D07_r026",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "logging_survey",
+   "model": "casing"
+  },
+  {
+   "report": "D07_r026",
+   "table": "operations",
+   "field": "activity@code",
+   "outcome": "wrong",
+   "label": "logging_survey",
+   "model": "casing"
+  },
+  {
+   "report": "D07_r026",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "casing",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r029",
+   "table": "header",
+   "field": "footage_24h_ft",
+   "outcome": "missed",
+   "label": "0",
+   "model": ""
+  },
+  {
+   "report": "D07_r035",
+   "table": "header",
+   "field": "hole_size_in",
+   "outcome": "extra",
+   "label": "",
+   "model": "16"
+  },
+  {
+   "report": "D07_r035",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "drilling"
+  },
+  {
+   "report": "D07_r035",
+   "table": "operations",
+   "field": "activity@llm",
+   "outcome": "wrong",
+   "label": "rig_up_down",
+   "model": "other"
+  }
+ ]
+}

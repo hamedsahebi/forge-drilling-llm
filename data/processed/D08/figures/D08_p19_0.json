@@ -1,0 +1,79 @@
+{
+  "doc_id": "D08",
+  "page": 19,
+  "bbox": [
+    73.8,
+    106.2,
+    538.2,
+    634.9
+  ],
+  "source": "raster",
+  "caption": "Figure 5: 56-32 well schematic, as built",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p19_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 24.895975828170776,
+    "prompt_tokens": 1628,
+    "output_tokens": 421
+  },
+  "data": {
+    "transcription": "Figure 5: 56-32 well schematic, as built\n56-32\nMonitoring Well\nAs Built\nDrawn by GRG ver. March 2021 – Not to scale",
+    "description": "The figure is a well schematic for the 56-32 monitoring well, showing the drilling stages and casing depths.",
+    "kind": "well_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "BTC conductor @ 128.5'",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "17-1/2\" hole to 381'",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "13-3/8\", 54.5#, J-55, BTC casing @ 381'",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "12-1/4\" hole to @3,500'",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "9-5/8\", 36# J-55, LTC casing @ 3,494'",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "Float collar & 135' of cement at bottom",
+        "unit": "",
+        "trend": null
+      },
+      {
+        "name": "8-3/4\" hole @ 9,133.5'",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "5-1/2\", 17#, L-80, BTC Casing",
+        "unit": "",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Depth = -128 ft",
+      "Depth = -380 ft",
+      "Depth = -3,500 ft",
+      "Depth = -9,145 ft"
+    ]
+  }
+}

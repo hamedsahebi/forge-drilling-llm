@@ -1,0 +1,366 @@
+<title>FORGE Report Mining</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an engineering field notebook. One left-aligned 1120px column, mono "depth-track" eyebrows,
+   source page beside extracted data the way a mud logger sets the log beside the description. */
+:root {
+  --bg: #eef1f2; --surface: #ffffff; --ink: #142029; --muted: #56656f; --line: #d5dcdf;
+  --accent: #0b6f73; --accent-soft: #d9ecec; --warn: #9a5b00; --warn-soft: #fbefd9;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #9aa3a8;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "IBM Plex Sans", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #11171b; --surface: #192127; --ink: #e8eef1; --muted: #9aabb4; --line: #2c3840;
+  --accent: #4fc1c4; --accent-soft: #163a3c; --warn: #f0b75a; --warn-soft: #3a2c12;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #2f9a2f; --s7: #6b767c;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #11171b; --surface: #192127; --ink: #e8eef1; --muted: #9aabb4; --line: #2c3840;
+  --accent: #4fc1c4; --accent-soft: #163a3c; --warn: #f0b75a; --warn-soft: #3a2c12;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #2f9a2f; --s7: #6b767c;
+  color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); padding-inline: 16px; padding-block: 0 64px; }
+.wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 56px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: .01em; }
+h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); line-height: 1; }
+h2 { font-size: 1.9rem; line-height: 1.1; }
+h3 { font-size: 1.25rem; }
+p { margin: 0; max-width: 68ch; }
+.eyebrow { font: 500 .75rem/1 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--accent); }
+.muted { color: var(--muted); }
+.mono { font-family: var(--mono); font-size: .85em; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+section { display: grid; gap: 20px; min-width: 0; }
+.head { display: grid; gap: 8px; }
+
+header { padding-block: 48px 8px; display: grid; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 28px; }
+header .lead { font-size: 1.1rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px 40px; }
+.stat b { display: block; font: 600 2.2rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.stat span { font: .75rem var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+
+ol.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; counter-reset: s; }
+ol.steps li { counter-increment: s; background: var(--surface); border: 1px solid var(--line); padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+ol.steps li::before { content: "STEP " counter(s); font: 500 .7rem var(--mono); letter-spacing: .12em; color: var(--accent); }
+ol.steps b { font-family: var(--display); font-size: 1.15rem; font-weight: 600; }
+ol.steps span { font-size: .88rem; color: var(--muted); }
+
+.tbl { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); }
+table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+th, td { padding: 7px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+th { font: 500 .7rem var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); background: var(--bg); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+
+.chip { display: inline-block; font: 500 .72rem/1.6 var(--mono); padding: 0 8px; border-radius: 3px; background: var(--accent-soft); color: var(--ink); white-space: nowrap; }
+.chip.warn { background: var(--warn-soft); color: var(--warn); }
+button.chip { border: 1px solid transparent; cursor: pointer; background: var(--surface); border-color: var(--line); }
+button.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* report viewer */
+.viewer { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 20px; align-items: start; }
+.picker { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.picker select { font: .9rem var(--body); padding: 6px 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); max-width: 100%; }
+.srcimg { background: var(--surface); border: 1px solid var(--line); padding: 8px; position: sticky; top: env(safe-area-inset-top, 0px); }
+.srcimg img { display: block; width: 100%; }
+.srcimg p { font: .75rem var(--mono); color: var(--muted); padding-top: 6px; }
+.extracted { display: grid; gap: 16px; min-width: 0; }
+.kv { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.kv div { background: var(--surface); padding: 8px 10px; display: grid; gap: 2px; min-width: 0; }
+.kv dt { font: .68rem var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.kv dd { margin: 0; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.null { color: var(--muted); }
+.block h3 { display: flex; gap: 8px; align-items: baseline; margin-bottom: 6px; }
+.block h3 small { font: .75rem var(--mono); color: var(--muted); font-weight: 400; }
+
+/* charts */
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.chartbox { margin: 0; background: var(--surface); border: 1px solid var(--line); padding: 12px; min-width: 0; }
+.chartbox figcaption { font: 500 .8rem var(--mono); color: var(--muted); margin-bottom: 4px; }
+svg.chart { width: 100%; height: auto; display: block; }
+svg .grid { stroke: var(--line); stroke-width: 1; }
+svg .tick { fill: var(--muted); font: 11px var(--mono); }
+svg .axis { fill: var(--muted); font: 12px var(--body); }
+svg .line { fill: none; stroke: var(--s1); stroke-width: 2; stroke-linejoin: round; }
+svg .dot { fill: var(--s1); stroke: var(--surface); stroke-width: 2; cursor: default; }
+svg .dot:hover { r: 6; }
+svg .lbl { fill: var(--ink); font: 600 12px var(--mono); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.barrow { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; align-items: center; }
+.barlab { font-weight: 500; display: grid; } .barlab small { font: .72rem var(--mono); color: var(--muted); font-weight: 400; }
+.bar { display: flex; gap: 2px; height: 22px; }
+.seg { min-width: 3px; border-radius: 0; } .seg:first-child { border-radius: 4px 0 0 4px; } .seg:last-child { border-radius: 0 4px 4px 0; }
+.activity { background: var(--surface); border: 1px solid var(--line); padding: 16px; display: grid; gap: 12px; }
+#tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font: .78rem var(--mono); padding: 5px 8px; border-radius: 3px; z-index: 10; max-width: 280px; }
+
+/* figures */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.figgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.fig { background: var(--surface); border: 1px solid var(--line); display: grid; grid-template-rows: auto 1fr; min-width: 0; }
+.fig .im { background: #fff; border-bottom: 1px solid var(--line); height: 220px; display: grid; place-items: center; overflow: hidden; }
+.fig .im img { max-height: 220px; width: auto; object-fit: contain; }
+.fig .body { padding: 12px 14px; display: grid; gap: 8px; align-content: start; font-size: .86rem; min-width: 0; }
+.fig .cap { font-weight: 500; }
+.fig .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font: .72rem var(--mono); color: var(--muted); }
+.fig ul { margin: 0; padding-left: 18px; font: .78rem/1.5 var(--mono); }
+.fig details summary { cursor: pointer; font: .75rem var(--mono); color: var(--accent); }
+
+/* agent */
+.qa { background: var(--surface); border: 1px solid var(--line); padding: 16px 18px; display: grid; gap: 10px; }
+.qa .q { font-family: var(--display); font-size: 1.2rem; font-weight: 600; }
+.qa .a { white-space: pre-wrap; }
+.qa pre { margin: 0; overflow-x: auto; font: .76rem/1.5 var(--mono); background: var(--bg); padding: 8px 10px; }
+.qa details summary { cursor: pointer; font: .75rem var(--mono); color: var(--accent); }
+
+.findings td:first-child { font-weight: 500; }
+footer { border-top: 1px solid var(--line); padding-top: 16px; font-size: .82rem; color: var(--muted); display: grid; gap: 6px; }
+a { color: var(--accent); }
+
+@media (max-width: 760px) {
+  .viewer { grid-template-columns: minmax(0, 1fr); }
+  .srcimg { position: static; }
+  .barrow { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Prototype · Utah FORGE public well data · local LLMs</div>
+  <h1>FORGE Report Mining</h1>
+  <p class="lead">Ten public drilling documents from three geothermal wells, turned into a queryable database by two small open models running on one 8&nbsp;GB laptop GPU. Every value below was extracted automatically from PDF text or figures. Nothing was typed by hand.</p>
+  <div class="stats">
+    <div class="stat"><b>{{N_REPORTS}}</b><span>daily reports parsed</span></div>
+    <div class="stat"><b>{{N_FIGS}}</b><span>figures read</span></div>
+    <div class="stat"><b>{{N_ROWS}}</b><span>structured rows</span></div>
+    <div class="stat"><b>{{HOURS}} min</b><span>median per daily report</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="head"><div class="eyebrow">How it works</div><h2>Pipeline</h2></div>
+  <ol class="steps">
+    <li><b>Read the PDF</b><span>PyMuPDF rebuilds each page as monospace text so table values stay under their column headers. Compilations are split into single reports.</span></li>
+    <li><b>Extract per table</b><span>Qwen3-8B fills one schema per table (header, time log, casing, mud, bits, BHA, surveys) as validated JSON.</span></li>
+    <li><b>Check and classify</b><span>Physically impossible values are nulled and flagged. A second pass labels problem events row by row. NPT comes from the operator's Non-Prod marks where a document has them, otherwise from the same pass.</span></li>
+    <li><b>Read the figures</b><span>Figures are cropped with their captions. Qwen2.5-VL-7B describes each one, then structures curves and numbers. The Pason chart is parsed directly from the PDF, with no model.</span></li>
+    <li><b>Store and ask</b><span>Everything lands in SQLite. A tool-using agent answers questions across all reports with SQL.</span></li>
+  </ol>
+</section>
+
+<section>
+  <div class="head"><div class="eyebrow">Input</div><h2>The ten documents</h2>
+  <p class="muted">Two different report templates (WellEz-style forms and RIMBase), a 93-page compilation, an 86-page End-of-Well Report, and two plot-only documents.</p></div>
+  <div class="tbl"><table>
+    <thead><tr><th>ID</th><th>Well</th><th>Type</th><th class="num">Pages used</th><th>Extracted</th></tr></thead>
+    <tbody>{{DOC_ROWS}}</tbody>
+  </table></div>
+</section>
+
+<section id="viewer">
+  <div class="head"><div class="eyebrow">Source page vs extracted record</div><h2>Inspect any daily report</h2>
+  <p class="muted">Left: the first page of the original PDF. Right: what the model extracted from all pages of that report. Empty fields mean the model found nothing; it is told never to guess.</p></div>
+  <div class="picker">
+    <label for="well-pick" class="mono muted">Well</label><select id="well-pick"></select>
+    <label for="rep-pick" class="mono muted">Report</label><select id="rep-pick"></select>
+  </div>
+  <div class="viewer">
+    <div class="srcimg"><img id="src-img" alt="Source report page"><p id="src-cap"></p></div>
+    <div class="extracted" id="extracted"></div>
+  </div>
+</section>
+
+<section>
+  <div class="head"><div class="eyebrow">Across reports</div><h2>What the database shows</h2>
+  <p class="muted">Charts drawn only from extracted values. Days-vs-depth is rebuilt from the measured depth on each daily report.</p></div>
+  <div class="charts">{{DEPTH_CHARTS}}</div>
+  <div class="activity"><h3>Rig time by activity</h3>{{ACTIVITY}}</div>
+  <div class="block"><h3>Problem events <small>NPT flagged: {{NPT}}</small></h3>
+  <div class="tbl"><table><thead><tr><th>Well</th><th>Date</th><th>Type</th><th class="num">Depth (ft)</th><th>Description</th></tr></thead>
+  <tbody>{{EVENTS}}</tbody></table></div></div>
+</section>
+
+<section id="eowr">
+  <div class="head"><div class="eyebrow">Long report · 86 pages</div><h2>End-of-Well Report digest</h2>
+  <p class="muted">Well 56-32's End-of-Well Report read in chunks. Each chunk gets one call for well facts and tables and one for problems and lessons; the results are merged. Well facts, problems and lessons are reliable. The casing and bit tables are not yet: rows repeat across chunks and some hole sizes land in the casing OD column.</p></div>
+  <div id="eowr-body" class="extracted"></div>
+</section>
+
+<section id="figures">
+  <div class="head"><div class="eyebrow">Figures and plots</div><h2>What the vision model read</h2>
+  <p class="muted">Each figure is detected on the page (logos and ruled tables are skipped), cropped with its caption, and passed to the vision model with any machine-readable text inside it. Numbers the model reads off curves and logs are often wrong, so they are not shown here. The Pason chart's values come from direct PDF parsing instead.</p></div>
+  <div class="filters" id="fig-filters"></div>
+  <div class="figgrid" id="figgrid"></div>
+</section>
+
+<section id="agent">
+  <div class="head"><div class="eyebrow">AI agent</div><h2>Questions across all reports</h2>
+  <p class="muted">The agent writes its own SQL against the extracted database, reads the results and answers. Open a question to see its tool calls. Checked against the database by SQL: 2 of these 6 answers are right and 4 are partly right (for example, it lists 5 of the 12 MSE figures). A scored question set is not done yet.</p></div>
+  <div id="qa" style="display:grid;gap:12px"></div>
+</section>
+
+<section id="measured">
+  <div class="head"><div class="eyebrow">Evaluation so far</div><h2>Measured so far</h2>
+  <p class="muted">Each test uses a reference the pipeline did not produce. Dev reports and dev chart pages are excluded. One extraction run on Ollama 0.40.15. Repeat runs moved the total by up to 0.5 points, and Ollama version updates moved it too. A scored question set for the agent is not done yet.</p></div>
+  <div class="tbl findings"><table>
+    <thead><tr><th>Test</th><th>Reference</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr><td>All fields, 15 daily reports (1,515 fields)</td><td>Hand labels checked by a drilling engineer (pre-filled by a model)</td><td>97.5% correct. Casing, mud and surveys 100%: casing, mud and bits are read from the PDF by code.</td></tr>
+      <tr><td>All fields, 6 more reports labelled blind (585 fields)</td><td>Hand labels started from empty fields</td><td>93.7% correct.</td></tr>
+      <tr><td>Activity class, rows without an operator code</td><td>Same hand labels</td><td>Model with class definitions: 22 of 34 rows (first set) and 7 of 11 (blind set). Without the definitions: 13 of 34 and 0 of 11. Rows with an operator code use the code: 93.3%.</td></tr>
+      <tr><td>Agent rule checks, 5 questions</td><td>Answers checked against the database by SQL</td><td>5 of 5 after the tool and prompt fixes (1 of 5 before): chart reading at a time, unverified figure value, bit serial number from a BHA figure, failed check, value read by code.</td></tr>
+      <tr><td>Reading chart values, 20 pages of the 78B-32 Pason chart, 1,080 points</td><td>Pason sensor records for the same times</td><td>Direct PDF parsing, no model: 98.5% correct, under 1 s per page. Best vision method: 47.2%, 161 s per page. Vision on the whole page: 21.3%.</td></tr>
+      <tr><td>Values above the chart scale, same points</td><td>Pason sensor records</td><td>Direct parsing flagged 296 of 299. Best vision method flagged 172 of 295.</td></tr>
+      <tr><td>NPT flag, 400 time-log rows of 78B-32</td><td>Operator's Non-Prod marks</td><td>LLM flag: 23% precision, 58% recall. Reading the marks instead changes NPT from 187 h to 84 h.</td></tr>
+      <tr><td>Trust checks, 5,126 values from 38 reports</td><td>Printed labels, word positions, hour totals, sensor depth, text search</td><td>2,209 pass, 2,052 weak, 744 unchecked, 111 fail, 10 conflict. Of the 111 fails, 92 are real extraction errors (not an expert review). Errors among weak and unchecked values are still unknown.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="head"><div class="eyebrow">For the paper</div><h2>What tuning taught us</h2></div>
+  <div class="tbl findings"><table>
+    <thead><tr><th>Design choice</th><th>Observed on test reports</th></tr></thead>
+    <tbody>
+      <tr><td>One call for the whole daily-report schema</td><td>Header and time log filled; casing, mud, bits and BHA came back empty.</td></tr>
+      <tr><td>Plain extracted text</td><td>Column values drift: grade read as "FULL", chlorides off by orders of magnitude.</td></tr>
+      <tr><td>Monospace layout text + one call per table</td><td>Surveys, casing shoes, mud check and header correct; BHA 11 of 12 components fully correct on a WellEz report.</td></tr>
+      <tr><td>Reasoning mode on (Qwen3 "thinking")</td><td>5 to 15 times slower per table with no accuracy gain.</td></tr>
+      <tr><td>Dedicated NPT and event classifier with examples</td><td>Removed false NPT on routine trips and false "events" for safety meetings and rig-up.</td></tr>
+      <tr><td>Plausibility ranges</td><td>Catch decoding errors such as chlorides = 7.2e15 mg/l and pump rate read as bit RPM.</td></tr>
+      <tr><td>Figure schema with description first</td><td>Structured lists went from empty to complete: all 9 BHA values and 8 MSE tracks with units.</td></tr>
+      <tr><td>Concrete numbers as examples in the figure prompt</td><td>The model copied the example values into 14 of 62 figures (23%) where it could read no numbers.</td></tr>
+      <tr><td>"Leave empty if nothing is legible"</td><td>Leakage gone, but 43 of 62 figures then returned no values at all, including BHA diagrams it had read correctly before.</td></tr>
+      <tr><td>Transcribe first, then describe, then structure</td><td>BHA diagrams read in full again with no leaked values. Dense multi-track charts are still the limit: numbers are read but given the wrong meaning (depth read as ROP, scale limits read as values).</td></tr>
+      <tr><td>Domain glossary in the prompts</td><td>Without it, both models expanded MSE as "mean square error" instead of mechanical specific energy.</td></tr>
+      <tr><td>Agent grounded with real category values and a retry rule</td><td>Before: the agent invented filter values ("losses", "failures") and answered "no BHA data" from one empty query, with 287 BHA rows in the database.</td></tr>
+      <tr><td>Figure category list without pressure charts or equipment drawings</td><td>About 67% correct against captions; most errors were cement charts and BOPE drawings forced into the nearest class. Two classes added.</td></tr>
+      <tr><td>One mixed schema for long reports</td><td>End-of-Well Report: events and lessons found, but no well facts, casing or bits. Split into a facts call and a narrative call.</td></tr>
+      <tr><td>Generation limits</td><td>Dense mud-log pages triggered a runaway list (7,000+ tokens). An output cap and repeat penalty fixed it. A 16k context pushes the 8B model partly onto the CPU on an 8 GB GPU.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">Prompts were tuned on reports D01, D02 and D05, so these count as the development set. Prompt examples were rewritten so none come from the evaluated reports. Known weak spots: dense mud and bit-parameter tables with multi-row headers still show column shifts; problem-event detection finds the real incidents but also flags some planned work (roughly 60 to 65% precision on a spot check); tables in the long report come back fragmented across chunks. A field-level accuracy study against hand-labelled reports is the next step.</p>
+</section>
+
+<footer>
+  <div>Data: Utah FORGE wells 16A(78)-32, 56-32 and 78B-32, US DOE Geothermal Data Repository, CC BY 4.0.</div>
+  <div>Models: qwen3:8b (text) and qwen2.5vl:7b (vision) via Ollama, run locally. Prototype for a follow-up to SPE-228955-MS.</div>
+</footer>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+/*DATA*/
+const $ = (s) => document.querySelector(s);
+const esc = (v) => String(v ?? "").replace(/[&<>"]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = (v) => v === null || v === undefined || v === "" ? '<span class="null">–</span>'
+  : typeof v === "number" ? v.toLocaleString("en-US", {maximumFractionDigits: 3}) : esc(v);
+
+function table(title, rowsArr, cols, unitNote) {
+  if (!rowsArr || !rowsArr.length) return `<div class="block"><h3>${title} <small>none found</small></h3></div>`;
+  const head = cols.map(([k, l, n]) => `<th class="${n ? "num" : ""}">${l}</th>`).join("");
+  const body = rowsArr.map((r) => "<tr>" + cols.map(([k, l, n]) => `<td class="${n ? "num" : ""}">${k === "is_npt" ? (r[k] ? '<span class="chip warn">NPT</span>' : "") : fmt(r[k])}</td>`).join("") + "</tr>").join("");
+  return `<div class="block"><h3>${title} <small>${rowsArr.length} row${rowsArr.length > 1 ? "s" : ""}${unitNote ? " · " + unitNote : ""}</small></h3><div class="tbl"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div></div>`;
+}
+
+function showReport(r) {
+  $("#src-img").src = r.img;
+  $("#src-cap").textContent = `${r.doc} · page ${r.pages[0]} of ${r.pages.length} used · extracted in ${r.sec} s`;
+  const d = r.data || {header: {}, depth: {}};
+  const h = d.header || {}, dp = d.depth || {};
+  const kv = [["Well", h.well_name], ["Report no.", h.report_number], ["Date", h.report_date], ["Type", h.report_type],
+    ["Operator", h.operator], ["Contractor", h.contractor], ["Rig", h.rig], ["MD (ft)", dp.md_ft], ["TVD (ft)", dp.tvd_ft],
+    ["Hole size (in)", dp.hole_size_in], ["24 h footage (ft)", dp.footage_24h_ft]]
+    .map(([k, v]) => `<div><dt>${k}</dt><dd>${fmt(v)}</dd></div>`).join("");
+  const ops = (d.operations || []);
+  const hrs = ops.reduce((s, o) => s + (o.hours || 0), 0);
+  $("#extracted").innerHTML =
+    `<dl class="kv">${kv}</dl>` +
+    `<div class="block"><h3>Summary</h3><p>${fmt(d.summary)}</p>
+      <p class="muted" style="margin-top:6px"><b>Now:</b> ${fmt(dp.current_operation)}<br><b>Next:</b> ${fmt(dp.planned_operation)}</p></div>` +
+    (r.flags.length ? `<div class="block"><h3>Plausibility flags <small>value removed</small></h3>${r.flags.map((f) => `<span class="chip warn">${esc(f)}</span>`).join(" ")}</div>` : "") +
+    table("Time log", ops, [["start","From"],["end","To"],["hours","Hrs",1],["end_md_ft","End MD",1],["activity","Activity"],["is_npt",""],["description","Description"]], `${hrs.toFixed(1)} h`) +
+    table("Problem events", d.events, [["event_type","Type"],["depth_ft","Depth",1],["description","Description"]]) +
+    table("BHA", d.bha, [["order","#",1],["component","Component"],["od_in","OD in",1],["id_in","ID in",1],["length_ft","Length ft",1]]) +
+    table("Bits", d.bits, [["bit_number","No."],["size_in","Size in",1],["manufacturer","Make"],["bit_type","Type"],["serial_number","Serial"],["depth_in_ft","In ft",1],["depth_out_ft","Out ft",1],["wob_klbf","WOB",1],["rpm","RPM",1],["rop_ft_hr","ROP",1]]) +
+    table("Surveys", d.surveys, [["md_ft","MD ft",1],["inclination_deg","Inc °",1],["azimuth_deg","Azi °",1],["tvd_ft","TVD ft",1]]) +
+    table("Casing", d.casing, [["section","Section"],["od_in","OD in",1],["weight_ppf","lb/ft",1],["grade","Grade"],["shoe_md_ft","Shoe MD ft",1]]) +
+    table("Mud", d.mud, [["depth_ft","Depth ft",1],["density_ppg","ppg",1],["funnel_viscosity_s","FV s",1],["pv_cp","PV",1],["yp_lbf_100ft2","YP",1],["ph","pH",1],["chlorides_mg_l","Cl mg/l",1]]);
+}
+
+const wells = [...new Set(REPORTS.map((r) => r.well))];
+$("#well-pick").innerHTML = wells.map((w) => `<option>${esc(w)}</option>`).join("");
+function fillReports() {
+  const w = $("#well-pick").value;
+  const list = REPORTS.filter((r) => r.well === w);
+  $("#rep-pick").innerHTML = list.map((r) => `<option value="${r.id}">${esc(r.date || "?")} · ${r.id}</option>`).join("");
+  showReport(list[0]);
+}
+$("#well-pick").addEventListener("change", fillReports);
+$("#rep-pick").addEventListener("change", (e) => showReport(REPORTS.find((r) => r.id === e.target.value)));
+// open on the richest report (most BHA + survey rows) so the first view shows the most
+const best = REPORTS.slice().sort((a, b) => ((b.data?.bha?.length || 0) + (b.data?.surveys?.length || 0)) - ((a.data?.bha?.length || 0) + (a.data?.surveys?.length || 0)))[0];
+if (best) { $("#well-pick").value = best.well; fillReports(); $("#rep-pick").value = best.id; showReport(best); }
+
+// End-of-Well Report digest
+(function () {
+  const s = SUMMARY || {};
+  const kv = [["Well", s.well_name], ["Purpose", s.purpose], ["Spud", s.spud_date], ["TD date", s.td_date],
+    ["TD MD (ft)", s.total_depth_md_ft], ["TD TVD (ft)", s.total_depth_tvd_ft], ["Rig", s.rig]]
+    .map(([k, v]) => `<div><dt>${k}</dt><dd>${fmt(v)}</dd></div>`).join("");
+  const lessons = s.lessons_learned || [];
+  $("#eowr-body").innerHTML = `<dl class="kv">${kv}</dl>` +
+    table("Casing strings", s.casing, [["section","Section"],["od_in","OD in",1],["weight_ppf","lb/ft",1],["grade","Grade"],["shoe_md_ft","Shoe MD ft",1]]) +
+    table("Bit runs", s.bits, [["bit_number","No."],["size_in","Size in",1],["manufacturer","Make"],["bit_type","Type"],["depth_in_ft","In ft",1],["depth_out_ft","Out ft",1],["rop_ft_hr","ROP",1]]) +
+    table("Problems reported", s.events, [["event_type","Type"],["depth_ft","Depth ft",1],["description","Description"]]) +
+    (lessons.length ? `<div class="block"><h3>Lessons learned <small>${lessons.length} items</small></h3><ul style="margin:0;padding-left:20px;display:grid;gap:4px;max-width:80ch">${lessons.map((l) => `<li>${esc(l)}</li>`).join("")}</ul></div>` : "");
+})();
+
+// figures
+let kindSel = "all";
+function renderFigs() {
+  const list = FIGS.filter((f) => kindSel === "all" || (f.kind || "other") === kindSel);
+  $("#figgrid").innerHTML = list.map((f) => `<article class="fig">
+    <div class="im"><img loading="lazy" src="${f.img}" alt="${esc(f.caption || f.title || f.kind)}"></div>
+    <div class="body">
+      <div class="meta"><span class="chip">${esc((f.kind || "other").replace(/_/g, " "))}</span>${esc(f.well)} · ${esc(f.doc_id)} p.${f.page}</div>
+      <div class="cap">${esc(f.caption || f.title || "No caption")}</div>
+      <p>${esc(f.description)}</p>
+      ${f.key_values.length ? `<ul>${f.key_values.slice(0, 8).map((k) => `<li>${esc(k)}</li>`).join("")}</ul>` : ""}
+      ${f.series.length ? `<details><summary>${f.series.length} series / tracks</summary><ul>${f.series.map((s) => `<li>${esc(s.name)}${s.unit ? " (" + esc(s.unit) + ")" : ""}${s.trend ? " · " + esc(s.trend) : ""}</li>`).join("")}</ul></details>` : ""}
+    </div></article>`).join("");
+}
+const counts = {}; FIGS.forEach((f) => counts[f.kind || "other"] = (counts[f.kind || "other"] || 0) + 1);
+$("#fig-filters").innerHTML = [["all", FIGS.length], ...KINDS.map((k) => [k, counts[k]])]
+  .map(([k, n]) => `<button class="chip" data-k="${k}" aria-pressed="${k === "all"}">${esc(k.replace(/_/g, " "))} · ${n}</button>`).join("");
+$("#fig-filters").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  kindSel = b.dataset.k;
+  document.querySelectorAll("#fig-filters button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+  renderFigs();
+});
+renderFigs();
+
+// agent
+$("#qa").innerHTML = AGENT.length ? AGENT.map((a) => `<div class="qa">
+  <div class="q">${esc(a.question)}</div><div class="a">${esc(a.answer)}</div>
+  <details><summary>${a.trace.length} tool call${a.trace.length === 1 ? "" : "s"} · ${a.seconds} s</summary>
+  ${a.trace.map((t) => `<pre>${esc(t.tool)}(${esc(t.args.query || t.args.keyword || JSON.stringify(t.args))})\n→ ${esc(t.result.slice(0, 600))}</pre>`).join("")}</details></div>`).join("")
+  : '<p class="muted">Agent demo not run yet.</p>';
+
+// tooltips for chart marks
+const tip = $("#tip");
+document.addEventListener("pointermove", (e) => {
+  const t = e.target.closest("[data-tip]");
+  if (!t) { tip.hidden = true; return; }
+  tip.textContent = t.dataset.tip; tip.hidden = false;
+  tip.style.left = Math.min(e.clientX + 12, innerWidth - 290) + "px"; tip.style.top = (e.clientY + 14) + "px";
+});
+</script>

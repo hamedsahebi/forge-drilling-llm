@@ -1,0 +1,411 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    88,
+    89,
+    90
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 169.74374508857727,
+    "prompt_tokens": 31335,
+    "output_tokens": 2544,
+    "sanity_flags": [
+      "bits.0.wob_klbf=230.0"
+    ],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 15,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": null,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 0.0
+      },
+      {
+        "section": "INT1",
+        "od_in": null,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 9500.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "1",
+        "size_in": 5.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 8555.0,
+        "depth_out_ft": 945.0,
+        "wob_klbf": null,
+        "rpm": 30.0,
+        "rop_ft_hr": 120.0
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 15,
+      "mapped": 15
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 33,
+      "report_date": "2021-07-29",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 9500.0,
+      "tvd_ft": 9497.0,
+      "footage_24h_ft": null,
+      "hole_size_in": 5.75,
+      "current_operation": "Tripped in the hole with 5-3/4\" slick assembly to 5,000' at report time.",
+      "planned_operation": "Trip in the hole to 6,000'. Lay out 3.5\" drill pipe to BHA. Trip in the hole with remaining drill pipe and lay out same. Lay out BHA. Nipple down 7-1/16\" 10K BOP's."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 9500.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "17",
+        "size_in": 5.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 8555.0,
+        "depth_out_ft": null,
+        "wob_klbf": 30.0,
+        "rpm": 30.0,
+        "rop_ft_hr": 99.5
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "2 MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "30 DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "0:30",
+        "hours": 0.5,
+        "end_md_ft": 8995.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 8,950' to 8,995'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "0:30",
+        "end": "1:00",
+        "hours": 0.5,
+        "end_md_ft": 9031.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide Drilled 5-3/4\" from 8,995' to 9,031'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:00",
+        "end": "2:00",
+        "hours": 1.0,
+        "end_md_ft": 9184.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 9,031' to 9,184'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "3:00",
+        "hours": 1.0,
+        "end_md_ft": 9225.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide Drilled 5-3/4\" from 9,184' to 9,225'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:00",
+        "end": "4:00",
+        "hours": 1.0,
+        "end_md_ft": 9373.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 9,225' to 9,373'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:00",
+        "end": "5:00",
+        "hours": 1.0,
+        "end_md_ft": 9406.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide Drilled 5-3/4\" from 9,373' to 9,406'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:00",
+        "end": "6:00",
+        "hours": 1.0,
+        "end_md_ft": 9500.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 9,406' to 9,500'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "7:00",
+        "hours": 1.0,
+        "end_md_ft": 9225.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated hole clean at TD.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "7:00",
+        "end": "12:00",
+        "hours": 5.0,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out of the hole from 9,500' to BHA.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:00",
+        "end": "13:00",
+        "hours": 1.0,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Laid down directional tools.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-34-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "13:30",
+        "hours": 0.5,
+        "end_md_ft": 9225.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Lay down all directional tools",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:30",
+        "end": "14:00",
+        "hours": 0.5,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Serviced Rig.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-6-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:00",
+        "end": "17:30",
+        "hours": 3.5,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole w/ same bit, BS w/ a float and all DCS",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:30",
+        "end": "20:00",
+        "hours": 2.5,
+        "end_md_ft": 9225.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated to cool well bore while waiting on loggers.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:00",
+        "end": "0:00",
+        "hours": 4.0,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out of the hole from 9,500' to surface with no issues.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      }
+    ],
+    "events": [],
+    "summary": "Drilling operations continued on Forge 78B-32, with a total of 550 feet of hole made in the past 24 hours using a 5-3/4\" bit. The well was tripped out to surface without issues and logging equipment is being prepared for deployment."
+  }
+}

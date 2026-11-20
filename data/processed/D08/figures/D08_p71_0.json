@@ -1,0 +1,83 @@
+{
+  "doc_id": "D08",
+  "page": 71,
+  "bbox": [
+    86.0,
+    106.2,
+    525.8,
+    648.2
+  ],
+  "source": "raster",
+  "caption": "Figure 44: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 9)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p71_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 24.1796612739563,
+    "prompt_tokens": 1594,
+    "output_tokens": 406
+  },
+  "data": {
+    "transcription": "The figure shows a drilling log with various parameters monitored during the drilling of an 8-3/4 inch hole section. The data is recorded at different times and depths, indicating changes in mechanical specific energy (MSE), convertible torque, rate of penetration (ROP), differential pressure, bit RPM, weight on bit (WOB), depth of cut, and other related parameters.",
+    "description": "The figure provides a detailed view of the drilling process for well 56-32. It captures changes in various operational metrics such as MSE, torque, ROP, and WOB over time and depth. This information is crucial for understanding the efficiency and effectiveness of the drilling operation.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE Total",
+        "unit": "Units",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "klbf",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "ft/hr",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Bit RPM",
+        "unit": "RPM",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit",
+        "unit": "klbs",
+        "trend": null
+      },
+      {
+        "name": "Rotary RPM",
+        "unit": "RPM",
+        "trend": null
+      },
+      {
+        "name": "Depth of Cut",
+        "unit": "in",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE Total = 0.00 Units",
+      "Convertible Torque = 50.00 klbf",
+      "On Bottom ROP = 1000.00 ft/hr",
+      "Differential Pressure = 0 psi",
+      "Bit RPM = 300 RPM",
+      "Weight on Bit = 40.0 klbs",
+      "Rotary RPM = 150.00 RPM",
+      "Depth of Cut = 2.00 in"
+    ]
+  }
+}

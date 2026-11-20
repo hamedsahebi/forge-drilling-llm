@@ -1,0 +1,163 @@
+{
+  "doc_id": "D08",
+  "page": 1,
+  "bbox": [
+    93.4,
+    344.1,
+    518.6,
+    581.8
+  ],
+  "source": "raster",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p1_1.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 32.41099739074707,
+    "prompt_tokens": 1280,
+    "output_tokens": 585
+  },
+  "data": {
+    "transcription": "The figure is a map of the United States with various organizations and entities represented by their logos. The map includes state boundaries, and there are yellow dots scattered across different states indicating locations or points of interest. Each logo represents an organization involved in geoscience research or energy-related activities. The map also includes smaller maps on the right side showing regions outside the U.S., specifically Switzerland (GEO ENERGIE SUISSE), China, and New Zealand.",
+    "description": "The figure illustrates a collaborative network of organizations engaged in geoscience and energy research across various states within the United States. The presence of logos from entities such as the Energy & Geoscience Institute at the University of Utah, U.S. Department of Energy, and others suggests a focus on research and development activities related to energy resources and environmental sustainability. The yellow dots likely represent specific locations where these organizations conduct fieldwork or have significant projects.",
+    "kind": "map",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Energy & Geoscience Institute (EGI)",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Utah Geological Survey",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "U.S. Department of Energy",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Golder",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Smithfield",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "US Solar Fund",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Utah Division of State History",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Utah Division of Water Rights",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Geothermal Resource Group",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "SWCA",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "INL Idaho National Laboratory",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "ITASCA Consulting Group, Inc.",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "WISCONSIN",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "U.S. Department of the Interior Bureau of Land Management",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "The University of North Carolina at Chapel Hill",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Schlumberger",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "NREL National Renewable Energy Laboratory",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "HOT ROCK MANAGEMENT SERVICES",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "BHA Bottom Hole Assembly",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "HWDP Heavy Weight Drill Pipe",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "DC Drill Collar",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "SPP Standpipe Pressure",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "BOPE Blowout Preventer Equipment",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "SEEQUENT",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE = mechanical specific energy",
+      "ROP = rate of penetration",
+      "WOB = weight on bit",
+      "BHA = bottom-hole assembly",
+      "HWDP = heavy-weight drill pipe",
+      "DC = drill collar",
+      "SPP = standpipe pressure",
+      "BOPE = blowout preventer equipment"
+    ]
+  }
+}

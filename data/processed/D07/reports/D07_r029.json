@@ -1,0 +1,219 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    77,
+    78
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 92.77383065223694,
+    "prompt_tokens": 21947,
+    "output_tokens": 1379,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 5,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 38.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 5,
+      "mapped": 5
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 29,
+      "report_date": "2021-07-25",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8545.0,
+      "tvd_ft": 8543.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Finish nippling down 13-5/8 BOPE. Install the 7\" 10K wellhead, nipple up and test the 7-1/16\" 10K BOP's."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 38.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "2:30",
+        "hours": 2.5,
+        "end_md_ft": 8545.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated at 16 bbl's per min to cool well bore.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "cementing",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:30",
+        "end": "6:00",
+        "hours": 3.5,
+        "end_md_ft": 8545.0,
+        "activity": "cementing",
+        "is_npt": false,
+        "description": "Held safety meeting with all involved personal. Swapped lines to cement truck. Pumped cement as followed. Fill lines, pressure tested lines to 5,500 psi. Pumped 100 bbls of fresh water spacer@ 5 bpm. Pumped 20 bbls of RC Mud cleaner spacer @ 5 bpm. Pumped 10 bbls of fresh water spacer @ 5 bpm. Mixed and pumped 809 bbls of 12.7 ppg RC ThermaLite-HT cement @ 8 bpm. Note: Last 80 bbls of cement has 1.3% of retarder. Dropped top plug and displaced with 273 bbls of fresh water. Bumped plug with 500 psi over circulating pressure at 3385 psi. CIP at 06:16 HRS on 7-25-2021.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "cementing",
+        "activity_code": "5-12-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "12:00",
+        "hours": 6.0,
+        "end_md_ft": 8545.0,
+        "activity": "waiting",
+        "is_npt": false,
+        "description": "Waited on cement while holding between 2800 psi and 3000 psi pressure on inside of casing. Cement fell to 95' below KB.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "3-13",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:00",
+        "end": "13:00",
+        "hours": 1.0,
+        "end_md_ft": 8545.0,
+        "activity": "cementing",
+        "is_npt": false,
+        "description": "Mixed and pump 6 bbls of neat cement filling annulus from 95' to surface / CIP 13:00",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "cementing",
+        "activity_code": "5-12-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "0:00",
+        "hours": 11.0,
+        "end_md_ft": 8545.0,
+        "activity": "waiting",
+        "is_npt": false,
+        "description": "Waited on cement. Monitored cement samples while waiting on cement. Monitored temperature at 3,998' with Silixa fiber-optic cable. Monitored casing pressure with Resources Cementing. Bleeding pressure Note: Temperature at 4,200' monitored with Silixa cable at 197 degrees fahrenheit. at 1100 hrs final temp at 0000 hrs reached 208 degrees fahrenheit.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "3-13",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "6:00",
+        "description": "Waited on cement while holding between 2800 psi and 3000 psi pressure on inside of casing. Cement fell to 95' below KB."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "12:00",
+        "description": "Mixed and pump 6 bbls of neat cement filling annulus from 95' to surface / CIP 13:00"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 8545.0,
+        "time": "13:00",
+        "description": "Waited on cement. Monitored cement samples while waiting on cement. Monitored temperature at 3,998' with Silixa fiber-optic cable. Monitored casing pressure with Resources Cementing. Bleeding pressure Note: Temperature at 4,200' monitored with Silixa cable at 197 degrees fahrenheit. at 1100 hrs final temp at 0000 hrs reached 208 degrees fahrenheit."
+      }
+    ],
+    "summary": "The report details a day of waiting on cement after completing casing operations, with activities including circulating mud, safety meetings, cement pumping, and monitoring temperature and pressure. No incidents or events were reported."
+  }
+}

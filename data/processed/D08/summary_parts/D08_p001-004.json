@@ -1,0 +1,48 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    1,
+    4
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 15.749283790588379,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "Forge Seismic Monitoring Well 56-32",
+    "purpose": "Seismic Monitoring",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": null,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [
+      {
+        "section": "13-3/8 in. Casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 350.0
+      },
+      {
+        "section": "9-5/8 in. Casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 3500.0
+      },
+      {
+        "section": "5-1/2 in. Liner",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 9105.0
+      }
+    ],
+    "bits": [],
+    "events": [],
+    "lessons_learned": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "D10",
+  "page": 3,
+  "bbox": [
+    0.0,
+    0.0,
+    750.7,
+    503.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D10\\figures\\D10_p3_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 19.33235454559326,
+    "prompt_tokens": 2322,
+    "output_tokens": 327
+  },
+  "data": {
+    "transcription": "WOB 6k\nRPM 47\nPP 2200\nSPM 131/0/122\nROP 80\nWOB 2k\nRPM 77\nPP 2320\nSPM 122/0/123",
+    "description": "The figure is a mud log from well 78B-32, page 3. It provides drilling data such as weight on bit (WOB), revolutions per minute (RPM), pump pressure (PP), and standpipe pressure (SPM). The ROP values are also shown for different sections of the borehole.",
+    "kind": "mud_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "WOB",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "RPM",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "PP",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "SPM",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "ROP",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "WOB = 6k",
+      "RPM = 47",
+      "PP = 2200",
+      "SPM = 131/0/122",
+      "ROP = 80",
+      "WOB = 2k",
+      "RPM = 77",
+      "PP = 2320",
+      "SPM = 122/0/123"
+    ]
+  }
+}

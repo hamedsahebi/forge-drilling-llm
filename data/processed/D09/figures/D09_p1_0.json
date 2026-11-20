@@ -1,0 +1,77 @@
+{
+  "doc_id": "D09",
+  "page": 1,
+  "bbox": [
+    0.0,
+    0.0,
+    612.0,
+    792.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "                                                                                                                                        Mon Nov 22, 2021 16:59:15\n         DataHub               EDR         Log                                                                                             Well Dossier 27200701\n                                                                                                                                                  Gosia Skowron\n            OPERATOR:         University   of Utah                                   CONTRACTOR:               Frontier  Drilling (Utah)\n            WELL:             78  B-32  (WOO     - 1)                                UNIQUE     WELL     ID:\n            FIELD:            FORGE     UTAH                                         SPUD    DATE:             Jun  28,  2021   00:15\n            LOCATION:                                                                RELEASE      DATE:        Aug   01, 2021   00:00\n            COUNTRY:          USA                                                    FROM    DATE:             Jun  28,  2021   00:00\n            RIG:              Frontier  (Utah)   16                                  TO  DATE:                 Oct  27,  2021   23:59\n                                       Hook  Load                Convertible  Torque             On  Bottom   Hours\n                              0.0          (klbs)     150.0  0.00        (kf-lbf)   10.00   0.00         (hrs)    100.00\n                                     Weight   on Bit               On  Bottom  ROP               Circulating  Hours\n                              0.0          (klbs)      30.0  0.00        (ft/hr)   100.00   0.0          (hrs)     100.0\n              BIT DEPTH\n                                      Rotary  RPM                        Flow                   Total  Mud  Volume            TVD\n                  FT\n                              0.00        (RPM)     200.00   0.00       (percent)  100.00   0.00       (barrels)  200.00       FT              MEMOS\n          23:55\n              Jun 27, 2021\n                          20\n          00:05 Jun 28, 2021\n                          19\n                          19\n          00:15\n                          16\n                          15\n                          20\n          00:25\n                          50\n                          51\n                                                                                                                                       06/28 00:39:49:\n                          45                                                                                                           HOOKLOAD    WAS\n                                                                                                                                       RECALIBRATED.\n          00:35\n                                                                                                                                      ",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D09\\figures\\D09_p1_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 33.68635630607605,
+    "prompt_tokens": 3524,
+    "output_tokens": 513
+  },
+  "data": {
+    "transcription": "DataHub EDR Log\nOPERATOR: University of Utah\nWELL: 78 B-32 (WOO - 1)\nFIELD: FORGE UTAH\nLOCATION: USA\nRIG: Frontier (Utah) 16\nCONTRACTOR: Frontier Drilling (Utah)\nUNIQUE WELL ID:\nSPUD DATE: Jun 28, 2021 00:15\nRELEASE DATE: Aug 01, 2021 00:00\nFROM DATE: Jun 28, 2021 00:00\nTO DATE: Oct 27, 2021 23:59\n",
+    "description": "The figure is a DataHub EDR Log for well 78 B-32 (WOO - 1) operated by the University of Utah and drilled by Frontier Drilling (Utah). The log provides drilling data from June 28, 2021 to October 27, 2021. It includes various parameters such as Hook Load, Convertible Torque, Weight on Bit, On Bottom Hours, Rotary RPM, Flow, and Total Mud Volume.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Hook Load",
+        "unit": "(klbs)",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "(kf-lbf)",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit",
+        "unit": "(klbs)",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "(ft/hr)",
+        "trend": null
+      },
+      {
+        "name": "Rotary RPM",
+        "unit": "(RPM)",
+        "trend": null
+      },
+      {
+        "name": "Flow",
+        "unit": "(percent)",
+        "trend": null
+      },
+      {
+        "name": "Total Mud Volume",
+        "unit": "(barrels)",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Hook Load = 0.0 (klbs)",
+      "Convertible Torque = 150.0 (kf-lbf)",
+      "Weight on Bit = 30.0 (klbs)",
+      "On Bottom ROP = 100.00 (ft/hr)",
+      "Rotary RPM = 200.00 (RPM)",
+      "Flow = 100.00 (percent)",
+      "Total Mud Volume = 200.00 (barrels)"
+    ]
+  }
+}

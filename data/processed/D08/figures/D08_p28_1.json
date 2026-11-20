@@ -1,0 +1,33 @@
+{
+  "doc_id": "D08",
+  "page": 28,
+  "bbox": [
+    311.9,
+    222.8,
+    521.6,
+    502.5
+  ],
+  "source": "raster",
+  "caption": "Figure 9: 20 in. conductor pipe",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p28_1.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 7.260982513427734,
+    "prompt_tokens": 1295,
+    "output_tokens": 79
+  },
+  "data": {
+    "transcription": "none",
+    "description": "The figure shows a close-up view of a 20-inch conductor pipe, which is part of the well casing. The pipe appears to be partially inserted into a metal frame or support structure, possibly for storage or maintenance purposes.",
+    "kind": "photo",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [],
+    "key_values": []
+  }
+}

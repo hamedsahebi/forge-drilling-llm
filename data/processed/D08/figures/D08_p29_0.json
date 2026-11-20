@@ -1,0 +1,33 @@
+{
+  "doc_id": "D08",
+  "page": 29,
+  "bbox": [
+    77.6,
+    106.4,
+    292.2,
+    392.6
+  ],
+  "source": "raster",
+  "caption": "Figure 11: Cellar with conductor and mouse hole in cemented cellar",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p29_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 7.42533278465271,
+    "prompt_tokens": 1300,
+    "output_tokens": 83
+  },
+  "data": {
+    "transcription": "none",
+    "description": "The figure shows a construction site where two cylindrical objects, likely drill collars or casing sections, are partially buried in the ground. The background includes a corrugated metal structure and some soil. There is no text or numerical data within the image.",
+    "kind": "photo",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [],
+    "key_values": []
+  }
+}

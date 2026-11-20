@@ -1,0 +1,77 @@
+{
+  "doc_id": "D08",
+  "page": 66,
+  "bbox": [
+    72.0,
+    106.2,
+    542.6,
+    661.5
+  ],
+  "source": "raster",
+  "caption": "Figure 39: MSE monitored parameters while drilling the 12-1/4 in. hole section (Bit # 3)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p66_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 24.58926558494568,
+    "prompt_tokens": 1710,
+    "output_tokens": 407
+  },
+  "data": {
+    "transcription": "The figure is a multi-axis plot showing various drilling parameters over time and depth. The axes are labeled as follows: Depth FT, MSE Total (Units), Weight on Bit (kN), Convertible Torque (kN-m), On Board ROP (m/min), Differential Pressure (psi), Bit RPM (RPM), and Bit Torque (kN-m). There is no machine-readable text within the figure area.",
+    "description": "The plot displays drilling performance metrics such as mechanical specific energy, weight on bit, torque, rate of penetration, differential pressure, and other operational parameters. The data points are plotted against depth in feet and time in hours:minutes format. The curves show fluctuations over time which can be indicative of changes in drilling conditions or issues encountered during the operation.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE Total",
+        "unit": "Units",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit",
+        "unit": "kN",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "kN-m",
+        "trend": null
+      },
+      {
+        "name": "On Board ROP",
+        "unit": "m/min",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Bit RPM",
+        "unit": "RPM",
+        "trend": null
+      },
+      {
+        "name": "Bit Torque",
+        "unit": "kN-m",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE Total = 200.00 Units",
+      "Weight on Bit = 40.0 kN",
+      "Convertible Torque = 50.00 kN-m",
+      "On Board ROP = 1000.00 m/min",
+      "Differential Pressure = 1000.00 psi",
+      "Bit RPM = 200 RPM",
+      "Bit Torque = 2 kN-m"
+    ]
+  }
+}

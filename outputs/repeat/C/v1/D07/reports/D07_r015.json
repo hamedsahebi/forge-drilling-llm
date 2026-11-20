@@ -1,0 +1,570 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    40,
+    41,
+    42
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 258.4676992893219,
+    "prompt_tokens": 40824,
+    "output_tokens": 3726,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 17,
+      "marks": 8,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 22.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 0.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 17,
+      "mapped": 16
+    },
+    "llm_mud": [
+      {
+        "depth_ft": 6700.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 900.0
+      },
+      {
+        "depth_ft": 6700.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 900.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 15,
+      "report_date": "2021-07-11",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 6700.0,
+      "tvd_ft": 6699.0,
+      "footage_24h_ft": 879.0,
+      "hole_size_in": 10.625,
+      "current_operation": "Tripping in the hole with 8-3/4\" coring assembly at 4,000'",
+      "planned_operation": "Trip in the hole with 8-3/4\" coring assembly. Core 8-3/4\" hole from 6,700'."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 6700.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 900.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "9",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TKC83",
+        "serial_number": null,
+        "depth_in_ft": 5821.0,
+        "depth_out_ft": 6700.0,
+        "wob_klbf": 65.0,
+        "rpm": 50.0,
+        "rop_ft_hr": 73.2
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 11,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 5354.0,
+        "inclination_deg": 1.12,
+        "azimuth_deg": 247.8,
+        "tvd_ft": 5353.1
+      },
+      {
+        "md_ft": 5499.0,
+        "inclination_deg": 1.46,
+        "azimuth_deg": 260.8,
+        "tvd_ft": 5498.0
+      },
+      {
+        "md_ft": 5545.0,
+        "inclination_deg": 2.01,
+        "azimuth_deg": 268.4,
+        "tvd_ft": 5544.0
+      },
+      {
+        "md_ft": 5640.0,
+        "inclination_deg": 1.97,
+        "azimuth_deg": 247.9,
+        "tvd_ft": 5639.0
+      },
+      {
+        "md_ft": 5736.0,
+        "inclination_deg": 1.56,
+        "azimuth_deg": 198.0,
+        "tvd_ft": 5734.9
+      },
+      {
+        "md_ft": 5832.0,
+        "inclination_deg": 1.57,
+        "azimuth_deg": 189.1,
+        "tvd_ft": 5830.9
+      },
+      {
+        "md_ft": 5927.0,
+        "inclination_deg": 1.77,
+        "azimuth_deg": 197.9,
+        "tvd_ft": 5925.8
+      },
+      {
+        "md_ft": 6022.0,
+        "inclination_deg": 1.47,
+        "azimuth_deg": 189.1,
+        "tvd_ft": 6020.8
+      },
+      {
+        "md_ft": 6117.0,
+        "inclination_deg": 1.1,
+        "azimuth_deg": 155.5,
+        "tvd_ft": 6115.8
+      },
+      {
+        "md_ft": 6307.0,
+        "inclination_deg": 1.06,
+        "azimuth_deg": 132.5,
+        "tvd_ft": 6305.7
+      },
+      {
+        "md_ft": 6402.0,
+        "inclination_deg": 1.07,
+        "azimuth_deg": 123.7,
+        "tvd_ft": 6400.7
+      },
+      {
+        "md_ft": 6497.0,
+        "inclination_deg": 0.71,
+        "azimuth_deg": 100.2,
+        "tvd_ft": 6495.7
+      },
+      {
+        "md_ft": 6592.0,
+        "inclination_deg": 0.88,
+        "azimuth_deg": 33.2,
+        "tvd_ft": 6590.7
+      },
+      {
+        "md_ft": 6635.0,
+        "inclination_deg": 0.77,
+        "azimuth_deg": 56.7,
+        "tvd_ft": 6633.7
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "1:15",
+        "hours": 1.25,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Tripped in the hole from 1,000' to 3,245'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:15",
+        "end": "1:30",
+        "hours": 0.25,
+        "end_md_ft": 5821.0,
+        "activity": "circulating",
+        "is_npt": true,
+        "description": "Broke circulation at 3,245' to cool tools",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:30",
+        "end": "2:00",
+        "hours": 0.5,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Tripped in the hole from 3,245' to 4,192'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "2:15",
+        "hours": 0.25,
+        "end_md_ft": 5821.0,
+        "activity": "circulating",
+        "is_npt": true,
+        "description": "Broke circulation at 4,192' to cool tools",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:15",
+        "end": "2:45",
+        "hours": 0.5,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Tripped in the hole from 4,192' to 5,200'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:45",
+        "end": "3:00",
+        "hours": 0.25,
+        "end_md_ft": 5821.0,
+        "activity": "circulating",
+        "is_npt": true,
+        "description": "Broke circulation at 5,200' to cool tools. Washed down from 5,200' to 5,821'",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:00",
+        "end": "3:15",
+        "hours": 0.25,
+        "end_md_ft": 5821.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Tripped in the hole from 5,200' to 5,710'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:15",
+        "end": "3:30",
+        "hours": 0.25,
+        "end_md_ft": 5821.0,
+        "activity": "circulating",
+        "is_npt": true,
+        "description": "Broke circulation at 5,710' to cool tools. Washed down from 5,710' to 5,821'",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:30",
+        "end": "6:00",
+        "hours": 2.5,
+        "end_md_ft": 6087.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drill 10-5/8\" hole from 5,821' to 6,087'. Performed WOB step test @ 5,900'. Performed RPM step test @ 5,920'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "6:30",
+        "hours": 0.5,
+        "end_md_ft": 6108.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide Drill from 6,087' to 6,108'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:30",
+        "end": "14:00",
+        "hours": 7.5,
+        "end_md_ft": 6561.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drill 10-5/8\" hole from 6,108' to 6,561' with 65K WOB, 800 GPM and 40-50 surface RPM. Dump 180 bbl from active system and add 150 bbl fresh water to system",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:00",
+        "end": "14:30",
+        "hours": 0.5,
+        "end_md_ft": 6561.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Service rig and top drive while circulating on bottom with 1 pump to keep MWD cool",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:30",
+        "end": "16:00",
+        "hours": 1.5,
+        "end_md_ft": 6700.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drill 10-5/8\" hole from 6,561' to 6,700' with 65K WOB, 820 GPM and 51 surface RPM with no losses or hole issues: MWD temp has risen from 170F to 176F in the last 500' of drilling",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "hours": 0.5,
+        "end_md_ft": 6700.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulate bottoms up while allowing weight to drill off",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "20:00",
+        "hours": 3.5,
+        "end_md_ft": 6700.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Trip out of the hole from 6,700' to BHA. 30-40k over-pull.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "10-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:00",
+        "end": "23:30",
+        "hours": 3.5,
+        "end_md_ft": 6700.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Racked back HWDP along with 8' drill collars. Laid out all directional tools. Motor drained good with minimal movement in bearing assembly. Sleeve stab on motor had one blade completely worn off.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:30",
+        "end": "0:00",
+        "hours": 0.5,
+        "end_md_ft": 6700.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Cleaned and cleared rig floor. Laid out 15 joints of 5.5\" drill pipe on racks and strapped same.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 5821.0,
+        "time": "1:15",
+        "description": "Broke circulation at 3,245' to cool tools"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 5821.0,
+        "time": "2:00",
+        "description": "Broke circulation at 4,192' to cool tools"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 5821.0,
+        "time": "2:45",
+        "description": "Broke circulation at 5,200' to cool tools. Washed down from 5,200' to 5,821'"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 5821.0,
+        "time": "3:15",
+        "description": "Broke circulation at 5,710' to cool tools. Washed down from 5,710' to 5,821'"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 6561.0,
+        "time": "14:00",
+        "description": "Service rig and top drive while circulating on bottom with 1 pump to keep MWD cool"
+      }
+    ],
+    "summary": "Drilling continued with 10-5/8\" hole from 5,821' to 6,700' with no losses or hole issues, followed by tripping out of the hole and racking back HWDP and drill collars."
+  }
+}

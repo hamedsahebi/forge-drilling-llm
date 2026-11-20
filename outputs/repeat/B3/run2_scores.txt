@@ -1,0 +1,82 @@
+                            fields     acc  recall    prec  wrong missed  extra
+TOTAL                         1515   0.964   0.972   0.968     34      7     13
+-- by_group
+D07                           1338   0.972   0.981   0.973     22      3     13
+other                          177    0.91   0.902   0.925     12      4      0
+-- by_prefill
+claude                         351   0.974   0.977   0.979      6      2      1
+model                         1164   0.961    0.97   0.964     28      5     12
+-- by_table
+bits                           159   0.937     1.0   0.921      0      0     10
+casing                         175     1.0     1.0     1.0      0      0      0
+header                         120   0.908   0.926   0.962      1      7      3
+mud                             77     1.0     1.0     1.0      0      0      0
+operations                     924   0.964   0.964   0.964     33      0      0
+surveys                         60     1.0     1.0     1.0      0      0      0
+-- by_field
+bits.bit_number                 16   0.938     1.0   0.938      0      0      1
+bits.bit_type                   16   0.938     1.0   0.938      0      0      1
+bits.depth_in_ft                16   0.938     1.0   0.938      0      0      1
+bits.depth_out_ft               16   0.875     1.0   0.818      0      0      2
+bits.manufacturer               16   0.938     1.0   0.938      0      0      1
+bits.rop_ft_hr                  16   0.938     1.0   0.929      0      0      1
+bits.rpm                        16   0.938     1.0   0.909      0      0      1
+bits.serial_number              15     1.0       -       -      0      0      0
+bits.size_in                    16   0.938     1.0   0.938      0      0      1
+bits.wob_klbf                   16   0.938     1.0   0.909      0      0      1
+casing.grade                    35     1.0     1.0     1.0      0      0      0
+casing.od_in                    35     1.0     1.0     1.0      0      0      0
+casing.section                  35     1.0     1.0     1.0      0      0      0
+casing.shoe_md_ft               35     1.0     1.0     1.0      0      0      0
+casing.weight_ppf               35     1.0     1.0     1.0      0      0      0
+header.footage_24h_ft           15   0.733     0.7   0.875      0      3      1
+header.hole_size_in             15     0.6   0.556   0.714      0      4      2
+header.md_ft                    15     1.0     1.0     1.0      0      0      0
+header.report_date              15   0.933   0.933   0.933      1      0      0
+header.report_number            15     1.0     1.0     1.0      0      0      0
+header.report_type              15     1.0     1.0     1.0      0      0      0
+header.rig                      15     1.0     1.0     1.0      0      0      0
+header.tvd_ft                   15     1.0     1.0     1.0      0      0      0
+mud.chlorides_mg_l              11     1.0     1.0     1.0      0      0      0
+mud.density_ppg                 11     1.0     1.0     1.0      0      0      0
+mud.depth_ft                    11     1.0     1.0     1.0      0      0      0
+mud.funnel_viscosity_s          11     1.0     1.0     1.0      0      0      0
+mud.ph                          11     1.0     1.0     1.0      0      0      0
+mud.pv_cp                       11     1.0     1.0     1.0      0      0      0
+mud.yp_lbf_100ft2               11     1.0     1.0     1.0      0      0      0
+operations.activity            154   0.812   0.812   0.812     29      0      0
+operations.end                 154     1.0     1.0     1.0      0      0      0
+operations.end_md_ft           154     1.0     1.0     1.0      0      0      0
+operations.hours               154     1.0     1.0     1.0      0      0      0
+operations.is_npt              154   0.974   0.974   0.974      4      0      0
+operations.start               154     1.0     1.0     1.0      0      0      0
+surveys.azimuth_deg             15     1.0     1.0     1.0      0      0      0
+surveys.inclination_deg         15     1.0     1.0     1.0      0      0      0
+surveys.md_ft                   15     1.0     1.0     1.0      0      0      0
+surveys.tvd_ft                  15     1.0     1.0     1.0      0      0      0
+-- activity_by_source
+activity@code                  120   0.933   0.933   0.933      8      0      0
+activity@llm                    34   0.382   0.382   0.382     21      0      0
+-- left out of totals
+casing.id_in                    35   0.886       -       -      0      4      0
+bha                             86     0.0       -       -      0      0     86
+-- activity confusion (label -> model)
+    5  rig_up_down -> drilling
+    3  logging_survey -> casing
+    2  waiting -> other
+    2  tripping -> rig_up_down
+    2  other -> drilling
+    2  rig_up_down -> casing
+    2  wellbore_problem -> drilling
+    1  completion -> wellbore_problem
+    1  tripping -> wellbore_problem
+    1  rig_repair -> waiting
+    1  bop_testing -> drilling
+    1  tripping -> circulating
+    1  tripping -> drilling
+    1  rig_up_down -> tripping
+    1  drilling -> tripping
+    1  logging_survey -> tripping
+    1  casing -> drilling
+    1  rig_up_down -> other
+-> D:\personalProjects\llm_paper\outputs\repeat\B3\run2_scores.json

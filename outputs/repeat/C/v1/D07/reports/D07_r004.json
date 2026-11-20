@@ -1,0 +1,467 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    10,
+    11,
+    12
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 216.44967770576477,
+    "prompt_tokens": 38634,
+    "output_tokens": 2986,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 16,
+      "marks": 3,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 16,
+      "mapped": 16
+    },
+    "llm_mud": [
+      {
+        "depth_ft": 2697.0,
+        "density_ppg": 9.1,
+        "funnel_viscosity_s": 42.0,
+        "pv_cp": 14.0,
+        "yp_lbf_100ft2": 13.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "2",
+        "size_in": 14.75,
+        "manufacturer": "BAKER",
+        "bit_type": "GT-C1",
+        "serial_number": null,
+        "depth_in_ft": 360.0,
+        "depth_out_ft": 433.0,
+        "wob_klbf": null,
+        "rpm": 80.0,
+        "rop_ft_hr": 55.3
+      },
+      {
+        "bit_number": "3",
+        "size_in": 14.75,
+        "manufacturer": "NOV",
+        "bit_type": "TKC66",
+        "serial_number": null,
+        "depth_in_ft": 433.0,
+        "depth_out_ft": 2699.0,
+        "wob_klbf": null,
+        "rpm": 9.0,
+        "rop_ft_hr": 151.1
+      }
+    ],
+    "bits_source": "table",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 4,
+      "report_date": "2021-06-30",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 2699.0,
+      "tvd_ft": 2699.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Drill 14 3/4\" section to casing point."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 2697.0,
+        "density_ppg": 9.1,
+        "funnel_viscosity_s": 42.0,
+        "pv_cp": 14.0,
+        "yp_lbf_100ft2": 13.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "2",
+        "size_in": 14.75,
+        "manufacturer": "BAKER",
+        "bit_type": "GT-C1",
+        "serial_number": null,
+        "depth_in_ft": 360.0,
+        "depth_out_ft": 433.0,
+        "wob_klbf": 40.0,
+        "rpm": 80.0,
+        "rop_ft_hr": 55.3
+      },
+      {
+        "bit_number": "3",
+        "size_in": 14.75,
+        "manufacturer": "NOV",
+        "bit_type": "TKC66",
+        "serial_number": null,
+        "depth_in_ft": 433.0,
+        "depth_out_ft": 2699.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 151.1
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "14 3/4\" RSS BHA",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "8\" drill collars",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "3 stands of 8\" drill collars",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 545.0,
+        "inclination_deg": 0.17,
+        "azimuth_deg": 93.9,
+        "tvd_ft": 545.0
+      },
+      {
+        "md_ft": 731.0,
+        "inclination_deg": 0.07,
+        "azimuth_deg": 271.8,
+        "tvd_ft": 731.0
+      },
+      {
+        "md_ft": 822.0,
+        "inclination_deg": 0.12,
+        "azimuth_deg": 37.4,
+        "tvd_ft": 822.0
+      },
+      {
+        "md_ft": 914.0,
+        "inclination_deg": 0.15,
+        "azimuth_deg": 342.6,
+        "tvd_ft": 914.0
+      },
+      {
+        "md_ft": 1005.0,
+        "inclination_deg": 0.47,
+        "azimuth_deg": 187.3,
+        "tvd_ft": 1005.0
+      },
+      {
+        "md_ft": 1101.0,
+        "inclination_deg": 0.19,
+        "azimuth_deg": 350.9,
+        "tvd_ft": 1101.0
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "3:30",
+        "hours": 3.5,
+        "end_md_ft": 433.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Picked up 14 3/4\" RSS BHA to 433'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:30",
+        "end": "4:15",
+        "hours": 0.75,
+        "end_md_ft": 665.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14 3/4\" hole from 433' to 665' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:15",
+        "end": "4:30",
+        "hours": 0.25,
+        "end_md_ft": 665.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated hole clean to rack back HWDP and place 3 stands of 8\" drill collars into BHA.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "03-051",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:30",
+        "end": "5:30",
+        "hours": 1.0,
+        "end_md_ft": 665.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pulled out of the hole from 665' to 389'. Racked back 3 stands of HWDP. Installed 3 stands of 8\" drill collars into the BHA. Tripped in the hole to 665'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:30",
+        "end": "6:00",
+        "hours": 0.5,
+        "end_md_ft": 858.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14 3/4\" hole from 665' to 858 with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "10:00",
+        "hours": 4.0,
+        "end_md_ft": 2077.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14-3/4\" hole from 858' to 2,077' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:00",
+        "end": "10:30",
+        "hours": 0.5,
+        "end_md_ft": 2077.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced rig / torqued saver sub",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:30",
+        "end": "11:00",
+        "hours": 0.5,
+        "end_md_ft": 2232.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14-3/4\" hole from 2,077' to 2,232' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:00",
+        "end": "11:30",
+        "hours": 0.5,
+        "end_md_ft": 2232.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Rig blacked out / cleaned #2 generator radiator due to overheating.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:30",
+        "end": "12:30",
+        "hours": 1.0,
+        "end_md_ft": 2359.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14-3/4\" hole from 2,232' to 2,359' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:30",
+        "end": "13:30",
+        "hours": 1.0,
+        "end_md_ft": 2359.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Rig Repair cleaned #1 generator radiator due to overheating.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:30",
+        "end": "14:00",
+        "hours": 0.5,
+        "end_md_ft": 2399.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14-3/4\" hole from 2,359' to 2,399' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:00",
+        "end": "15:30",
+        "hours": 1.5,
+        "end_md_ft": 2399.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Rig Repairs cleaned #3 generator radiator due to overheating.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:30",
+        "end": "21:15",
+        "hours": 5.75,
+        "end_md_ft": 2699.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 14-3/4\" hole from 2,399' to 2,699' with full returns.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:15",
+        "end": "22:00",
+        "hours": 0.75,
+        "end_md_ft": 2699.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulate hole clean. Pump 15 bbl slug.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:00",
+        "end": "0:00",
+        "hours": 2.0,
+        "end_md_ft": 2699.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pull out of the hole from 2,699' to 951'. Tight hole encountered from 2,351' to 1,799' 50-100k over string weight. Extended trip time due to tight connections and using rig tongs. Removed rotating rubber at 850'.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 2232.0,
+        "time": "11:00",
+        "description": "Rig blacked out / cleaned #2 generator radiator due to overheating."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 2359.0,
+        "time": "12:30",
+        "description": "Rig Repair cleaned #1 generator radiator due to overheating."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 2399.0,
+        "time": "14:00",
+        "description": "Rig Repairs cleaned #3 generator radiator due to overheating."
+      },
+      {
+        "event_type": "tight_hole",
+        "depth_ft": 2699.0,
+        "time": "22:00",
+        "description": "Pull out of the hole from 2,699' to 951'. Tight hole encountered from 2,351' to 1,799' 50-100k over string weight. Extended trip time due to tight connections and using rig tongs. Removed rotating rubber at 850'."
+      }
+    ],
+    "summary": "Drilling operations continued on 78B-32 with the 14 3/4\" hole section drilled from 2,699' to 2,699' during the day, and the well was tripped out to 951'. Rig repairs and generator radiator cleanings were conducted due to overheating, and no incidents or events were reported."
+  }
+}

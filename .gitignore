@@ -1,0 +1,15 @@
+# Source PDFs and sensor files: download with  python data/download_forge.py
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs and generated pages
+*.log
+outputs/db_viewer.html
+outputs/label_page.html
+outputs/grading_page.html
+outputs/results_review.html
+outputs/draft_review/

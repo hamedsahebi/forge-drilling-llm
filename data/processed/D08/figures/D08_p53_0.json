@@ -1,0 +1,71 @@
+{
+  "doc_id": "D08",
+  "page": 53,
+  "bbox": [
+    107.5,
+    106.2,
+    504.3,
+    646.2
+  ],
+  "source": "raster",
+  "caption": "Figure 28: 8-3/4 in. BHA #12 used with bit #12",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p53_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 28.62904691696167,
+    "prompt_tokens": 1472,
+    "output_tokens": 476
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 12 BHA Length (ft): 1,182.64 Date In: 21-Feb-21 18:00 Depth In (ft): 7,620\nDate Out: 22-Feb-21 08:00 Depth Out (ft): 7,620\n",
+    "description": "The figure is a BHA Graphical Report for Well ID Forge 56-32 in the UTAHFORGE field. It details the configuration of Bottom Hole Assembly (BHA) number 12 used with bit number 12. The report includes the length and depth information for each component from top to bottom, including drill pipe sections, drill collars, reamers, and other components. The BHA is set in place on February 21 at 6 PM and removed on February 22 at 8 AM.",
+    "kind": "well_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "BHA No",
+        "unit": "number",
+        "trend": null
+      },
+      {
+        "name": "BHA Length (ft)",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "Date In",
+        "unit": "date and time",
+        "trend": null
+      },
+      {
+        "name": "Depth In (ft)",
+        "unit": "feet",
+        "trend": null
+      },
+      {
+        "name": "Date Out",
+        "unit": "date and time",
+        "trend": null
+      },
+      {
+        "name": "Depth Out (ft)",
+        "unit": "feet",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA No = 12",
+      "BHA Length (ft) = 1,182.64 feet",
+      "Date In = 21-Feb-21 18:00",
+      "Depth In (ft) = 7,620 feet",
+      "Date Out = 22-Feb-21 08:00",
+      "Depth Out (ft) = 7,620 feet"
+    ]
+  }
+}

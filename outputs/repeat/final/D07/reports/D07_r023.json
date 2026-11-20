@@ -1,0 +1,330 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    64,
+    65
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 127.19898009300232,
+    "prompt_tokens": 27709,
+    "output_tokens": 2040,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 11,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": null
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 36.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 11,
+      "mapped": 10
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 23,
+      "report_date": "2021-07-19",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8540.0,
+      "tvd_ft": 8438.0,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": null,
+      "current_operation": "Slipped and cut drilling line. Tripped in the hole with 10-5/8\" clean out assembly from 2,900' to 8,514'. Opened 8-3/4\" core hole to 10-5/8\" from 8,514' to 8,540'. Circulated surface to surface strokes to cool well bore prior to logs.",
+      "planned_operation": "Trip out of the hole to surface. Rig up loggers. Log well. Rig down loggers."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 36.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 8415.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": "14",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 8500.0,
+        "depth_out_ft": 8514.0,
+        "wob_klbf": 25.0,
+        "rpm": 55.0,
+        "rop_ft_hr": 14.0
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "BS",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "15 HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "1:15",
+        "hours": 1.25,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 10-5/8\" clean out assembly to 8,500'. Filled pipe and broke circulation.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:15",
+        "end": "2:00",
+        "hours": 0.75,
+        "end_md_ft": 8540.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Open 8-3/4\" core hole to 10-5/8\" from 8,500' to 8,514'. ROP dropped off from 50 ft/hr to 5 f/thr.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-21",
+        "activity_source": "llm"
+      },
+      {
+        "start": "2:00",
+        "end": "3:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated surface to surface strokes to cool well bore prior to logs.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:00",
+        "end": "6:00",
+        "hours": 3.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out of the hole with 10-5/8\" clean out assembly from 8,514' to 1,947'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "7:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped out of the hole with clean out assembly from 1,947' to surface",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "7:00",
+        "end": "15:00",
+        "hours": 8.0,
+        "end_md_ft": 8540.0,
+        "activity": "logging_survey",
+        "is_npt": false,
+        "description": "Rigged up and ran Sonic Scanner and borehole formation Imager / max temperature was 321 F @ 8,520' / good log / lay down tools.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "LOG",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:00",
+        "end": "20:30",
+        "hours": 5.5,
+        "end_md_ft": 8540.0,
+        "activity": "logging_survey",
+        "is_npt": false,
+        "description": "Rig up and run Triple-Combo / Max BHT was 354 F / Logging upwards",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "LOG",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:30",
+        "end": "21:00",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "logging_survey",
+        "is_npt": false,
+        "description": "Laid down logging tools.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "LOG",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:00",
+        "end": "21:30",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Make up 10-5/8\" clean out assembly with TCI bit.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:30",
+        "end": "23:00",
+        "hours": 1.5,
+        "end_md_ft": 8540.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 10-5/8\" clean out assembly to 2,900'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:00",
+        "end": "0:00",
+        "hours": 1.0,
+        "end_md_ft": 8540.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Slipped and cut drilling line.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "CUTDL",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "bit_or_bha_failure",
+        "depth_ft": 8540.0,
+        "time": "1:15",
+        "description": "Open 8-3/4\" core hole to 10-5/8\" from 8,500' to 8,514'. ROP dropped off from 50 ft/hr to 5 f/thr."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 8540.0,
+        "time": "23:00",
+        "description": "Slipped and cut drilling line."
+      }
+    ],
+    "summary": "Daily drilling operations on July 19, 2021 included tripping in and out with a clean-out assembly, opening the core hole to 10-5/8\", and logging activities completed without incidents or events reported."
+  }
+}

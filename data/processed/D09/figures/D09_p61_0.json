@@ -1,0 +1,59 @@
+{
+  "doc_id": "D09",
+  "page": 61,
+  "bbox": [
+    0.0,
+    0.0,
+    612.0,
+    792.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "                       5510\n          02:45                                                                                                             5472.97\n                                                                                                                                       07/07 02:49:00:\n                                                                                                                                       Connection at 5511.9\n                       5510\n                                                                                                                                       07/07 02:51:31: ZWOB\n                       5513\n          02:55                                                                                                             5478.75    FROM  Rig Display Drilling\n                       5516                                                                                                            ZDIFF FROM  Rig Display\n                       5519                                                                                                            Drilling\n                       5522\n                       5525\n          03:05                                                                                                             5490.68\n                       5528\n                       5531\n                       5534\n                       5537\n          03:15                                                                                                             5502.55\n                       5540\n                       5543\n                       5546\n                       5548\n          03:25                                                                                                             5513.24\n                       5550\n                       5552\n                       5554\n                       5557\n          03:35                                                                                                             5523.44\n                       5560\n                                                                                                                                       07/07 03:36:00:\n                       5563\n                                                                                                                                       TRANSFERING    50 BBL\n                       5566                                                                                                            TO ACTIVE\n                       5568\n          03:45        5571                                                                                                 5534.95\n                       5574\n                       5577\n                       5580\n                       5583\n          03:55                                                                                                             5548.16\n                       ",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D09\\figures\\D09_p61_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 21.676571369171143,
+    "prompt_tokens": 3322,
+    "output_tokens": 294
+  },
+  "data": {
+    "transcription": "The figure is a drilling performance chart for well 78B-32, page 61. It shows various parameters over time with different colored lines representing each parameter.",
+    "description": "This graph provides an overview of the drilling process at Well 78B-32 on July 7th from approximately 02:45 to 06:15, showing changes in mechanical specific energy (MSE), rate of penetration (ROP), weight on bit (WOB), and other related parameters. The chart includes timestamps for significant events such as connection at a certain depth, ZWOB (Zero Weight On Bit) transitions, and changes in drilling conditions like sliding or rotating.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE",
+        "unit": "kW",
+        "trend": null
+      },
+      {
+        "name": "ROP",
+        "unit": "ft/min",
+        "trend": null
+      },
+      {
+        "name": "WOB",
+        "unit": "lbf",
+        "trend": null
+      },
+      {
+        "name": "ZDIFF",
+        "unit": "psi",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE = 5472.97 kW",
+      "ROP = 5478.75 ft/min",
+      "WOB = 5490.68 lbf",
+      "ZDIFF = 5502.55 psi"
+    ]
+  }
+}

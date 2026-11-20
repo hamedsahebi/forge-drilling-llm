@@ -1,0 +1,59 @@
+{
+  "doc_id": "D10",
+  "page": 6,
+  "bbox": [
+    0.0,
+    0.0,
+    750.7,
+    503.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D10\\figures\\D10_p6_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 26.155771017074585,
+    "prompt_tokens": 2322,
+    "output_tokens": 420
+  },
+  "data": {
+    "transcription": "WOB 10k\nRPM 100\nROP 400\nSDM 112/0/111\nWOB 80\nROP 0\nSDM 112/0/111\nWOB 10k\nRPM 100\nROP 2480\nSDM 112/0/111\nWOB 80\nROP 0\nSDM 112/0/111\nWOB 10k\nRPM 100\nROP 400\nSDM 112/0/111\nWOB 80\nROP 0\nSDM 112/0/111\nWOB 26k\nRPM 107\nROP 2980\nSDM 122/0/120",
+    "description": "The figure appears to be a mud log from well 78B-32, page 6. It includes various drilling parameters such as Weight on Bit (WOB), Rotational Speed (RPM), Rate of Penetration (ROP), and Specific Downhole Motor (SDM) data points.",
+    "kind": "mud_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "WOB",
+        "unit": "k",
+        "trend": null
+      },
+      {
+        "name": "RPM",
+        "unit": "100",
+        "trend": null
+      },
+      {
+        "name": "ROP",
+        "unit": "400",
+        "trend": null
+      },
+      {
+        "name": "SDM",
+        "unit": "112/0/111",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "WOB = 10k k",
+      "RPM = 100 100",
+      "ROP = 400 400",
+      "SDM = 112/0/111"
+    ]
+  }
+}

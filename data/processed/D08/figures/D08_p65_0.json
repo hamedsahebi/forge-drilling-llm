@@ -1,0 +1,83 @@
+{
+  "doc_id": "D08",
+  "page": 65,
+  "bbox": [
+    72.0,
+    106.2,
+    540.0,
+    531.9
+  ],
+  "source": "raster",
+  "caption": "Figure 38: MSE monitored parameters while drilling the 17-1/2 in. hole section (Bit # 1)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p65_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 24.98801350593567,
+    "prompt_tokens": 1395,
+    "output_tokens": 448
+  },
+  "data": {
+    "transcription": "The figure is a multi-line graph showing various drilling parameters over depth. The axes are labeled as follows: the vertical axis represents 'DEPTH FT' and the horizontal axis shows time in hours, minutes, and seconds. The legend indicates different colored lines representing various parameters such as DAS MSE (Mechanical Specific Energy), Convertible Torque, On Bottom ROP (Rate of Penetration), Weight on Bit, Differential Pressure, Depth of Cut, Bit RPM (Rotary Per Minute), and Bit Torque.",
+    "description": "The figure provides a detailed view of the drilling process parameters over depth. It shows how these parameters change with time as the well is drilled deeper into the formation. The graph helps in understanding the performance of the drilling operation by tracking changes in mechanical specific energy, torque, rate of penetration, and other critical factors.",
+    "kind": "time_vs_depth",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "DAS MSE",
+        "unit": "(ksi)",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "(kft-lbf)",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "(ft/hr)",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit",
+        "unit": "(klbs)",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "(psi)",
+        "trend": null
+      },
+      {
+        "name": "Depth of Cut",
+        "unit": "(in)",
+        "trend": null
+      },
+      {
+        "name": "Bit RPM",
+        "unit": "(RPM)",
+        "trend": null
+      },
+      {
+        "name": "Bit Torque",
+        "unit": "(kft-lbf)",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "DAS MSE = 0.00 (ksi)",
+      "Convertible Torque = 0.00 (kft-lbf)",
+      "On Bottom ROP = 0.00 (ft/hr)",
+      "Weight on Bit = 3.0 (klbs)",
+      "Differential Pressure = 0.00 (psi)",
+      "Depth of Cut = 10.00 (in)",
+      "Bit RPM = 200 (RPM)",
+      "Bit Torque = 2 (kft-lbf)"
+    ]
+  }
+}

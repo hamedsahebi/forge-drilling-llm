@@ -1,0 +1,385 @@
+{
+  "doc_id": "D05",
+  "well": "56-32",
+  "source": "56-32_DDR/DailyReportDetailRpt_210215064844.pdf",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 171.76276087760925,
+    "prompt_tokens": 27775,
+    "output_tokens": 2142,
+    "sanity_flags": [
+      "bits.0.rpm=660.0",
+      "bits.1.rpm=660.0"
+    ],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 9,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "COND",
+        "od_in": 20.0,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 129.0
+      },
+      {
+        "section": "SURF",
+        "od_in": 13.375,
+        "weight_ppf": 55.0,
+        "grade": "J-55",
+        "shoe_md_ft": 382.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 9.625,
+        "weight_ppf": 36.0,
+        "grade": "J-55",
+        "shoe_md_ft": 3494.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 9,
+      "mapped": 9
+    },
+    "llm_mud": [
+      {
+        "depth_ft": 4630.0,
+        "density_ppg": 8.7,
+        "funnel_viscosity_s": 46.0,
+        "pv_cp": 15.0,
+        "yp_lbf_100ft2": 24.0,
+        "ph": 10.5,
+        "chlorides_mg_l": 720.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "6",
+        "size_in": 8.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC73-H1",
+        "serial_number": "3506",
+        "depth_in_ft": 4595.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 34.8
+      },
+      {
+        "bit_number": "7",
+        "size_in": 8.75,
+        "manufacturer": "HTC",
+        "bit_type": "EP5475",
+        "serial_number": "4596",
+        "depth_in_ft": 4596.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 23.8
+      }
+    ],
+    "bits_source": "table",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "56-32",
+      "report_number": 11,
+      "report_date": "2021-02-14",
+      "operator": "University of Utah",
+      "contractor": "Frontier",
+      "rig": "Frontier",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 4702.0,
+      "tvd_ft": 4700.0,
+      "footage_24h_ft": 317.0,
+      "hole_size_in": 8.75,
+      "current_operation": "Drilling 8-3/4\" hole at 4,832' with tricone bit",
+      "planned_operation": "Drill 8-3/4\" hole with tricone bit. When bit wears off, change to continue drilling with PDC bit."
+    },
+    "casing": [
+      {
+        "section": "COND",
+        "od_in": 20.0,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 129.0
+      },
+      {
+        "section": "SURF",
+        "od_in": 13.375,
+        "weight_ppf": 55.0,
+        "grade": "J-55",
+        "shoe_md_ft": 382.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 9.625,
+        "weight_ppf": 36.0,
+        "grade": "J-55",
+        "shoe_md_ft": 3494.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 4630.0,
+        "density_ppg": 8.7,
+        "funnel_viscosity_s": 46.0,
+        "pv_cp": 15.0,
+        "yp_lbf_100ft2": 24.0,
+        "ph": 10.5,
+        "chlorides_mg_l": 1200.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "6",
+        "size_in": 8.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC73-H1",
+        "serial_number": null,
+        "depth_in_ft": 3506.0,
+        "depth_out_ft": 4595.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 34.8
+      },
+      {
+        "bit_number": "7",
+        "size_in": 8.75,
+        "manufacturer": "HTC",
+        "bit_type": "EP5475",
+        "serial_number": null,
+        "depth_in_ft": 4596.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 23.8
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "SH/SUB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "12 DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "24  HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 4448.0,
+        "inclination_deg": 1.19,
+        "azimuth_deg": 338.6,
+        "tvd_ft": 4446.7
+      },
+      {
+        "md_ft": 4544.0,
+        "inclination_deg": 3.34,
+        "azimuth_deg": 311.0,
+        "tvd_ft": 4542.7
+      },
+      {
+        "md_ft": 4640.0,
+        "inclination_deg": 2.02,
+        "azimuth_deg": 246.1,
+        "tvd_ft": 4638.6
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "1:00",
+        "hours": 1.0,
+        "end_md_ft": 4405.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotary drilled 8-3/4\" hole from 4,385' to 4,405'.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:00",
+        "end": "3:00",
+        "hours": 2.0,
+        "end_md_ft": 4420.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drilled 8-3/4\" hole from 4,405' to 4,420'.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "3:00",
+        "end": "12:30",
+        "hours": 9.5,
+        "end_md_ft": 4595.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotary drilled 8-3/4\" hole from 4,420' to 4,595'.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:30",
+        "end": "16:30",
+        "hours": 4.0,
+        "end_md_ft": 4595.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pulled out of the hole laying down bit and tools.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "19:00",
+        "hours": 2.5,
+        "end_md_ft": 4595.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Made up bit, directional tools and ran in the hole.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:00",
+        "end": "19:30",
+        "hours": 0.5,
+        "end_md_ft": 4595.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Filled pipe and circulated.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:30",
+        "end": "20:30",
+        "hours": 1.0,
+        "end_md_ft": 4620.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drilled 8-3/4\" hole from 4,595' to 4,620'.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:30",
+        "end": "23:30",
+        "hours": 3.0,
+        "end_md_ft": 4692.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rotary drilled 8-3/4\" hole from 4,620' to 4,692'.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:30",
+        "end": "0:00",
+        "hours": 0.5,
+        "end_md_ft": 4702.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide drilled 8-3/4\" hole from 4,692' to 4,702'.",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [],
+    "summary": "Drilling operations continued on 8-3/4\" hole with tricone bit, achieving 317 feet of hole in 21 hours, with an average rate of penetration of 15.1 ft/hr."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "doc_id": "D08",
+  "page": 62,
+  "bbox": [
+    109.5,
+    106.2,
+    502.3,
+    521.5
+  ],
+  "source": "raster",
+  "caption": "Figure 35: 4-3/4 in. BHA #16 to clean-out cement inside 5-1/2 in. casing",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p62_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 30.33855652809143,
+    "prompt_tokens": 1336,
+    "output_tokens": 540
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No.: 16 BHA Length (ft): 193.27 Date In: 05-Mar-21 06:00 Depth In (ft): 731\nDate Out: 05-Mar-21 16:30 Depth Out (ft): 1,709\nDC, Length: 178 ft\n4.000 ins, 2.125 ins\nTop Thread OTHER\n153 ft from top to Bit\nXO, Length: 1 ft\n4.000 ins, 2.125 ins\nTop Thread OTHER\n16 ft from top to Bit\nMMTR, Length: 14 ft\n4.000 ins\nTop Thread OTHER\n15 ft from top to Bit\nBIT, Length: 1 ft\n4.750 ins\nTop Thread OTHER\nS/No: J35057\n1 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of several components including DC (Drill Collar), XO (X-Over Joint), MMTR (Motor), and BIT (Bit). The report details the length and thread specifications of each component as well as their position relative to the bit tip.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE = 0",
+      "ROP = 0 ft/min",
+      "WOB = 0 lb",
+      "BHA Length (ft) = 193.27",
+      "Date In = 05-Mar-21 06:00",
+      "Depth In (ft) = 731",
+      "Date Out = 05-Mar-21 16:30",
+      "Depth Out (ft) = 1,709"
+    ]
+  }
+}

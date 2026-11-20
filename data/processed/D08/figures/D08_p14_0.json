@@ -1,0 +1,83 @@
+{
+  "doc_id": "D08",
+  "page": 14,
+  "bbox": [
+    72.0,
+    106.2,
+    540.1,
+    444.0
+  ],
+  "source": "raster",
+  "caption": "Figure 2: Aerial view of surface locations of Utah FORGE Wells. Drilled wells are shown in white, planned in yellow.",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p14_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 23.07200574874878,
+    "prompt_tokens": 1339,
+    "output_tokens": 396
+  },
+  "data": {
+    "transcription": "Utah FORGE Infrastructure",
+    "description": "The figure shows an aerial view of the surface locations for various wells in Utah FORGE. The wells are labeled with their respective names and depths, indicating they are part of a seismic monitoring network.",
+    "kind": "map",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "16B(78)-32",
+        "unit": null,
+        "trend": "Production Well"
+      },
+      {
+        "name": "16A(78)-32",
+        "unit": null,
+        "trend": "Injection Well"
+      },
+      {
+        "name": "56-32",
+        "unit": null,
+        "trend": "Seismic Monitoring Well"
+      },
+      {
+        "name": "WOO-2",
+        "unit": null,
+        "trend": "Seismic Monitoring Well"
+      },
+      {
+        "name": "58-32",
+        "unit": null,
+        "trend": "Pilot Well"
+      },
+      {
+        "name": "68-32",
+        "unit": null,
+        "trend": "Seismic Monitoring Well"
+      },
+      {
+        "name": "78-32",
+        "unit": null,
+        "trend": "Seismic Monitoring Well"
+      },
+      {
+        "name": "78B-32",
+        "unit": null,
+        "trend": "Seismic Monitoring Well"
+      }
+    ],
+    "key_values": [
+      "16B(78)-32 = 10,987 ft MD",
+      "16A(78)-32 = 10,987 ft MD",
+      "56-32 = 9,145 ft MD",
+      "WOO-2 = ~9,500 ft MD",
+      "58-32 = 7,536 ft MD",
+      "68-32 = 1,000 ft MD",
+      "78-32 = 3,280 ft MD",
+      "78B-32 = ~9,500 ft MD"
+    ]
+  }
+}

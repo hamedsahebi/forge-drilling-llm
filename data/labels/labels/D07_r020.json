@@ -1,0 +1,353 @@
+{
+  "header": {
+    "footage_24h_ft": "",
+    "hole_size_in": "10.625",
+    "md_ft": "8500",
+    "report_date": "2021-07-16",
+    "report_number": "20",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "8498"
+  },
+  "removed": {
+    "bha": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [
+      {
+        "_m": null,
+        "bit_number": "14",
+        "bit_type": "TCK83",
+        "depth_in_ft": "7613",
+        "depth_out_ft": "",
+        "manufacturer": "NOV",
+        "rop_ft_hr": "73.9",
+        "rpm": "50",
+        "serial_number": "",
+        "size_in": "10.625",
+        "wob_klbf": "65"
+      }
+    ],
+    "casing": [
+      {
+        "_m": 0,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": 1,
+        "grade": "J-55",
+        "id_in": "",
+        "od_in": "11.75",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      }
+    ],
+    "mud": [
+      {
+        "_m": null,
+        "chlorides_mg_l": "700",
+        "density_ppg": "8.3",
+        "depth_ft": "8500",
+        "funnel_viscosity_s": "26",
+        "ph": "11",
+        "pv_cp": "0",
+        "yp_lbf_100ft2": "1"
+      }
+    ],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "tripping",
+        "end": "0:30",
+        "end_md_ft": "7613",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "0:00"
+      },
+      {
+        "_m": 1,
+        "activity": "circulating",
+        "end": "0:45",
+        "end_md_ft": "7613",
+        "hours": "0.25",
+        "is_npt": "no",
+        "start": "0:30"
+      },
+      {
+        "_m": 2,
+        "activity": "tripping",
+        "end": "1:15",
+        "end_md_ft": "7613",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "0:45"
+      },
+      {
+        "_m": 3,
+        "activity": "circulating",
+        "end": "1:30",
+        "end_md_ft": "7613",
+        "hours": "0.25",
+        "is_npt": "no",
+        "start": "1:15"
+      },
+      {
+        "_m": 4,
+        "activity": "tripping",
+        "end": "2:00",
+        "end_md_ft": "7613",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "1:30"
+      },
+      {
+        "_m": 5,
+        "activity": "circulating",
+        "end": "2:15",
+        "end_md_ft": "7613",
+        "hours": "0.25",
+        "is_npt": "no",
+        "start": "2:00"
+      },
+      {
+        "_m": 6,
+        "activity": "tripping",
+        "end": "2:30",
+        "end_md_ft": "7613",
+        "hours": "0.25",
+        "is_npt": "no",
+        "start": "2:15"
+      },
+      {
+        "_m": 7,
+        "activity": "circulating",
+        "end": "3:00",
+        "end_md_ft": "7613",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "2:30"
+      },
+      {
+        "_m": 8,
+        "activity": "tripping",
+        "end": "3:30",
+        "end_md_ft": "7613",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "3:00"
+      },
+      {
+        "_m": 9,
+        "activity": "circulating",
+        "end": "4:00",
+        "end_md_ft": "7613",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "3:30"
+      },
+      {
+        "_m": 10,
+        "activity": "tripping",
+        "end": "4:15",
+        "end_md_ft": "7613",
+        "hours": "0.25",
+        "is_npt": "no",
+        "start": "4:00"
+      },
+      {
+        "_m": 11,
+        "activity": "drilling",
+        "end": "6:00",
+        "end_md_ft": "7613",
+        "hours": "1.75",
+        "is_npt": "no",
+        "start": "4:15"
+      },
+      {
+        "_m": 12,
+        "activity": "drilling",
+        "end": "8:00",
+        "end_md_ft": "7613",
+        "hours": "2",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 13,
+        "activity": "drilling",
+        "end": "13:00",
+        "end_md_ft": "8091",
+        "hours": "5",
+        "is_npt": "no",
+        "start": "8:00"
+      },
+      {
+        "_m": 14,
+        "activity": "drilling",
+        "end": "13:45",
+        "end_md_ft": "8111",
+        "hours": "0.75",
+        "is_npt": "no",
+        "start": "13:00"
+      },
+      {
+        "_m": 15,
+        "activity": "drilling",
+        "end": "16:15",
+        "end_md_ft": "8282",
+        "hours": "2.5",
+        "is_npt": "no",
+        "start": "13:45"
+      },
+      {
+        "_m": 16,
+        "activity": "drilling",
+        "end": "16:45",
+        "end_md_ft": "8303",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "16:15"
+      },
+      {
+        "_m": 17,
+        "activity": "drilling",
+        "end": "18:00",
+        "end_md_ft": "8377",
+        "hours": "1.25",
+        "is_npt": "no",
+        "start": "16:45"
+      },
+      {
+        "_m": 18,
+        "activity": "drilling",
+        "end": "18:30",
+        "end_md_ft": "8395",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "18:00"
+      },
+      {
+        "_m": 19,
+        "activity": "drilling",
+        "end": "20:00",
+        "end_md_ft": "8500",
+        "hours": "1.5",
+        "is_npt": "no",
+        "start": "18:30"
+      },
+      {
+        "_m": 20,
+        "activity": "circulating",
+        "end": "20:30",
+        "end_md_ft": "8500",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "20:00"
+      },
+      {
+        "_m": 21,
+        "activity": "tripping",
+        "end": "0:00",
+        "end_md_ft": "8500",
+        "hours": "3.5",
+        "is_npt": "no",
+        "start": "20:30"
+      }
+    ],
+    "surveys": [
+      {
+        "_m": 0,
+        "azimuth_deg": "209.6",
+        "inclination_deg": "0.74",
+        "md_ft": "7639",
+        "tvd_ft": "7637.5"
+      },
+      {
+        "_m": 1,
+        "azimuth_deg": "212.6",
+        "inclination_deg": "1.62",
+        "md_ft": "7830",
+        "tvd_ft": "7828.4"
+      },
+      {
+        "_m": 2,
+        "azimuth_deg": "235.7",
+        "inclination_deg": "1.87",
+        "md_ft": "7925",
+        "tvd_ft": "7923.4"
+      },
+      {
+        "_m": 3,
+        "azimuth_deg": "235.7",
+        "inclination_deg": "1.85",
+        "md_ft": "8020",
+        "tvd_ft": "8018.4"
+      },
+      {
+        "_m": 4,
+        "azimuth_deg": "279.6",
+        "inclination_deg": "1.52",
+        "md_ft": "8116",
+        "tvd_ft": "8114.3"
+      },
+      {
+        "_m": 5,
+        "azimuth_deg": "291.6",
+        "inclination_deg": "1.76",
+        "md_ft": "8211",
+        "tvd_ft": "8209.3"
+      },
+      {
+        "_m": 6,
+        "azimuth_deg": "275.6",
+        "inclination_deg": "1.49",
+        "md_ft": "8306",
+        "tvd_ft": "8304.2"
+      },
+      {
+        "_m": 7,
+        "azimuth_deg": "250.9",
+        "inclination_deg": "0.87",
+        "md_ft": "8402",
+        "tvd_ft": "8400.2"
+      },
+      {
+        "_m": 8,
+        "azimuth_deg": "249.8",
+        "inclination_deg": "1.39",
+        "md_ft": "8428",
+        "tvd_ft": "8426.2"
+      }
+    ]
+  },
+  "updated": "2026-11-05T13:47:06.294Z"
+}

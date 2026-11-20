@@ -1,0 +1,59 @@
+{
+  "doc_id": "D10",
+  "page": 21,
+  "bbox": [
+    0.0,
+    0.0,
+    750.7,
+    503.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D10\\figures\\D10_p21_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 15.999507188796997,
+    "prompt_tokens": 2323,
+    "output_tokens": 221
+  },
+  "data": {
+    "transcription": "WOB 41k\nRPM 50\nPP 2569\nSPM 0/95/96",
+    "description": "The figure appears to be a mud log from well 78B-32, page 21. It includes data points for weight on bit (WOB), revolutions per minute (RPM), pump pressure (PP), and surface pump rate (SPM). The text also mentions 'no losses' at certain depths.",
+    "kind": "mud_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "WOB",
+        "unit": "k",
+        "trend": null
+      },
+      {
+        "name": "RPM",
+        "unit": "",
+        "trend": null
+      },
+      {
+        "name": "PP",
+        "unit": "95/96",
+        "trend": null
+      },
+      {
+        "name": "SPM",
+        "unit": "",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "WOB = 41 k",
+      "RPM = 50",
+      "PP = 2569",
+      "SPM = 0/95/96"
+    ]
+  }
+}

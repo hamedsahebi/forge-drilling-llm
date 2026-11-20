@@ -1,0 +1,33 @@
+{
+  "doc_id": "D08",
+  "page": 1,
+  "bbox": [
+    75.3,
+    165.3,
+    536.9,
+    626.9
+  ],
+  "source": "raster",
+  "caption": null,
+  "text_hint": "                             End                    of            Well                        Report\n             Forge                  Seismic                      Monitoring                                Well              56-32\n                                                       Milford,                       Utah\n                                                                     Prepared                by:\n                                             Geothermal                    Resource               Group,           Inc.",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p1_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 10.214967966079712,
+    "prompt_tokens": 1447,
+    "output_tokens": 130
+  },
+  "data": {
+    "transcription": "End of Well Report\nForge Seismic Monitoring Well 56-32\nMilford, Utah\nPrepared by:\nGeothermal Resource Group, Inc.",
+    "description": "The figure is an end-of-well report for the Forge Seismic Monitoring Well 56-32 located in Milford, Utah. It includes logos of various organizations involved with the well and a map highlighting locations related to geothermal resource activities. The document is prepared by Geothermal Resource Group, Inc.",
+    "kind": "well_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [],
+    "key_values": []
+  }
+}

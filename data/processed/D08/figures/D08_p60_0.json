@@ -1,0 +1,54 @@
+{
+  "doc_id": "D08",
+  "page": 60,
+  "bbox": [
+    72.0,
+    106.2,
+    564.6,
+    358.9
+  ],
+  "source": "raster",
+  "caption": "Figure 32: 5-1/2 in. Production casing cement pressure chart (primary job)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p60_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 11.561208963394165,
+    "prompt_tokens": 1304,
+    "output_tokens": 163
+  },
+  "data": {
+    "transcription": "Rate(bpm)",
+    "description": "The figure shows a production casing cement pressure chart for well 56-32. The x-axis represents time in hours and minutes, while the y-axis represents different parameters such as rate of penetration (bpm), pressure (psi), density (ppg), volume (bbl), and possibly other related drilling metrics.",
+    "kind": "time_vs_depth",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Rate(bpm)",
+        "unit": "bpm",
+        "trend": null
+      },
+      {
+        "name": "Pressure(psi)",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Density(ppg)",
+        "unit": "ppg",
+        "trend": null
+      },
+      {
+        "name": "Volume(bbl)",
+        "unit": "bbl",
+        "trend": null
+      }
+    ],
+    "key_values": []
+  }
+}

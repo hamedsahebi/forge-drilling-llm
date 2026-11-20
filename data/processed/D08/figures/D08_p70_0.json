@@ -1,0 +1,89 @@
+{
+  "doc_id": "D08",
+  "page": 70,
+  "bbox": [
+    72.0,
+    106.2,
+    540.0,
+    552.7
+  ],
+  "source": "raster",
+  "caption": "Figure 43: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 8)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p70_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 27.128904342651367,
+    "prompt_tokens": 1429,
+    "output_tokens": 473
+  },
+  "data": {
+    "transcription": "The figure shows a drilling log with various parameters monitored during the drilling of an 8-3/4 inch hole section. The x-axis represents depth in feet, and the y-axis represents time in hours. The following series are present: MSE Total (red), Convertible Torque (orange), Depth of Cut (pink), Weight on Bit (blue), On Bottom ROP (purple), Differential Pressure (green), Rotary RPM (brown), Bit RPM (yellow), and Bit Torque (gray).",
+    "description": "The figure provides a detailed view of the drilling process, highlighting how different parameters such as torque, rate of penetration, and pressure change with depth. The MSE Total is shown in red, indicating mechanical specific energy, which is crucial for understanding the efficiency of the drilling operation.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE Total",
+        "unit": "(Units)",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "(kl-lbf)",
+        "trend": null
+      },
+      {
+        "name": "Depth of Cut",
+        "unit": "(in)",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit",
+        "unit": "(klbs)",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "(ft/hr)",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "(psi)",
+        "trend": null
+      },
+      {
+        "name": "Rotary RPM",
+        "unit": "(RPM)",
+        "trend": null
+      },
+      {
+        "name": "Bit RPM",
+        "unit": "(RPM)",
+        "trend": null
+      },
+      {
+        "name": "Bit Torque",
+        "unit": "(kl-lbf)",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE Total = 0.00 (Units)",
+      "Convertible Torque = 0.00 (kl-lbf)",
+      "Depth of Cut = 0.00 (in)",
+      "Weight on Bit = 40.0 (klbs)",
+      "On Bottom ROP = 0.00 (ft/hr)",
+      "Differential Pressure = 0.00 (psi)",
+      "Rotary RPM = 150.0 (RPM)",
+      "Bit RPM = 300.0 (RPM)",
+      "Bit Torque = 1.0 (kl-lbf)"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "doc_id": "D08",
+  "page": 51,
+  "bbox": [
+    107.5,
+    106.2,
+    504.3,
+    641.5
+  ],
+  "source": "raster",
+  "caption": "Figure 26: 8-3/4 in. BHA #10 used with bit #10",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p51_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 37.185625076293945,
+    "prompt_tokens": 1472,
+    "output_tokens": 661
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSection: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No.: 10 BHA Length (ft): 1,169.59 Date In: 18-Feb-21 11:00 Depth In (ft): 5,999\nDate Out: 20-Feb-21 19:30 Depth Out (ft): 7,207\nHWDP, 24 joints, Length: 730 ft\nTop Thread 4.5IF S/No: RIG\nS/No: 1,170 ft from top to Bit\nDC, 12 joints, Length: 368 ft\nTop Thread 4.5IF S/No: RIG\nS/No: 439 ft from top to Bit\nMONEL, Length: 28 ft\nTop Thread 4.5IF S/No: DR9901\nS/No: 71 ft from top to Bit\nSTAB, Length: 5 ft\nTop Thread 4.5IF S/No: 650946\nOTHER, Length: 3 ft\nTop Thread 4.5IF S/No: 6751447\nMMTR, Length: 34 ft\nTop Thread 4.5IF S/No: GGDS\nS/No: 36 ft from top to Bit\nBIT, Length: 1 ft\nTop Thread 4.5REG S/No: A275803\nS/No: 1 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, top thread type, serial number, and position from the top to the bit.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MONEL",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "STAB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "OTHER",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 1,169.59 ft",
+      "Depth In = 5,999 ft",
+      "Depth Out = 7,207 ft"
+    ]
+  }
+}

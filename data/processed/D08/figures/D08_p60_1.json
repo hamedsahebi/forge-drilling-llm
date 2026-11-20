@@ -1,0 +1,54 @@
+{
+  "doc_id": "D08",
+  "page": 60,
+  "bbox": [
+    72.0,
+    406.3,
+    576.3,
+    623.6
+  ],
+  "source": "raster",
+  "caption": "Figure 33: 5-1/2 in. Production casing cement pressure chart (secondary job)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p60_1.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 7.8140809535980225,
+    "prompt_tokens": 1347,
+    "output_tokens": 88
+  },
+  "data": {
+    "transcription": "Rate(bpm)",
+    "description": "The figure shows a rate of penetration over time in units of bits per minute.",
+    "kind": "time_vs_depth",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Rate(bpm)",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Pressure(psi)",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Density(ppg)",
+        "unit": null,
+        "trend": null
+      },
+      {
+        "name": "Volume(bbl)",
+        "unit": null,
+        "trend": null
+      }
+    ],
+    "key_values": []
+  }
+}

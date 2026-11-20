@@ -1,0 +1,371 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    32,
+    33,
+    34
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 148.78706669807434,
+    "prompt_tokens": 26885,
+    "output_tokens": 2090,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 9,
+      "marks": 6,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 22.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 0.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 9,
+      "mapped": 7
+    },
+    "llm_mud": [
+      {
+        "depth_ft": 5761.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "8",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 5761.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      }
+    ],
+    "bits_source": "table",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 12,
+      "report_date": "2021-07-08",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 5761.0,
+      "tvd_ft": 5760.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Drill 10-5/8\" hole section from 5,761' to 6,700' (coring depth). Trip in the hole. Troubleshoot SCR. Waiting on SCR technician to arrive."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 5761.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "8",
+        "size_in": 10.625,
+        "manufacturer": "NOV",
+        "bit_type": "TCK83",
+        "serial_number": null,
+        "depth_in_ft": 5761.0,
+        "depth_out_ft": 5761.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "STAB",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 11,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "1:00",
+        "hours": 1.0,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Continue picking up and racking back 6 stands of 5.5\" drill pipe out of the mouse hole.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:00",
+        "end": "2:00",
+        "hours": 1.0,
+        "end_md_ft": 5761.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Tripped in one stand to 3,030'. Circulate bottoms up to cool wellbore while waiting on electrician to arrive to troubleshoot issue with drawworks A traction motor. Max temperature observed at the flow line was 105 deg.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:00",
+        "end": "6:00",
+        "hours": 4.0,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Tripped out of the hole from 2,946' to Surface. break out bit and swap motor from 1.5 deg, .111 rev to 1.25 deg .166 rev. Note: first motor arrived on location at 1915 HRS on 7-7. No paper work was provided with the motor when it arrived. Motor was made up and ran in the hole to 2,946'. Second motor arrived at 0100 HRS on 7-8. Once paper work was provided to the on-site GRG supervisor it was discovered that the first motor ran in the hole was a low speed high torque motor with a .111 rev. conversation was had with GRG team and decision was made to pull out of the hole and swap motors to the high speed low torque .166 rev that was delivered at 0100 HRS while waiting on electrician to arrive to troubleshoot drawworks A traction motor.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "6:30",
+        "hours": 0.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Lay down MWD, NMDC and motor",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:30",
+        "end": "11:30",
+        "hours": 5.0,
+        "end_md_ft": 5761.0,
+        "activity": "waiting",
+        "is_npt": true,
+        "description": "Waiting on Schlumberger to rebuild MWD",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "9-32",
+        "activity_source": "llm"
+      },
+      {
+        "start": "11:30",
+        "end": "13:00",
+        "hours": 1.5,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Picked up Directional tools and RIH with same.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "13:00",
+        "end": "14:00",
+        "hours": 1.0,
+        "end_md_ft": 5761.0,
+        "activity": "rig_repair",
+        "is_npt": false,
+        "description": "Changed Pason sensor in crown.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "14:00",
+        "end": "15:00",
+        "hours": 1.0,
+        "end_md_ft": 5761.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "RIH to 1135'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:00",
+        "end": "0:00",
+        "hours": 9.0,
+        "end_md_ft": 5761.0,
+        "activity": "rig_repair",
+        "is_npt": true,
+        "description": "Repair Rig / Work on rig SCR system. Electrician was unable to locate issue with drawwork traction motor A. Wait on SCR tech to arrive.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "REPR",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 5761.0,
+        "time": "1:00",
+        "description": "Tripped in one stand to 3,030'. Circulate bottoms up to cool wellbore while waiting on electrician to arrive to troubleshoot issue with drawworks A traction motor. Max temperature observed at the flow line was 105 deg."
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 5761.0,
+        "time": "2:00",
+        "description": "Tripped out of the hole from 2,946' to Surface. break out bit and swap motor from 1.5 deg, .111 rev to 1.25 deg .166 rev. Note: first motor arrived on location at 1915 HRS on 7-7. No paper work was provided with the motor when it arrived. Motor was made up and ran in the hole to 2,946'. Second motor arrived at 0100 HRS on 7-8. Once paper work was provided to the on-site GRG supervisor it was discovered that the first motor ran in the hole was a low speed high torque motor with a .111 rev. conversation was had with GRG team and decision was made to pull out of the hole and swap motors to the high speed low torque .166 rev that was delivered at 0100 HRS while waiting on electrician to arrive to troubleshoot drawworks A traction motor."
+      },
+      {
+        "event_type": "other",
+        "depth_ft": 5761.0,
+        "time": "6:30",
+        "description": "Waiting on Schlumberger to rebuild MWD"
+      },
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 5761.0,
+        "time": "15:00",
+        "description": "Repair Rig / Work on rig SCR system. Electrician was unable to locate issue with drawwork traction motor A. Wait on SCR tech to arrive."
+      }
+    ],
+    "summary": "The report details a day of non-productive time (NPT) due to equipment issues and waiting on technical support, with no incidents or events reported."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "doc_id": "D08",
+  "page": 32,
+  "bbox": [
+    116.0,
+    106.2,
+    496.0,
+    655.5
+  ],
+  "source": "raster",
+  "caption": "Figure 13: BHA # 1, used bit # 1",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p32_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 58.79567623138428,
+    "prompt_tokens": 1412,
+    "output_tokens": 1094
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSection: 32 Town: 26S Range: 9W County: Beaver State: UT\nBHA No: 1 BHA Length (ft): 379.88 Date In: 07-Feb-21 04:30 Depth In (ft): 152\nDate Out: 07-Feb-21 06:00 Depth Out (ft): 380\nHWDP, Length: 178 ft\n5.500 ins, 4.000 ins\nTop Thread 4.5IF\nS/No: RIG\n380 ft from top to Bit\nMONEL, Length: 30 ft\n8.000 ins, 3.250 ins\nTop Thread 6.625REG\nS/No: NMDC802\n107 ft from top to Bit\nXO, Length: 3 ft\n8.000 ins, 3.000 ins\nTop Thread 4.5IF\nS/No: RIG\n202 ft from top to Bit\nSUB, Length: 3 ft\n8.000 ins, 3.250 ins\nTop Thread 6.625REG\nUBHO\nS/No: GGDS\n77 ft from top to Bit\ndc, Length: 31 ft\n7.875 ins, 2.875 ins\nTop Thread 6.625REG\nS/No: RIG\n199 ft from top to Bit\nSHOCK, Length: 10 ft\n8.000 ins, 3.000 ins\nTop Thread 6.625REG\nS/No: SSB.O\n74 ft from top to Bit\ndc, Length: 31 ft\n8.000 ins, 2.875 ins\nTop Thread 6.625REG\nS/No: RIG\n168 ft from top to Bit\nSTAB, Length: 31 ft\n8.000 ins, 3.250 ins\nTop Thread 6.625REG\nS/No: STB17\n64 ft from top to Bit\ndc, Length: 30 ft\n7.875 ins, 2.875 ins\nTop Thread 6.625REG\nS/No: RIG 8 INCH\n137 ft from top to Bit\nMMTR, Length: 31 ft\n10.000 ins, 2.000 ins\nTop Thread 7.625REG\nS/No: 9512\n33 ft from top to Bit\nBIT, Length: 2 ft\n17.500 ins\nTop Thread 7.625REG\n5 BLADE PDC\nS/No: A252419\n2 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), MONEL, XO, SUB, DC (Drill Collar), SHOCK, STAB, MMTR, and BIT (Bit). Each component is detailed with its length in feet and inches, top thread specifications, and serial number if applicable. The report also includes the date of insertion and removal from the well, as well as the depth at which each component was placed.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MONEL",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "SUB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "SHOCK",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "STAB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 379.88 ft",
+      "HWDP, Length = 178 ft",
+      "MONEL, Length = 30 ft",
+      "XO, Length = 3 ft",
+      "SUB, Length = 3 ft",
+      "DC, Length = 31 ft",
+      "SHOCK, Length = 10 ft",
+      "STAB, Length = 31 ft",
+      "MMTR, Length = 31 ft",
+      "BIT, Length = 2 ft"
+    ]
+  }
+}

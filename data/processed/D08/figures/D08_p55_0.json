@@ -1,0 +1,78 @@
+{
+  "doc_id": "D08",
+  "page": 55,
+  "bbox": [
+    107.5,
+    106.2,
+    504.3,
+    655.5
+  ],
+  "source": "raster",
+  "caption": "Figure 30: 8-3/4 in. BHA #14 used with bit #13",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p55_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 42.74037003517151,
+    "prompt_tokens": 1502,
+    "output_tokens": 783
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 14 BHA Length (ft): 1,227.95 Date In: 24-Feb-21 07:30 Depth In (ft): 7,666\nDate Out: 26-Feb-21 03:00 Depth Out (ft): 8,900\nHWDP, 24 joints, Length: 730 ft\n5.000 ins., 3.250 ins\nTop Thread 4.5IF\nS/No: RIG\n1,228 ft from top to Bit\nDC, 12 joints, Length: 433 ft\n6.500 ins., 2.875 ins\nTop Thread 4.5IF\nS/No: RIG\n498 ft from top to Bit\nMONEL, Length: 27 ft\n6.500 ins., 3.250 ins\nTop Thread 4.5IF\nS/No: DR26583\n66 ft from top to Bit\nSTAB, Length: 3 ft\n6.500 ins., 2.813 ins\nTop Thread 4.5IF\nNMSTAB\nOTHER, Length: 3 ft\n6.813 ins., 3.250 ins\nTop Thread 4.5IF\nNMUBHO\nMMTR, Length: 30 ft\n7.000 ins.\nTop Thread 4.5IF\nS/No: BPPB5700-0042\n31 ft from top to Bit\nBIT, Length: 1 ft\n8.750 ins.\nTop Thread 4.5REG\nS/No: A271437\n1 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MONEL",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "STAB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "OTHER",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 1,227.95 ft",
+      "HWDP Length = 730 ft",
+      "DC Length = 433 ft",
+      "MONEL Length = 27 ft",
+      "STAB Length = 3 ft",
+      "OTHER Length = 3 ft",
+      "MMTR Length = 30 ft",
+      "BIT Length = 1 ft"
+    ]
+  }
+}

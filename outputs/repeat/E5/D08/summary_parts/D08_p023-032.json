@@ -1,0 +1,47 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    23,
+    32
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 26.949332237243652,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "56-32",
+    "purpose": "Seismic Monitoring",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": null,
+    "total_depth_tvd_ft": null,
+    "rig": null,
+    "casing": [
+      {
+        "section": "17-1/2 in. Hole to 350 ft., 13-3/8 in. Casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": "J-55",
+        "shoe_md_ft": 380.5
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "20-20-20-1/1",
+        "size_in": null,
+        "manufacturer": null,
+        "bit_type": "PDC",
+        "serial_number": null,
+        "depth_in_ft": 128.5,
+        "depth_out_ft": 380.5,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 206.0
+      }
+    ],
+    "events": [],
+    "lessons_learned": []
+  }
+}

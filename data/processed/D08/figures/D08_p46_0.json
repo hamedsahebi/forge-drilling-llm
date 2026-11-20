@@ -1,0 +1,56 @@
+{
+  "doc_id": "D08",
+  "page": 46,
+  "bbox": [
+    107.5,
+    106.2,
+    504.3,
+    636.9
+  ],
+  "source": "raster",
+  "caption": "Figure 21: 8-3/4 in. BHA #5 used with bit #5",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p46_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 28.599336862564087,
+    "prompt_tokens": 1470,
+    "output_tokens": 524
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 5 BHA Length (ft): 762.86 Date In: 12-Feb-21 13:00 Depth In (ft): 3,500\nDate Out: 12-Feb-21 14:30 Depth Out (ft): 3,506\nHWDP, Length: 731 ft SNo: Rig 763 ft from top to Bit\nDC, Length: 31 ft 6.000 ins SNo: Rig 32 ft from top to Bit\nBIT, Length: 1 ft 8.750 ins Top Thread 4.5REG SNo: 5258442 1 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in the UTAHFORGE field. The BHA consists of three components: Heavy Weight Drill Pipe (HWDP), Drill Collar (DC), and Bit. The HWDP has a length of 731 feet and is positioned 763 feet from the top to the bit. The DC has a length of 31 feet, with an outer diameter of 6 inches, and is located 32 feet from the top to the bit. The Bit itself measures 1 foot in length and has an outer diameter of 8.750 inches, with a top thread specification of 4.5REG.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 762.86 ft",
+      "Depth In = 3,500 ft",
+      "Depth Out = 3,506 ft",
+      "HWDP Length = 731 ft",
+      "DC Length = 31 ft",
+      "BIT Length = 1 ft"
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 152.07749247550964,
+    "prompt_tokens": 24547,
+    "output_tokens": 1304,
+    "sanity_flags": [
+      "bha.9.od_in=314.3"
+    ],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 6,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [],
+    "casing_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 6,
+      "mapped": 4
+    },
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 1,
+      "report_date": "2021-06-27",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 128.0,
+      "tvd_ft": null,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": 22.0,
+      "current_operation": "Finished drilling 22 in hole to 421 ft. Circulating hole clean at 421 ft. POH and run 16 in casing and cement in place.",
+      "planned_operation": "Nipple up and test 20 in BOP."
+    },
+    "casing": [],
+    "mud": [],
+    "bits": [
+      {
+        "bit_number": "1",
+        "size_in": 22.0,
+        "manufacturer": "Smith",
+        "bit_type": "XR-C",
+        "serial_number": null,
+        "depth_in_ft": 128.0,
+        "depth_out_ft": 421.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "BS",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "FLOAT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "6:00",
+        "hours": 6.0,
+        "end_md_ft": 128.0,
+        "activity": "waiting",
+        "is_npt": false,
+        "description": "Wait on daylight.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "waiting",
+        "activity_code": "WOD",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "9:00",
+        "hours": 3.0,
+        "end_md_ft": 128.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Pre-Spud Inspection.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "RIGU",
+        "activity_source": "code"
+      },
+      {
+        "start": "9:00",
+        "end": "16:00",
+        "hours": 7.0,
+        "end_md_ft": 128.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Cut and removed conductor pipe at 4” above ground level. Rigged up cellar pump. Set pipe racks in place. Strapped 105 joints of 5” drill pipe 9 joints of 5” HWDP and readied for pick up. Mixed spud mud.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "1-01",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "17:00",
+        "hours": 1.0,
+        "end_md_ft": 128.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pick up and make up 5 stands of 5” HWDP.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "10-341",
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:00",
+        "end": "22:30",
+        "hours": 5.5,
+        "end_md_ft": 128.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pick up 114 joints of 5\" drill pipe and rack back in derrick.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "10-341",
+        "activity_source": "llm"
+      },
+      {
+        "start": "22:30",
+        "end": "0:00",
+        "hours": 1.5,
+        "end_md_ft": 128.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Make up 22\" surface hole assembly.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [],
+    "summary": "Drilling operations completed for 22 in hole to 421 ft with clean hole circulation, followed by running 16 in casing and cementing in place. Planned next operation is nipple up and test 20 in BOP."
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    70,
+    71
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 111.65520739555359,
+    "prompt_tokens": 24320,
+    "output_tokens": 1615,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 8,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": null,
+        "shoe_md_ft": 8532.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 38.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 8,
+      "mapped": 7
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 26,
+      "report_date": "2021-07-22",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8545.0,
+      "tvd_ft": 8543.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Continue pulling 7\" casing and fiber optic cable from 6,753' to 5,447'."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": null,
+        "shoe_md_ft": 8532.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8540.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 38.0,
+        "pv_cp": 2.0,
+        "yp_lbf_100ft2": 2.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "12",
+        "size_in": 10.625,
+        "manufacturer": "BAKER",
+        "bit_type": "MX-1",
+        "serial_number": null,
+        "depth_in_ft": 8415.0,
+        "depth_out_ft": 8417.0,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 9.3
+      }
+    ],
+    "bha": [
+      {
+        "order": null,
+        "component": "7\" casing",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": null,
+        "component": "fiber optic cable",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "6:00",
+        "hours": 6.0,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Run 7\", 41#, T-110SS, Tenaris casing from 94' to 2,514'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "15:00",
+        "hours": 9.0,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Run 7\", 41#, T-110SS, Tenaris casing from 2,514'. to 6,178'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:00",
+        "end": "15:30",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Stopped to test fibers AT 6,178'. Breakage in fiber optic cable detected; decision was made to continue running in hole with remaining intact fiber/casing and monitor for cable quality.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:30",
+        "end": "16:00",
+        "hours": 0.5,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Ran 7\", 41#, T-110SS, Tenaris casing from 6,178' to 6,517'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:00",
+        "end": "18:30",
+        "hours": 2.5,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Stopped at joint 6,517' to run Fiber optic tests- the measured fiber length shortened by approximately 500ft on the fibers. Meeting was held to decide plan moving forth; the decision was made to run 5 more joints in the hole and assess the fiber quality afterwards.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:30",
+        "end": "19:15",
+        "hours": 0.75,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Ran 7\", 41#, T-110SS, Tenaris casing from 6,517' to 6,753'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "19:15",
+        "end": "20:30",
+        "hours": 1.25,
+        "end_md_ft": 8540.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Tested fibers; fibers shortened by 500ft. The decision was made to pull casing out of hole.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:30",
+        "end": "0:00",
+        "hours": 3.5,
+        "end_md_ft": 8540.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Pull out of the hole with 7\" casing from 6,753' to 5,447'. Note: While pulling the first joint of 7\" casing fiber optic got cut pulling through the bushings.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-99",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 8540.0,
+        "time": "20:30",
+        "description": "Pull out of the hole with 7\" casing from 6,753' to 5,447'. Note: While pulling the first joint of 7\" casing fiber optic got cut pulling through the bushings."
+      }
+    ],
+    "summary": "Daily drilling report for well 78B-32 on 22-Jul-21 details the ongoing pullout of 7\" casing with fiber optic cable from 6,753' to 5,447', following multiple fiber optic cable failures detected during testing."
+  }
+}

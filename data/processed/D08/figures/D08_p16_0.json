@@ -1,0 +1,70 @@
+{
+  "doc_id": "D08",
+  "page": 16,
+  "bbox": [
+    96.4,
+    106.2,
+    515.6,
+    628.9
+  ],
+  "source": "raster",
+  "caption": "Figure 3: Planned well construction for 56-32",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p16_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 20.2536838054657,
+    "prompt_tokens": 1471,
+    "output_tokens": 335
+  },
+  "data": {
+    "transcription": "Figure 3: Planned well construction for 56-32",
+    "description": "The figure illustrates the planned well construction for Well 56-32, detailing various stages of drilling and casing. It includes depth measurements in feet (ft) on the vertical axis and describes different sections of the well with corresponding diameters, materials, and depths.",
+    "kind": "well_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "BTC conductor",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "17-1/2\" hole to ±350'",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "13-3/8\", 54.5#, J-55, BTC casing",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "12-1/4\" hole to ±3,500'",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "9-5/8\", 36# J-55 , LTC casing",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "8-3/4\" hole to 7,500' to be drilled with PDC bits and to 9,000' with mud hammer",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Depth = -128.5 ft",
+      "Depth = -350 ft",
+      "Depth = -3,500 ft",
+      "Depth = -7,500 ft",
+      "Depth = -9,000 ft"
+    ]
+  }
+}

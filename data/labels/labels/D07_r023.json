@@ -1,0 +1,205 @@
+{
+  "activity_rules": "2026-11-06: activity classes relabelled by the written rules (PROJECT_LOG)",
+  "header": {
+    "footage_24h_ft": "0",
+    "hole_size_in": "10.5",
+    "md_ft": "8540",
+    "report_date": "2021-07-19",
+    "report_number": "23",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "8438"
+  },
+  "removed": {
+    "bha": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [
+      {
+        "_m": null,
+        "bit_number": "12",
+        "bit_type": "MX-1",
+        "depth_in_ft": "8415",
+        "depth_out_ft": "",
+        "manufacturer": "Baker",
+        "rop_ft_hr": "",
+        "rpm": "",
+        "serial_number": "",
+        "size_in": "10.625",
+        "wob_klbf": ""
+      },
+      {
+        "_m": null,
+        "bit_number": "14",
+        "bit_type": "TCK83",
+        "depth_in_ft": "8500",
+        "depth_out_ft": "8514",
+        "manufacturer": "NOV",
+        "rop_ft_hr": "14",
+        "rpm": "55",
+        "serial_number": "",
+        "size_in": "10.625",
+        "wob_klbf": "25"
+      }
+    ],
+    "casing": [
+      {
+        "_m": 0,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": 1,
+        "grade": "J-55",
+        "id_in": "",
+        "od_in": "11.75",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      }
+    ],
+    "mud": [
+      {
+        "_m": 0,
+        "chlorides_mg_l": "800",
+        "density_ppg": "8.3",
+        "depth_ft": "8540",
+        "funnel_viscosity_s": "36",
+        "ph": "10",
+        "pv_cp": "2",
+        "yp_lbf_100ft2": "2"
+      }
+    ],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "tripping",
+        "end": "1:15",
+        "end_md_ft": "8540",
+        "hours": "1.25",
+        "is_npt": "no",
+        "start": "0:00"
+      },
+      {
+        "_m": 1,
+        "activity": "drilling",
+        "end": "2:00",
+        "end_md_ft": "8540",
+        "hours": "0.75",
+        "is_npt": "no",
+        "start": "1:15"
+      },
+      {
+        "_m": 2,
+        "activity": "circulating",
+        "end": "3:00",
+        "end_md_ft": "8540",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "2:00"
+      },
+      {
+        "_m": 3,
+        "activity": "tripping",
+        "end": "6:00",
+        "end_md_ft": "8540",
+        "hours": "3",
+        "is_npt": "no",
+        "start": "3:00"
+      },
+      {
+        "_m": 4,
+        "activity": "tripping",
+        "end": "7:00",
+        "end_md_ft": "8540",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 5,
+        "activity": "logging_survey",
+        "end": "15:00",
+        "end_md_ft": "8540",
+        "hours": "8",
+        "is_npt": "no",
+        "start": "7:00"
+      },
+      {
+        "_m": 6,
+        "activity": "logging_survey",
+        "end": "20:30",
+        "end_md_ft": "8540",
+        "hours": "5.5",
+        "is_npt": "no",
+        "start": "15:00"
+      },
+      {
+        "_m": 7,
+        "activity": "logging_survey",
+        "end": "21:00",
+        "end_md_ft": "8540",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "20:30"
+      },
+      {
+        "_m": 8,
+        "activity": "tripping",
+        "end": "21:30",
+        "end_md_ft": "8540",
+        "hours": "0.5",
+        "is_npt": "no",
+        "start": "21:00"
+      },
+      {
+        "_m": 9,
+        "activity": "tripping",
+        "end": "23:00",
+        "end_md_ft": "8540",
+        "hours": "1.5",
+        "is_npt": "no",
+        "start": "21:30"
+      },
+      {
+        "_m": 10,
+        "activity": "other",
+        "end": "0:00",
+        "end_md_ft": "8540",
+        "hours": "1",
+        "is_npt": "no",
+        "start": "23:00"
+      }
+    ],
+    "surveys": []
+  },
+  "updated": "2026-11-05T13:54:35.304Z"
+}

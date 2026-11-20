@@ -1,0 +1,217 @@
+{
+  "doc_id": "D03",
+  "well": "16A(78)-32",
+  "source": "16A78-32_DDR/16A(78)-32_Daily_Reports/completion/Utah_Forge_FORGE_16A_(78)-32_Completion-C_01082021_01082021_17_reporttmp.pdf",
+  "pages": [
+    1
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 68.01623225212097,
+    "prompt_tokens": 9329,
+    "output_tokens": 956,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": false,
+      "rows": 5,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 54.0,
+        "grade": "A53B",
+        "shoe_md_ft": 130.0
+      },
+      {
+        "section": "Surface",
+        "od_in": 13.375,
+        "weight_ppf": 68.0,
+        "grade": "L-80",
+        "shoe_md_ft": 1629.0
+      },
+      {
+        "section": "Intermediate",
+        "od_in": 9.625,
+        "weight_ppf": 40.0,
+        "grade": "HCL-80",
+        "shoe_md_ft": 5110.0
+      },
+      {
+        "section": "Production",
+        "od_in": 7.0,
+        "weight_ppf": 38.0,
+        "grade": "T-95",
+        "shoe_md_ft": 10787.0
+      }
+    ],
+    "casing_source": "llm",
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 5,
+      "mapped": 0
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "FORGE 16A [78]-32",
+      "report_number": 5,
+      "report_date": "2021-01-08",
+      "operator": "",
+      "contractor": "Frontier Drilling",
+      "rig": "Frontier Rig 16",
+      "report_type": "completion"
+    },
+    "depth": {
+      "md_ft": 10987.0,
+      "tvd_ft": 8559.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": "Shut well in to monitor pressure decline",
+      "planned_operation": "Monitor pressure decline, pressure up on wellbore, perform flowback test"
+    },
+    "casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 54.0,
+        "grade": "A53B",
+        "shoe_md_ft": 130.0
+      },
+      {
+        "section": "Surface",
+        "od_in": 13.375,
+        "weight_ppf": 68.0,
+        "grade": "L-80",
+        "shoe_md_ft": 1629.0
+      },
+      {
+        "section": "Intermediate",
+        "od_in": 9.625,
+        "weight_ppf": 40.0,
+        "grade": "HCL-80",
+        "shoe_md_ft": 5110.0
+      },
+      {
+        "section": "Production",
+        "od_in": 7.0,
+        "weight_ppf": 38.0,
+        "grade": "T-95",
+        "shoe_md_ft": 10787.0
+      }
+    ],
+    "mud": [],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "6:00",
+        "end": "8:00",
+        "hours": 2.0,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": true,
+        "description": "Clean Out Hole",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "8:00",
+        "end": "12:00",
+        "hours": 4.0,
+        "end_md_ft": null,
+        "activity": "wellbore_problem",
+        "is_npt": true,
+        "description": "Trips",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "wellbore_problem",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "12:00",
+        "end": "17:30",
+        "hours": 5.5,
+        "end_md_ft": null,
+        "activity": "completion",
+        "is_npt": true,
+        "description": "Running Packer",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "completion",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "17:30",
+        "end": "23:00",
+        "hours": 5.5,
+        "end_md_ft": null,
+        "activity": "completion",
+        "is_npt": true,
+        "description": "Step Down Test",
+        "llm_is_npt": true,
+        "npt_source": "llm",
+        "llm_activity": "completion",
+        "activity_code": "",
+        "activity_source": "llm"
+      },
+      {
+        "start": "23:00",
+        "end": "6:00",
+        "hours": 7.0,
+        "end_md_ft": null,
+        "activity": "completion",
+        "is_npt": false,
+        "description": "Shut well in to monitor pressure decline",
+        "llm_is_npt": false,
+        "npt_source": "llm",
+        "llm_activity": "completion",
+        "activity_code": "",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": null,
+        "time": "6:00",
+        "description": "Clean Out Hole"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": null,
+        "time": "8:00",
+        "description": "Trips"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": null,
+        "time": "12:00",
+        "description": "Running Packer"
+      },
+      {
+        "event_type": "other",
+        "depth_ft": null,
+        "time": "17:30",
+        "description": "Step Down Test"
+      }
+    ],
+    "summary": "This report details the completion operations for FORGE 16A [78]-32, including well preparation, running a packer, performing DFIT (Drainage Flow Integrity Test), and shutting in the well to monitor pressure decline."
+  }
+}

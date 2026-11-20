@@ -1,0 +1,39 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    8,
+    14
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 22.937965631484985,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "56-32",
+    "purpose": "Seismic Monitoring Well",
+    "spud_date": null,
+    "td_date": null,
+    "total_depth_md_ft": 9105.0,
+    "total_depth_tvd_ft": null,
+    "rig": "Rig-16",
+    "casing": [
+      {
+        "section": "5-1/2-inch casing",
+        "od_in": null,
+        "weight_ppf": null,
+        "grade": null,
+        "shoe_md_ft": 9105.0
+      }
+    ],
+    "bits": [],
+    "events": [],
+    "lessons_learned": [
+      "The use of new PDC cutters and MSE (Mechanical Specific Energy) calculations significantly improved the rate of penetration, demonstrating the value of advanced bit technology and performance monitoring in hard rock drilling.",
+      "Close monitoring of MSE and adjustment of drilling parameters was critical to achieving optimal PDC bit performance, highlighting the importance of real-time data analysis and adaptive drilling strategies.",
+      "The failure of the Silixa fiber optic cable during cementing emphasizes the need for careful planning and testing of sensitive equipment during cementing operations to avoid loss of critical monitoring capabilities.",
+      "The failure of mud hammer technology in the bottom section of the hole indicates that alternative methods, such as PDC bits, may be more reliable in certain geological conditions, reinforcing the importance of evaluating multiple drilling techniques before committing to a specific method."
+    ]
+  }
+}

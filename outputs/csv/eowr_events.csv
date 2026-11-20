@@ -1,0 +1,20 @@
+doc_id,well,pages,event_type,depth_ft,time,description
+D08,56-32,15-22,stuck_pipe,7620.0,,"During the drilling of the 8-3/4 in. hole, the mud hammer failed to engage twice, requiring reaming with a roller reamer and troubleshooting of the mud hammers."
+D08,56-32,15-22,stuck_pipe,7627.0,,"The mud hammer failed to engage again after reaming, leading to the decision to continue drilling with PDC bits while troubleshooting the mud hammers."
+D08,56-32,15-22,lost_circulation,9135.0,,"During cementing of the 5-1/2 in. casing, a bridge was suspected in the annulus, and reciprocating the casing failed to regain circulation."
+D08,56-32,15-22,stuck_pipe,9135.0,,The Silixa optic cable parted in tension due to reciprocation of the casing during cementing.
+D08,56-32,15-22,lost_circulation,9135.0,,"Cement inside the 5-1/2 in. casing could not be displaced and set prematurely, requiring it to be drilled out after cementing the outside of the casing."
+D08,56-32,45-63,lost_circulation,,,"Severe lost circulation was encountered during cementing of the 5-1/2 in. casing, leading to rapid pressure increase from 500 psi to 1,800 psi."
+D08,56-32,45-63,stuck_pipe,,,"Cement displacement was not possible due to high pressure of approximately 6,200 psi that were at the limit of the casing capacity."
+D08,56-32,45-63,lost_circulation,,,The cementing process required pumping 160 bbls of fresh water into the annular to clear spacers and allow for a top squeeze to place cement between casings.
+D08,56-32,78-83,stuck_pipe,,,"While running in the hole with the mud hammer and 2 roller reamers, they got stuck for several hours and finally worked loose."
+D08,56-32,78-83,equipment_failure,,,Running the mud hammer the third time also resulted in a failed run.
+D08,56-32,78-83,equipment_failure,,,The CanRig system created discrepancies on the measurement of MSE and interfered with directional work to keep hole vertical.
+D08,56-32,78-83,equipment_failure,,,Failed hammer run was indicated for the reason for the hammer failure.
+D08,56-32,78-83,equipment_failure,,,"The mud motor needed to be tested without the bit installed, and testing with the bit inside casing could cause damage."
+D08,56-32,78-83,equipment_failure,,,Mud motors should have only new components or use only new mud motors due to hard and abrasive drilling conditions.
+D08,56-32,78-83,equipment_failure,,,"70% of our bit trips were due to lower bearing and housing failure, which also causes uncontrollable MSE due to higher torque and less differential."
+D08,56-32,78-83,equipment_failure,,,"The mud motor was found not to have been assembled with any new parts except for the lower bearings, limiting its operational hours."
+D08,56-32,78-83,equipment_failure,,,Mud motors should be tested without the bit installed inside casing to avoid damage and ensure working conditions.
+D08,56-32,84-86,stuck_pipe,,,"Casing was reciprocated to regain circulation after suspected bridge in the annulus, which caused the Silixa cable to part in tension."
+D08,56-32,84-86,equipment_failure,,,"Displacement fluid could only be pumped for 27 bbls due to high pressure (~6,200 psi) reaching the limit of casing capacity."

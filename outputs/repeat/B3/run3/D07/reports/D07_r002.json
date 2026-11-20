@@ -1,0 +1,427 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    4,
+    5,
+    6
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 179.0849254131317,
+    "prompt_tokens": 28623,
+    "output_tokens": 2796,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 17,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 17,
+      "mapped": 10
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 2,
+      "report_date": "2021-06-28",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 421.0,
+      "tvd_ft": null,
+      "footage_24h_ft": 293.0,
+      "hole_size_in": 22.0,
+      "current_operation": "Testing out choke manifold at report time.",
+      "planned_operation": "Test casing along with BOPE.\nPick up 8\" drill collars.\nTrip in the hole with tri-cone bit.\nDrill out shoe track and 10 ft of new formation to perform LOT\nPull out of the hole and lay down tricone bit\nMake up 14 3/4\" BHA with PDC and continue drilling 14 3/4\" section."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 421.0,
+        "density_ppg": 8.9,
+        "funnel_viscosity_s": 51.0,
+        "pv_cp": 19.0,
+        "yp_lbf_100ft2": 22.0,
+        "ph": 9.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "1",
+        "size_in": 22.0,
+        "manufacturer": "Smith",
+        "bit_type": "XR-C",
+        "serial_number": null,
+        "depth_in_ft": 128.0,
+        "depth_out_ft": 421.0,
+        "wob_klbf": 15.0,
+        "rpm": 90.0,
+        "rop_ft_hr": 83.7
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "BS",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "MWD",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 7,
+        "component": "FLOAT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 8,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 9,
+        "component": "XO",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 10,
+        "component": "HWDP",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 241.0,
+        "inclination_deg": 0.69,
+        "azimuth_deg": 358.3,
+        "tvd_ft": 241.0
+      },
+      {
+        "md_ft": 337.0,
+        "inclination_deg": 1.04,
+        "azimuth_deg": 359.5,
+        "tvd_ft": 337.0
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "1:00",
+        "hours": 1.0,
+        "end_md_ft": 128.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Make up 22\" surface hole assembly.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:00",
+        "end": "1:30",
+        "hours": 0.5,
+        "end_md_ft": 128.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Filled pipe and hole.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "03-051",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:30",
+        "end": "5:00",
+        "hours": 3.5,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 22\" hole from 128' to 421'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "03-021",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:00",
+        "end": "5:30",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated well bore clean.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "03-051",
+        "activity_source": "code"
+      },
+      {
+        "start": "5:30",
+        "end": "6:00",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Wiped hole f/ 421' t/ 100' with no issues. No fill on bottom.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-27",
+        "activity_source": "llm"
+      },
+      {
+        "start": "6:00",
+        "end": "6:30",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pull out of the hole f/ 421'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:30",
+        "end": "7:00",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Lay down NMDC and bit",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-34-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "7:00",
+        "end": "8:00",
+        "hours": 1.0,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rig up casing crew.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-56",
+        "activity_source": "llm"
+      },
+      {
+        "start": "8:00",
+        "end": "10:00",
+        "hours": 2.0,
+        "end_md_ft": 421.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Rigged up and Ran 9 joints of 16\" k-55 64# BTC casing (382.89') of total casing. Landed out with 33' landing joint. Shoe set at 416' KB. Float collar at 372' KB.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:00",
+        "end": "11:00",
+        "hours": 1.0,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rig down casing crew",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-56",
+        "activity_source": "llm"
+      },
+      {
+        "start": "11:00",
+        "end": "12:30",
+        "hours": 1.5,
+        "end_md_ft": 421.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Land casing with well head 3' below ground level.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "4-12-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:30",
+        "end": "13:00",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "RIH with stab-in and stab into float collar at 378",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "5-56",
+        "activity_source": "llm"
+      },
+      {
+        "start": "13:00",
+        "end": "14:30",
+        "hours": 1.5,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rig up cement crew",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "5-56",
+        "activity_source": "llm"
+      },
+      {
+        "start": "14:30",
+        "end": "16:00",
+        "hours": 1.5,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Pressure test to 1500 psi, Pump 20 bbl fresh water, pump 50 bbls of sepiolite, pump 5 bbl of fresh water, pump 13 bbl od sodium silkicate, pump 5 bbls fresh water, Mix and pump 146 bbl of 13.88 RC Theremelite w/ 2% CC, displace w/ 6 bbls fresh water, check floats CIP @ 16:00",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "5-99",
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Rig down cement crew",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "5-56",
+        "activity_source": "llm"
+      },
+      {
+        "start": "16:30",
+        "end": "17:00",
+        "hours": 0.5,
+        "end_md_ft": 421.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "POH with stab-in",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "5-6-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:00",
+        "end": "0:00",
+        "hours": 7.0,
+        "end_md_ft": 421.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Installed BOP as followed. 16\" x 20\" 2M DSA, 20\" 2M spacer spool, 20\" 2M x 20\" 3M DSA, 20\" 3M mud cross, 20\" 3M X 20\" 2M DSA, 20\" 2M double gates, 20\" 2M annular, 20\" 2M flow spool.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "1-14",
+        "activity_source": "code"
+      }
+    ],
+    "events": [],
+    "summary": "The report details drilling activities from 128' to 421', including casing installation, cementing operations, and preparation for further drilling. No incidents or events were reported."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "header": {
+    "footage_24h_ft": "0",
+    "hole_size_in": "20",
+    "md_ft": "128",
+    "report_date": "2021-02-06",
+    "report_number": "2",
+    "report_type": "drilling",
+    "rig": "Frontier Spud Date",
+    "tvd_ft": "128"
+  },
+  "removed": {
+    "bha": [],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [],
+    "casing": [
+      {
+        "_m": null,
+        "grade": "",
+        "id_in": "",
+        "od_in": "20",
+        "section": "",
+        "shoe_md_ft": "129",
+        "weight_ppf": ""
+      }
+    ],
+    "mud": [],
+    "operations": [
+      {
+        "_m": 0,
+        "activity": "waiting",
+        "end": "6:00",
+        "end_md_ft": "128",
+        "hours": "6",
+        "is_npt": "yes",
+        "start": "0:00"
+      },
+      {
+        "_m": 1,
+        "activity": "rig_up_down",
+        "end": "18:00",
+        "end_md_ft": "128",
+        "hours": "12",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": 2,
+        "activity": "waiting",
+        "end": "0:00",
+        "end_md_ft": "128",
+        "hours": "6",
+        "is_npt": "yes",
+        "start": "18:00"
+      }
+    ],
+    "surveys": []
+  },
+  "updated": "2026-11-06T10:33:57.602Z"
+}

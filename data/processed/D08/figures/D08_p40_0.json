@@ -1,0 +1,78 @@
+{
+  "doc_id": "D08",
+  "page": 40,
+  "bbox": [
+    109.5,
+    106.2,
+    502.3,
+    635.5
+  ],
+  "source": "raster",
+  "caption": "Figure 18: BHA # 4 used with bit # 4",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p40_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 27.276487350463867,
+    "prompt_tokens": 1395,
+    "output_tokens": 479
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 4 BHA Length (ft): 1,078.98 Date In: 10-Feb-21 20:00 Depth In (ft): 3,308\nDate Out: 11-Feb-21 06:00 Depth Out (ft): 3,500\nHWDP, Length: 730 ft\nXO, Length: 3 ft\nDC, Length: 274 ft\nMONEL, Length: 29 ft\nSTAB, Length: 5 ft\nOTHER, Length: 4 ft\nMMTR, Length: 33 ft\nBIT, Length: 1 ft",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32. It details the components of BHA No. 4 used in drilling operations at UTAHFORGE field. The report includes the length and position from top to bit for each component, such as HWDP, XO, DC, MONEL, STAB, OTHER, MMTR, and BIT.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MONEL",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "STAB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "OTHER",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 1,078.98 ft",
+      "Depth In = 3,308 ft",
+      "Depth Out = 3,500 ft"
+    ]
+  }
+}

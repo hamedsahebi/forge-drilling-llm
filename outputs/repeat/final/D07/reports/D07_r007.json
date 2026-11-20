@@ -1,0 +1,279 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    18,
+    19
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 139.9395625591278,
+    "prompt_tokens": 25180,
+    "output_tokens": 2192,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 8,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": null
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": null,
+        "density_ppg": 8.8,
+        "funnel_viscosity_s": 41.0,
+        "pv_cp": 15.0,
+        "yp_lbf_100ft2": 9.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      },
+      {
+        "depth_ft": null,
+        "density_ppg": null,
+        "funnel_viscosity_s": null,
+        "pv_cp": null,
+        "yp_lbf_100ft2": null,
+        "ph": null,
+        "chlorides_mg_l": null
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 8,
+      "mapped": 7
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 7,
+      "report_date": "2021-07-03",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 3009.0,
+      "tvd_ft": 3009.0,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": null,
+      "current_operation": "Drilled out shoe track from 2,902' to 2,989'.",
+      "planned_operation": "Perform FIT. Pull out of the hole. Pick up 10 5/8\" RSS assembly. Trip in the hole. Drill 10 5/8\" hole."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 3009.0,
+        "density_ppg": 8.8,
+        "funnel_viscosity_s": 41.0,
+        "pv_cp": 15.0,
+        "yp_lbf_100ft2": 9.0,
+        "ph": 10.0,
+        "chlorides_mg_l": 800.0
+      }
+    ],
+    "bits": [],
+    "bha": [
+      {
+        "order": 1,
+        "component": "10 5/8\" Mill Tooth",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "8 1/8\" Junk Basket",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "3-Stands of 8\"",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "5-Stands of 5.5\"",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "7:00",
+        "hours": 7.0,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Installed BOP as followed. 11.75” x 13 5/8” 2M Spacer spool. 13 5/8” 5M mud cross, 5M Double gates, 13 5/8” Annular, 13 5/8” Riser with rotating head. Installed inner and outer choke and kill valves. Installed choke and kill lines. Torqued all flanges. (Note: removed variable 3.5”x 5” ram blocks and installed 5.5” ram blocks)",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "2-14",
+        "activity_source": "code"
+      },
+      {
+        "start": "7:00",
+        "end": "11:30",
+        "hours": 4.5,
+        "end_md_ft": 3009.0,
+        "activity": "bop_testing",
+        "is_npt": false,
+        "description": "#1 Test Blind rams, check valve, casing and 3 choke valves to 250 low pressure for 5 min and 1000 psi high pressure for 30 min, #2 Test pipe rams, outside kill side mud cross and 3 choke valves to 250 psi low pressure for 5 min and 1000 psi high pressure for 10 min, #3Test Bag, inside kill mud cross and 3 choke valves to 250 psi low pressure for 5 min and 1000 psi high pressure for 10 min #4 Test HCR valve to 250 psi low pressure for 5 min and 1000 psi high pressure for 10 min #5 Test inside choke side mud cross valve to 250 psi for 5 min and 1000 psi for 10 min. All test are good",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "bop_testing",
+        "activity_code": "2-15",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:30",
+        "end": "15:00",
+        "hours": 3.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "RIH with 5 stands of 5\" HWDP and 20 stands of 5\" DP / POH laying down DP and transporting to 16A for inspection / excessive over torque.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:00",
+        "end": "17:30",
+        "hours": 2.5,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "RIH with same 5 stands of HWDP and remaining 18 stands of 5\" drill pipe / Laid down 54 joints of 5\" drill pipe and 15 joints of 5\" HWDP and transport to 16A for inspection / excessive over torque Note: When laying down 5\" DP every 3rd joint that had not been serviced (due to making only 2 trips) was extremely over torqued (55-70K) more than double max torque due to extreme drilling parameters. SD-80 unable to break so manual tongs were utilized teamed by 2 air tuggers to break the connection and ultimately had to go to a 4 part break line after the torque cylinder was destroyed.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "4-34-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "17:30",
+        "end": "18:00",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced rig.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:00",
+        "end": "21:00",
+        "hours": 3.0,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Rebuild I-BOP with new 6 5/8” X 6 5/8” sub. Installed 6 5/8” X 5.5” X/O lower Valve. Installed saver sub. Installed torque clamps.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "21:00",
+        "end": "23:00",
+        "hours": 2.0,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Transport 5.5” HWDP along with 71-joints of 5.5” drill pipe from 16A location to rig site. Load racks and strap same.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "3-34-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "23:00",
+        "end": "0:00",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Make up 10 5/8\" drill out assembly as followed. 10 5/8\" Mill Tooth. 8 1/8\" Junk Basket. 3-Stands of 8\" DC. 5-Stands of 5.5\" HWDP.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 3009.0,
+        "time": "11:30",
+        "description": "RIH with 5 stands of 5\" HWDP and 20 stands of 5\" DP / POH laying down DP and transporting to 16A for inspection / excessive over torque."
+      },
+      {
+        "event_type": "tight_hole",
+        "depth_ft": 3009.0,
+        "time": "15:00",
+        "description": "RIH with same 5 stands of HWDP and remaining 18 stands of 5\" drill pipe / Laid down 54 joints of 5\" drill pipe and 15 joints of 5\" HWDP and transport to 16A for inspection / excessive over torque Note: When laying down 5\" DP every 3rd joint that had not been serviced (due to making only 2 trips) was extremely over torqued (55-70K) more than double max torque due to extreme drilling parameters. SD-80 unable to break so manual tongs were utilized teamed by 2 air tuggers to break the connection and ultimately had to go to a 4 part break line after the torque cylinder was destroyed."
+      }
+    ],
+    "summary": "The report details drilling activities on July 3, 2021, including BOP testing, rig servicing, and preparation for further drilling operations with a focus on setting up the 10 5/8\" drill out assembly."
+  }
+}

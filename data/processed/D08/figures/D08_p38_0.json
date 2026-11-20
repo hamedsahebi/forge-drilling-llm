@@ -1,0 +1,66 @@
+{
+  "doc_id": "D08",
+  "page": 38,
+  "bbox": [
+    109.5,
+    106.2,
+    502.3,
+    654.9
+  ],
+  "source": "raster",
+  "caption": "Figure 16: BHA # 2 used with bit # 2",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p38_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 35.00408911705017,
+    "prompt_tokens": 1453,
+    "output_tokens": 631
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 2 BHA Length (ft): 389.50 Date In: 09-Feb-21 16:30 Depth In (ft): 380\nDate Out: 09-Feb-21 18:00 Depth Out (ft): 390\nHWDP, 10 joints, Length: 292 ft\n5.000 ins, 3.250 ins\nTop Thread 4.5IF\nS/No: Rig\n390 ft from top to Bit\nXO, Length: 2 ft\n8.000 ins, 2.000 ins\nTop Thread 4.5IF\nS/No: Rig\n98 ft from top to Bit\ndc, 3 joints, Length: 92 ft\n8.000 ins, 2.000 ins\nTop Thread 6.625REG\nS/No: Rig\n96 ft from top to Bit\nXO, Length: 2 ft\n8.000 ins, 2.000 ins\nTop Thread 6.625REG\nS/No: Rig\n4 ft from top to Bit\nBIT, Length: 2 ft\n12.250 ins\nTop Thread 6.625REG\nS/No: 6003696\n2 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), XO (X-Over), DC (Drill Collar), and the BIT itself. Each component is detailed with its length, thread size, and position from top to bottom of the assembly.",
+    "kind": "bha_schematic",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "XO",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 389.50 ft",
+      "HWDP Length = 292 ft",
+      "XO1 Length = 2 ft",
+      "DC Length = 92 ft",
+      "XO2 Length = 2 ft",
+      "BIT Length = 2 ft"
+    ]
+  }
+}

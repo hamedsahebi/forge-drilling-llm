@@ -1,0 +1,59 @@
+{
+  "doc_id": "D08",
+  "page": 35,
+  "bbox": [
+    72.0,
+    106.2,
+    539.6,
+    411.5
+  ],
+  "source": "raster",
+  "caption": "Figure 14: 13-3/8 in. surface casing cement pressure chart",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p35_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 14.205280303955078,
+    "prompt_tokens": 1307,
+    "output_tokens": 219
+  },
+  "data": {
+    "transcription": "Max Pressure ( psi ) Total Volume ( bbl ) Total Rate ( bpm ) Slurry Density ( ppg )",
+    "description": "The figure is a pressure chart for the 13-3/8 in. surface casing cement job on well 56-32, recorded from 02:24 to 03:24 on February 8, 2021.",
+    "kind": "pressure_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Max Pressure",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Total Volume",
+        "unit": "bbl",
+        "trend": null
+      },
+      {
+        "name": "Total Rate",
+        "unit": "bpm",
+        "trend": null
+      },
+      {
+        "name": "Slurry Density",
+        "unit": "ppg",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Max Pressure = 2000 psi",
+      "Total Volume = 15 bbl",
+      "Total Rate = 6 bpm",
+      "Slurry Density = 18 ppg"
+    ]
+  }
+}

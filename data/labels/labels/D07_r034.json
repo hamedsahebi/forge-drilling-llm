@@ -1,0 +1,203 @@
+{
+  "blind": true,
+  "header": {
+    "footage_24h_ft": "",
+    "hole_size_in": "",
+    "md_ft": "9500",
+    "report_date": "2021-07-30",
+    "report_number": "34",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "9497"
+  },
+  "removed": {
+    "bha": [],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [
+      {
+        "_m": null,
+        "bit_number": "17",
+        "bit_type": "",
+        "depth_in_ft": "8555",
+        "depth_out_ft": "9500",
+        "manufacturer": "REED",
+        "rop_ft_hr": "130",
+        "rpm": "30",
+        "serial_number": "",
+        "size_in": "5.75",
+        "wob_klbf": "30"
+      }
+    ],
+    "casing": [
+      {
+        "_m": null,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": null,
+        "grade": "J-55",
+        "id_in": "",
+        "od_in": "11.750",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      },
+      {
+        "_m": null,
+        "grade": "T-110S",
+        "id_in": "",
+        "od_in": "7",
+        "section": "PROD",
+        "shoe_md_ft": "8509",
+        "weight_ppf": "41"
+      }
+    ],
+    "mud": [],
+    "operations": [
+      {
+        "_m": null,
+        "activity": "rig_up_down",
+        "end": "4:00",
+        "end_md_ft": "9225",
+        "hours": "4",
+        "is_npt": "no",
+        "start": "0:00"
+      },
+      {
+        "_m": null,
+        "activity": "tripping",
+        "end": "6:00",
+        "end_md_ft": "9225",
+        "hours": "2",
+        "is_npt": "no",
+        "start": "4:00"
+      },
+      {
+        "_m": null,
+        "activity": "rig_up_down",
+        "end": "10:30",
+        "end_md_ft": "9225",
+        "hours": "4.5",
+        "is_npt": "no",
+        "start": "6:00"
+      },
+      {
+        "_m": null,
+        "activity": "tripping",
+        "end": "12:15",
+        "end_md_ft": "9225",
+        "hours": "1.75",
+        "is_npt": "no",
+        "start": "10:30"
+      },
+      {
+        "_m": null,
+        "activity": "rig_up_down",
+        "end": "15:30",
+        "end_md_ft": "9225",
+        "hours": "3.25",
+        "is_npt": "no",
+        "start": "12:15"
+      },
+      {
+        "_m": null,
+        "activity": "rig_up_down",
+        "end": "18:00",
+        "end_md_ft": "9225",
+        "hours": "2.5",
+        "is_npt": "no",
+        "start": "15:30"
+      },
+      {
+        "_m": null,
+        "activity": "waiting",
+        "end": "19:00",
+        "end_md_ft": "9225",
+        "hours": "1",
+        "is_npt": "yes",
+        "start": "18:00"
+      },
+      {
+        "_m": null,
+        "activity": "rig_up_down",
+        "end": "0:00",
+        "end_md_ft": "9225",
+        "hours": "5",
+        "is_npt": "no",
+        "start": "19:00"
+      }
+    ],
+    "surveys": [
+      {
+        "_m": null,
+        "azimuth_deg": "282.7",
+        "inclination_deg": "2.76",
+        "md_ft": "8938.0",
+        "tvd_ft": "8935.9"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "250.4",
+        "inclination_deg": "1.05",
+        "md_ft": "9033.0",
+        "tvd_ft": "9030.9"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "258.9",
+        "inclination_deg": "2.40",
+        "md_ft": "9127.0",
+        "tvd_ft": "9124.8"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "284.5",
+        "inclination_deg": "1.31",
+        "md_ft": "9222.0",
+        "tvd_ft": "9219.8"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "270.0",
+        "inclination_deg": "3.73",
+        "md_ft": "9317.0",
+        "tvd_ft": "9314.7"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "251.0",
+        "inclination_deg": "3.96",
+        "md_ft": "9412.0",
+        "tvd_ft": "9409.5"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "235.5",
+        "inclination_deg": "3.91",
+        "md_ft": "9444.0",
+        "tvd_ft": "9441.4"
+      },
+      {
+        "_m": null,
+        "azimuth_deg": "235.5",
+        "inclination_deg": "3.91",
+        "md_ft": "9500.0",
+        "tvd_ft": "9497.3"
+      }
+    ]
+  },
+  "updated": "2026-11-09T12:16:24.624Z"
+}

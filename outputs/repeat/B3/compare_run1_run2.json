@@ -1,0 +1,14 @@
+{
+ "runs": [
+  "..\\outputs\\repeat\\B3\\run1",
+  "..\\outputs\\repeat\\B3\\run2"
+ ],
+ "reports": 21,
+ "fields": 4211,
+ "same": 4211,
+ "differ": 0,
+ "share_same": 1.0,
+ "differ_by_table": {},
+ "row_count_differences": [],
+ "examples": []
+}

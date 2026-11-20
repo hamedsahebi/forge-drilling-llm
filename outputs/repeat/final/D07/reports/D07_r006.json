@@ -1,0 +1,326 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    16,
+    17
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 9,
+    "seconds": 142.9199788570404,
+    "prompt_tokens": 24167,
+    "output_tokens": 2446,
+    "activity_pass": true,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 15,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": null
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [
+      {
+        "depth_ft": 3009.0,
+        "density_ppg": 8.9,
+        "funnel_viscosity_s": 43.0,
+        "pv_cp": 43.0,
+        "yp_lbf_100ft2": 29.0,
+        "ph": 10.5,
+        "chlorides_mg_l": 900.0
+      }
+    ],
+    "mud_source": "table",
+    "llm_bits": [],
+    "bits_source": "llm",
+    "activity_code": {
+      "found": true,
+      "rows": 15,
+      "mapped": 8
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 6,
+      "report_date": "2021-07-02",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 3009.0,
+      "tvd_ft": 3009.0,
+      "footage_24h_ft": 0.0,
+      "hole_size_in": null,
+      "current_operation": "Installing 13 5/8\" 5M BOPE",
+      "planned_operation": "Nipple up 13 5/8\" 5M BOPE. Test BOPE. Run in the hole and lay down 5\" drill pipe. Pick up and rack back 5.5\" drill pipe."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 3009.0,
+        "density_ppg": 8.9,
+        "funnel_viscosity_s": 43.0,
+        "pv_cp": 43.0,
+        "yp_lbf_100ft2": 29.0,
+        "ph": 10.5,
+        "chlorides_mg_l": 900.0
+      }
+    ],
+    "bits": [],
+    "bha": [],
+    "surveys": [],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "0:30",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Cleaned and cleared rig floor of 14 3/4\" handling tools.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "3-97",
+        "activity_source": "code"
+      },
+      {
+        "start": "0:30",
+        "end": "1:00",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Hold detailed safety meeting with Wyoming Casing Service/Rig crew along with GRG representative.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "10-98",
+        "activity_source": "llm"
+      },
+      {
+        "start": "1:00",
+        "end": "2:00",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Rig up 11 3/4\" casing running equipment.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "CASE",
+        "activity_source": "llm"
+      },
+      {
+        "start": "2:00",
+        "end": "8:30",
+        "hours": 6.5,
+        "end_md_ft": 3009.0,
+        "activity": "casing",
+        "is_npt": false,
+        "description": "Run 11 3/4\", 54 lbs/ft, J-55 BTC casing as follows: Float Shoe, 2-joints, Float collar followed by 71-joints. Landed out with 31' landing joint to set depth of 2,989.99'. Total casing ran 2,958.99'. Shoe set 2,984.70 KB. Float Collar 2,903.97' KB.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "casing",
+        "activity_code": "CASE",
+        "activity_source": "llm"
+      },
+      {
+        "start": "8:30",
+        "end": "9:00",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Rig down casing crew",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "CASE",
+        "activity_source": "llm"
+      },
+      {
+        "start": "9:00",
+        "end": "9:30",
+        "hours": 0.5,
+        "end_md_ft": 3009.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Service rig",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "9:30",
+        "end": "11:30",
+        "hours": 2.0,
+        "end_md_ft": 3009.0,
+        "activity": "cementing",
+        "is_npt": false,
+        "description": "Install valve in wellhead, rig up pumps in cellar, 4 bolt BOP",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "CMTP",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:30",
+        "end": "12:30",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Trip in hole with stab-in",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "TRPI",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:30",
+        "end": "13:30",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulate bottoms upo",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "CIRC",
+        "activity_source": "llm"
+      },
+      {
+        "start": "13:30",
+        "end": "14:30",
+        "hours": 1.0,
+        "end_md_ft": 3009.0,
+        "activity": "cementing",
+        "is_npt": false,
+        "description": "Rig up cement crew and held JSA",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "cementing",
+        "activity_code": "CMTP",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:30",
+        "end": "16:30",
+        "hours": 2.0,
+        "end_md_ft": 3009.0,
+        "activity": "cementing",
+        "is_npt": false,
+        "description": "Pump 2 bbl water, pressure test lines to 3000 psi, pump 52 bbl fresh water, @ 6bpm, 20 bbl mud clean, @ 6 bpm, 10 bbl fresh water @ 6bpm-HT--HSLD atr 6 bpm, mix and pump 315 bbl RC-Thermalite (cement to surface at 300 bbl, Displace with 3 bbl water and 47 bbl drilling mud, check floats, CIP @ 16:00",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "cementing",
+        "activity_code": "CMTP",
+        "activity_source": "code"
+      },
+      {
+        "start": "16:30",
+        "end": "18:00",
+        "hours": 1.5,
+        "end_md_ft": 3009.0,
+        "activity": "cementing",
+        "is_npt": false,
+        "description": "Un-sting and trip out of the hole with stab-in to surface.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "CMTP",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:00",
+        "end": "21:00",
+        "hours": 3.0,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Nipple down 21-1/4\" BOPE and set out.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "BOPO",
+        "activity_source": "llm"
+      },
+      {
+        "start": "21:00",
+        "end": "23:45",
+        "hours": 2.75,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Installed temporary 11 3/4\" x 13 5/8 \" SOW flange. Test to 1,000 psi. Good test.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "WELLHD",
+        "activity_source": "llm"
+      },
+      {
+        "start": "23:45",
+        "end": "0:00",
+        "hours": 0.25,
+        "end_md_ft": 3009.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Installed 13 5/8\" 5M BOPE stack.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "2-14",
+        "activity_source": "code"
+      }
+    ],
+    "events": [],
+    "summary": "Daily drilling report for well 78B-32 on 02-Jul-21 shows no incidents or events reported, with operations focused on casing installation, cementing, and BOPE setup."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "doc_id": "D08",
+  "pages": [
+    15,
+    22
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "attempts": 2,
+    "seconds": 60.94383192062378,
+    "sanity_flags": []
+  },
+  "data": {
+    "well_name": "Seismic Monitoring Well 56-32",
+    "purpose": "mid-size, vertical, EGS monitoring and testing well",
+    "spud_date": "2021-02-08",
+    "td_date": "2021-02-22",
+    "total_depth_md_ft": 9145.0,
+    "total_depth_tvd_ft": 9138.3,
+    "rig": "Frontier Rig",
+    "casing": [
+      {
+        "section": "Conductor",
+        "od_in": 20.0,
+        "weight_ppf": 94.0,
+        "grade": "J-55, Welded",
+        "shoe_md_ft": 120.5
+      },
+      {
+        "section": "Surface",
+        "od_in": 17.5,
+        "weight_ppf": 54.5,
+        "grade": "J-55, BTC",
+        "shoe_md_ft": 381.0
+      },
+      {
+        "section": "Intermediate",
+        "od_in": 12.25,
+        "weight_ppf": 36.0,
+        "grade": "J-55, LTC",
+        "shoe_md_ft": 3494.0
+      },
+      {
+        "section": "Production",
+        "od_in": 8.75,
+        "weight_ppf": 17.0,
+        "grade": "L-80, BTC",
+        "shoe_md_ft": 9135.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": null,
+        "size_in": 8.75,
+        "manufacturer": "Silixa",
+        "bit_type": "PDC",
+        "serial_number": null,
+        "depth_in_ft": 9032.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": 300.0
+      },
+      {
+        "bit_number": null,
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": "PDC",
+        "serial_number": null,
+        "depth_in_ft": 9145.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": null,
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": "PDC",
+        "serial_number": null,
+        "depth_in_ft": 9145.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      },
+      {
+        "bit_number": null,
+        "size_in": 8.75,
+        "manufacturer": null,
+        "bit_type": "PDC",
+        "serial_number": null,
+        "depth_in_ft": 9145.0,
+        "depth_out_ft": null,
+        "wob_klbf": null,
+        "rpm": null,
+        "rop_ft_hr": null
+      }
+    ],
+    "events": [
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": 7620.0,
+        "time": null,
+        "description": "During the drilling of the 8-3/4 in. hole, the mud hammer failed to engage twice, requiring reaming with a roller reamer and troubleshooting of the mud hammers."
+      },
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": 7627.0,
+        "time": null,
+        "description": "The mud hammer failed to engage again after reaming, leading to the decision to continue drilling with PDC bits while troubleshooting the mud hammers."
+      },
+      {
+        "event_type": "lost_circulation",
+        "depth_ft": 9135.0,
+        "time": null,
+        "description": "During cementing of the 5-1/2 in. casing, a bridge was suspected in the annulus, and reciprocating the casing failed to regain circulation."
+      },
+      {
+        "event_type": "stuck_pipe",
+        "depth_ft": 9135.0,
+        "time": null,
+        "description": "The Silixa optic cable parted in tension due to reciprocation of the casing during cementing."
+      },
+      {
+        "event_type": "lost_circulation",
+        "depth_ft": 9135.0,
+        "time": null,
+        "description": "Cement inside the 5-1/2 in. casing could not be displaced and set prematurely, requiring it to be drilled out after cementing the outside of the casing."
+      }
+    ],
+    "lessons_learned": [
+      "A physical count should be documented by the cement service company on future jobs to prevent mixing errors in cement blends.",
+      "Removing the shock sub from the BHA improved the life of mud motors, allowing them to stay in the hole longer and increasing bit footage drilled.",
+      "Testing different types of PDC bits in granitic formations led to significant improvements in drilling performance.",
+      "The failure during cementing highlighted the importance of monitoring circulation and avoiding actions that could damage sensitive equipment like Silixa cables."
+    ]
+  }
+}

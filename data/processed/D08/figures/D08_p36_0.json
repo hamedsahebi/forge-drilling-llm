@@ -1,0 +1,65 @@
+{
+  "doc_id": "D08",
+  "page": 36,
+  "bbox": [
+    114.4,
+    185.3,
+    497.7,
+    598.6
+  ],
+  "source": "raster",
+  "caption": "Figure 15 : BOPE 13-5/8 in. for drilling 12-1/4 in. hole.",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p36_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 19.311744689941406,
+    "prompt_tokens": 1330,
+    "output_tokens": 321
+  },
+  "data": {
+    "transcription": "none",
+    "description": "The figure illustrates a blowout preventer equipment (BOPE) setup for drilling operations. It shows the components of the BOPE system, including risers, annular preventer, double gate preventer, mud cross, and casing head. The text indicates that this is for well 56-32 with a hole size of 13-5/8 inches (for drilling) and 12-1/4 inches (for casing). The document is dated April 2021.",
+    "kind": "directional_plot",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "Riser",
+        "unit": "inches",
+        "trend": null
+      },
+      {
+        "name": "Annular Preventer",
+        "unit": "inches",
+        "trend": null
+      },
+      {
+        "name": "Double Gate Preventer",
+        "unit": "inches",
+        "trend": null
+      },
+      {
+        "name": "Mud Cross",
+        "unit": "inches",
+        "trend": null
+      },
+      {
+        "name": "Sliplok Casing Head",
+        "unit": "inches",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "Riser = 13-5/8\" (5M)",
+      "Annular Preventer = 13-5/8\" (5M)",
+      "Double Gate Preventer = 13-5/8\" (5M)",
+      "Mud Cross = 13-5/8\" (5M)",
+      "Sliplok Casing Head = 13-5/8\" x 3M"
+    ]
+  }
+}

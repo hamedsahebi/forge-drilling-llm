@@ -1,0 +1,67 @@
+{
+  "doc_id": "D09",
+  "page": 151,
+  "bbox": [
+    0.0,
+    0.0,
+    612.0,
+    792.0
+  ],
+  "source": "full_page",
+  "caption": null,
+  "text_hint": "                         415\n          21:45\n                         502\n                         590\n          21:55          620\n                         685\n                         780\n          22:05\n                         875\n                         965\n                       1060\n                       1155\n          22:15\n                       1250\n                       1345\n                       1440\n                       1535\n          22:25\n                       1630\n                       1725\n                       1820\n                       1911\n          22:35\n                       2010\n                       2105\n                       2200\n                       2295\n          22:45\n                       2390\n                       2480\n                       2580\n                       2670\n          22:55\n                       2765\n                       2860\n                       2955\n          23:05\n                       3050\n                       3145\n                       3240\n                       3335\n          23:15        3430\n          23:25\n                       3525\n                       3620\n          23:35\n                       3710\n                       3806\n                       3905\n                       3995\n          23:45        4090\n                       4185\n                       4280\n                       4375\n          23:55\n                       4470\n                       4565\n                       4660\n                       4755\n          00:05 Jul 21, 2021 4850\n                       4945\n                       5040\n                                                                                                                                       07/21 00:10:10:\n                       5135\n                                                                                                                                       RIGALARM:  No PVT  Rig\n          00:15        5226                                                                                                            Alarm Device Available\n                       5321\n                       5415\n                       5510\n          00:25\n                       5605\n                       5700\n                       5795\n                       5890\n          00:35        5985\n                       6080\n                       6175\n                       6270\n                       6365\n          00:45\n          00:55\n          01:05        6457\n                       6555\n                       6650\n          01:15        6745\n                       6840\n                       6935",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D09\\figures\\D09_p151_0.png",
+  "extra": {},
+  "well": "78B-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 35.75090527534485,
+    "prompt_tokens": 3608,
+    "output_tokens": 556
+  },
+  "data": {
+    "transcription": "The figure is a time-series plot showing various measurements over time. The x-axis represents time in hours and minutes, starting from 21:45 to 01:15 on July 21, 2021. The y-axis appears to represent depth or some other measurement in feet (ft), with values ranging from approximately 350 ft at the bottom of the plot to over 6900 ft at the top.",
+    "description": "The figure shows a drilling operation where various measurements are recorded against time. The blue bars likely represent ROP (Rate of Penetration) or some other operational metric, while the red and green lines might indicate changes in depth or specific conditions like weight on bit (WOB), standpipe pressure (SPP), etc.",
+    "kind": "time_vs_depth",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "ROP",
+        "unit": "ft/min",
+        "trend": null
+      },
+      {
+        "name": "Depth",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "21:45 = 350 ft",
+      "21:55 = 590 ft",
+      "22:05 = 685 ft",
+      "22:15 = 780 ft",
+      "22:25 = 875 ft",
+      "22:35 = 965 ft",
+      "22:45 = 1060 ft",
+      "22:55 = 1155 ft",
+      "23:05 = 1250 ft",
+      "23:15 = 1345 ft",
+      "23:25 = 1440 ft",
+      "23:35 = 1535 ft",
+      "23:45 = 1630 ft",
+      "23:55 = 1725 ft",
+      "00:05 Jul 21, 2021 = 1820 ft",
+      "00:15 = 1911 ft",
+      "00:25 = 2010 ft",
+      "00:35 = 2105 ft",
+      "00:45 = 2200 ft",
+      "00:55 = 2295 ft",
+      "01:05 = 2390 ft",
+      "01:15 = 2480 ft"
+    ]
+  }
+}

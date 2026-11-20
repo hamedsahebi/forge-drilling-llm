@@ -1,0 +1,94 @@
+[
+  {
+    "rule": "chart_readings for a parameter at a time",
+    "q": "What were the rotary RPM and the hook load on well 78B-32 at 08:00 on 17 July 2021?",
+    "expect": "chart_readings, page 127: hook load 39.9 klbs (reading); RPM at_min, i.e. about zero",
+    "question": "What were the rotary RPM and the hook load on well 78B-32 at 08:00 on 17 July 2021?",
+    "answer": "The rotary RPM on well 78B-32 at 08:00 on 17 July 2021 was 0.901 (kind: at_min, scale_max: 200.0). The hook load was 39.946 klbs (kind: reading, scale_max: 150.0).",
+    "trace": [
+      {
+        "tool": "run_sql",
+        "args": {
+          "query": "SELECT cr.variable, cr.value, cr.kind, cr.scale_max FROM chart_readings cr WHERE cr.well = '78B-32' AND cr.time = '2021-07-17T08:00:00' AND cr.variable IN ('rpm', 'hook_load_klbs')"
+        },
+        "result": "{\"columns\": [\"variable\", \"value\", \"kind\", \"scale_max\"], \"rows\": [[\"hook_load_klbs\", 39.946, \"reading\", 150.0], [\"rpm\", 0.901, \"at_min\", 200.0]]}"
+      }
+    ],
+    "seconds": 16.5
+  },
+  {
+    "rule": "chart value from a figure is unverified",
+    "q": "What on-bottom ROP does figure D08_p68_0 (MSE parameters, 8-3/4 in. section, bit #6) show?",
+    "expect": "says it is an unverified vision reading (value_source chart); 1000 ft/hr is listed, likely the axis maximum",
+    "question": "What on-bottom ROP does figure D08_p68_0 (MSE parameters, 8-3/4 in. section, bit #6) show?",
+    "answer": "The on-bottom ROP shown in figure D08_p68_0 is **1000.00 ft/hr**, as an unverified vision reading from the chart.",
+    "trace": [
+      {
+        "tool": "get_figure",
+        "args": {
+          "figure_id": "D08_p68_0"
+        },
+        "result": "{\"columns\": [\"figure_id\", \"well\", \"page\", \"kind\", \"caption\", \"value_source\", \"key_values\", \"unverified_values\", \"description\", \"transcription\"], \"rows\": [[\"D08_p68_0\", \"56-32\", 68, \"drilling_parameter_chart\", \"Figure 41: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 6)\", \"chart\", \"[]\", \"[\\\"MSE Total = 200.00 Units\\\", \\\"Weight on Bit = 40.00 klbs\\\", \\\"Rotary RPM = 150.00 RPM\\\", \\\"Convertible Torque = 50.00 (kf-lbf)\\\", \\\"On Bottom ROP = 1000.00 (ft/hr)\\\", \\\"Differential Pressure = 1000.00 (psi)\\\", \\\"Depth of Cut = 2.00 (in)\\\", \\\"Bit RPM = 300.00 (RPM)\\\", \\\"Bit Torque = 1.00 (kf-lbf)\\\"]\", \"The figure provides a detailed view of the drilling process for well 56-32. It shows how various parameters change as depth increases. The MSE Total is represented by red lines, Weight on Bit in blue, Rotary RPM in green, Convertible Torque and On Bottom ROP are shown with orange and purple lines respectively, Differential Pressure in yellow, Depth of Cut in pink, Bit RPM in light blue, and Bit Torque in dark blue.\", \"The figure is a multi-line graph showing various drilling parameters over time. The x-axis represents depth in feet, and the y-axis shows different drilling metrics such as MSE Total, Weight on Bit, Rotary RPM, Convertible Torque, On Bottom ROP (Rate of Penetration), Differential Pressure, Depth of Cut, Bit RPM, and Bit Torque.\"]]}\nTRUST: numbers read off a curve by a vision model, not checked: give them only as unverified vision readings."
+      }
+    ],
+    "seconds": 9.4
+  },
+  {
+    "rule": "serial number from a figure transcription",
+    "q": "What is the serial number of bit #6 in well 56-32?",
+    "expect": "search_figures -> D08_p47_0 (BHA #6 with bit #6) transcription, S/No A275660; vision reading, not checked",
+    "question": "What is the serial number of bit #6 in well 56-32?",
+    "answer": "The serial number of bit #6 in well 56-32 is **A275660**, as identified from the BHA schematic in figure D08_p47_0. This value is based on a vision model's transcription and is considered a label with no additional trust verification.",
+    "trace": [
+      {
+        "tool": "search_figures",
+        "args": {
+          "keyword": "bit #6"
+        },
+        "result": "{\"columns\": [\"figure_id\", \"well\", \"page\", \"kind\", \"caption\", \"value_source\", \"key_values\", \"unverified_values\", \"description\", \"transcription_match\"], \"rows\": [[\"D08_p47_0\", \"56-32\", 47, \"bha_schematic\", \"Figure 22: 8-3/4 in. BHA #6 used with bit #6\", \"label\", \"[\\\"BHA Length = 1,178.12 ft\\\", \\\"HWDP Length = 730 ft\\\", \\\"DC Length = 368 ft\\\", \\\"SHOCK Length = 11 ft\\\", \\\"MONEL Length = 20 ft\\\", \\\"STAB Length = 4 ft\\\", \\\"OTHER Length = 3 ft\\\", \\\"MMTR Length = 33 ft\\\", \\\"BIT Length = 1 ft\\\"]\", \"[]\", \"The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field, Beaver County, Utah. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SHOCK, MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.\", null]]}\nUse get_figure(figure_id) for a figure's full transcription."
+      },
+      {
+        "tool": "get_figure",
+        "args": {
+          "figure_id": "D08_p47_0"
+        },
+        "result": "{\"columns\": [\"figure_id\", \"well\", \"page\", \"kind\", \"caption\", \"value_source\", \"key_values\", \"unverified_values\", \"description\", \"transcription\"], \"rows\": [[\"D08_p47_0\", \"56-32\", 47, \"bha_schematic\", \"Figure 22: 8-3/4 in. BHA #6 used with bit #6\", \"label\", \"[\\\"BHA Length = 1,178.12 ft\\\", \\\"HWDP Length = 730 ft\\\", \\\"DC Length = 368 ft\\\", \\\"SHOCK Length = 11 ft\\\", \\\"MONEL Length = 20 ft\\\", \\\"STAB Length = 4 ft\\\", \\\"OTHER Length = 3 ft\\\", \\\"MMTR Length = 33 ft\\\", \\\"BIT Length = 1 ft\\\"]\", \"[]\", \"The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field, Beaver County, Utah. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SHOCK, MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.\", \"BHA Graphical Report\\nWell ID: Forge 56-32\\nField: UTAHFORGE\\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\\nBHA No: 6 BHA Length (ft): 1,178.12 Date In: 13-Feb-21 00:00 Depth In (ft): 3,506\\nDate Out: 14-Feb-21 12:30 Depth Out (ft): 4,595\\nHWDP, 24 joints, Length: 730 ft\\n5.000 ins, 3.250 ins\\nTop Thread 4.5IF\\nS/No: RIG\\n1,178 ft from top to Bit\\nDC, 12 joints, Length: 368 ft\\n6.500 ins, 2.875 ins\\nTop Thread 4.5IF\\nS/No: RIG\\n448 ft from top to Bit\\nSHOCK, Length: 11 ft\\n6.750 ins\\nTop Thread 4.5IF\\nS/No: AW17678794\\nMONEL, Length: 20 ft\\n6.500 ins, 3.250"
+      }
+    ],
+    "seconds": 15.8
+  },
+  {
+    "rule": "value with a fail verdict",
+    "q": "What was the hole size in daily report D07_r005?",
+    "expect": "16 in. but the trust check failed (verdict fail, hole_size_sequence), so not given as fact",
+    "question": "What was the hole size in daily report D07_r005?",
+    "answer": "The hole size in daily report D07_r005 was 16.0 inches, but the value has a verdict of \"fail\" with the source being \"llm\" and failed checks related to \"hole_size_sequence\".",
+    "trace": [
+      {
+        "tool": "run_sql",
+        "args": {
+          "query": "SELECT r.hole_size_in, t.verdict, t.source, t.failed_checks FROM reports r JOIN trust t ON t.report_id = r.report_id AND t.tbl = 'depth' AND t.field = 'hole_size_in' WHERE r.report_id = 'D07_r005'"
+        },
+        "result": "{\"columns\": [\"hole_size_in\", \"verdict\", \"source\", \"failed_checks\"], \"rows\": [[16.0, \"fail\", \"llm\", \"hole_size_sequence\"]]}"
+      }
+    ],
+    "seconds": 14.0
+  },
+  {
+    "rule": "trust.source says how a value was read",
+    "q": "Was the 7 in. casing OD in report D07_r030 read from the PDF by code, or is it a model value?",
+    "expect": "trust: verdict pdf_read, source table -> copied from the Casing table by code",
+    "question": "Was the 7 in. casing OD in report D07_r030 read from the PDF by code, or is it a model value?",
+    "answer": "The 7 in. casing OD in report D07_r030 was read from the PDF by code, as indicated by the verdict \"pdf_read\" and source \"table\".",
+    "trace": [
+      {
+        "tool": "run_sql",
+        "args": {
+          "query": "SELECT t.verdict, t.source FROM trust t JOIN casing c ON t.report_id = c.report_id AND t.tbl = 'casing' AND t.field = 'od_in' WHERE c.report_id = 'D07_r030';"
+        },
+        "result": "{\"columns\": [\"verdict\", \"source\"], \"rows\": [[\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"], [\"pdf_read\", \"table\"]]}"
+      }
+    ],
+    "seconds": 12.1
+  }
+]

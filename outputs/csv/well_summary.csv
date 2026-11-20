@@ -1,0 +1,8 @@
+doc_id,well,field,value
+D08,56-32,well_name,Forge Seismic Monitoring Well 56-32
+D08,56-32,purpose,Seismic Monitoring
+D08,56-32,total_depth_md_ft,9105.0
+D08,56-32,rig,Rig-16
+D08,56-32,spud_date,2021-02-08
+D08,56-32,td_date,2021-02-22
+D08,56-32,total_depth_tvd_ft,9138.3

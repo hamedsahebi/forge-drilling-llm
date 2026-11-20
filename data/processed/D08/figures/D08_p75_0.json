@@ -1,0 +1,83 @@
+{
+  "doc_id": "D08",
+  "page": 75,
+  "bbox": [
+    72.0,
+    106.2,
+    540.0,
+    652.2
+  ],
+  "source": "raster",
+  "caption": "Figure 48: MSE monitored parameters while drilling the 8-3/4 in. hole section (Bit # 14)",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p75_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 22.024953365325928,
+    "prompt_tokens": 1710,
+    "output_tokens": 362
+  },
+  "data": {
+    "transcription": "MSE Total",
+    "description": "The figure shows a drilling log for well 56-32, specifically the 8-3/4 inch hole section. It includes various parameters monitored during drilling such as MSE total, convertible torque, depth of cut, weight on bit (WOB), rate of penetration (ROP), rotary RPM, differential pressure, and bit torque.",
+    "kind": "drilling_parameter_chart",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "MSE Total",
+        "unit": "Units",
+        "trend": null
+      },
+      {
+        "name": "Convertible Torque",
+        "unit": "kl-lbf",
+        "trend": null
+      },
+      {
+        "name": "Depth of Cut",
+        "unit": "in.",
+        "trend": null
+      },
+      {
+        "name": "Weight on Bit (WOB)",
+        "unit": "klbs",
+        "trend": null
+      },
+      {
+        "name": "On Bottom ROP",
+        "unit": "ft/hr",
+        "trend": null
+      },
+      {
+        "name": "Rotary RPM",
+        "unit": "RPM",
+        "trend": null
+      },
+      {
+        "name": "Differential Pressure",
+        "unit": "psi",
+        "trend": null
+      },
+      {
+        "name": "Bit Torque",
+        "unit": "kl-lbf",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "MSE Total = 200.00 Units",
+      "Convertible Torque = 50.00 kl-lbf",
+      "Depth of Cut = 0.50 in.",
+      "Weight on Bit (WOB) = 100.00 klbs",
+      "On Bottom ROP = 350.00 ft/hr",
+      "Rotary RPM = 150.00 RPM",
+      "Differential Pressure = 1000.00 psi",
+      "Bit Torque = 1 kl-lbf"
+    ]
+  }
+}

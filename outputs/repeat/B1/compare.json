@@ -1,0 +1,33 @@
+{
+ "runs": [
+  "..\\outputs\\repeat\\B1\\cold1",
+  "..\\outputs\\repeat\\B1\\cold2",
+  "..\\outputs\\repeat\\B1\\cold3",
+  "..\\outputs\\repeat\\B1\\warm1",
+  "..\\outputs\\repeat\\B1\\warm2",
+  "..\\outputs\\repeat\\B1\\warm3"
+ ],
+ "reports": 1,
+ "fields": 63,
+ "same": 62,
+ "differ": 1,
+ "share_same": 0.9841,
+ "differ_by_table": {
+  "summary": 1
+ },
+ "row_count_differences": [],
+ "examples": [
+  {
+   "report": "D04_r001",
+   "path": "summary",
+   "values": [
+    "This report details the safety meeting conducted and the initiation of final rig up activities for well 56-32, with no incidents or events reported.",
+    "This report details the safety meeting conducted and the initiation of final rig up activities for well 56-32, with no incidents or events reported.",
+    "This report details the safety meeting conducted and the initiation of final rig up activities for well 56-32, with no incidents or events reported.",
+    "This report details the daily drilling activities for well 56-32, including a safety meeting and the initiation of final rig-up operations with the Frontier Spud Date pending.",
+    "This report details the daily drilling activities for well 56-32, including a safety meeting and the initiation of final rig-up operations with the Frontier Spud Date pending.",
+    "This report details the daily drilling activities for well 56-32, including a safety meeting and the initiation of final rig-up operations with the Frontier Spud Date pending."
+   ]
+  }
+ ]
+}

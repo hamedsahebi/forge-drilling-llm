@@ -1,0 +1,71 @@
+{
+  "blind": true,
+  "header": {
+    "footage_24h_ft": "0",
+    "hole_size_in": "",
+    "md_ft": "5761",
+    "report_date": "2021-07-09",
+    "report_number": "13",
+    "report_type": "drilling",
+    "rig": "Frontier Rig 16",
+    "tvd_ft": "5760"
+  },
+  "removed": {
+    "bha": [],
+    "bits": [],
+    "casing": [],
+    "mud": [],
+    "operations": [],
+    "surveys": []
+  },
+  "status": "done",
+  "tables": {
+    "bha": [],
+    "bits": [],
+    "casing": [
+      {
+        "_m": null,
+        "grade": "K-55",
+        "id_in": "",
+        "od_in": "16",
+        "section": "SURF",
+        "shoe_md_ft": "416",
+        "weight_ppf": "65"
+      },
+      {
+        "_m": null,
+        "grade": "j-55",
+        "id_in": "",
+        "od_in": "11.75",
+        "section": "INT1",
+        "shoe_md_ft": "2990",
+        "weight_ppf": "54"
+      }
+    ],
+    "mud": [
+      {
+        "_m": null,
+        "chlorides_mg_l": "800",
+        "density_ppg": "8.30",
+        "depth_ft": "5761",
+        "funnel_viscosity_s": "26",
+        "ph": "10",
+        "pv_cp": "0",
+        "yp_lbf_100ft2": "1"
+      }
+    ],
+    "operations": [
+      {
+        "_m": null,
+        "activity": "waiting",
+        "end": "0:00",
+        "end_md_ft": "5761",
+        "hours": "24",
+        "is_npt": "yes",
+        "start": "0:00"
+      }
+    ],
+    "surveys": []
+  },
+  "updated": "2026-11-09T09:22:58.791Z"
+}

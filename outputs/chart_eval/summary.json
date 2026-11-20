@@ -1,0 +1,642 @@
+[
+ {
+  "method": "llm_axis",
+  "variable": "circulating_hours",
+  "kind": "at_min",
+  "n": 65,
+  "correct_pct": 24.6,
+  "median_abs_error": 3.6,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 1
+ },
+ {
+  "method": "llm_axis",
+  "variable": "circulating_hours",
+  "kind": "reading",
+  "n": 55,
+  "correct_pct": 32.7,
+  "median_abs_error": 4.0,
+  "median_error_pct_full_scale": 4.0,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "flow_pct",
+  "kind": "at_min",
+  "n": 32,
+  "correct_pct": 0.0,
+  "median_abs_error": 9.05,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "flow_pct",
+  "kind": "reading",
+  "n": 87,
+  "correct_pct": 44.8,
+  "median_abs_error": 3.46,
+  "median_error_pct_full_scale": 3.46,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "hook_load_klbs",
+  "kind": "at_max",
+  "n": 29,
+  "correct_pct": 93.1,
+  "median_abs_error": 56.4,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 23
+ },
+ {
+  "method": "llm_axis",
+  "variable": "hook_load_klbs",
+  "kind": "at_min",
+  "n": 40,
+  "correct_pct": 0.0,
+  "median_abs_error": 180.55,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 36
+ },
+ {
+  "method": "llm_axis",
+  "variable": "hook_load_klbs",
+  "kind": "reading",
+  "n": 51,
+  "correct_pct": 31.4,
+  "median_abs_error": 11.4,
+  "median_error_pct_full_scale": 7.6,
+  "true_value_beyond_scale": 10
+ },
+ {
+  "method": "llm_axis",
+  "variable": "mud_volume_bbl",
+  "kind": "at_max",
+  "n": 91,
+  "correct_pct": 100.0,
+  "median_abs_error": 201.54,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 91
+ },
+ {
+  "method": "llm_axis",
+  "variable": "mud_volume_bbl",
+  "kind": "at_min",
+  "n": 29,
+  "correct_pct": 0.0,
+  "median_abs_error": 403.61,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 29
+ },
+ {
+  "method": "llm_axis",
+  "variable": "on_bottom_hours",
+  "kind": "at_min",
+  "n": 95,
+  "correct_pct": 43.2,
+  "median_abs_error": 3.13,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "on_bottom_hours",
+  "kind": "reading",
+  "n": 25,
+  "correct_pct": 28.0,
+  "median_abs_error": 3.13,
+  "median_error_pct_full_scale": 3.13,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "rop_ft_hr",
+  "kind": "at_max",
+  "n": 5,
+  "correct_pct": 0.0,
+  "median_abs_error": 100.0,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "rop_ft_hr",
+  "kind": "at_min",
+  "n": 37,
+  "correct_pct": 78.4,
+  "median_abs_error": 0.0,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 1
+ },
+ {
+  "method": "llm_axis",
+  "variable": "rop_ft_hr",
+  "kind": "reading",
+  "n": 78,
+  "correct_pct": 43.6,
+  "median_abs_error": 7.36,
+  "median_error_pct_full_scale": 7.36,
+  "true_value_beyond_scale": 7
+ },
+ {
+  "method": "llm_axis",
+  "variable": "rpm",
+  "kind": "at_min",
+  "n": 39,
+  "correct_pct": 61.5,
+  "median_abs_error": 0.03,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "rpm",
+  "kind": "reading",
+  "n": 81,
+  "correct_pct": 45.7,
+  "median_abs_error": 6.42,
+  "median_error_pct_full_scale": 3.21,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_axis",
+  "variable": "torque_kftlb",
+  "kind": "at_max",
+  "n": 27,
+  "correct_pct": 59.3,
+  "median_abs_error": 1.84,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 12
+ },
+ {
+  "method": "llm_axis",
+  "variable": "torque_kftlb",
+  "kind": "at_min",
+  "n": 32,
+  "correct_pct": 62.5,
+  "median_abs_error": 0.0,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 11
+ },
+ {
+  "method": "llm_axis",
+  "variable": "torque_kftlb",
+  "kind": "reading",
+  "n": 57,
+  "correct_pct": 36.8,
+  "median_abs_error": 2.345,
+  "median_error_pct_full_scale": 23.45,
+  "true_value_beyond_scale": 10
+ },
+ {
+  "method": "llm_axis",
+  "variable": "wob_klbs",
+  "kind": "at_max",
+  "n": 55,
+  "correct_pct": 89.1,
+  "median_abs_error": 35.9,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 46
+ },
+ {
+  "method": "llm_axis",
+  "variable": "wob_klbs",
+  "kind": "at_min",
+  "n": 12,
+  "correct_pct": 16.7,
+  "median_abs_error": 60.55,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 7
+ },
+ {
+  "method": "llm_axis",
+  "variable": "wob_klbs",
+  "kind": "reading",
+  "n": 53,
+  "correct_pct": 37.7,
+  "median_abs_error": 8.5,
+  "median_error_pct_full_scale": 28.33,
+  "true_value_beyond_scale": 11
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "circulating_hours",
+  "kind": "at_max",
+  "n": 15,
+  "correct_pct": 0.0,
+  "median_abs_error": 90.5,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "circulating_hours",
+  "kind": "at_min",
+  "n": 105,
+  "correct_pct": 15.2,
+  "median_abs_error": 6.7,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 1
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "flow_pct",
+  "kind": "at_max",
+  "n": 18,
+  "correct_pct": 0.0,
+  "median_abs_error": 46.615,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "flow_pct",
+  "kind": "at_min",
+  "n": 95,
+  "correct_pct": 0.0,
+  "median_abs_error": 26.75,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "hook_load_klbs",
+  "kind": "at_max",
+  "n": 110,
+  "correct_pct": 63.6,
+  "median_abs_error": 34.85,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 60
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "hook_load_klbs",
+  "kind": "at_min",
+  "n": 7,
+  "correct_pct": 0.0,
+  "median_abs_error": 235.1,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 6
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "mud_volume_bbl",
+  "kind": "at_max",
+  "n": 21,
+  "correct_pct": 100.0,
+  "median_abs_error": 190.72,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 21
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "mud_volume_bbl",
+  "kind": "at_min",
+  "n": 93,
+  "correct_pct": 0.0,
+  "median_abs_error": 405.1,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 93
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "on_bottom_hours",
+  "kind": "at_max",
+  "n": 94,
+  "correct_pct": 0.0,
+  "median_abs_error": 95.87,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "on_bottom_hours",
+  "kind": "at_min",
+  "n": 26,
+  "correct_pct": 53.8,
+  "median_abs_error": 1.64,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "rop_ft_hr",
+  "kind": "at_max",
+  "n": 30,
+  "correct_pct": 13.3,
+  "median_abs_error": 100.0,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 4
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "rop_ft_hr",
+  "kind": "at_min",
+  "n": 84,
+  "correct_pct": 29.8,
+  "median_abs_error": 31.63,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 4
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "rpm",
+  "kind": "at_max",
+  "n": 80,
+  "correct_pct": 0.0,
+  "median_abs_error": 159.295,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "rpm",
+  "kind": "at_min",
+  "n": 40,
+  "correct_pct": 32.5,
+  "median_abs_error": 40.09,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "torque_kftlb",
+  "kind": "at_max",
+  "n": 30,
+  "correct_pct": 23.3,
+  "median_abs_error": 6.6,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 4
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "torque_kftlb",
+  "kind": "at_min",
+  "n": 84,
+  "correct_pct": 27.4,
+  "median_abs_error": 7.914,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 33
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "wob_klbs",
+  "kind": "at_max",
+  "n": 23,
+  "correct_pct": 43.5,
+  "median_abs_error": 25.6,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 8
+ },
+ {
+  "method": "llm_kind_first",
+  "variable": "wob_klbs",
+  "kind": "at_min",
+  "n": 96,
+  "correct_pct": 21.9,
+  "median_abs_error": 51.45,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 56
+ },
+ {
+  "method": "vector",
+  "variable": "bit_depth_ft",
+  "kind": "text",
+  "n": 8240,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.4,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "circulating_hours",
+  "kind": "at_max",
+  "n": 516,
+  "correct_pct": 100.0,
+  "median_abs_error": 231.65,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 516
+ },
+ {
+  "method": "vector",
+  "variable": "circulating_hours",
+  "kind": "at_min",
+  "n": 372,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.25,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "circulating_hours",
+  "kind": "reading",
+  "n": 9862,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.023,
+  "median_error_pct_full_scale": 0.02,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "flow_pct",
+  "kind": "reading",
+  "n": 9383,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.002,
+  "median_error_pct_full_scale": 0.0,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "hook_load_klbs",
+  "kind": "at_max",
+  "n": 2317,
+  "correct_pct": 100.0,
+  "median_abs_error": 66.176,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 2273
+ },
+ {
+  "method": "vector",
+  "variable": "hook_load_klbs",
+  "kind": "at_min",
+  "n": 505,
+  "correct_pct": 99.8,
+  "median_abs_error": 0.676,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "hook_load_klbs",
+  "kind": "reading",
+  "n": 7079,
+  "correct_pct": 93.5,
+  "median_abs_error": 0.035,
+  "median_error_pct_full_scale": 0.02,
+  "true_value_beyond_scale": 75
+ },
+ {
+  "method": "vector",
+  "variable": "mud_volume_bbl",
+  "kind": "at_max",
+  "n": 9142,
+  "correct_pct": 100.0,
+  "median_abs_error": 180.026,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 9142
+ },
+ {
+  "method": "vector",
+  "variable": "mud_volume_bbl",
+  "kind": "reading",
+  "n": 759,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.006,
+  "median_error_pct_full_scale": 0.0,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "on_bottom_hours",
+  "kind": "at_min",
+  "n": 2462,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.45,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "on_bottom_hours",
+  "kind": "reading",
+  "n": 8288,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.003,
+  "median_error_pct_full_scale": 0.0,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "rop_ft_hr",
+  "kind": "at_max",
+  "n": 273,
+  "correct_pct": 100.0,
+  "median_abs_error": 45.35,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 267
+ },
+ {
+  "method": "vector",
+  "variable": "rop_ft_hr",
+  "kind": "at_min",
+  "n": 9399,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.45,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "rop_ft_hr",
+  "kind": "reading",
+  "n": 1078,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.002,
+  "median_error_pct_full_scale": 0.0,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "rpm",
+  "kind": "at_min",
+  "n": 8037,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.901,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "rpm",
+  "kind": "reading",
+  "n": 1522,
+  "correct_pct": 99.4,
+  "median_abs_error": 0.007,
+  "median_error_pct_full_scale": 0.0,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "torque_kftlb",
+  "kind": "at_max",
+  "n": 663,
+  "correct_pct": 100.0,
+  "median_abs_error": 2.659,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 657
+ },
+ {
+  "method": "vector",
+  "variable": "torque_kftlb",
+  "kind": "at_min",
+  "n": 7951,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.045,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "torque_kftlb",
+  "kind": "reading",
+  "n": 952,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.003,
+  "median_error_pct_full_scale": 0.03,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "tvd_ft",
+  "kind": "text",
+  "n": 1817,
+  "correct_pct": 100.0,
+  "median_abs_error": 0.03,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 0
+ },
+ {
+  "method": "vector",
+  "variable": "wob_klbs",
+  "kind": "at_max",
+  "n": 2130,
+  "correct_pct": 100.0,
+  "median_abs_error": 36.835,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 2127
+ },
+ {
+  "method": "vector",
+  "variable": "wob_klbs",
+  "kind": "at_min",
+  "n": 7690,
+  "correct_pct": 99.4,
+  "median_abs_error": 0.135,
+  "median_error_pct_full_scale": null,
+  "true_value_beyond_scale": 107
+ },
+ {
+  "method": "vector",
+  "variable": "wob_klbs",
+  "kind": "reading",
+  "n": 930,
+  "correct_pct": 87.4,
+  "median_abs_error": 0.04,
+  "median_error_pct_full_scale": 0.13,
+  "true_value_beyond_scale": 66
+ }
+]

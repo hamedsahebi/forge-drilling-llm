@@ -1,0 +1,483 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    85,
+    86,
+    87
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "attempts": 8,
+    "seconds": 228.52300143241882,
+    "prompt_tokens": 39054,
+    "output_tokens": 3220,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 17,
+      "marks": 1,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": null,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": null,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": null,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "casing_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 17,
+      "mapped": 15
+    },
+    "llm_mud": [],
+    "mud_source": "table",
+    "llm_bits": [
+      {
+        "bit_number": "16",
+        "size_in": 5.75,
+        "manufacturer": "BAKER",
+        "bit_type": "STX",
+        "serial_number": null,
+        "depth_in_ft": 8545.0,
+        "depth_out_ft": 8555.0,
+        "wob_klbf": 30.0,
+        "rpm": 30.0,
+        "rop_ft_hr": 1.0
+      },
+      {
+        "bit_number": "17",
+        "size_in": 5.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 8555.0,
+        "depth_out_ft": null,
+        "wob_klbf": 30.0,
+        "rpm": 30.0,
+        "rop_ft_hr": 395.0
+      }
+    ],
+    "bits_source": "table",
+    "activity_pass": true
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 32,
+      "report_date": "2021-07-28",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 8950.0,
+      "tvd_ft": 8947.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": null,
+      "planned_operation": "Drilled from 8,950 to 9,500' at report time. Circulate hole clean. Trip out of the hole. Lay out drill collars. Trip in the hole with 3.5\" drill pipe. Rig up logger and log."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "mud": [
+      {
+        "depth_ft": 8626.0,
+        "density_ppg": 8.3,
+        "funnel_viscosity_s": 26.0,
+        "pv_cp": 0.0,
+        "yp_lbf_100ft2": 1.0,
+        "ph": 11.0,
+        "chlorides_mg_l": 700.0
+      }
+    ],
+    "bits": [
+      {
+        "bit_number": "16",
+        "size_in": 5.75,
+        "manufacturer": "BAKER",
+        "bit_type": "STX",
+        "serial_number": null,
+        "depth_in_ft": 8545.0,
+        "depth_out_ft": 8555.0,
+        "wob_klbf": 16.0,
+        "rpm": 45.0,
+        "rop_ft_hr": 10.0
+      },
+      {
+        "bit_number": "17",
+        "size_in": 5.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 8555.0,
+        "depth_out_ft": null,
+        "wob_klbf": 30.0,
+        "rpm": 30.0,
+        "rop_ft_hr": 112.9
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "2 MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "30 DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": 1020.17
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 8558.0,
+        "inclination_deg": 2.78,
+        "azimuth_deg": 264.5,
+        "tvd_ft": 8556.1
+      },
+      {
+        "md_ft": 8653.0,
+        "inclination_deg": 2.31,
+        "azimuth_deg": 307.2,
+        "tvd_ft": 8651.0
+      },
+      {
+        "md_ft": 8743.0,
+        "inclination_deg": 0.99,
+        "azimuth_deg": 21.4,
+        "tvd_ft": 8741.0
+      },
+      {
+        "md_ft": 8843.0,
+        "inclination_deg": 0.92,
+        "azimuth_deg": 283.7,
+        "tvd_ft": 8841.0
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "0:30",
+        "hours": 0.5,
+        "end_md_ft": 8545.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated bottoms up Prior to testing.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "03-051",
+        "activity_source": "code"
+      },
+      {
+        "start": "0:30",
+        "end": "1:45",
+        "hours": 1.25,
+        "end_md_ft": 8545.0,
+        "activity": "bop_testing",
+        "is_npt": false,
+        "description": "Tested pipe rams to 300 psi low, 5200 high. Held low test for 5 mins held high test for 10 mins. Good test. Tested annular to 300 psi low, 5200 high. Held low test for 5 mins held high test for 10 mins. Good test.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "bop_testing",
+        "activity_code": "3-15",
+        "activity_source": "code"
+      },
+      {
+        "start": "1:45",
+        "end": "2:30",
+        "hours": 0.75,
+        "end_md_ft": 8545.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled out cement and shoe track from 8,364'' to 8,508'. Good cement in shoe. Observed 1’ of good cement outside of the shoe. Cleaned out rat hole from 8,508’ to 8,545’. Note: Float collar did not take any weight while drilling out. Note: Pumped 2-5 gallon buckets of Poly Vis along with 25 pounds of torkease mixed in 40 bbl's of water.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-28",
+        "activity_source": "code"
+      },
+      {
+        "start": "2:30",
+        "end": "3:30",
+        "hours": 1.0,
+        "end_md_ft": 8555.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 8,545' to 8,555'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-99",
+        "activity_source": "llm"
+      },
+      {
+        "start": "3:30",
+        "end": "4:00",
+        "hours": 0.5,
+        "end_md_ft": 8555.0,
+        "activity": "circulating",
+        "is_npt": false,
+        "description": "Circulated bottoms up prior to performing XLOT.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "circulating",
+        "activity_code": "3-5-1",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:00",
+        "end": "5:00",
+        "hours": 1.0,
+        "end_md_ft": 8555.0,
+        "activity": "rig_up_down",
+        "is_npt": false,
+        "description": "Rigged up Resource cementing pump truck. Troubleshoot pressure gage on truck.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_up_down",
+        "activity_code": "OTHER",
+        "activity_source": "llm"
+      },
+      {
+        "start": "5:00",
+        "end": "6:00",
+        "hours": 1.0,
+        "end_md_ft": 8555.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Slipped and cut drilling line.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "other",
+        "activity_code": "CUTDL",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "8:00",
+        "hours": 2.0,
+        "end_md_ft": 8555.0,
+        "activity": "logging_survey",
+        "is_npt": false,
+        "description": "Conducted xLOT with Resource cementing pump truck. Bleed back was 2.5 bbl with both low and high rates.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-46",
+        "activity_source": "code"
+      },
+      {
+        "start": "8:00",
+        "end": "11:30",
+        "hours": 3.5,
+        "end_md_ft": 8555.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Pulled out of the hole and lay down bit.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "11:30",
+        "end": "12:00",
+        "hours": 0.5,
+        "end_md_ft": 8555.0,
+        "activity": "other",
+        "is_npt": false,
+        "description": "Serviced Rig.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "rig_repair",
+        "activity_code": "SERV",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:00",
+        "end": "14:00",
+        "hours": 2.0,
+        "end_md_ft": 8555.0,
+        "activity": "tripping",
+        "is_npt": true,
+        "description": "Picked up 5-3/4\" directional drilling assembly. NOTE: hole took 25 bbls of fluid to fill X while picking up tools avg loss is 12.5 bbl/hour.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-34-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "14:00",
+        "end": "20:00",
+        "hours": 6.0,
+        "end_md_ft": 8555.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with drill pipe filling pipe at 4,000' 6,000'. Staged in the hole every 50' from 7,000' to 8,150'. Washed down from 8,150' to 8,555' to keep tools under 345 degrees. Max temperature observed was 345 degrees at MWD. Note: Lost connection with MWD once on bottom. Recycled pump 3 times and was able to regain communication with MWD.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:00",
+        "end": "20:30",
+        "hours": 0.5,
+        "end_md_ft": 8615.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 8,555' to 8,615'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "20:30",
+        "end": "21:30",
+        "hours": 1.0,
+        "end_md_ft": 8654.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide Drilled 5-3/4\" from 8,615' to 8,654'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "21:30",
+        "end": "22:00",
+        "hours": 0.5,
+        "end_md_ft": 8709.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 8,654' to 8,709'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:00",
+        "end": "22:30",
+        "hours": 0.5,
+        "end_md_ft": 8742.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Slide Drilled 5-3/4\" from 8,709' to 8,742'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "22:30",
+        "end": "0:00",
+        "hours": 1.5,
+        "end_md_ft": 8950.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Drilled 5-3/4\" hole from 8,742' to 8,950'.",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "3-2-3",
+        "activity_source": "code"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "equipment_failure",
+        "depth_ft": 8555.0,
+        "time": "5:00",
+        "description": "Slipped and cut drilling line."
+      }
+    ],
+    "summary": "Drilling operations continued from 8,950' to 9,500' on 28-Jul-21, with a reported average ROP of 30 ft/hr. No incidents or events were reported, and the well was in a productive state."
+  }
+}

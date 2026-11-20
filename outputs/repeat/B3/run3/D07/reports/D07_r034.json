@@ -1,0 +1,346 @@
+{
+  "doc_id": "D07",
+  "well": "78B-32",
+  "source": "78B-32_DDR.pdf",
+  "pages": [
+    91,
+    92
+  ],
+  "meta": {
+    "model": "qwen3:8b",
+    "mode": "sectioned",
+    "seed": 42,
+    "attempts": 8,
+    "seconds": 138.01518869400024,
+    "prompt_tokens": 27572,
+    "output_tokens": 2035,
+    "sanity_flags": [],
+    "npt_column": {
+      "found": true,
+      "in_use": true,
+      "rows": 8,
+      "marks": 0,
+      "unmatched_rows": []
+    },
+    "llm_casing": [
+      {
+        "section": "SURF",
+        "od_in": null,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": null,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "casing_source": "table",
+    "llm_mud": [],
+    "mud_source": "llm",
+    "llm_bits": [
+      {
+        "bit_number": "1",
+        "size_in": 5.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 8555.0,
+        "depth_out_ft": 9500.0,
+        "wob_klbf": 30.0,
+        "rpm": 30.0,
+        "rop_ft_hr": 130.0
+      }
+    ],
+    "bits_source": "table",
+    "activity_code": {
+      "found": true,
+      "rows": 8,
+      "mapped": 6
+    }
+  },
+  "data": {
+    "header": {
+      "well_name": "78B-32",
+      "report_number": 34,
+      "report_date": "2021-07-30",
+      "operator": "University of Utah",
+      "contractor": "Frontier Rig 16",
+      "rig": "Frontier Rig 16",
+      "report_type": "drilling"
+    },
+    "depth": {
+      "md_ft": 9500.0,
+      "tvd_ft": 9497.0,
+      "footage_24h_ft": null,
+      "hole_size_in": null,
+      "current_operation": "Nipple down 7-1/16\" 10K BOP's. Install master valve with 3\" 10k spool on top.",
+      "planned_operation": "Clean pits and release rig."
+    },
+    "casing": [
+      {
+        "section": "SURF",
+        "od_in": 16.0,
+        "weight_ppf": 65.0,
+        "grade": "K-55",
+        "shoe_md_ft": 416.0
+      },
+      {
+        "section": "INT1",
+        "od_in": 11.75,
+        "weight_ppf": 54.0,
+        "grade": "J-55",
+        "shoe_md_ft": 2990.0
+      },
+      {
+        "section": "PROD",
+        "od_in": 7.0,
+        "weight_ppf": 41.0,
+        "grade": "T-110S",
+        "shoe_md_ft": 8509.0
+      }
+    ],
+    "mud": [],
+    "bits": [
+      {
+        "bit_number": "17",
+        "size_in": 5.75,
+        "manufacturer": "REED",
+        "bit_type": "TKC63",
+        "serial_number": null,
+        "depth_in_ft": 8555.0,
+        "depth_out_ft": 9500.0,
+        "wob_klbf": 30.0,
+        "rpm": 30.0,
+        "rop_ft_hr": 130.0
+      }
+    ],
+    "bha": [
+      {
+        "order": 1,
+        "component": "BIT",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 2,
+        "component": "MMTR",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 3,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 4,
+        "component": "OTHER",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 5,
+        "component": "MONEL",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      },
+      {
+        "order": 6,
+        "component": "30 DC",
+        "od_in": null,
+        "id_in": null,
+        "length_ft": null
+      }
+    ],
+    "surveys": [
+      {
+        "md_ft": 8938.0,
+        "inclination_deg": 2.76,
+        "azimuth_deg": 282.7,
+        "tvd_ft": 8935.9
+      },
+      {
+        "md_ft": 9033.0,
+        "inclination_deg": 1.05,
+        "azimuth_deg": 250.4,
+        "tvd_ft": 9030.9
+      },
+      {
+        "md_ft": 9127.0,
+        "inclination_deg": 2.4,
+        "azimuth_deg": 258.9,
+        "tvd_ft": 9124.8
+      },
+      {
+        "md_ft": 9222.0,
+        "inclination_deg": 1.31,
+        "azimuth_deg": 284.5,
+        "tvd_ft": 9219.8
+      },
+      {
+        "md_ft": 9317.0,
+        "inclination_deg": 3.73,
+        "azimuth_deg": 270.0,
+        "tvd_ft": 9314.7
+      },
+      {
+        "md_ft": 9412.0,
+        "inclination_deg": 3.96,
+        "azimuth_deg": 251.0,
+        "tvd_ft": 9409.5
+      },
+      {
+        "md_ft": 9444.0,
+        "inclination_deg": 3.91,
+        "azimuth_deg": 235.5,
+        "tvd_ft": 9441.4
+      },
+      {
+        "md_ft": 9500.0,
+        "inclination_deg": 3.91,
+        "azimuth_deg": 235.5,
+        "tvd_ft": 9497.3
+      }
+    ],
+    "operations": [
+      {
+        "start": "0:00",
+        "end": "4:00",
+        "hours": 4.0,
+        "end_md_ft": 9225.0,
+        "activity": "logging_survey",
+        "is_npt": false,
+        "description": "Rigged up and run Triple-Combo / Max BHT was 416 F / Logging upwards",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "LOG",
+        "activity_source": "code"
+      },
+      {
+        "start": "4:00",
+        "end": "6:00",
+        "hours": 2.0,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 5-3/4\" slick assembly to 5,000'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "6:00",
+        "end": "10:30",
+        "hours": 4.5,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Laid down 3.5\" drill pipe to top of drill collars",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-34-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "10:30",
+        "end": "12:15",
+        "hours": 1.75,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Tripped in the hole with 3-1/2\" drill pipe and slick assembly to 5,500'",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "tripping",
+        "activity_code": "3-6-3",
+        "activity_source": "code"
+      },
+      {
+        "start": "12:15",
+        "end": "15:30",
+        "hours": 3.25,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Laid down 3-1/2\" drill pipe to the top of the drill collars",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-34-2",
+        "activity_source": "code"
+      },
+      {
+        "start": "15:30",
+        "end": "18:00",
+        "hours": 2.5,
+        "end_md_ft": 9225.0,
+        "activity": "tripping",
+        "is_npt": false,
+        "description": "Laid down 4-3/4\" drill collars",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "logging_survey",
+        "activity_code": "3-34-4",
+        "activity_source": "code"
+      },
+      {
+        "start": "18:00",
+        "end": "19:00",
+        "hours": 1.0,
+        "end_md_ft": 9225.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Shut down and test night tour for Covid-19 due to 3 guys on daylights testing positive.",
+        "llm_is_npt": true,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "SAFE",
+        "activity_source": "llm"
+      },
+      {
+        "start": "19:00",
+        "end": "0:00",
+        "hours": 5.0,
+        "end_md_ft": 9225.0,
+        "activity": "drilling",
+        "is_npt": false,
+        "description": "Nippled down 7-1/16\" 10K BOP's",
+        "llm_is_npt": false,
+        "npt_source": "column",
+        "llm_activity": "drilling",
+        "activity_code": "6-99",
+        "activity_source": "llm"
+      }
+    ],
+    "events": [
+      {
+        "event_type": "other",
+        "depth_ft": 9225.0,
+        "time": "18:00",
+        "description": "Shut down and test night tour for Covid-19 due to 3 guys on daylights testing positive."
+      }
+    ],
+    "summary": "The report details drilling activities for well 78B-32, including operations such as tripping in the hole, laying down drill pipe, and setting BOPs. It also notes a shutdown due to a positive Covid-19 test among crew members and highlights safety measures taken."
+  }
+}

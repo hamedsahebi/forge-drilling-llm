@@ -1,0 +1,84 @@
+{
+  "doc_id": "D08",
+  "page": 50,
+  "bbox": [
+    109.4,
+    106.2,
+    502.6,
+    636.9
+  ],
+  "source": "raster",
+  "caption": "Figure 25: 8-3/4 in. BHA #9 used with bit #9",
+  "text_hint": "",
+  "image_path": "D:\\personalProjects\\llm_paper\\data\\processed\\D08\\figures\\D08_p50_0.png",
+  "extra": {},
+  "well": "56-32",
+  "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 46.90777349472046,
+    "prompt_tokens": 1430,
+    "output_tokens": 834
+  },
+  "data": {
+    "transcription": "BHA Graphical Report\nWell ID: Forge 56-32\nField: UTAHFORGE\nSect: 32 Town: 26S Rng: 9W County: Beaver State: UT\nBHA No: 9 BHA Length (ft): 1,179.22 Date In: 17-Feb-21 09:00 Depth In (ft): 5,610\nDate Out: 18-Feb-21 01:30 Depth Out (ft): 5,999\nHWDP, 24 joints, Length: 730 ft\n5.000 ins, 3.250 ins\nTop Thread 4.5IF\nS/No: RIG\n1,179 ft from top to Bit\nDC, 12 joints, Length: 368 ft\n6.500 ins, 2.875 ins\nTop Thread 4.5IF\nS/No: RIG\n449 ft from top to Bit\nSHOCK, Length: 11 ft\n6.875 ins\nTop Thread 4.5IF\nS/No: 6750040\nMONEL, Length: 28 ft\n6.500 ins, 3.250 ins\nTop Thread 4.5IF\nS/No: DR9901\n70 ft from top to Bit\nSTAB, Length: 5 ft\n6.563 ins, 3.000 ins\nTop Thread 4.5IF\nNMSTAB\nOTHER, Length: 3 ft\n6.813 ins, 3.250 ins\nTop Thread 4.5IF\nNMUBHO\nMMTR, Length: 33 ft\n7.000 ins\nTop Thread 4.5IF\nS/No: RM7002\n34 ft from top to Bit\nBIT, Length: 1 ft\n8.750 ins\nTop Thread 4.5REG\nS/No: A271436\n1 ft from top to Bit",
+    "description": "The figure is a BHA (Bottom Hole Assembly) graphical report for well ID Forge 56-32, located in UTAHFORGE field. The BHA consists of various components including HWDP (Heavy Weight Drill Pipe), DC (Drill Collar), SHOCK, MONEL, STAB, OTHER, MMTR, and BIT. Each component is detailed with its length, internal diameter, external diameter, top thread type, serial number, and the distance from the top to the bit.",
+    "kind": "well_log",
+    "title": null,
+    "x_axis": null,
+    "y_axis": null,
+    "series": [
+      {
+        "name": "HWDP",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "DC",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "SHOCK",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MONEL",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "STAB",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "OTHER",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "MMTR",
+        "unit": "ft",
+        "trend": null
+      },
+      {
+        "name": "BIT",
+        "unit": "ft",
+        "trend": null
+      }
+    ],
+    "key_values": [
+      "BHA Length = 1,179.22 ft",
+      "HWDP Length = 730 ft",
+      "DC Length = 368 ft",
+      "SHOCK Length = 11 ft",
+      "MONEL Length = 28 ft",
+      "STAB Length = 5 ft",
+      "OTHER Length = 3 ft",
+      "MMTR Length = 33 ft",
+      "BIT Length = 1 ft"
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+ "page": 183,
+ "times": [
+  "2021-07-25T19:15:00",
+  "2021-07-25T19:45:00",
+  "2021-07-25T20:15:00",
+  "2021-07-25T20:45:00",
+  "2021-07-25T21:15:00",
+  "2021-07-25T21:45:00"
+ ],
+ "meta": {
+  "seconds": 61.27786064147949
+ },
+ "strips": [
+  {
+   "time": "2021-07-25T19:15:00",
+   "track": 0,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.423517942428589,
+    "prompt_tokens": 1174,
+    "output_tokens": 27
+   },
+   "result": {
+    "hook_load_klbs": null,
+    "wob_klbs": 0.5,
+    "rpm": 0.0
+   }
+  },
+  {
+   "time": "2021-07-25T19:15:00",
+   "track": 1,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.3642356395721436,
+    "prompt_tokens": 1173,
+    "output_tokens": 26
+   },
+   "result": {
+    "torque_kftlb": null,
+    "rop_ft_hr": 0.0,
+    "flow_pct": 1.0
+   }
+  },
+  {
+   "time": "2021-07-25T19:15:00",
+   "track": 2,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.534853458404541,
+    "prompt_tokens": 1175,
+    "output_tokens": 36
+   },
+   "result": {
+    "on_bottom_hours": null,
+    "circulating_hours": 0.5,
+    "mud_volume_bbl": 0.75
+   }
+  },
+  {
+   "time": "2021-07-25T19:45:00",
+   "track": 0,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.5055854320526123,
+    "prompt_tokens": 1174,
+    "output_tokens": 30
+   },
+   "result": {
+    "hook_load_klbs": 0.0,
+    "wob_klbs": 1.0,
+    "rpm": 0.0
+   }
+  },
+  {
+   "time": "2021-07-25T19:45:00",
+   "track": 1,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.4037530422210693,
+    "prompt_tokens": 1173,
+    "output_tokens": 26
+   },
+   "result": {
+    "torque_kftlb": null,
+    "rop_ft_hr": 0.0,
+    "flow_pct": 1.0
+   }
+  },
+  {
+   "time": "2021-07-25T19:45:00",
+   "track": 2,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.498415946960449,
+    "prompt_tokens": 1175,
+    "output_tokens": 31
+   },
+   "result": {
+    "on_bottom_hours": 0.0,
+    "circulating_hours": 1.0,
+    "mud_volume_bbl": null
+   }
+  },
+  {
+   "time": "2021-07-25T20:15:00",
+   "track": 0,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.4953713417053223,
+    "prompt_tokens": 1174,
+    "output_tokens": 34
+   },
+   "result": {
+    "hook_load_klbs": null,
+    "wob_klbs": 0.15,
+    "rpm": 0.2
+   }
+  },
+  {
+   "time": "2021-07-25T20:15:00",
+   "track": 1,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.399616003036499,
+    "prompt_tokens": 1173,
+    "output_tokens": 26
+   },
+   "result": {
+    "torque_kftlb": null,
+    "rop_ft_hr": 0.0,
+    "flow_pct": 1.0
+   }
+  },
+  {
+   "time": "2021-07-25T20:15:00",
+   "track": 2,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.5402064323425293,
+    "prompt_tokens": 1175,
+    "output_tokens": 31
+   },
+   "result": {
+    "on_bottom_hours": 0.0,
+    "circulating_hours": 1.0,
+    "mud_volume_bbl": null
+   }
+  },
+  {
+   "time": "2021-07-25T20:45:00",
+   "track": 0,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.3999221324920654,
+    "prompt_tokens": 1174,
+    "output_tokens": 28
+   },
+   "result": {
+    "hook_load_klbs": null,
+    "wob_klbs": 0.125,
+    "rpm": null
+   }
+  },
+  {
+   "time": "2021-07-25T20:45:00",
+   "track": 1,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.396888017654419,
+    "prompt_tokens": 1173,
+    "output_tokens": 26
+   },
+   "result": {
+    "torque_kftlb": null,
+    "rop_ft_hr": 0.0,
+    "flow_pct": 1.0
+   }
+  },
+  {
+   "time": "2021-07-25T20:45:00",
+   "track": 2,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.5008437633514404,
+    "prompt_tokens": 1175,
+    "output_tokens": 27
+   },
+   "result": {
+    "on_bottom_hours": 0.0,
+    "circulating_hours": 1.0,
+    "mud_volume_bbl": null
+   }
+  },
+  {
+   "time": "2021-07-25T21:15:00",
+   "track": 0,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.5390961170196533,
+    "prompt_tokens": 1174,
+    "output_tokens": 38
+   },
+   "result": {
+    "hook_load_klbs": null,
+    "wob_klbs": 0.125,
+    "rpm": 0.0625
+   }
+  },
+  {
+   "time": "2021-07-25T21:15:00",
+   "track": 1,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.3937253952026367,
+    "prompt_tokens": 1173,
+    "output_tokens": 28
+   },
+   "result": {
+    "torque_kftlb": null,
+    "rop_ft_hr": 0.5,
+    "flow_pct": 1.0
+   }
+  },
+  {
+   "time": "2021-07-25T21:15:00",
+   "track": 2,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 2.653904676437378,
+    "prompt_tokens": 1175,
+    "output_tokens": 31
+   },
+   "result": {
+    "on_bottom_hours": 0.0,
+    "circulating_hours": 1.0,
+    "mud_volume_bbl": null
+   }
+  },
+  {
+   "time": "2021-07-25T21:45:00",
+   "track": 0,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.3950157165527344,
+    "prompt_tokens": 1174,
+    "output_tokens": 26
+   },
+   "result": {
+    "hook_load_klbs": 0.0,
+    "wob_klbs": 1.0,
+    "rpm": 0.0
+   }
+  },
+  {
+   "time": "2021-07-25T21:45:00",
+   "track": 1,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.4144082069396973,
+    "prompt_tokens": 1173,
+    "output_tokens": 28
+   },
+   "result": {
+    "torque_kftlb": null,
+    "rop_ft_hr": 0.5,
+    "flow_pct": 1.0
+   }
+  },
+  {
+   "time": "2021-07-25T21:45:00",
+   "track": 2,
+   "meta": {
+    "model": "qwen2.5vl:7b",
+    "attempts": 1,
+    "seconds": 3.418501377105713,
+    "prompt_tokens": 1175,
+    "output_tokens": 27
+   },
+   "result": {
+    "on_bottom_hours": 0.0,
+    "circulating_hours": 1.0,
+    "mud_volume_bbl": null
+   }
+  }
+ ]
+}

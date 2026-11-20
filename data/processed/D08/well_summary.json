@@ -1,0 +1,470 @@
+{
+  "well_name": "Forge Seismic Monitoring Well 56-32",
+  "purpose": "Seismic Monitoring",
+  "casing": [
+    {
+      "section": "13-3/8 in. Casing",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": null,
+      "shoe_md_ft": 350.0
+    },
+    {
+      "section": "9-5/8 in. Casing",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": null,
+      "shoe_md_ft": 3500.0
+    },
+    {
+      "section": "5-1/2 in. Liner",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": null,
+      "shoe_md_ft": 9105.0
+    },
+    {
+      "section": "5-1/2-inch casing",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": null,
+      "shoe_md_ft": 9105.0
+    },
+    {
+      "section": "Conductor",
+      "od_in": 20.0,
+      "weight_ppf": 94.0,
+      "grade": "J-55, Welded",
+      "shoe_md_ft": 120.5
+    },
+    {
+      "section": "Surface",
+      "od_in": 17.5,
+      "weight_ppf": 54.5,
+      "grade": "J-55, BTC",
+      "shoe_md_ft": 381.0
+    },
+    {
+      "section": "Intermediate",
+      "od_in": 12.25,
+      "weight_ppf": 36.0,
+      "grade": "J-55, LTC",
+      "shoe_md_ft": 3494.0
+    },
+    {
+      "section": "Production",
+      "od_in": 8.75,
+      "weight_ppf": 17.0,
+      "grade": "L-80, BTC",
+      "shoe_md_ft": 9135.0
+    },
+    {
+      "section": "17-1/2 in. Hole to 350 ft., 13-3/8 in. Casing",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": "J-55",
+      "shoe_md_ft": 380.5
+    },
+    {
+      "section": "17-1/2 in.",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": "J-55",
+      "shoe_md_ft": null
+    },
+    {
+      "section": "13-3/8 in.",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": "J-55",
+      "shoe_md_ft": 380.5
+    },
+    {
+      "section": "9-5/8 in.",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": "J-55",
+      "shoe_md_ft": 3494.0
+    },
+    {
+      "section": "5-1/2 in.",
+      "od_in": null,
+      "weight_ppf": null,
+      "grade": "L-80",
+      "shoe_md_ft": 9105.0
+    }
+  ],
+  "bits": [
+    {
+      "bit_number": null,
+      "size_in": 8.75,
+      "manufacturer": "Silixa",
+      "bit_type": "PDC",
+      "serial_number": null,
+      "depth_in_ft": 9032.0,
+      "depth_out_ft": null,
+      "wob_klbf": null,
+      "rpm": null,
+      "rop_ft_hr": 300.0
+    },
+    {
+      "bit_number": null,
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": "PDC",
+      "serial_number": null,
+      "depth_in_ft": 9145.0,
+      "depth_out_ft": null,
+      "wob_klbf": null,
+      "rpm": null,
+      "rop_ft_hr": null
+    },
+    {
+      "bit_number": "20-20-20-1/1",
+      "size_in": null,
+      "manufacturer": null,
+      "bit_type": "PDC",
+      "serial_number": null,
+      "depth_in_ft": 128.5,
+      "depth_out_ft": 380.5,
+      "wob_klbf": null,
+      "rpm": null,
+      "rop_ft_hr": 206.0
+    },
+    {
+      "bit_number": "2/1",
+      "size_in": 12.25,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": 380.0,
+      "depth_out_ft": 390.0,
+      "wob_klbf": null,
+      "rpm": null,
+      "rop_ft_hr": null
+    },
+    {
+      "bit_number": "3/1",
+      "size_in": 12.25,
+      "manufacturer": "M423",
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": 390.0,
+      "depth_out_ft": 3309.0,
+      "wob_klbf": null,
+      "rpm": null,
+      "rop_ft_hr": null
+    },
+    {
+      "bit_number": "4/1",
+      "size_in": 12.25,
+      "manufacturer": "M433",
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": 3309.0,
+      "depth_out_ft": 3500.0,
+      "wob_klbf": null,
+      "rpm": null,
+      "rop_ft_hr": null
+    },
+    {
+      "bit_number": "5/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 20.0,
+      "rpm": 20.0,
+      "rop_ft_hr": 409.0
+    },
+    {
+      "bit_number": "6/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 40.0,
+      "rpm": 227.0,
+      "rop_ft_hr": 700.0
+    },
+    {
+      "bit_number": "7/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 50.0,
+      "rpm": 205.0,
+      "rop_ft_hr": 680.0
+    },
+    {
+      "bit_number": "8/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 50.0,
+      "rpm": 205.0,
+      "rop_ft_hr": 700.0
+    },
+    {
+      "bit_number": "9/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 50.0,
+      "rpm": 200.0,
+      "rop_ft_hr": 687.0
+    },
+    {
+      "bit_number": "10/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 46.0,
+      "rpm": 198.0,
+      "rop_ft_hr": 677.0
+    },
+    {
+      "bit_number": "11/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 46.0,
+      "rpm": 202.0,
+      "rop_ft_hr": 685.0
+    },
+    {
+      "bit_number": "11/2",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 46.0,
+      "rpm": 194.0,
+      "rop_ft_hr": 577.0
+    },
+    {
+      "bit_number": "12/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 20.0,
+      "rpm": 153.0,
+      "rop_ft_hr": 10.0
+    },
+    {
+      "bit_number": "12/2",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 32.0,
+      "rpm": 164.0,
+      "rop_ft_hr": 5.0
+    },
+    {
+      "bit_number": "13/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 50.0,
+      "rpm": 190.0,
+      "rop_ft_hr": 667.0
+    },
+    {
+      "bit_number": "14/1",
+      "size_in": 8.75,
+      "manufacturer": null,
+      "bit_type": null,
+      "serial_number": null,
+      "depth_in_ft": null,
+      "depth_out_ft": null,
+      "wob_klbf": 45.0,
+      "rpm": 183.0,
+      "rop_ft_hr": 644.0
+    }
+  ],
+  "events": [
+    {
+      "event_type": "stuck_pipe",
+      "depth_ft": 7620.0,
+      "time": null,
+      "description": "During the drilling of the 8-3/4 in. hole, the mud hammer failed to engage twice, requiring reaming with a roller reamer and troubleshooting of the mud hammers."
+    },
+    {
+      "event_type": "stuck_pipe",
+      "depth_ft": 7627.0,
+      "time": null,
+      "description": "The mud hammer failed to engage again after reaming, leading to the decision to continue drilling with PDC bits while troubleshooting the mud hammers."
+    },
+    {
+      "event_type": "lost_circulation",
+      "depth_ft": 9135.0,
+      "time": null,
+      "description": "During cementing of the 5-1/2 in. casing, a bridge was suspected in the annulus, and reciprocating the casing failed to regain circulation."
+    },
+    {
+      "event_type": "stuck_pipe",
+      "depth_ft": 9135.0,
+      "time": null,
+      "description": "The Silixa optic cable parted in tension due to reciprocation of the casing during cementing."
+    },
+    {
+      "event_type": "lost_circulation",
+      "depth_ft": 9135.0,
+      "time": null,
+      "description": "Cement inside the 5-1/2 in. casing could not be displaced and set prematurely, requiring it to be drilled out after cementing the outside of the casing."
+    },
+    {
+      "event_type": "lost_circulation",
+      "depth_ft": null,
+      "time": null,
+      "description": "Severe lost circulation was encountered during cementing of the 5-1/2 in. casing, leading to rapid pressure increase from 500 psi to 1,800 psi."
+    },
+    {
+      "event_type": "stuck_pipe",
+      "depth_ft": null,
+      "time": null,
+      "description": "Cement displacement was not possible due to high pressure of approximately 6,200 psi that were at the limit of the casing capacity."
+    },
+    {
+      "event_type": "lost_circulation",
+      "depth_ft": null,
+      "time": null,
+      "description": "The cementing process required pumping 160 bbls of fresh water into the annular to clear spacers and allow for a top squeeze to place cement between casings."
+    },
+    {
+      "event_type": "stuck_pipe",
+      "depth_ft": null,
+      "time": null,
+      "description": "While running in the hole with the mud hammer and 2 roller reamers, they got stuck for several hours and finally worked loose."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "Running the mud hammer the third time also resulted in a failed run."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "The CanRig system created discrepancies on the measurement of MSE and interfered with directional work to keep hole vertical."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "Failed hammer run was indicated for the reason for the hammer failure."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "The mud motor needed to be tested without the bit installed, and testing with the bit inside casing could cause damage."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "Mud motors should have only new components or use only new mud motors due to hard and abrasive drilling conditions."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "70% of our bit trips were due to lower bearing and housing failure, which also causes uncontrollable MSE due to higher torque and less differential."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "The mud motor was found not to have been assembled with any new parts except for the lower bearings, limiting its operational hours."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "Mud motors should be tested without the bit installed inside casing to avoid damage and ensure working conditions."
+    },
+    {
+      "event_type": "stuck_pipe",
+      "depth_ft": null,
+      "time": null,
+      "description": "Casing was reciprocated to regain circulation after suspected bridge in the annulus, which caused the Silixa cable to part in tension."
+    },
+    {
+      "event_type": "equipment_failure",
+      "depth_ft": null,
+      "time": null,
+      "description": "Displacement fluid could only be pumped for 27 bbls due to high pressure (~6,200 psi) reaching the limit of casing capacity."
+    }
+  ],
+  "lessons_learned": [
+    "The use of new PDC cutters and MSE (Mechanical Specific Energy) calculations significantly improved the rate of penetration, demonstrating the value of advanced bit technology and performance monitoring in hard rock drilling.",
+    "Close monitoring of MSE and adjustment of drilling parameters was critical to achieving optimal PDC bit performance, highlighting the importance of real-time data analysis and adaptive drilling strategies.",
+    "The failure of the Silixa fiber optic cable during cementing emphasizes the need for careful planning and testing of sensitive equipment during cementing operations to avoid loss of critical monitoring capabilities.",
+    "The failure of mud hammer technology in the bottom section of the hole indicates that alternative methods, such as PDC bits, may be more reliable in certain geological conditions, reinforcing the importance of evaluating multiple drilling techniques before committing to a specific method.",
+    "A physical count should be documented by the cement service company on future jobs to prevent mixing errors in cement blends.",
+    "Removing the shock sub from the BHA improved the life of mud motors, allowing them to stay in the hole longer and increasing bit footage drilled.",
+    "Testing different types of PDC bits in granitic formations led to significant improvements in drilling performance.",
+    "The failure during cementing highlighted the importance of monitoring circulation and avoiding actions that could damage sensitive equipment like Silixa cables.",
+    "Use temperature degradable LCMs such as Micro C, Sawdust, Cottonseed Hulls, and AltaVert 102 if severe lost circulation is encountered.",
+    "Maintain a pH of 11.0 with Caustic Soda and use TORKease to reduce torque and drag.",
+    "Monitor corrosion rates onsite and treat any unacceptable rates with corrosion additives.",
+    "Pump cold water as needed to control well conditions and consider the use of weighted brines for additional pressure control if required.",
+    "Investigate cementing incidents with third-party experts to ensure proper analysis and conclusions.",
+    "Lessons learned should include both positive and negative experiences to improve work processes, equipment design, operation, quality, safety, and cost effectiveness.",
+    "Performance measures for lessons learned programs should focus on how well the program uses opportunities to develop lessons, the quality of the lessons created, and integration into improvements.",
+    "The lessons learned infrastructure should use existing systems where possible, and clearly defined ownership should be established for maintaining the infrastructure and support for development, communication, and use.",
+    "Mechanisms for identifying potential lessons learned should be simple in terms of volume, type of information, and input mechanisms.",
+    "Lessons should be context-driven, with information defined in terms of the environment in which they were learned and their significance.",
+    "There should be no stigma or blame assigned to individuals who identify a lesson learned.",
+    "The objective of lessons learned programs is to provide a means of communicating experiences that can reduce risk, improve efficiency, and enhance cost effectiveness of processes and operations.",
+    "Lessons learned should be disseminated with an assigned priority descriptor indicating the risk, immediacy, and urgency of the content.",
+    "Priority descriptors for lessons learned include Red (>$35K USD), Blue ($5K-$35K USD), Green (<$5K USD), and Yellow (Good Practice).",
+    "Lessons learned documents for local use may be tailored as appropriate for local needs but should include enough metadata to identify and determine their relevance within the company and departments.",
+    "Ensure that each mud motor is brand new, or if rebuilt, only new components are used to avoid failures and reduce bit trips.",
+    "Test mud motors without the bit installed inside casing to prevent damage and ensure working conditions.",
+    "Ream drilled sections every 2,000 ft to 3,000 ft of directional work using a conventional locked assembly to smooth out directional work and avoid getting stuck.",
+    "Avoid using CanRig surface oscillator while sliding to maintain hole verticality and ensure proper MSE reading.",
+    "If no losses are detected while drilling, do not use Sodium Silicate in cement slurry as it could lead to premature set of the cement slurry.",
+    "Obtain proper bottom hole temperature prior to casing to avoid issues with cementing operations.",
+    "If optic cable is installed, do not reciprocate casing.",
+    "Never reciprocate casing if fiber cable is installed on the OD of the casing.",
+    "If Silixa cable is installed, request an updated temperature profile during cementing procedures and adjust cement slurry accordingly."
+  ],
+  "total_depth_md_ft": 9105.0,
+  "rig": "Rig-16",
+  "spud_date": "2021-02-08",
+  "td_date": "2021-02-22",
+  "total_depth_tvd_ft": 9138.3
+}

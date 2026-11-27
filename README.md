@@ -13,7 +13,7 @@ Each stage is scored against a reference that the pipeline did not produce:
 
 All models run locally through [Ollama](https://ollama.com) on a laptop with an 8 GB GPU: `qwen3:8b` for text and `qwen2.5vl:7b` for figures. No data leaves the machine.
 
-> The paper describing this work is under review. Please cite it (see `CITATION.cff`) once published.
+> Archived in Zenodo: https://doi.org/10.5281/zenodo.24584372. The paper describing this work is under review; please cite it (see `CITATION.cff`) once published.
 > The earlier system this work validates is Sahebi & Sui, SPE-228955-MS (ADIPEC 2025), https://doi.org/10.2118/228955-MS.
 
 ## Pipeline
